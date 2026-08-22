@@ -1,0 +1,39 @@
+name: Daily Turbine Fact
+
+on:
+  schedule:
+    # UTC vaqti. Toshkent = UTC+5. 09:00 Toshkent = 04:00 UTC
+    - cron: '0 4 * * *'
+  workflow_dispatch:   # qo'lda ham ishga tushirish tugmasi
+
+permissions:
+  contents: write       # sent.json ni repoga saqlash uchun
+
+jobs:
+  post-fact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python bot.py
+
+      - name: Save sent history
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add sent.json
+          git commit -m "Update sent facts" || echo "No changes"
+          git push

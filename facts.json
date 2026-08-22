@@ -1,0 +1,50 @@
+[
+  {
+    "uz": "Mitsubishi M701JAC gaz turbinasi ~1600°C harorat sinfida ishlaydi va combined cycle rejimida FIK (samaradorlik) 64% dan oshadi.",
+    "en": "The Mitsubishi M701JAC gas turbine runs at a ~1600°C temperature class and exceeds 64% efficiency in combined-cycle mode."
+  },
+  {
+    "uz": "Bug' turbinasidagi lopatkalar (blades) sekundiga 500+ metr tezlikda uchi bilan aylanadi — bu tovush tezligidan tezroq.",
+    "en": "Steam turbine blade tips can move at over 500 m/s — faster than the speed of sound."
+  },
+  {
+    "uz": "HRSG (Heat Recovery Steam Generator) gaz turbinasining ~600°C chiqindi gazidan bug' hosil qilib, umumiy FIKni ~30% ga oshiradi.",
+    "en": "An HRSG captures the gas turbine's ~600°C exhaust to raise steam, boosting overall plant efficiency by around 30%."
+  },
+  {
+    "uz": "Generatorlar vodorod (H₂) bilan sovutiladi, chunki vodorodning issiqlik o'tkazuvchanligi havodan ~7 barobar yuqori.",
+    "en": "Generators are hydrogen-cooled because H₂ conducts heat about 7 times better than air."
+  },
+  {
+    "uz": "Bir yirik gaz turbinasi kompressori havoni siqishga o'z quvvatining deyarli yarmini sarflaydi.",
+    "en": "A large gas turbine's compressor consumes nearly half of the turbine's own power output just to compress air."
+  },
+  {
+    "uz": "Turbina rotori ideal balansda bo'lishi shart: 1 gramm nomutanosiblik 3000 ayl/min tezlikda kuchli vibratsiya beradi.",
+    "en": "A turbine rotor must be perfectly balanced — even 1 gram of imbalance causes strong vibration at 3000 rpm."
+  },
+  {
+    "uz": "Combined Cycle Power Plant (CCPP) bitta yoqilg'idan ikki marta energiya oladi: avval gaz, keyin bug' turbinasi orqali.",
+    "en": "A Combined Cycle Power Plant extracts energy twice from one fuel: first via the gas turbine, then the steam turbine."
+  },
+  {
+    "uz": "Bug' turbinasi lopatkalari monokristall (single-crystal) qotishmalardan quyiladi — butun lopatka bitta metall kristali.",
+    "en": "High-temperature turbine blades are cast as single crystals — the entire blade is one metal crystal."
+  },
+  {
+    "uz": "Sovutish suvidagi kislorod metallni yemiradi, shuning uchun deaerator suvdan erigan gazlarni chiqarib tashlaydi.",
+    "en": "Dissolved oxygen in feedwater corrodes metal, so a deaerator strips gases out before the water enters the boiler."
+  },
+  {
+    "uz": "1,6 GW quvvatli elektr stansiya taxminan 1 million uyni bir vaqtda ta'minlay oladi.",
+    "en": "A 1.6 GW power plant can supply roughly one million homes at once."
+  },
+  {
+    "uz": "Turbina moyi tizimi (lube oil) faqat moylash emas, podshipniklarni sovutish uchun ham xizmat qiladi.",
+    "en": "A turbine's lube oil system doesn't just lubricate — it also cools the bearings."
+  },
+  {
+    "uz": "Gaz turbinasi soniyasiga bir necha yuz kilogramm havo yutadi — bu katta reaktiv dvigatelga o'xshaydi.",
+    "en": "A gas turbine ingests several hundred kilograms of air per second — like a giant jet engine."
+  }
+]
