@@ -3,5 +3,10 @@
     "type": "lesson",
     "uz": "'PID controller' — datchik qiymatini kerakli qiymatga (setpoint) yaqinlashtirib boshqaradigan mantiq. U proporsional, integral va differensial qismlardan iborat.",
     "en": "A PID controller adjusts a process toward a desired value (setpoint) using proportional, integral and derivative terms."
+  },
+  {
+    "type": "lesson",
+    "uz": "Har kompressor bosqichi ikki qatordan iborat: aylanuvchi 'rotor' pichoqlar havoni tezlashtiradi, qo'zg'almas 'stator' pichoqlar esa tezlikni bosimga aylantiradi.",
+    "en": "Each compressor stage has two rows: rotating 'rotor' blades speed the air up, and stationary 'stator' vanes convert that speed into pressure."
   }
 ]
