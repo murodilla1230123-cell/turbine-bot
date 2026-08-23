@@ -4,5 +4,11 @@
     "type": "lesson",
     "uz": "Releli himoyaning to'rt asosiy talabi bor: selektivlik (tanlovchanlik), tezkorlik, sezgirlik va ishonchlilik. Yaxshi himoya shu to'rttasini birga ta'minlaydi.",
     "en": "Relay protection has four key requirements: selectivity, speed, sensitivity and reliability. Good protection provides all four together."
+  },
+  {
+    "type": "fact",
+    "uz": "Kompressor pichoqlari kirishdan chiqishga tomon kichrayib boradi — havo siqilib zichlashgani sari kichikroq hajm kerak bo'ladi.",
+    "en": "Compressor blades get smaller from inlet to outlet — as air is compressed and gets denser, less volume is needed.",
+    "cat": "Kompressor"
   }
 ]
