@@ -47,17 +47,48 @@ def pick_fact(sent_texts):
     return random.choice(fresh) if fresh else None
 
 
+CAT_EMOJI = {
+    "Gaz turbinasi (GT)": "\U0001f525",       # 🔥
+    "Kompressor": "\U0001f4a8",                # 💨
+    "Yonish / Combustor": "\U0001f9ef",        # 🧯
+    "Bug' turbinasi (ST)": "\U0001f4a6",       # 💦
+    "HRSG / Bug' sikli": "\u267b\ufe0f",       # ♻️
+    "Kondensator / Sovutish": "\u2744\ufe0f",  # ❄️
+    "Generator": "\u26a1",                     # ⚡
+    "Elektr / Himoya": "\U0001f50c",           # 🔌
+    "Moy / Podshipnik": "\U0001f6e2\ufe0f",    # 🛢️
+    "Yordamchi tizimlar": "\u2699\ufe0f",      # ⚙️
+    "Nasos / Klapan": "\U0001f6b0",            # 🚰
+    "Boshqaruv / Asboblar": "\U0001f5a5\ufe0f",# 🖥️
+    "Ishga tushirish / Rejim": "\U0001f7e2",   # 🟢
+    "Ta'mir / Xavfsizlik": "\U0001f6e1\ufe0f", # 🛡️
+    "Combined Cycle / Samaradorlik": "\U0001f4c8", # 📈
+    "Energetika asoslari": "\U0001f4a1",       # 💡
+}
+
+KIND_LABEL = {
+    "fact":   ("\u26a1\ufe0f", "Fakt / Fact"),
+    "lesson": ("\U0001f4d8", "Mini dars / Mini lesson"),
+    "quiz":   ("\u2753", "Savol / Quiz"),
+}
+
+
 def build_message(fact):
     uz = html.escape(fact["uz"])
     en = html.escape(fact["en"])
     kind = fact.get("type", "fact")
-    header = {
-        "fact": "\u26a1\ufe0f <b>Kunlik fakt / Fact of the day</b>",
-        "lesson": "\U0001f4d8 <b>Mini dars / Mini lesson</b>",
-        "quiz": "\u2753 <b>Savol / Quiz</b>",
-    }.get(kind, "\u26a1\ufe0f <b>Kunlik fakt / Fact of the day</b>")
+    cat = fact.get("cat", "")
+
+    kemoji, klabel = KIND_LABEL.get(kind, KIND_LABEL["fact"])
+    cemoji = CAT_EMOJI.get(cat, "\U0001f527")  # 🔧 default
+
+    header = f"{kemoji} <b>{klabel}</b>"
+    if cat:
+        header += f"\n{cemoji} <b>{html.escape(cat)}</b>"
+
     return (
-        f"{header}\n\n"
+        f"{header}\n"
+        f"\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n"
         f"\U0001f1fa\U0001f1ff {uz}\n\n"
         f"\U0001f1ec\U0001f1e7 {en}\n\n"
         f"#energetika #turbina #power #engineering"

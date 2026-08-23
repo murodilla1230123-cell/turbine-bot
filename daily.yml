@@ -2,12 +2,11 @@ name: Daily Turbine Fact
 
 on:
   schedule:
-    # UTC vaqti. Toshkent = UTC+5. 09:00 Toshkent = 04:00 UTC
-    - cron: '0 4 * * *'
-  workflow_dispatch:   # qo'lda ham ishga tushirish tugmasi
+    - cron: '0 * * * *'   # Har soatda ishga tushadi; bot o'zi post qilishni hal qiladi
+  workflow_dispatch:       # Qo'lda ishga tushirish tugmasi
 
 permissions:
-  contents: write       # sent.json ni repoga saqlash uchun
+  contents: write
 
 jobs:
   post-fact:
@@ -30,10 +29,10 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python bot.py
 
-      - name: Save sent history
+      - name: Save state
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add sent.json
-          git commit -m "Update sent facts" || echo "No changes"
+          git add sent.json state.json
+          git commit -m "Update posting state" || echo "No changes"
           git push
