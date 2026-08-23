@@ -10,5 +10,11 @@
     "uz": "Kompressor pichoqlari kirishdan chiqishga tomon kichrayib boradi — havo siqilib zichlashgani sari kichikroq hajm kerak bo'ladi.",
     "en": "Compressor blades get smaller from inlet to outlet — as air is compressed and gets denser, less volume is needed.",
     "cat": "Kompressor"
+  },
+  {
+    "type": "lesson",
+    "uz": "'Emissions' (chiqindilar) — NOx, CO va CO₂. Zamonaviy stansiyalar ularni past ushlash uchun DLN combustor va monitoring tizimlaridan foydalanadi.",
+    "en": "'Emissions' include NOx, CO and CO₂. Modern plants use DLN combustors and monitoring systems to keep them low.",
+    "cat": "Yonish / Combustor"
   }
 ]
