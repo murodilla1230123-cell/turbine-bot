@@ -16,5 +16,18 @@
     "uz": "'Emissions' (chiqindilar) — NOx, CO va CO₂. Zamonaviy stansiyalar ularni past ushlash uchun DLN combustor va monitoring tizimlaridan foydalanadi.",
     "en": "'Emissions' include NOx, CO and CO₂. Modern plants use DLN combustors and monitoring systems to keep them low.",
     "cat": "Yonish / Combustor"
+  },
+  {
+    "type": "quiz",
+    "cat": "Combined Cycle / Samaradorlik",
+    "q": "Black start qobiliyati nima uchun muhim?",
+    "options": [
+      "To'r o'chganda stansiya o'zini toksiz ishga tushiradi",
+      "Tezroq ishlash uchun",
+      "Yoqilg'i tejash uchun",
+      "Shovqin kam bo'lishi uchun"
+    ],
+    "correct": 0,
+    "explain": "Total blackoutdan keyin tashqi toksiz ishga tushib, to'rni tiklashga yordam beradi."
   }
 ]
