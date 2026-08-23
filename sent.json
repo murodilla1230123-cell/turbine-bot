@@ -29,5 +29,11 @@
     ],
     "correct": 0,
     "explain": "Total blackoutdan keyin tashqi toksiz ishga tushib, to'rni tiklashga yordam beradi."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Baseload' rejimida stansiya doim to'liq quvvatda ishlaydi — bu eng samarali va jihoz uchun eng yumshoq rejim, chunki harorat o'zgarishlari kam.",
+    "en": "In 'baseload' mode a plant runs at full power continuously — the most efficient and gentlest mode for equipment, since temperature swings are few.",
+    "cat": "Ishga tushirish / Rejim"
   }
 ]
