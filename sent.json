@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "type": "lesson",
+    "uz": "'PID controller' — datchik qiymatini kerakli qiymatga (setpoint) yaqinlashtirib boshqaradigan mantiq. U proporsional, integral va differensial qismlardan iborat.",
+    "en": "A PID controller adjusts a process toward a desired value (setpoint) using proportional, integral and derivative terms."
+  }
+]
