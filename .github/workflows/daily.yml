@@ -2,7 +2,7 @@ name: Daily Turbine Fact
 
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,10 +29,10 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python bot.py
 
-      - name: Save sent history
+      - name: Save state
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add sent.json
-          git commit -m "Update sent facts" || echo "No changes"
+          git add sent.json state.json
+          git commit -m "Update posting state" || echo "No changes"
           git push
