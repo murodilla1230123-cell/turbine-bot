@@ -39,9 +39,14 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def fact_key(f):
+    """Takrorlanmaslik uchun noyob kalit (fakt uchun 'uz', quiz uchun 'q')."""
+    return f.get("uz") or f.get("q") or ""
+
+
 def pick_fact(sent_texts):
     facts = load_json(FACTS_FILE, [])
-    fresh = [f for f in facts if f["uz"] not in sent_texts]
+    fresh = [f for f in facts if fact_key(f) not in sent_texts]
     if not fresh:
         fresh = facts
     return random.choice(fresh) if fresh else None
@@ -111,6 +116,34 @@ def send_to_telegram(message):
     return r.json()
 
 
+def send_quiz_poll(fact):
+    """Telegram interaktiv quiz (poll) yuboradi."""
+    cat = fact.get("cat", "")
+    cemoji = CAT_EMOJI.get(cat, "\U0001f527")
+    q = fact["q"]
+    question = f"\u2753 {cemoji} {cat}\n\n{q}" if cat else f"\u2753 {q}"
+    # Telegram poll savoli 300 belgigacha
+    question = question[:295]
+
+    options = [o[:100] for o in fact["options"]]  # har variant 100 belgigacha
+    explanation = fact.get("explain", "")[:200]
+
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPoll"
+    data = {
+        "chat_id": CHAT_ID,
+        "question": question,
+        "options": json.dumps(options, ensure_ascii=False),
+        "type": "quiz",
+        "correct_option_id": fact["correct"],
+        "is_anonymous": "true",
+    }
+    if explanation:
+        data["explanation"] = explanation
+    r = requests.post(url, data=data, timeout=30)
+    r.raise_for_status()
+    return r.json()
+
+
 def get_today_state():
     now = datetime.now(TASHKENT)
     today = now.strftime("%Y-%m-%d")
@@ -149,14 +182,19 @@ def main():
         return
 
     sent = load_json(SENT_FILE, [])
-    sent_texts = {s["uz"] for s in sent}
+    sent_texts = {fact_key(s) for s in sent}
 
     fact = pick_fact(sent_texts)
     if not fact:
         raise SystemExit("Fakt topilmadi.")
 
-    send_to_telegram(build_message(fact))
-    print("Yuborildi:", fact["uz"][:60])
+    # Quiz turi -> interaktiv poll; boshqalari -> oddiy xabar
+    if fact.get("type") == "quiz" and fact.get("options") and "correct" in fact:
+        send_quiz_poll(fact)
+        print("Quiz yuborildi:", fact.get("q", "")[:60])
+    else:
+        send_to_telegram(build_message(fact))
+        print("Yuborildi:", fact["uz"][:60])
 
     sent.append(fact)
     sent = sent[-1000:]

@@ -30,12 +30,6 @@
     "cat": "Gaz turbinasi (GT)"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Combined cycle stansiyasida gaz turbinasining chiqindi gazi qayerga boradi? JAVOB: HRSG'ga — u yerda issiqlik bug' hosil qilishga ishlatiladi va bug' turbinasini aylantiradi.",
-    "en": "Q: Where does the gas turbine's exhaust go in a combined cycle plant? A: To the HRSG, where its heat raises steam that drives the steam turbine.",
-    "cat": "Gaz turbinasi (GT)"
-  },
-  {
     "type": "fact",
     "uz": "Generator elektr ishlab chiqarganda kuchli qiziydi, shuning uchun yirik generatorlar vodorod (H₂) gazi bilan sovutiladi — vodorod havodan ~7 barobar yaxshi issiqlik o'tkazadi.",
     "en": "A generator heats up strongly while producing electricity, so large generators are cooled with hydrogen (H₂) gas, which conducts heat about 7 times better than air.",
@@ -51,12 +45,6 @@
     "type": "fact",
     "uz": "Turbina to'xtatilgandan keyin ham 'turning gear' (aylantirish mexanizmi) rotorni sekin aylantirib turadi — aks holda og'irligidan rotor egilib qolishi mumkin.",
     "en": "Even after a turbine is shut down, a turning gear keeps the rotor slowly rotating; otherwise the rotor could bow (sag) under its own weight.",
-    "cat": "Ishga tushirish / Rejim"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega to'xtagan turbina rotori 'turning gear' bilan aylantirib turiladi? JAVOB: Issiq rotor bir joyda tursa, o'z og'irligidan egilib (bow) qoladi va vibratsiya beradi.",
-    "en": "Q: Why is a stopped turbine rotor kept turning by a turning gear? A: A hot rotor left stationary would bow under its own weight, causing vibration.",
     "cat": "Ishga tushirish / Rejim"
   },
   {
@@ -87,12 +75,6 @@
     "type": "fact",
     "uz": "Eng issiq turbina pichoqlari monokristall (single-crystal) qotishmalardan quyiladi — butun pichoq bitta metall kristali bo'lib, u yuqori haroratda mustahkamroq turadi.",
     "en": "The hottest turbine blades are cast as single crystals — the whole blade is one metal crystal, which resists high-temperature deformation better.",
-    "cat": "Gaz turbinasi (GT)"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega turbina pichoqlarining ichi bo'sh (kanalli) qilinadi? JAVOB: Ichidan sovuq havo o'tkazib, pichoqni erib ketishdan saqlash uchun.",
-    "en": "Q: Why are turbine blades made hollow with channels? A: To pass cooling air through them and prevent the blade from melting.",
     "cat": "Gaz turbinasi (GT)"
   },
   {
@@ -138,12 +120,6 @@
     "cat": "Generator"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Generatorni to'rga ulashdan oldin nima qilinadi? JAVOB: Sinxronizatsiya — chastota, kuchlanish va faza to'r bilan mos qilinadi.",
-    "en": "Q: What is done before connecting a generator to the grid? A: Synchronization — matching frequency, voltage and phase to the grid.",
-    "cat": "Generator"
-  },
-  {
     "type": "fact",
     "uz": "O'zbekiston to'ri 50 Hz chastotada ishlaydi, ya'ni generator rotori sekundiga 50 marta (yoki 3000 ayl/min) aylanadi (2 qutbli mashinada).",
     "en": "Uzbekistan's grid runs at 50 Hz, meaning a 2-pole generator rotor spins 50 times per second (3000 rpm) to match it.",
@@ -178,12 +154,6 @@
     "uz": "Rotor mukammal balansda bo'lishi shart. 3000 ayl/min tezlikda hatto 1 gramm nomutanosiblik ham kuchli vibratsiya beradi, shuning uchun vibratsiya doimiy nazorat qilinadi.",
     "en": "A rotor must be perfectly balanced. At 3000 rpm even 1 gram of imbalance causes strong vibration, so vibration is monitored continuously.",
     "cat": "Ta'mir / Xavfsizlik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Turbina moy bosimi yo'qolsa nima bo'ladi? JAVOB: Turbina darhol xavfsiz to'xtatiladi (trip), chunki podshipniklar sovutish va moylashsiz shikastlanadi.",
-    "en": "Q: What happens if turbine oil pressure is lost? A: The turbine is tripped (safely stopped) immediately, because bearings would be damaged without cooling and lubrication.",
-    "cat": "Moy / Podshipnik"
   },
   {
     "type": "fact",
@@ -226,12 +196,6 @@
     "uz": "Turbinada 'trip' — xavf paydo bo'lganda (masalan haddan tashqari tezlik yoki vibratsiya) turbinani zudlik bilan xavfsiz to'xtatuvchi himoya tizimi.",
     "en": "A 'trip' is a protection function that instantly and safely shuts down the turbine when a danger appears, such as overspeed or excessive vibration.",
     "cat": "Moy / Podshipnik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: 'Overspeed trip' nima uchun kerak? JAVOB: Turbina xavfli darajada tezlashsa, uni to'xtatib, rotorning parchalanib ketishining oldini oladi.",
-    "en": "Q: Why is an overspeed trip needed? A: If the turbine accelerates dangerously, it stops the machine and prevents the rotor from bursting apart.",
-    "cat": "Yordamchi tizimlar"
   },
   {
     "type": "fact",
@@ -282,12 +246,6 @@
     "cat": "Ishga tushirish / Rejim"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega 'cold start' 'hot start'dan uzoqroq davom etadi? JAVOB: Sovuq turbina qismlarini asta-sekin qizdirish kerak, aks holda termik kuchlanish shikast yetkazadi.",
-    "en": "Q: Why does a cold start take longer than a hot start? A: Cold turbine parts must be heated slowly, or thermal stress would cause damage.",
-    "cat": "Ishga tushirish / Rejim"
-  },
-  {
     "type": "fact",
     "uz": "Xavfsizlik birinchi o'rinda: stansiyada gaz sizishi, yong'in va bosim uchun ko'plab datchiklar va avtomatik himoya tizimlari o'rnatilgan.",
     "en": "Safety comes first: a plant has many sensors and automatic protection systems for gas leaks, fire and pressure.",
@@ -330,12 +288,6 @@
     "cat": "Kompressor"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: IGV pichoqlari nima uchun kerak? JAVOB: Kompressorga kirayotgan havo miqdorini boshqarib, turbina quvvatini va barqarorligini rostlash uchun.",
-    "en": "Q: What are IGVs for? A: To control the amount of air entering the compressor, regulating turbine power and stability.",
-    "cat": "Kompressor"
-  },
-  {
     "type": "lesson",
     "uz": "Turbina rotori disklardan yig'iladi. Ular 'CURVIC coupling' — tishli yuzalar orqali bir-biriga aniq va mustahkam ulanadi, bu markazlashuvni saqlaydi.",
     "en": "The turbine rotor is assembled from discs joined by a 'CURVIC coupling' — precisely toothed faces that lock them together accurately and keep them centered.",
@@ -363,12 +315,6 @@
     "type": "lesson",
     "uz": "Podshipnik va val orasida yupqa moy pardasi bo'ladi — metal metallga tegmaydi, faqat moy qatlamida 'suzadi'. Bu ishqalanishni deyarli yo'qqa chiqaradi.",
     "en": "A thin oil film sits between bearing and shaft — metal never touches metal, the shaft 'floats' on oil. This nearly eliminates friction.",
-    "cat": "Moy / Podshipnik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: 'Thrust bearing' nima vazifani bajaradi? JAVOB: Rotorni o'q (val) bo'ylab oldinga-orqaga siljishdan ushlab turadi.",
-    "en": "Q: What does a thrust bearing do? A: It holds the rotor against sliding back and forth along the shaft axis.",
     "cat": "Moy / Podshipnik"
   },
   {
@@ -408,12 +354,6 @@
     "cat": "Yonish / Combustor"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: DLN yonish kamerasining maqsadi nima? JAVOB: Yoqilg'ini havo bilan yaxshi aralashtirib, NOx (azot oksidi) chiqindisini kamaytirish.",
-    "en": "Q: What is the purpose of a DLN combustor? A: To pre-mix fuel with air and reduce NOx (nitrogen oxide) emissions.",
-    "cat": "Yonish / Combustor"
-  },
-  {
     "type": "lesson",
     "uz": "'Transition piece' — yonish kamerasi bilan turbinaning birinchi bosqichini bog'laydigan qism. U eng issiq gaz oqimiga bardosh berishi kerak.",
     "en": "A 'transition piece' connects the combustor to the turbine's first stage. It must withstand the hottest gas flow in the engine.",
@@ -441,12 +381,6 @@
     "type": "lesson",
     "uz": "'Exciter' (qo'zg'atgich) generator rotoriga magnitlash tokini beradi. Bu tokni o'zgartirib, generator chiqishidagi kuchlanish boshqariladi.",
     "en": "An 'exciter' supplies the magnetizing current to the generator rotor. Adjusting this current controls the generator's output voltage.",
-    "cat": "Generator"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Generatorning qaysi qismi aylanadi — rotor yoki stator? JAVOB: Rotor aylanadi va magnit maydon yaratadi; stator qo'zg'almas bo'lib, unda tok hosil bo'ladi.",
-    "en": "Q: Which part of a generator rotates — rotor or stator? A: The rotor rotates and creates the magnetic field; the stator is stationary and where current is induced.",
     "cat": "Generator"
   },
   {
@@ -492,12 +426,6 @@
     "cat": "Bug' turbinasi (ST)"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: HRSG'da 'superheater' nima qiladi? JAVOB: Bug'ni qaynash haroratidan yuqori qizdirib, quruq va energiyaga boy bug' hosil qiladi.",
-    "en": "Q: What does a superheater do in an HRSG? A: It heats steam above boiling point to produce dry, energy-rich steam.",
-    "cat": "HRSG / Bug' sikli"
-  },
-  {
     "type": "lesson",
     "uz": "'Steam drum' (bug' baraboni) — HRSG'da suv va bug'ni ajratadigan idish. Bug' yuqoriga chiqadi, suv esa qaytadan aylanishga tushadi.",
     "en": "A steam drum in an HRSG separates water from steam. Steam rises off the top while water returns to circulate again.",
@@ -528,12 +456,6 @@
     "cat": "Kondensator / Sovutish"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Sovutish minorasidan chiqadigan oq 'tutun' nima? JAVOB: U tutun emas — bu bug'langan suvning kondensatlangan bug'i (suv bug'i).",
-    "en": "Q: What is the white 'smoke' from a cooling tower? A: It isn't smoke — it's condensed water vapor from evaporated water.",
-    "cat": "Kondensator / Sovutish"
-  },
-  {
     "type": "lesson",
     "uz": "Nasoslar stansiyada suv va moyni harakatga keltiradi. 'Boiler feed pump' (qozon oziqlantirish nasosi) suvni yuqori bosim ostida HRSG'ga haydaydi.",
     "en": "Pumps move water and oil around the plant. The boiler feed pump forces water into the HRSG at high pressure.",
@@ -558,12 +480,6 @@
     "cat": "Moy / Podshipnik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Control valve' va 'stop valve' farqi nima? JAVOB: Control valve oqimni nozik rostlaydi; stop valve favqulodda holatda oqimni bir zumda to'liq to'sadi.",
-    "en": "Q: What's the difference between a control valve and a stop valve? A: A control valve finely regulates flow; a stop valve instantly blocks flow in an emergency.",
-    "cat": "Nasos / Klapan"
-  },
-  {
     "type": "lesson",
     "uz": "Turbina 'diffuser' orqali chiqindi gazni sekinlashtiradi. Oqimni sekinlashtirish bosimni tiklaydi va turbinadan ko'proq energiya olishga yordam beradi.",
     "en": "A turbine exhausts through a 'diffuser' that slows the gas. Slowing the flow recovers pressure and helps extract more energy from the turbine.",
@@ -579,12 +495,6 @@
     "type": "lesson",
     "uz": "'Surge' — kompressorda havo oqimi teskari yo'nalishga urilib ketadigan xavfli hodisa. IGV/VV va boshqaruv tizimi buni oldini oladi.",
     "en": "'Surge' is a dangerous event where airflow reverses in the compressor. The IGV/VV and control system work to prevent it.",
-    "cat": "Kompressor"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Kompressor 'surge'i nima va nega xavfli? JAVOB: Havo oqimining teskari urilishi — u kuchli tebranish va pichoqlarga shikast keltirishi mumkin.",
-    "en": "Q: What is compressor surge and why is it dangerous? A: A reversal of airflow that can cause violent pulsation and blade damage.",
     "cat": "Kompressor"
   },
   {
@@ -618,12 +528,6 @@
     "cat": "Generator"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: SFC gaz turbinasini qanday ishga tushiradi? JAVOB: Generatorni vaqtincha motor qilib ishlatib, turbina rotorini yonish boshlanguncha aylantiradi.",
-    "en": "Q: How does an SFC start a gas turbine? A: By temporarily running the generator as a motor to spin the rotor until combustion takes over.",
-    "cat": "Yonish / Combustor"
-  },
-  {
     "type": "lesson",
     "uz": "Generator 'step-up transformer' orqali to'rga ulanadi. U generatorning past kuchlanishini (masalan ~20 kV) uzatish uchun yuqori kuchlanishga (masalan 220/500 kV) ko'taradi.",
     "en": "A generator connects to the grid through a step-up transformer, raising the generator's low voltage (~20 kV) to a high transmission voltage (e.g. 220/500 kV).",
@@ -640,12 +544,6 @@
     "uz": "Transformator ikki g'altakdan iborat: 'birlamchi' kirish tokini oladi, 'ikkilamchi' o'zgargan kuchlanishni beradi. G'altaklar orasidagi o'ram soni nisbati kuchlanishni belgilaydi.",
     "en": "A transformer has two coils: the primary takes the input, the secondary gives the transformed voltage. The ratio of coil turns sets the voltage change.",
     "cat": "Elektr / Himoya"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega generator kuchlanishi to'rga uzatishdan oldin oshiriladi? JAVOB: Yuqori kuchlanishda tok kichrayadi, shu bois uzatishdagi issiqlik yo'qotishlari kamayadi.",
-    "en": "Q: Why is generator voltage raised before grid transmission? A: At higher voltage the current is smaller, so heat losses during transmission drop.",
-    "cat": "Generator"
   },
   {
     "type": "lesson",
@@ -669,12 +567,6 @@
     "type": "fact",
     "uz": "Generator neytrali ko'pincha to'g'ridan-to'g'ri emas, balki rezistor yoki transformator orqali yerlashtiriladi — bu nosozlik tokini xavfsiz darajada cheklaydi.",
     "en": "A generator neutral is often grounded through a resistor or transformer rather than directly — this limits fault current to a safe level.",
-    "cat": "Generator"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Neytral yerlashtirish nima uchun kerak? JAVOB: Nosozlik tokini xavfsiz yo'naltirib, generator va odamlarni himoya qilish uchun.",
-    "en": "Q: Why is neutral grounding needed? A: To safely direct fault current, protecting the generator and people.",
     "cat": "Generator"
   },
   {
@@ -702,12 +594,6 @@
     "cat": "Elektr / Himoya"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Circuit breaker va oddiy kalit (switch) farqi nima? JAVOB: Circuit breaker nosozlikda avtomatik va tez uzadi; oddiy kalit faqat qo'lda ulash/uzish uchun.",
-    "en": "Q: What's the difference between a circuit breaker and an ordinary switch? A: A breaker trips automatically and fast on a fault; a plain switch only connects/disconnects manually.",
-    "cat": "Elektr / Himoya"
-  },
-  {
     "type": "lesson",
     "uz": "'Protective relay' (himoya rele) — elektr tarmog'ini kuzatib, nosozlik (masalan qisqa tutashuv) sezilsa avtomatik uzgichga uzish buyrug'ini beradigan 'aqlli qorovul'.",
     "en": "A protective relay is a 'smart guard' that monitors the electrical network and, on sensing a fault such as a short circuit, commands the breaker to trip.",
@@ -732,12 +618,6 @@
     "cat": "Elektr / Himoya"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega tok va kuchlanish to'g'ridan-to'g'ri emas, CT/VT orqali o'lchanadi? JAVOB: Katta tok/kuchlanishni xavfsiz kichik qiymatga aylantirib, asboblar va odamni himoya qilish uchun.",
-    "en": "Q: Why are current and voltage measured via CT/VT, not directly? A: To scale large values down safely, protecting instruments and people.",
-    "cat": "Moy / Podshipnik"
-  },
-  {
     "type": "lesson",
     "uz": "'Ignition system' (yoqish tizimi) gaz turbinasida yonishni boshlaydi. U elektr uchqun (svecha) bilan yoqilg'i-havo aralashmasini alangalatadi, xuddi zajigalka kabi.",
     "en": "The ignition system starts combustion in a gas turbine. It lights the fuel-air mixture with an electric spark (igniter), much like a lighter.",
@@ -753,12 +633,6 @@
     "type": "lesson",
     "uz": "'Flame detector' (alanga datchigi) yonish kamerasida alanga bor-yo'qligini kuzatadi. Agar alanga o'chib qolsa, u yoqilg'ini darhol to'xtatib, portlash xavfini oldini oladi.",
     "en": "A flame detector watches whether a flame is present in the combustor. If the flame goes out, it stops the fuel immediately to prevent an explosion risk.",
-    "cat": "Yonish / Combustor"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Alanga datchigi alanga o'chganini sezsa nima bo'ladi? JAVOB: Yoqilg'i darhol to'xtatiladi, aks holda yonmagan gaz to'planib portlash xavfi tug'ilardi.",
-    "en": "Q: What happens if a flame detector senses the flame is out? A: Fuel is cut immediately, otherwise unburned gas would accumulate and risk an explosion.",
     "cat": "Yonish / Combustor"
   },
   {
@@ -792,12 +666,6 @@
     "cat": "Generator"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Auxiliary power' nima? JAVOB: Stansiyaning o'zi ishlashi uchun sarflaydigan elektr (nasos, ventilyator, boshqaruv tizimlari).",
-    "en": "Q: What is 'auxiliary power'? A: The electricity a plant uses to run itself (pumps, fans, control systems).",
-    "cat": "Yordamchi tizimlar"
-  },
-  {
     "type": "lesson",
     "uz": "Stansiya butunlay tokdan uzilib qolsa ham xavfsiz to'xtashi uchun 'emergency power' — akkumulyator (batareya) va dizel-generator zaxirasi bo'ladi.",
     "en": "So a plant can shut down safely even if it loses all power, there is 'emergency power' — battery banks and a backup diesel generator.",
@@ -813,12 +681,6 @@
     "type": "lesson",
     "uz": "'UPS' (Uzluksiz ta'minlash manbai) muhim asboblarga tokni bir zumda ham uzilmasdan yetkazadi — batareya va inverter orqali ishlaydi.",
     "en": "A UPS (Uninterruptible Power Supply) delivers power to critical instruments without even a momentary break — via battery and inverter.",
-    "cat": "Elektr / Himoya"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega stansiyada batareya (DC) tizimi bo'ladi? JAVOB: Asosiy tok yo'qolganda ham himoya va boshqaruvni ta'minlab, turbinani xavfsiz to'xtatish uchun.",
-    "en": "Q: Why does a plant have a battery (DC) system? A: To keep protection and control powered during a main power loss, allowing safe turbine shutdown.",
     "cat": "Elektr / Himoya"
   },
   {
@@ -846,12 +708,6 @@
     "cat": "Elektr / Himoya"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: VFD qanday energiya tejaydi? JAVOB: Motor tezligini ehtiyojga qarab pasaytirib, keraksiz to'liq tezlikda ishlashning oldini oladi.",
-    "en": "Q: How does a VFD save energy? A: By lowering motor speed to match demand, avoiding needless full-speed operation.",
-    "cat": "Elektr / Himoya"
-  },
-  {
     "type": "lesson",
     "uz": "'Power factor' — foydali quvvat va to'liq quvvat nisbati. U 1 ga qancha yaqin bo'lsa, elektr tarmog'i shuncha samarali ishlaydi.",
     "en": "'Power factor' is the ratio of useful power to total power. The closer it is to 1, the more efficiently the electrical system works.",
@@ -870,12 +726,6 @@
     "cat": "Generator"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Reaktiv quvvat (var) nima uchun kerak? JAVOB: To'r kuchlanishini barqaror ushlab turish uchun — u foydali ish bajarmasa ham tizim uchun zarur.",
-    "en": "Q: Why is reactive power (var) needed? A: To keep grid voltage stable — though it does no useful work, it is essential for the system.",
-    "cat": "Elektr / Himoya"
-  },
-  {
     "type": "lesson",
     "uz": "'Cable tray' va 'conduit' — stansiya bo'ylab minglab kabellarni tartibli va himoyalangan holda olib boruvchi tizim. Kabellar issiqlik va shikastdan himoyalanadi.",
     "en": "Cable trays and conduits carry the plant's thousands of cables in an organized, protected way. Cables are shielded from heat and damage.",
@@ -891,12 +741,6 @@
     "type": "lesson",
     "uz": "Ko'p stansiyalarda optik tolali (fiber optic) aloqa ishlatiladi — u elektr shovqiniga befarq va ma'lumotni tez, ishonchli uzatadi.",
     "en": "Many plants use fiber optic communication — it is immune to electrical noise and transmits data fast and reliably.",
-    "cat": "Energetika asoslari"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega boshqaruv kabellari ekranli (shielded) bo'ladi? JAVOB: Tashqi elektr shovqinni to'sib, o'lchash va boshqaruv signallarini toza ushlab turish uchun.",
-    "en": "Q: Why are control cables shielded? A: To block external electrical noise and keep measurement and control signals clean.",
     "cat": "Energetika asoslari"
   },
   {
@@ -930,12 +774,6 @@
     "cat": "Boshqaruv / Asboblar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Kirish havo filtri nega muhim? JAVOB: U changni to'sib, kompressor pichoqlarini yeyilishdan va turbinani FIK yo'qotishdan saqlaydi.",
-    "en": "Q: Why is the inlet air filter important? A: It blocks dust, protecting compressor blades from erosion and the turbine from efficiency loss.",
-    "cat": "Kompressor"
-  },
-  {
     "type": "lesson",
     "uz": "'Exhaust system' (chiqindi tizimi) turbinadan chiqqan issiq gazni HRSG'ga yo'naltiradi. Combined cycle'da bu gaz behuda ketmay, bug' hosil qilishga ishlatiladi.",
     "en": "The exhaust system directs hot gas from the turbine to the HRSG. In combined cycle this gas isn't wasted but is used to raise steam.",
@@ -966,12 +804,6 @@
     "cat": "Yonish / Combustor"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega yoqilg'i gazi turbinaga kirishdan oldin isitiladi? JAVOB: Issiq gaz barqarorroq yonadi va combined cycle samaradorligini oshiradi.",
-    "en": "Q: Why is fuel gas heated before entering the turbine? A: Hotter gas burns more stably and raises combined cycle efficiency.",
-    "cat": "Yordamchi tizimlar"
-  },
-  {
     "type": "lesson",
     "uz": "'Lube oil system' (moylash tizimi) turbina va generator podshipniklarini moy bilan ta'minlaydi. Moy podshipniklarni ham moylaydi, ham sovutadi.",
     "en": "The lube oil system supplies oil to turbine and generator bearings. The oil both lubricates and cools the bearings.",
@@ -987,12 +819,6 @@
     "type": "lesson",
     "uz": "Favqulodda moy nasosi ko'pincha DC (batareya) tokida ishlaydi — shu bois butun stansiya tokdan uzilib qolsa ham, podshipniklar moysiz qolmaydi.",
     "en": "The emergency oil pump often runs on DC (battery) power — so even if the whole plant loses power, the bearings won't be left without oil.",
-    "cat": "Elektr / Himoya"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Asosiy moy nasosi to'xtasa nima bo'ladi? JAVOB: Favqulodda nasos (ko'pincha batareyada) darhol ishga tushib, podshipniklarga moy uzatishni davom ettiradi.",
-    "en": "Q: What happens if the main oil pump stops? A: An emergency pump (often battery-powered) starts at once and keeps oil flowing to the bearings.",
     "cat": "Elektr / Himoya"
   },
   {
@@ -1026,12 +852,6 @@
     "cat": "Moy / Podshipnik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Moy tizimida nega ikkita cooler/filter bo'ladi? JAVOB: Biri ishlaganda ikkinchisini tozalash/almashtirish mumkin — turbina to'xtatilmaydi.",
-    "en": "Q: Why are there two coolers/filters in the oil system? A: One can be cleaned or replaced while the other works — no need to stop the turbine.",
-    "cat": "Moy / Podshipnik"
-  },
-  {
     "type": "lesson",
     "uz": "'Lube oil mist separator' — moy bakidan chiqadigan moy tumanini (bug'ini) ushlab, toza havoni chiqaradi. Bu moyni tejaydi va atrofni ifloslamaydi.",
     "en": "A lube oil mist separator captures oil mist (vapor) leaving the oil tank and releases clean air. This saves oil and avoids contaminating the surroundings.",
@@ -1062,12 +882,6 @@
     "cat": "Moy / Podshipnik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Lube oil' va 'control oil' farqi nima? JAVOB: Lube oil podshipniklarni moylaydi/sovutadi; control oil esa klapan va aktuatorlarni harakatga keltiradi.",
-    "en": "Q: What's the difference between lube oil and control oil? A: Lube oil lubricates/cools bearings; control oil moves valves and actuators.",
-    "cat": "Moy / Podshipnik"
-  },
-  {
     "type": "lesson",
     "uz": "'Cooling air system' (sovutuvchi havo tizimi) kompressordan bir qism havoni olib, turbinaning eng issiq qismlarini (pichoq, disk) sovutishga yo'naltiradi.",
     "en": "The cooling air system takes some air from the compressor and directs it to cool the turbine's hottest parts (blades, discs).",
@@ -1092,12 +906,6 @@
     "cat": "Yordamchi tizimlar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Sovutuvchi havo qayerdan olinadi? JAVOB: Kompressordan — havoning bir qismi ajratib olinib, turbinaning issiq qismlarini sovutadi.",
-    "en": "Q: Where does cooling air come from? A: From the compressor — some air is extracted to cool the turbine's hot parts.",
-    "cat": "Kompressor"
-  },
-  {
     "type": "lesson",
     "uz": "'Ventilation fan' (ventilyatsiya ventilyatori) turbina kabinasi ichidagi havoni doimiy almashtiradi. Bu issiqlikni chiqaradi va sizib chiqqan gazni tarqatadi.",
     "en": "A ventilation fan constantly refreshes the air inside the turbine enclosure. This removes heat and disperses any leaked gas.",
@@ -1116,12 +924,6 @@
     "cat": "Yordamchi tizimlar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Turbina kabinasi nega doimiy ventilyatsiya qilinadi? JAVOB: Issiqlikni chiqarish va sizib chiqishi mumkin bo'lgan gazni tarqatib, portlash xavfini kamaytirish uchun.",
-    "en": "Q: Why is the turbine enclosure continuously ventilated? A: To remove heat and disperse any leaked gas, reducing explosion risk.",
-    "cat": "Yordamchi tizimlar"
-  },
-  {
     "type": "lesson",
     "uz": "'CO₂ fire fighting system' (CO₂ o't o'chirish tizimi) yong'in chiqsa turbina bo'limini karbonat angidrid gazi bilan to'ldiradi. Gaz kislorodni siqib chiqarib, olovni bo'g'adi.",
     "en": "A CO₂ fire fighting system floods the turbine compartment with carbon dioxide if a fire breaks out. The gas displaces oxygen and smothers the flame.",
@@ -1131,12 +933,6 @@
     "type": "fact",
     "uz": "CO₂ tizimi ishga tushganda odamlar uchun xavfli (kislorod kamayadi), shuning uchun avval ogohlantirish signali beriladi va hamma chiqib ketishi kerak.",
     "en": "When the CO₂ system activates it is dangerous for people (oxygen drops), so a warning alarm sounds first and everyone must evacuate.",
-    "cat": "Yordamchi tizimlar"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: CO₂ o't o'chirish tizimi olovni qanday o'chiradi? JAVOB: Bo'limni CO₂ bilan to'ldirib, kislorodni siqib chiqaradi — olov kislorodsiz o'chadi.",
-    "en": "Q: How does a CO₂ fire system put out a fire? A: It floods the space with CO₂, displacing oxygen — the fire dies without oxygen.",
     "cat": "Yordamchi tizimlar"
   },
   {
@@ -1164,12 +960,6 @@
     "cat": "Yordamchi tizimlar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Water hammer' (suv zarbasi) nima va nega xavfli? JAVOB: Quvurdagi suyuqlik to'satdan urilishi — u kuchli zarba berib, quvur va klapanlarni sindirishi mumkin.",
-    "en": "Q: What is water hammer and why is it dangerous? A: A sudden impact of liquid in a pipe — it delivers a strong shock that can break pipes and valves.",
-    "cat": "Nasos / Klapan"
-  },
-  {
     "type": "lesson",
     "uz": "'Vent system' (shamollatish/havo chiqarish) tizimlardagi ortiqcha gaz yoki havoni xavfsiz chiqaradi. Ishga tushirishda quvurlardagi havoni chiqarish uchun ham ishlatiladi.",
     "en": "A vent system safely releases excess gas or air from systems. It's also used to purge air from pipes during startup.",
@@ -1194,12 +984,6 @@
     "cat": "Yordamchi tizimlar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega muhim jihozlar (nasos, ventilyator) ikkitadan quriladi? JAVOB: Zaxira uchun — biri buzilsa ikkinchisi ishlab, stansiya to'xtamaydi.",
-    "en": "Q: Why are critical devices (pumps, fans) built in pairs? A: For redundancy — if one fails the other keeps running, so the plant doesn't stop.",
-    "cat": "Yordamchi tizimlar"
-  },
-  {
     "type": "lesson",
     "uz": "Barcha yordamchi tizimlar (moy, havo, gaz, suv, sovutish) birgalikda ishlaydi — biri ishlamay qolsa, gaz turbinasi xavfsiz to'xtatiladi. Ular turbinaning 'qon-tomir tizimi' kabidir.",
     "en": "All auxiliary systems (oil, air, gas, water, cooling) work together — if one fails, the gas turbine is safely stopped. They are like the turbine's 'circulatory system'.",
@@ -1221,12 +1005,6 @@
     "type": "lesson",
     "uz": "Har kompressor bosqichi ikki qatordan iborat: aylanuvchi 'rotor' pichoqlar havoni tezlashtiradi, qo'zg'almas 'stator' pichoqlar esa tezlikni bosimga aylantiradi.",
     "en": "Each compressor stage has two rows: rotating 'rotor' blades speed the air up, and stationary 'stator' vanes convert that speed into pressure.",
-    "cat": "Kompressor"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Kompressor bosqichida stator pichoqlari nima qiladi? JAVOB: Havo tezligini bosimga aylantiradi va oqimni keyingi bosqichga to'g'ri yo'naltiradi.",
-    "en": "Q: What do stator vanes do in a compressor stage? A: They convert air speed into pressure and guide the flow correctly into the next stage.",
     "cat": "Kompressor"
   },
   {
@@ -1266,12 +1044,6 @@
     "cat": "Gaz turbinasi (GT)"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Pichoq uchi bilan korpus orasidagi tirqish (clearance) kichik bo'lsa nima yutuq? JAVOB: Havo/gaz sizishi kamayadi va FIK oshadi.",
-    "en": "Q: What's the benefit of a small tip clearance between blade and casing? A: Less air/gas leakage and higher efficiency.",
-    "cat": "Gaz turbinasi (GT)"
-  },
-  {
     "type": "lesson",
     "uz": "'Combustor' (yonish kamerasi)da ko'p 'basket'/'can' (kichik yonish idishlari) bo'lishi mumkin — ular halqa bo'ylab joylashib, gazni bir tekis qizdiradi.",
     "en": "A combustor may have several 'baskets'/'cans' (small combustion chambers) arranged in a ring — they heat the gas evenly around the circle.",
@@ -1296,12 +1068,6 @@
     "cat": "Gaz turbinasi (GT)"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega gaz turbinalari to'r muvozanati uchun qadrli? JAVOB: Ular quvvatni tez o'zgartira oladi, shu bois talab keskin o'zgarganda to'rni barqarorlashtiradi.",
-    "en": "Q: Why are gas turbines valued for grid balancing? A: They can change power quickly, stabilizing the grid when demand shifts suddenly.",
-    "cat": "Gaz turbinasi (GT)"
-  },
-  {
     "type": "lesson",
     "uz": "'Baseload' rejimida stansiya doim to'liq quvvatda ishlaydi — bu eng samarali va jihoz uchun eng yumshoq rejim, chunki harorat o'zgarishlari kam.",
     "en": "In 'baseload' mode a plant runs at full power continuously — the most efficient and gentlest mode for equipment, since temperature swings are few.",
@@ -1317,12 +1083,6 @@
     "type": "lesson",
     "uz": "'Equivalent operating hours' — jihoz umrini hisoblashda ishlatiladigan o'lchov. Bir start bir necha soat ishlashga teng deb hisoblanadi, chunki u ko'proq charchatadi.",
     "en": "'Equivalent operating hours' is a measure used to track equipment life. One start counts as several running hours, because it wears parts more.",
-    "cat": "Ishga tushirish / Rejim"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega tez-tez ishga tushirish/to'xtatish jihozni ko'proq charchatadi? JAVOB: Har sikl metallni qizdirib-sovutib, termik charchoq va yoriqlarga olib keladi.",
-    "en": "Q: Why do frequent starts/stops wear equipment more? A: Each cycle heats and cools the metal, causing thermal fatigue and cracks.",
     "cat": "Ishga tushirish / Rejim"
   },
   {
@@ -1342,12 +1102,6 @@
     "uz": "'Condition monitoring' — jihoz holatini doimiy kuzatib (vibratsiya, harorat, moy tahlili), nosozlikni oldindan sezish. Bu kutilmagan to'xtashlarni kamaytiradi.",
     "en": "'Condition monitoring' continuously watches equipment (vibration, temperature, oil analysis) to catch faults early. This reduces unexpected shutdowns.",
     "cat": "Moy / Podshipnik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Borescope inspection nima afzallik beradi? JAVOB: Turbinani to'liq ochmasdan ichki qismlarni ko'rish — vaqt va xarajat tejaladi.",
-    "en": "Q: What's the advantage of a borescope inspection? A: Seeing internal parts without fully opening the turbine — saving time and cost.",
-    "cat": "Ta'mir / Xavfsizlik"
   },
   {
     "type": "lesson",
@@ -1374,12 +1128,6 @@
     "cat": "Yonish / Combustor"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Chiqindi gaz haroratini ko'p nuqtada o'lchash nimaga yordam beradi? JAVOB: Notekislikni sezib, yonish kamerasidagi nosozlikni erta aniqlashga.",
-    "en": "Q: Why measure exhaust gas temperature at many points? A: To detect unevenness and spot a combustor fault early.",
-    "cat": "Yonish / Combustor"
-  },
-  {
     "type": "lesson",
     "uz": "Bug' turbinasi 'reaction' va 'impulse' tiplarga bo'linadi. Impulse turbinada bug' soplo orqali tezlashtiriladi, reaction turbinada esa pichoqlarning o'zi soplo vazifasini o'taydi.",
     "en": "Steam turbines are 'reaction' or 'impulse' types. In impulse, steam is sped up through nozzles; in reaction, the blades themselves act as nozzles.",
@@ -1395,12 +1143,6 @@
     "type": "lesson",
     "uz": "'Vacuum' kondensatorda 'ejector' yoki vakuum nasosi bilan yaratiladi — ular havo va bug'lanmagan gazlarni doimiy so'rib chiqaradi.",
     "en": "The condenser vacuum is created by an 'ejector' or vacuum pump — they continuously suck out air and non-condensing gases.",
-    "cat": "Kondensator / Sovutish"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Kondensatorda vakuum yo'qolsa nima bo'ladi? JAVOB: Bug' kam kengayadi, turbina quvvati va FIK keskin tushadi.",
-    "en": "Q: What happens if the condenser loses vacuum? A: Steam expands less, and turbine power and efficiency drop sharply.",
     "cat": "Kondensator / Sovutish"
   },
   {
@@ -1422,12 +1164,6 @@
     "cat": "Ta'mir / Xavfsizlik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega bug' siklida oddiy emas, mineralsizlantirilgan suv ishlatiladi? JAVOB: Tuzlar quyqa va korroziya hosil qilib, qozon va turbinani shikastlaydi.",
-    "en": "Q: Why use demineralized water, not ordinary water, in the steam cycle? A: Salts cause scale and corrosion that damage the boiler and turbine.",
-    "cat": "Ta'mir / Xavfsizlik"
-  },
-  {
     "type": "lesson",
     "uz": "'Chemical dosing' — suvga oz miqdorda kimyoviy modda qo'shib, uning kislotaligi (pH) va kislorod miqdorini boshqarish. Bu metallni korroziyadan himoya qiladi.",
     "en": "'Chemical dosing' adds small amounts of chemicals to water to control its acidity (pH) and oxygen level. This protects metal from corrosion.",
@@ -1444,12 +1180,6 @@
     "uz": "'Carnot limiti' — issiqlik dvigatelining nazariy maksimal FIKi, u issiq va sovuq manba haroratlariga bog'liq. Real dvigatellar undan pastroq ishlaydi.",
     "en": "The 'Carnot limit' is the theoretical maximum efficiency of a heat engine, set by the hot and cold source temperatures. Real engines fall below it.",
     "cat": "Combined Cycle / Samaradorlik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega hech qanday elektr stansiyasi 100% samarali emas? JAVOB: Termodinamika qonuniga ko'ra, issiqlikning bir qismi doim sovuq manbaga (atrofga) tarqaladi.",
-    "en": "Q: Why is no power plant 100% efficient? A: By the laws of thermodynamics, some heat must always be rejected to a cold sink (the environment).",
-    "cat": "Energetika asoslari"
   },
   {
     "type": "lesson",
@@ -1470,12 +1200,6 @@
     "cat": "Combined Cycle / Samaradorlik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: To'rda talab to'satdan oshsa chastota nima bo'ladi? JAVOB: Chastota bir oz tushadi; generatorlar (governor orqali) quvvatni oshirib uni tiklaydi.",
-    "en": "Q: What happens to frequency if grid demand suddenly rises? A: Frequency dips slightly; generators (via the governor) raise power to restore it.",
-    "cat": "Generator"
-  },
-  {
     "type": "lesson",
     "uz": "'Black start' — stansiyani tashqi tokdan foydalanmasdan, noldan ishga tushirish qobiliyati. Bu to'r butunlay o'chgan avariyadan keyin tiklashda muhim.",
     "en": "'Black start' is the ability to start a plant from zero without external power. It's vital for restoring the grid after a total blackout.",
@@ -1492,12 +1216,6 @@
     "uz": "'Load rejection' — generator to'satdan to'rdan uzilib, yukini yo'qotishi. Turbina birdan tezlashib ketmasligi uchun himoya tizimi darhol yoqilg'ini kamaytiradi.",
     "en": "'Load rejection' is when a generator suddenly disconnects from the grid, losing its load. To stop the turbine overspeeding, protection instantly cuts fuel.",
     "cat": "Generator"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: 'Black start' qobiliyati nima uchun muhim? JAVOB: To'r butunlay o'chganda, stansiya tashqi toksiz o'zini ishga tushirib, tarmoqni tiklashga yordam beradi.",
-    "en": "Q: Why is black start capability important? A: After a total blackout, the plant can start itself without external power and help restore the grid.",
-    "cat": "Elektr / Himoya"
   },
   {
     "type": "lesson",
@@ -1524,12 +1242,6 @@
     "cat": "Moy / Podshipnik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Interlock nima vazifani bajaradi? JAVOB: Xavfli yoki noto'g'ri ketma-ketlikdagi amalni bloklab, jihoz va odamlarni himoya qiladi.",
-    "en": "Q: What does an interlock do? A: It blocks a dangerous or out-of-sequence action, protecting equipment and people.",
-    "cat": "Moy / Podshipnik"
-  },
-  {
     "type": "lesson",
     "uz": "'Permissive' — biror amalni bajarishga 'ruxsat' beruvchi shart. Barcha permissivlar bajarilsagina, masalan, turbina ishga tushirilishi mumkin.",
     "en": "A 'permissive' is a condition that grants permission for an action. Only when all permissives are satisfied can, say, a turbine be started.",
@@ -1548,12 +1260,6 @@
     "cat": "Boshqaruv / Asboblar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Alarm' va 'trip' o'rtasidagi farq nima? JAVOB: Alarm faqat ogohlantiradi; trip esa jihozni avtomatik va zudlik bilan to'xtatadi.",
-    "en": "Q: What's the difference between an alarm and a trip? A: An alarm only warns; a trip automatically and immediately stops the equipment.",
-    "cat": "Boshqaruv / Asboblar"
-  },
-  {
     "type": "lesson",
     "uz": "'Redundancy' (zaxiralilik) — muhim datchik yoki tizimni takrorlash. '2-out-of-3' mantiqda uch datchikdan ikkitasi rozi bo'lsa harakat qilinadi.",
     "en": "'Redundancy' means duplicating a critical sensor or system. In '2-out-of-3' logic, action is taken only if two of three sensors agree.",
@@ -1563,12 +1269,6 @@
     "type": "fact",
     "uz": "2-out-of-3 mantiq bitta datchik noto'g'ri ishlaganda ham tizimni xato triplardan saqlaydi — ko'pchilik ovoz g'olib chiqadi.",
     "en": "2-out-of-3 logic keeps the system from false trips even if one sensor misbehaves — the majority vote wins.",
-    "cat": "Boshqaruv / Asboblar"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: '2-out-of-3' datchik mantig'i nega ishlatiladi? JAVOB: Bitta datchik yanglishsa ham to'g'ri qaror qabul qilish uchun — ko'pchilik ovoz asos bo'ladi.",
-    "en": "Q: Why use '2-out-of-3' sensor logic? A: To make the right decision even if one sensor fails — the majority vote governs.",
     "cat": "Boshqaruv / Asboblar"
   },
   {
@@ -1590,12 +1290,6 @@
     "cat": "Ishga tushirish / Rejim"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega turbina 'kritik tezlik'dan tez o'tkaziladi? JAVOB: Bu tezlikda rezonans tufayli vibratsiya kuchayadi va uzoq turish shikast keltiradi.",
-    "en": "Q: Why is a turbine passed quickly through 'critical speed'? A: Resonance there amplifies vibration, and lingering causes damage.",
-    "cat": "Ishga tushirish / Rejim"
-  },
-  {
     "type": "lesson",
     "uz": "'Barring/turning gear' rotorni juda sekin (daqiqada bir necha marta) aylantiradi. To'xtagandan keyin soatlab shunday aylantiriladi.",
     "en": "A barring/turning gear rotates the rotor very slowly (a few times per minute). After shutdown it keeps turning for hours.",
@@ -1612,12 +1306,6 @@
     "uz": "'Eccentricity' datchigi rotorning egilganlik darajasini o'lchaydi. Ishga tushirishdan oldin rotor yetarlicha to'g'ri bo'lishi shart.",
     "en": "An 'eccentricity' sensor measures how much the rotor is bowed. Before startup the rotor must be straight enough.",
     "cat": "Boshqaruv / Asboblar"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Turning gear nima uchun soatlab ishlaydi? JAVOB: Issiq rotorni bir tekis sovutib, egilib qolishi (bow)ning oldini olish uchun.",
-    "en": "Q: Why does the turning gear run for hours? A: To cool the hot rotor evenly and prevent it from bowing.",
-    "cat": "Yordamchi tizimlar"
   },
   {
     "type": "lesson",
@@ -1641,12 +1329,6 @@
     "type": "fact",
     "uz": "Ishga tushirish tartibi 'purge → ignition → warm-up → acceleration → synchronization' ketma-ketligida boradi — har qadam tekshiriladi.",
     "en": "The startup sequence goes 'purge → ignition → warm-up → acceleration → synchronization' — each step is verified.",
-    "cat": "Yonish / Combustor"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega yoqishdan oldin 'purge' qilinadi? JAVOB: Yonish yo'lidagi to'plangan gazni chiqarib, portlash xavfini yo'qotish uchun.",
-    "en": "Q: Why is a purge done before ignition? A: To clear accumulated gas from the combustion path and remove explosion risk.",
     "cat": "Yonish / Combustor"
   },
   {
@@ -1674,12 +1356,6 @@
     "cat": "Energetika asoslari"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Kompressor yuvish qanday FIK yo'qotishini tiklaydi? JAVOB: Ifloslanishdan kelib chiqqan 'tiklanadigan' (recoverable) qismini — pichoqlar tozalanadi.",
-    "en": "Q: What kind of efficiency loss does compressor washing restore? A: The 'recoverable' part caused by fouling — the blades are cleaned.",
-    "cat": "Kompressor"
-  },
-  {
     "type": "lesson",
     "uz": "'Heat rate' — bir birlik elektr ishlab chiqarish uchun sarflangan issiqlik. U qancha past bo'lsa, stansiya shuncha samarali.",
     "en": "'Heat rate' is the heat used to produce one unit of electricity. The lower it is, the more efficient the plant.",
@@ -1695,12 +1371,6 @@
     "type": "lesson",
     "uz": "'Availability' — stansiyaning ishlashga tayyor bo'lgan vaqti ulushi. Yuqori availability ko'proq daromad va ishonchlilikni bildiradi.",
     "en": "'Availability' is the fraction of time a plant is ready to run. High availability means more revenue and reliability.",
-    "cat": "Combined Cycle / Samaradorlik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Past 'heat rate' nimani bildiradi? JAVOB: Yuqori samaradorlikni — kam yoqilg'i bilan ko'proq elektr ishlab chiqariladi.",
-    "en": "Q: What does a low heat rate indicate? A: High efficiency — more electricity produced with less fuel.",
     "cat": "Combined Cycle / Samaradorlik"
   },
   {
@@ -1722,12 +1392,6 @@
     "cat": "Yonish / Combustor"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: CEMS nima o'lchaydi? JAVOB: Stansiya chiqindilarini (NOx, CO va h.k.) real vaqtda — ekologik me'yorlarga rioya uchun.",
-    "en": "Q: What does a CEMS measure? A: Plant emissions (NOx, CO, etc.) in real time — for environmental compliance.",
-    "cat": "Yordamchi tizimlar"
-  },
-  {
     "type": "lesson",
     "uz": "'Bypass stack' — HRSG'ni chetlab o'tib, gaz turbinasi gazini to'g'ridan-to'g'ri chiqaradigan mo'ri. U ba'zi stansiyalarda turbinani mustaqil ishlatish imkonini beradi.",
     "en": "A 'bypass stack' lets gas turbine exhaust go straight out, bypassing the HRSG. In some plants it allows running the turbine independently.",
@@ -1743,12 +1407,6 @@
     "type": "lesson",
     "uz": "'Duct burner' — HRSG ichida qo'shimcha yoqilg'i yoqib, ko'proq bug' hosil qiladigan gorelka. U talab yuqori bo'lganda quvvatni oshiradi.",
     "en": "A 'duct burner' is a burner inside the HRSG that burns extra fuel to make more steam. It boosts power when demand is high.",
-    "cat": "Yonish / Combustor"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: 'Duct burner' nima uchun ishlatiladi? JAVOB: HRSG'da qo'shimcha issiqlik berib, ko'proq bug' va qo'shimcha quvvat hosil qilish uchun.",
-    "en": "Q: Why is a duct burner used? A: To add heat in the HRSG, producing more steam and extra power.",
     "cat": "Yonish / Combustor"
   },
   {
@@ -1770,12 +1428,6 @@
     "cat": "Bug' turbinasi (ST)"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Steam bypass' turbinani qanday himoya qiladi? JAVOB: Turbina qabul qilolmagan ortiqcha bug'ni kondensatorga yo'naltirib, bosim oshib ketishining oldini oladi.",
-    "en": "Q: How does a steam bypass protect the turbine? A: By routing excess steam the turbine can't take to the condenser, preventing pressure spikes.",
-    "cat": "Kondensator / Sovutish"
-  },
-  {
     "type": "lesson",
     "uz": "'Rotor air cooler' — generator rotorini sovutuvchi havoni sovutadigan issiqlik almashtirgich (vodorodli mashinalarda vodorodni sovutadi).",
     "en": "A 'rotor air cooler' is a heat exchanger that cools the air (or hydrogen in H₂ machines) cooling the generator rotor.",
@@ -1794,12 +1446,6 @@
     "cat": "Generator"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Partial discharge' monitoringi nimaga yordam beradi? JAVOB: Generator izolatsiyasining eskirishini erta aniqlab, kutilmagan nosozlikning oldini olishga.",
-    "en": "Q: What does partial discharge monitoring help with? A: Detecting generator insulation aging early, preventing unexpected failure.",
-    "cat": "Generator"
-  },
-  {
     "type": "lesson",
     "uz": "'LOTO' (Lockout-Tagout) — ta'mir paytida jihozni tasodifan yoqilishdan saqlaydigan xavfsizlik tartibi. Energiya manbai qulflanadi va belgi osiladi.",
     "en": "LOTO (Lockout-Tagout) is a safety procedure that prevents equipment from being switched on accidentally during repair. The energy source is locked and a tag is hung.",
@@ -1812,12 +1458,6 @@
     "cat": "Yordamchi tizimlar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: LOTO nima uchun kerak? JAVOB: Ta'mir paytida jihoz tasodifan yoqilib, ishchini shikastlashining oldini olish uchun.",
-    "en": "Q: Why is LOTO needed? A: To prevent equipment being accidentally energized during repair and injuring the worker.",
-    "cat": "Yordamchi tizimlar"
-  },
-  {
     "type": "lesson",
     "uz": "'Confined space' (yopiq/tor makon) — HRSG yoki kondensator ichi kabi joylar. Ularga kirishdan oldin havo tarkibi tekshiriladi, chunki kislorod kam yoki zaharli gaz bo'lishi mumkin.",
     "en": "A 'confined space' is a place like the inside of an HRSG or condenser. Before entry the air is tested, since oxygen may be low or toxic gas present.",
@@ -1827,12 +1467,6 @@
     "type": "fact",
     "uz": "Tor makonga kirishda doim tashqarida kuzatuvchi (attendant) turadi — favqulodda holatda darhol yordam chaqirish uchun.",
     "en": "When entering a confined space, an attendant always stays outside — to summon help immediately in an emergency.",
-    "cat": "Ta'mir / Xavfsizlik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega tor makonga (confined space) kirishdan oldin havo tekshiriladi? JAVOB: Kislorod yetarli va zaharli/yonuvchi gaz yo'qligiga ishonch hosil qilish uchun.",
-    "en": "Q: Why is air tested before entering a confined space? A: To confirm oxygen is sufficient and no toxic/flammable gas is present.",
     "cat": "Ta'mir / Xavfsizlik"
   },
   {
@@ -1854,12 +1488,6 @@
     "cat": "Ta'mir / Xavfsizlik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Hot work permit' nima uchun kerak? JAVOB: Uchqun/olovli ishlarni faqat xavfsiz, tekshirilgan sharoitda bajarishni ta'minlash uchun.",
-    "en": "Q: Why is a hot work permit needed? A: To ensure spark/flame work is done only under safe, verified conditions.",
-    "cat": "Yonish / Combustor"
-  },
-  {
     "type": "lesson",
     "uz": "Turbina pichoqlari 'superqotishmalar' (superalloys) — nikel asosidagi metallardan tayyorlanadi. Ular juda yuqori haroratda ham mustahkamligini saqlaydi.",
     "en": "Turbine blades are made of 'superalloys' — nickel-based metals. They keep their strength even at very high temperatures.",
@@ -1875,12 +1503,6 @@
     "type": "lesson",
     "uz": "'Creep' — metallning yuqori harorat va yukdan asta cho'zilishi. Turbina pichoqlari yillar davomida sekin cho'ziladi, shuning uchun umri cheklangan.",
     "en": "'Creep' is the slow stretching of metal under high temperature and load. Turbine blades slowly elongate over years, so their life is limited.",
-    "cat": "Gaz turbinasi (GT)"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nega turbina pichoqlari superqotishmadan yasaladi? JAVOB: Ular juda yuqori haroratda ham mustahkam qolib, erish va cho'zilishga (creep) chidaydi.",
-    "en": "Q: Why are turbine blades made of superalloys? A: They stay strong at very high temperatures, resisting melting and creep.",
     "cat": "Gaz turbinasi (GT)"
   },
   {
@@ -1902,12 +1524,6 @@
     "cat": "Ta'mir / Xavfsizlik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Turbina pichog'idagi qoplama (coating) nima uchun kerak? JAVOB: Pichoqni issiqlik, oksidlanish va korroziyadan himoya qilib, umrini uzaytirish uchun.",
-    "en": "Q: Why do turbine blades need a coating? A: To protect them from heat, oxidation and corrosion, extending their life.",
-    "cat": "Gaz turbinasi (GT)"
-  },
-  {
     "type": "lesson",
     "uz": "'NDT' (Non-Destructive Testing) — jihozni buzmasdan tekshirish usullari: ultratovush, radiografiya, magnit zarrachalar. Ular yashirin yoriqlarni topadi.",
     "en": "NDT (Non-Destructive Testing) inspects equipment without damaging it: ultrasound, radiography, magnetic particles. They find hidden cracks.",
@@ -1917,12 +1533,6 @@
     "type": "fact",
     "uz": "Ultratovushli tekshiruv metall ichidagi yoriqni tovush to'lqinlari orqali 'ko'radi' — xuddi tibbiy UZI kabi.",
     "en": "Ultrasonic testing 'sees' cracks inside metal using sound waves — much like a medical ultrasound.",
-    "cat": "Ta'mir / Xavfsizlik"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: NDT (non-destructive testing) nima afzallik beradi? JAVOB: Jihozni sindirmasdan yoki kesib ko'rmasdan ichki nuqsonlarni aniqlash imkonini beradi.",
-    "en": "Q: What advantage does NDT offer? A: It detects internal defects without breaking or cutting the equipment.",
     "cat": "Ta'mir / Xavfsizlik"
   },
   {
@@ -1944,12 +1554,6 @@
     "cat": "Combined Cycle / Samaradorlik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Spinning reserve' nima uchun kerak? JAVOB: Talab to'satdan oshganda yoki boshqa generator o'chganda tezda quvvat berib, to'rni saqlash uchun.",
-    "en": "Q: Why is spinning reserve needed? A: To quickly supply power when demand spikes or another generator trips, keeping the grid up.",
-    "cat": "Generator"
-  },
-  {
     "type": "lesson",
     "uz": "'Island mode' — stansiya asosiy to'rdan ajralib, faqat mahalliy yukni ta'minlab ishlashi. Bu qiyin rejim, chunki chastotani o'zi ushlashi kerak.",
     "en": "'Island mode' is when a plant separates from the main grid and supplies only local load. It's a demanding mode, as it must hold frequency alone.",
@@ -1968,12 +1572,6 @@
     "cat": "Ishga tushirish / Rejim"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Ramp rate' nimani bildiradi? JAVOB: Turbina quvvatini qanchalik tez o'zgartirish mumkinligini (masalan MW/daqiqa).",
-    "en": "Q: What does 'ramp rate' mean? A: How fast a turbine's power can be changed (e.g. MW/minute).",
-    "cat": "Ishga tushirish / Rejim"
-  },
-  {
     "type": "lesson",
     "uz": "'Combined cycle' ikki xil ishga tushiriladi: '2x1' (ikki gaz turbinasi bitta bug' turbinasiga) yoki '1x1' (bittadan). 2x1 ko'proq moslashuvchan.",
     "en": "Combined cycle is configured as '2x1' (two gas turbines feeding one steam turbine) or '1x1' (one each). 2x1 is more flexible.",
@@ -1983,12 +1581,6 @@
     "type": "fact",
     "uz": "2x1 tuzilmada bitta gaz turbinasini to'xtatib, ikkinchisini ishlatib turish mumkin — bu qulaylik va ishonchlilikni oshiradi.",
     "en": "In a 2x1 arrangement one gas turbine can be stopped while the other keeps running — improving flexibility and reliability.",
-    "cat": "Gaz turbinasi (GT)"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: '2x1' combined cycle nima degani? JAVOB: Ikki gaz turbinasining chiqindi issig'i bitta bug' turbinasini ta'minlashi.",
-    "en": "Q: What does a '2x1' combined cycle mean? A: Two gas turbines' exhaust heat feeding one steam turbine.",
     "cat": "Gaz turbinasi (GT)"
   },
   {
@@ -2010,12 +1602,6 @@
     "cat": "HRSG / Bug' sikli"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Once-through' HRSG barabanli HRSG'dan qanday farq qiladi? JAVOB: Barabani yo'q — suv to'g'ridan bug'ga aylanadi, bu tez ishga tushishga imkon beradi.",
-    "en": "Q: How does a once-through HRSG differ from a drum type? A: It has no drum — water converts directly to steam, allowing faster startup.",
-    "cat": "HRSG / Bug' sikli"
-  },
-  {
     "type": "lesson",
     "uz": "'Feedwater' — HRSG'ga haydaladigan suv. U avval qizdiriladi va deaeratorda kislorodsizlantiriladi, so'ng yuqori bosim ostida qozonga boradi.",
     "en": "'Feedwater' is water pumped into the HRSG. It's first heated and deaerated, then sent to the boiler under high pressure.",
@@ -2031,12 +1617,6 @@
     "type": "lesson",
     "uz": "'Blowdown' — qozon suvidan bir qismini chiqarib tashlash. Bug'lanish natijasida to'plangan tuzlarni olib chiqib, quyqa hosil bo'lishini oldini oladi.",
     "en": "'Blowdown' removes part of the boiler water. It carries out salts concentrated by evaporation, preventing scale buildup.",
-    "cat": "HRSG / Bug' sikli"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Qozon 'blowdown'i nima uchun qilinadi? JAVOB: Bug'lanishdan to'plangan tuzlarni chiqarib, quyqa va korroziyaning oldini olish uchun.",
-    "en": "Q: Why is boiler blowdown performed? A: To remove salts concentrated by evaporation, preventing scale and corrosion.",
     "cat": "HRSG / Bug' sikli"
   },
   {
@@ -2058,12 +1638,6 @@
     "cat": "Bug' turbinasi (ST)"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega bug' quruq (yuqori sifatli) bo'lishi kerak? JAVOB: Suv tomchilari pichoqlarga urilib ularni yeydi (erozion), quruq bug' esa ularni saqlaydi.",
-    "en": "Q: Why must steam be dry (high quality)? A: Water droplets strike and erode blades, while dry steam protects them.",
-    "cat": "Energetika asoslari"
-  },
-  {
     "type": "lesson",
     "uz": "'Cold reheat' va 'hot reheat' — bug'ni turbinaning yuqori bosim qismidan chiqib, HRSG'da qayta qizdirilib, o'rta bosim qismiga qaytishi. Bu FIKni oshiradi.",
     "en": "'Cold reheat' and 'hot reheat' describe steam leaving the HP turbine, being reheated in the HRSG, and returning to the IP turbine. This raises efficiency.",
@@ -2073,12 +1647,6 @@
     "type": "fact",
     "uz": "'Reheat' sikli bug'ni ikki marta qizdirib, undan ko'proq ish oladi va oxirgi bosqichda bug'ni quruqroq saqlaydi.",
     "en": "The 'reheat' cycle heats steam twice, extracting more work and keeping the steam drier in the final stages.",
-    "cat": "Bug' turbinasi (ST)"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Bug'ni 'reheat' qilish (qayta qizdirish) nima beradi? JAVOB: Ko'proq ish oladi, FIKni oshiradi va oxirgi bosqichda bug'ni quruqroq saqlaydi.",
-    "en": "Q: What does reheating steam achieve? A: It extracts more work, raises efficiency, and keeps steam drier in the last stages.",
     "cat": "Bug' turbinasi (ST)"
   },
   {
@@ -2092,12 +1660,6 @@
     "uz": "Stansiya 'muyoq' (chicken-and-egg) muammosini yordamchi qozon hal qiladi: bug' hosil qilish uchun bug' kerak bo'lganda, u boshlang'ich bug'ni beradi.",
     "en": "An auxiliary boiler solves a 'chicken-and-egg' problem: when steam is needed to make steam, it provides the initial steam.",
     "cat": "HRSG / Bug' sikli"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Yordamchi qozon (auxiliary boiler) nima uchun kerak? JAVOB: Stansiya ishga tushishidan oldin boshlang'ich bug'ni (masalan gland seal uchun) ta'minlash uchun.",
-    "en": "Q: Why is an auxiliary boiler needed? A: To provide the initial steam (e.g. for gland seals) before the plant starts up.",
-    "cat": "Bug' turbinasi (ST)"
   },
   {
     "type": "lesson",
@@ -2118,12 +1680,6 @@
     "cat": "Boshqaruv / Asboblar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Nega sanoat datchiklari '4-20 mA' signalidan foydalanadi? JAVOB: Bu elektr shovqinga chidamli va uzoq masofaga ishonchli uzatiladigan standart.",
-    "en": "Q: Why do industrial sensors use a '4-20 mA' signal? A: It's a standard that resists electrical noise and transmits reliably over distance.",
-    "cat": "Boshqaruv / Asboblar"
-  },
-  {
     "type": "lesson",
     "uz": "'Level transmitter' (sath datchigi) bak yoki barabandagi suyuqlik sathini o'lchaydi. Bug' barabanida sath nazorati juda muhim — suv kam yoki ko'p bo'lsa xavfli.",
     "en": "A level transmitter measures liquid level in a tank or drum. Level control in a steam drum is critical — too little or too much water is dangerous.",
@@ -2136,12 +1692,6 @@
     "cat": "HRSG / Bug' sikli"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Bug' barabanida suv sathi nazorati nega muhim? JAVOB: Kam suv quvurlarni kuydiradi, ortiqcha suv esa turbinaga o'tib zarar beradi.",
-    "en": "Q: Why is water level control in a steam drum important? A: Too little water overheats tubes; too much carries into the turbine and damages it.",
-    "cat": "HRSG / Bug' sikli"
-  },
-  {
     "type": "lesson",
     "uz": "'PID controller' — datchik qiymatini kerakli qiymatga (setpoint) yaqinlashtirib boshqaradigan mantiq. U proporsional, integral va differensial qismlardan iborat.",
     "en": "A PID controller adjusts a process toward a desired value (setpoint) using proportional, integral and derivative terms.",
@@ -2151,12 +1701,6 @@
     "type": "fact",
     "uz": "PID boshqaruv turbina tezligi, harorat, bosim va sathni tekis ushlaydi — u kichik og'ishni sezib, darhol tuzatadi.",
     "en": "PID control keeps turbine speed, temperature, pressure and level steady — sensing small deviations and correcting them instantly.",
-    "cat": "Boshqaruv / Asboblar"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: 'Setpoint' nima? JAVOB: Boshqaruv tizimi ushlashga harakat qiladigan maqsadli qiymat (masalan kerakli harorat yoki bosim).",
-    "en": "Q: What is a 'setpoint'? A: The target value the control system tries to maintain (e.g. desired temperature or pressure).",
     "cat": "Boshqaruv / Asboblar"
   },
   {
@@ -2178,12 +1722,6 @@
     "cat": "Nasos / Klapan"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Fail-safe' klapan signal yo'qolganda nima qiladi? JAVOB: O'z-o'zidan xavfsiz holatga o'tadi — masalan yoqilg'i klapani yopiladi.",
-    "en": "Q: What does a fail-safe valve do when the signal is lost? A: It moves to a safe state by itself — e.g. the fuel valve closes.",
-    "cat": "Nasos / Klapan"
-  },
-  {
     "type": "lesson",
     "uz": "'Solenoid valve' — elektr signal bilan ochilib-yopiladigan kichik klapan. U ko'pincha katta klapanlarni boshqaruvchi 'pilot' vazifasini bajaradi.",
     "en": "A 'solenoid valve' is a small valve opened/closed by an electric signal. It often acts as a 'pilot' controlling larger valves.",
@@ -2202,12 +1740,6 @@
     "cat": "Moy / Podshipnik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Check valve' nima vazifani bajaradi? JAVOB: Suyuqlikni faqat bir yo'nalishda o'tkazib, orqaga (teskari) oqishni to'sadi.",
-    "en": "Q: What does a check valve do? A: It lets fluid flow only one way, blocking reverse (back) flow.",
-    "cat": "Nasos / Klapan"
-  },
-  {
     "type": "lesson",
     "uz": "'Relief valve' (himoya klapani) bosim xavfli darajaga chiqsa, o'z-o'zidan ochilib ortiqcha bosimni chiqaradi. U portlashning oldini oladi.",
     "en": "A 'relief valve' opens by itself when pressure rises to a dangerous level, releasing excess pressure. It prevents explosions.",
@@ -2218,12 +1750,6 @@
     "uz": "Relief klapani ma'lum bosimda ochiladigan qilib sozlanadi — u tizimning 'xavfsizlik qopqog'i' vazifasini bajaradi.",
     "en": "A relief valve is set to open at a specific pressure — acting as the system's 'safety cap'.",
     "cat": "Nasos / Klapan"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: 'Relief valve' qachon ochiladi? JAVOB: Bosim xavfli sozlangan darajaga yetganda — ortiqcha bosimni chiqarib portlashni oldini oladi.",
-    "en": "Q: When does a relief valve open? A: When pressure reaches a dangerous set level — releasing excess pressure to prevent an explosion.",
-    "cat": "Yordamchi tizimlar"
   },
   {
     "type": "lesson",
@@ -2244,12 +1770,6 @@
     "cat": "Generator"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: Issiqlik almashtirgich nima qiladi? JAVOB: Ikki suyuqlik orasida issiqlikni ular aralashmasdan uzatadi.",
-    "en": "Q: What does a heat exchanger do? A: It transfers heat between two fluids without letting them mix.",
-    "cat": "Combined Cycle / Samaradorlik"
-  },
-  {
     "type": "lesson",
     "uz": "'Centrifugal pump' (markazdan qochma nasos) aylanuvchi g'ildirak (impeller) bilan suyuqlikni tashqariga uloqtirib, bosim hosil qiladi. Stansiyadagi eng keng tarqalgan nasos.",
     "en": "A centrifugal pump uses a spinning impeller to fling liquid outward, creating pressure. It's the most common pump in a plant.",
@@ -2259,12 +1779,6 @@
     "type": "fact",
     "uz": "'Cavitation' — nasos ichida bosim juda pasayib, suyuqlikda bug' pufakchalari hosil bo'lishi. Ular portlab, nasosni yeydi va shovqin chiqaradi.",
     "en": "'Cavitation' is when pressure inside a pump drops so low that vapor bubbles form in the liquid. They implode, eroding the pump and making noise.",
-    "cat": "Nasos / Klapan"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: Nasosdagi 'cavitation' nima va nega zararli? JAVOB: Bosim pasayib bug' pufakchalari hosil bo'ladi; ular portlab nasosni yeydi.",
-    "en": "Q: What is pump cavitation and why is it harmful? A: Low pressure forms vapor bubbles that implode and erode the pump.",
     "cat": "Nasos / Klapan"
   },
   {
@@ -2286,12 +1800,6 @@
     "cat": "Yordamchi tizimlar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: NPSH nima uchun muhim? JAVOB: Nasos so'rishida yetarli bosim bo'lmasa cavitation boshlanadi va nasos shikastlanadi.",
-    "en": "Q: Why is NPSH important? A: Without enough suction pressure, cavitation begins and damages the pump.",
-    "cat": "Nasos / Klapan"
-  },
-  {
     "type": "lesson",
     "uz": "'Damper' va 'louver' havo yoki gaz oqimini rostlaydigan burilma plastinkalar. Ular ventilyatsiya va chiqindi tizimida oqimni boshqaradi.",
     "en": "'Dampers' and 'louvers' are pivoting plates that regulate air or gas flow. They control flow in ventilation and exhaust systems.",
@@ -2308,12 +1816,6 @@
     "uz": "'Silencer' (shovqin pasaytirgich) turbina kirish va chiqishidagi kuchli shovqinni kamaytiradi. U tovush to'lqinlarini yutuvchi materiallardan iborat.",
     "en": "A 'silencer' reduces the loud noise at a turbine's inlet and exhaust. It's made of sound-absorbing materials.",
     "cat": "Yordamchi tizimlar"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: 'Forced draft' va 'induced draft' farqi nima? JAVOB: Forced draft havoni itaradi (kirishda), induced draft esa tortadi (chiqishda).",
-    "en": "Q: What's the difference between forced and induced draft? A: Forced draft pushes air (at inlet), induced draft pulls it (at outlet).",
-    "cat": "Nasos / Klapan"
   },
   {
     "type": "lesson",
@@ -2340,12 +1842,6 @@
     "cat": "Yordamchi tizimlar"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Grounding grid' nima vazifani bajaradi? JAVOB: Nosozlik tokini yerga xavfsiz tarqatib, xavfli kuchlanishlarning oldini oladi.",
-    "en": "Q: What does a grounding grid do? A: It safely disperses fault current into the earth, preventing dangerous voltages.",
-    "cat": "Elektr / Himoya"
-  },
-  {
     "type": "lesson",
     "uz": "'SCADA' — masofadan nazorat va ma'lumot yig'ish tizimi. U operatorlarga stansiyani (yoki ko'p stansiyani) markazdan kuzatish imkonini beradi.",
     "en": "SCADA is a supervisory control and data acquisition system. It lets operators monitor a plant (or many plants) centrally from a distance.",
@@ -2361,12 +1857,6 @@
     "type": "lesson",
     "uz": "'Historian' — stansiya ma'lumotlarini yillar davomida saqlaydigan ma'lumotlar bazasi. U nosozlik tahlili va samaradorlikni yaxshilashda ishlatiladi.",
     "en": "A 'historian' is a database storing plant data over years. It's used for fault analysis and improving performance.",
-    "cat": "Boshqaruv / Asboblar"
-  },
-  {
-    "type": "quiz",
-    "uz": "SAVOL: SCADA tizimi nima imkon beradi? JAVOB: Stansiyani (yoki ko'p stansiyani) masofadan markazlashgan holda kuzatish va ma'lumot yig'ishni.",
-    "en": "Q: What does a SCADA system enable? A: Remote, centralized monitoring and data collection for a plant (or many plants).",
     "cat": "Boshqaruv / Asboblar"
   },
   {
@@ -2394,12 +1884,6 @@
     "cat": "Ta'mir / Xavfsizlik"
   },
   {
-    "type": "quiz",
-    "uz": "SAVOL: 'Commissioning' nima? JAVOB: Yangi stansiyani ishga tushirishdan oldin har bir tizimni sinab, sozlab tekshirish jarayoni.",
-    "en": "Q: What is commissioning? A: The process of testing, tuning and verifying every system before a new plant enters service.",
-    "cat": "Ishga tushirish / Rejim"
-  },
-  {
     "cat": "Gaz turbinasi (GT)",
     "type": "lesson",
     "uz": "Gaz turbinasi rotori bitta uzun val — unda kompressor va turbina qismlari birga o'rnatilgan. Ular bir tezlikda, bir yo'nalishda aylanadi.",
@@ -2410,12 +1894,6 @@
     "type": "fact",
     "uz": "Gaz turbinasida foydali quvvat = turbina ishlab chiqargan quvvat minus kompressorga sarflangan quvvat. Kompressor 'ochko'ziroq' bo'lsa, foydali quvvat kamayadi.",
     "en": "In a gas turbine, useful power = turbine power minus compressor power. The 'greedier' the compressor, the less useful power remains."
-  },
-  {
-    "cat": "Gaz turbinasi (GT)",
-    "type": "quiz",
-    "uz": "SAVOL: Gaz turbinasida foydali quvvat qanday hisoblanadi? JAVOB: Turbina ishlab chiqargan quvvatdan kompressorga sarflangan quvvat ayriladi.",
-    "en": "Q: How is useful power found in a gas turbine? A: Compressor power is subtracted from the power the turbine produces."
   },
   {
     "cat": "Kompressor",
@@ -2430,12 +1908,6 @@
     "en": "Compressor discharge air can exceed 400°C from compression alone — even before any fuel is burned."
   },
   {
-    "cat": "Kompressor",
-    "type": "quiz",
-    "uz": "SAVOL: Nega kompressor chiqishida havo issiq bo'ladi? JAVOB: Siqilish gazni qizdiradi — bosim oshgani sari harorat ham ko'tariladi.",
-    "en": "Q: Why is air hot at the compressor exit? A: Compression heats a gas — as pressure rises, so does temperature."
-  },
-  {
     "cat": "Yonish / Combustor",
     "type": "lesson",
     "uz": "Yonish kamerasiga kompressordan issiq, siqilgan havo keladi va unga yoqilg'i qo'shib yoqiladi. Bu gazni yanada qizdirib, energiyasini oshiradi.",
@@ -2446,12 +1918,6 @@
     "type": "fact",
     "uz": "Yonish kamerasida faqat yoqilg'ining bir qismini yoqishga havo ishlatiladi; qolgan havo alangani sovutish va gazni aralashtirishga ketadi.",
     "en": "Only part of the air in a combustor is used to burn fuel; the rest cools the flame and mixes the gas."
-  },
-  {
-    "cat": "Yonish / Combustor",
-    "type": "quiz",
-    "uz": "SAVOL: Yonish kamerasidagi havoning hammasi yoqilg'i yonishiga ketadimi? JAVOB: Yo'q — bir qismi yonishga, ko'p qismi alangani sovutish va gazni aralashtirishga ketadi.",
-    "en": "Q: Is all combustor air used to burn fuel? A: No — some burns fuel, but much cools the flame and mixes the gas."
   },
   {
     "cat": "Gaz turbinasi (GT)",
@@ -2466,12 +1932,6 @@
     "en": "The turbine's first-stage blades face the hottest gas — so they are the most heavily cooled and most expensive parts."
   },
   {
-    "cat": "Gaz turbinasi (GT)",
-    "type": "quiz",
-    "uz": "SAVOL: Turbinaning qaysi pichoqlari eng qattiq issiqlikka duchor bo'ladi? JAVOB: Birinchi bosqich pichoqlari — ular eng issiq gaz oqimini birinchi qabul qiladi.",
-    "en": "Q: Which turbine blades face the fiercest heat? A: The first-stage blades — they meet the hottest gas flow first."
-  },
-  {
     "cat": "Generator",
     "type": "lesson",
     "uz": "Gaz turbinasi vali to'g'ridan-to'g'ri generatorga ulanadi (yoki reduktor orqali). Turbina aylanishi generatorda elektr hosil qiladi.",
@@ -2482,12 +1942,6 @@
     "type": "fact",
     "uz": "50 Hz to'r uchun 2 qutbli generator 3000 ayl/min da aylanishi kerak — gaz turbinasi aynan shu tezlikda ishlaydi, shu bois to'g'ridan-to'g'ri ulanadi.",
     "en": "For a 50 Hz grid a 2-pole generator must spin at 3000 rpm — a gas turbine runs at exactly this speed, so it connects directly."
-  },
-  {
-    "cat": "Generator",
-    "type": "quiz",
-    "uz": "SAVOL: Nega gaz turbinasi generatorga ko'pincha to'g'ridan-to'g'ri (reduktorsiz) ulanadi? JAVOB: Uning tezligi (3000 ayl/min) 50 Hz generator uchun aynan mos keladi.",
-    "en": "Q: Why does a gas turbine often connect directly (no gearbox) to the generator? A: Its speed (3000 rpm) exactly suits a 50 Hz generator."
   },
   {
     "cat": "HRSG / Bug' sikli",
@@ -2502,12 +1956,6 @@
     "en": "Without an HRSG, much of the gas turbine's heat would escape uselessly up the stack. The HRSG captures it to make extra electricity."
   },
   {
-    "cat": "HRSG / Bug' sikli",
-    "type": "quiz",
-    "uz": "SAVOL: HRSG combined cycle FIKini qanday oshiradi? JAVOB: Gaz turbinasining chiqindi issiqligini bug' hosil qilishga ishlatib, qo'shimcha quvvat oladi.",
-    "en": "Q: How does an HRSG raise combined cycle efficiency? A: It uses the gas turbine's waste heat to raise steam, producing extra power."
-  },
-  {
     "cat": "Bug' turbinasi (ST)",
     "type": "lesson",
     "uz": "HRSG'da hosil bo'lgan bug' bug' turbinasiga boradi va uni aylantiradi. Bug' turbinasi ham o'z generatorini (yoki bir vali) harakatga keltiradi.",
@@ -2518,12 +1966,6 @@
     "type": "fact",
     "uz": "Ba'zi stansiyalarda gaz va bug' turbinasi bitta valda — 'single shaft'. Ular bitta generatorni birga harakatga keltiradi.",
     "en": "In some plants the gas and steam turbines share one shaft — 'single shaft'. They drive a single generator together."
-  },
-  {
-    "cat": "Bug' turbinasi (ST)",
-    "type": "quiz",
-    "uz": "SAVOL: 'Single shaft' combined cycle nima degani? JAVOB: Gaz va bug' turbinasi bitta valda joylashib, bitta generatorni birga harakatga keltiradi.",
-    "en": "Q: What is a 'single shaft' combined cycle? A: The gas and steam turbines sit on one shaft, driving a single generator together."
   },
   {
     "cat": "Moy / Podshipnik",
@@ -2538,12 +1980,6 @@
     "en": "The oil system has a tank, pumps, coolers and filters. Oil returns hot from the bearings, is cooled, filtered and pumped again."
   },
   {
-    "cat": "Moy / Podshipnik",
-    "type": "quiz",
-    "uz": "SAVOL: Moy podshipnikda ikki vazifani bajaradi — qaysilar? JAVOB: Moylash (ishqalanishni kamaytirish) va sovutish (issiqlikni olib chiqish).",
-    "en": "Q: What two jobs does oil do in a bearing? A: Lubrication (reducing friction) and cooling (carrying heat away)."
-  },
-  {
     "cat": "Elektr / Himoya",
     "type": "lesson",
     "uz": "Generatordan chiqqan elektr avval 'generator circuit breaker' orqali o'tadi, keyin step-up transformatorda kuchlanishi oshiriladi va to'rga uzatiladi.",
@@ -2556,12 +1992,6 @@
     "en": "A generator circuit breaker allows quickly isolating the generator from the grid — important during a fault or maintenance."
   },
   {
-    "cat": "Elektr / Himoya",
-    "type": "quiz",
-    "uz": "SAVOL: Generator elektri to'rga borishdan oldin qayerdan o'tadi? JAVOB: Generator circuit breaker'dan, keyin step-up transformatordan (kuchlanish oshiriladi).",
-    "en": "Q: What does generator power pass through before reaching the grid? A: The generator circuit breaker, then the step-up transformer (voltage raised)."
-  },
-  {
     "cat": "Ishga tushirish / Rejim",
     "type": "lesson",
     "uz": "Ishga tushirishda ketma-ketlik: rotorni aylantirish (SFC) → purge → yoqish (ignition) → tezlashtirish → sinxronizatsiya → yuklama berish. Har qadam tekshiriladi.",
@@ -2572,12 +2002,6 @@
     "type": "fact",
     "uz": "Sinxronizatsiya lahzasi juda muhim — generator chastotasi, kuchlanishi va fazasi to'rga aniq mos kelganda circuit breaker ulanadi.",
     "en": "The moment of synchronization is critical — the breaker closes only when the generator's frequency, voltage and phase exactly match the grid."
-  },
-  {
-    "cat": "Ishga tushirish / Rejim",
-    "type": "quiz",
-    "uz": "SAVOL: Gaz turbinasi ishga tushirishda 'purge' qaysi qadamda bo'ladi? JAVOB: Rotorni aylantirishdan keyin, yoqish (ignition)dan oldin — yonuvchi gazni tozalash uchun.",
-    "en": "Q: In gas turbine startup, when does 'purge' happen? A: After spinning the rotor and before ignition — to clear combustible gas."
   },
   {
     "cat": "Yordamchi tizimlar",
@@ -2593,12 +2017,6 @@
   },
   {
     "cat": "Yordamchi tizimlar",
-    "type": "quiz",
-    "uz": "SAVOL: Kirish havo yo'lidagi filtr va kanal turbina quvvatiga qanday ta'sir qiladi? JAVOB: Bosim yo'qotishi tufayli quvvatni biroz kamaytiradi, shu bois past qarshilikli qilinadi.",
-    "en": "Q: How do the inlet filter and duct affect turbine power? A: Their pressure loss slightly reduces power, so they're built for low resistance."
-  },
-  {
-    "cat": "Yordamchi tizimlar",
     "type": "lesson",
     "uz": "Gaz turbinasi chiqindi gazi HRSG'ga borishdan oldin 'diffuser' orqali o'tadi — u oqimni sekinlashtirib, bosimni tiklaydi va energiyani tejaydi.",
     "en": "Gas turbine exhaust passes through a 'diffuser' before the HRSG — it slows the flow, recovers pressure and saves energy."
@@ -2608,12 +2026,6 @@
     "type": "fact",
     "uz": "Kompressordan olingan sovutuvchi havo turbina disklari va pichoqlarini sovutadi — bu havo keyin asosiy gaz oqimiga qo'shilib ketadi.",
     "en": "Cooling air taken from the compressor cools turbine discs and blades — this air then rejoins the main gas flow."
-  },
-  {
-    "cat": "Yordamchi tizimlar",
-    "type": "quiz",
-    "uz": "SAVOL: Turbinani sovutgan havo qayerga boradi? JAVOB: U asosiy gaz oqimiga qo'shilib, chiqindi bilan birga HRSG tomon ketadi.",
-    "en": "Q: Where does the air that cooled the turbine go? A: It rejoins the main gas flow and heads toward the HRSG with the exhaust."
   },
   {
     "cat": "Boshqaruv / Asboblar",
@@ -2628,12 +2040,6 @@
     "en": "Exhaust gas temperature (EGT) is a key indicator of gas turbine 'health' — the control system keeps it below limits."
   },
   {
-    "cat": "Boshqaruv / Asboblar",
-    "type": "quiz",
-    "uz": "SAVOL: GT boshqaruv tizimi nima asosida yoqilg'ini rostlaydi? JAVOB: Yuzlab datchik (harorat, tezlik, bosim) ma'lumoti asosida, real vaqtda.",
-    "en": "Q: On what basis does the GT control system regulate fuel? A: On data from hundreds of sensors (temperature, speed, pressure), in real time."
-  },
-  {
     "cat": "Ta'mir / Xavfsizlik",
     "type": "lesson",
     "uz": "Gaz turbinasi rejali ta'mir tsikli 'operating hours' va 'starts' ga bog'liq — qaysi biri avval chegaraga yetsa, o'sha inspection vaqtini belgilaydi.",
@@ -2644,12 +2050,6 @@
     "type": "fact",
     "uz": "'Hot gas path inspection' — turbinaning eng issiq qismlarini (pichoq, transition piece) ko'zdan kechirish va almashtirish. Bu eng muhim ta'mir turlaridan.",
     "en": "A 'hot gas path inspection' examines and replaces the turbine's hottest parts (blades, transition pieces). It's among the most important overhauls."
-  },
-  {
-    "cat": "Ta'mir / Xavfsizlik",
-    "type": "quiz",
-    "uz": "SAVOL: Gaz turbinasi ta'mir vaqtini nima belgilaydi? JAVOB: Ishlagan soatlar yoki startlar soni — qaysi biri avval chegaraga yetsa.",
-    "en": "Q: What determines a gas turbine's maintenance timing? A: Operating hours or number of starts — whichever reaches its limit first."
   },
   {
     "cat": "Combined Cycle / Samaradorlik",
@@ -2664,12 +2064,6 @@
     "en": "The steam turbine produces power without burning extra fuel — it uses only the 'free' waste heat of the gas turbine."
   },
   {
-    "cat": "Combined Cycle / Samaradorlik",
-    "type": "quiz",
-    "uz": "SAVOL: GTCC'da bug' turbinasi qancha quvvat beradi (taxminan)? JAVOB: Umumiy quvvatning taxminan uchdan bir qismini, qo'shimcha yoqilg'isiz.",
-    "en": "Q: About how much power does the steam turbine give in a GTCC? A: Roughly one-third of total, without extra fuel."
-  },
-  {
     "cat": "Kondensator / Sovutish",
     "type": "lesson",
     "uz": "Bug' turbinasidan chiqqan bug' kondensatorda sovib suvga aylanadi. Bu suv qaytadan HRSG'ga haydaladi — yopiq sikl, suv behuda ketmaydi.",
@@ -2682,22 +2076,10 @@
     "en": "The vacuum in the condenser lets steam expand more — this significantly increases the power extracted from the steam turbine."
   },
   {
-    "cat": "Kondensator / Sovutish",
-    "type": "quiz",
-    "uz": "SAVOL: Kondensatdan keyin suv qayerga boradi? JAVOB: Qaytadan HRSG'ga haydaladi — sikl yopiq, suv qayta-qayta ishlatiladi.",
-    "en": "Q: Where does water go after condensing? A: It is pumped back to the HRSG — the loop is closed, water is reused."
-  },
-  {
     "cat": "Energetika asoslari",
     "type": "lesson",
     "uz": "Elektr energiya deyarli saqlanmaydi — u ishlab chiqarilgan zahoti iste'mol qilinadi. Shuning uchun stansiyalar talabga qarab real vaqtda quvvatni moslaydi.",
     "en": "Electricity is barely storable — it is consumed the instant it's generated. So plants adjust output to demand in real time."
-  },
-  {
-    "cat": "Energetika asoslari",
-    "type": "quiz",
-    "uz": "SAVOL: Nega stansiyalar quvvatni doimiy moslab turadi? JAVOB: Elektr saqlanmaydi — ishlab chiqarish va iste'mol har lahzada teng bo'lishi kerak.",
-    "en": "Q: Why do plants constantly adjust output? A: Electricity isn't stored — generation and consumption must match every instant."
   },
   {
     "cat": "Kompressor",
@@ -2710,12 +2092,6 @@
     "type": "fact",
     "uz": "IGV yopiq bo'lganda kam havo kiradi — bu ishga tushirishda kompressor 'surge'ining oldini oladi va yumshoq start beradi.",
     "en": "With IGVs closed, less air enters — this prevents compressor surge at startup and gives a smooth start."
-  },
-  {
-    "cat": "Kompressor",
-    "type": "quiz",
-    "uz": "SAVOL: IGV ishga tushirishda nega yopiq turadi? JAVOB: Havoni cheklab, kompressor surge'ining oldini olish va yumshoq start berish uchun.",
-    "en": "Q: Why are IGVs closed during startup? A: To limit air, prevent compressor surge and give a smooth start."
   },
   {
     "cat": "Kompressor",
@@ -2742,12 +2118,6 @@
     "en": "J-class turbines reach a ~1600°C firing temperature, giving record efficiency — made possible by advanced cooling and materials."
   },
   {
-    "cat": "Gaz turbinasi (GT)",
-    "type": "quiz",
-    "uz": "SAVOL: 'Firing temperature' oshsa nima yutuq va nima xavf? JAVOB: Yutuq — yuqori FIK va quvvat; xavf — materiallarga ko'proq issiqlik yuki.",
-    "en": "Q: What's the gain and risk of higher firing temperature? A: Gain — more efficiency and power; risk — greater thermal load on materials."
-  },
-  {
     "cat": "Yonish / Combustor",
     "type": "lesson",
     "uz": "DLN (Dry Low NOx) combustor yoqilg'ini havo bilan oldindan aralashtirib yoqadi. Bu 'premix' yonish alangani sovuqroq va tekisroq qiladi, NOx kamayadi.",
@@ -2758,12 +2128,6 @@
     "type": "fact",
     "uz": "NOx (azot oksidi) juda yuqori haroratli alangada ko'proq hosil bo'ladi — shuning uchun DLN alangani nazorat ostida sovuqroq ushlaydi.",
     "en": "NOx (nitrogen oxides) forms more in very hot flames — so DLN keeps the flame controlled and cooler."
-  },
-  {
-    "cat": "Yonish / Combustor",
-    "type": "quiz",
-    "uz": "SAVOL: DLN combustor NOx'ni qanday kamaytiradi? JAVOB: Yoqilg'ini oldindan havo bilan aralashtirib, tekis va sovuqroq alanga hosil qiladi.",
-    "en": "Q: How does a DLN combustor reduce NOx? A: By pre-mixing fuel with air to make an even, cooler flame."
   },
   {
     "cat": "Yonish / Combustor",
@@ -2791,12 +2155,6 @@
   },
   {
     "cat": "Generator",
-    "type": "quiz",
-    "uz": "SAVOL: Generatorda tok qaysi qismda hosil bo'ladi? JAVOB: Statorda (qo'zg'almas o'ramlarda) — aylanuvchi rotor magnit maydoni orqali induksiya qiladi.",
-    "en": "Q: In which part of a generator is current produced? A: In the stator (stationary windings) — induced by the rotating rotor's magnetic field."
-  },
-  {
-    "cat": "Generator",
     "type": "lesson",
     "uz": "Katta generator juda ko'p issiqlik chiqaradi. Sovutish uchun ichida vodorod yoki havo yopiq aylanadi va cooler'da soviydi.",
     "en": "A large generator produces a lot of heat. For cooling, hydrogen or air circulates inside in a closed loop and is cooled in a cooler."
@@ -2821,21 +2179,9 @@
   },
   {
     "cat": "Elektr / Himoya",
-    "type": "quiz",
-    "uz": "SAVOL: 'Reverse power' himoyasi nimani sezadi? JAVOB: Turbina quvvat bermay qolib, generator to'rdan tok tortib motor bo'lib qolishini.",
-    "en": "Q: What does reverse power protection detect? A: The turbine ceasing to drive the generator, so it draws power from the grid and acts as a motor."
-  },
-  {
-    "cat": "Elektr / Himoya",
     "type": "lesson",
     "uz": "'Differential protection' generator yoki transformatorga kirayotgan va chiqayotgan tokni solishtiradi. Farq bo'lsa — ichkarida nosozlik bor, darhol uziladi.",
     "en": "Differential protection compares current entering and leaving a generator or transformer. A difference means an internal fault — it trips instantly."
-  },
-  {
-    "cat": "Elektr / Himoya",
-    "type": "quiz",
-    "uz": "SAVOL: 'Differential protection' qanday ishlaydi? JAVOB: Kirish va chiqish tokini solishtiradi — farq bo'lsa ichki nosozlik deb uzadi.",
-    "en": "Q: How does differential protection work? A: It compares input and output current — a mismatch signals an internal fault and it trips."
   },
   {
     "cat": "Moy / Podshipnik",
@@ -2850,12 +2196,6 @@
     "en": "At startup the shaft turns slowly and the oil film is weak — so some turbines use high-pressure 'jacking oil' to lift the shaft."
   },
   {
-    "cat": "Moy / Podshipnik",
-    "type": "quiz",
-    "uz": "SAVOL: 'Jacking oil' nima uchun kerak? JAVOB: Sekin aylanishda (start/stop) valni ko'tarib, metall-metall tegishning oldini olish uchun.",
-    "en": "Q: Why is 'jacking oil' needed? A: To lift the shaft at low speed (start/stop) and prevent metal-to-metal contact."
-  },
-  {
     "cat": "HRSG / Bug' sikli",
     "type": "lesson",
     "uz": "HRSG ko'p bosimli bo'ladi: HP (yuqori), IP (o'rta), LP (past). Har bosim darajasi chiqindi gaz issiqligining turli qismidan foydalanadi.",
@@ -2866,12 +2206,6 @@
     "type": "fact",
     "uz": "Ko'p bosimli HRSG chiqindi gaz issiqligidan maksimal foydalanadi — issiqroq gaz HP bug' hosil qiladi, sovuqroq gaz LP bug' va suvni isitadi.",
     "en": "A multi-pressure HRSG extracts the most from exhaust heat — hotter gas makes HP steam, cooler gas makes LP steam and heats water."
-  },
-  {
-    "cat": "HRSG / Bug' sikli",
-    "type": "quiz",
-    "uz": "SAVOL: Nega HRSG ko'p bosim darajasida ishlaydi (HP/IP/LP)? JAVOB: Chiqindi gaz issiqligidan imkon qadar ko'proq foydalanish uchun — har daraja gazning turli qismini oladi.",
-    "en": "Q: Why does an HRSG use multiple pressure levels (HP/IP/LP)? A: To extract as much exhaust heat as possible — each level uses a different part of the gas."
   },
   {
     "cat": "Bug' turbinasi (ST)",
@@ -2886,12 +2220,6 @@
     "en": "Steam expands most in the LP section — so LP blades are the longest (nearly a meter) and the biggest part of the turbine."
   },
   {
-    "cat": "Bug' turbinasi (ST)",
-    "type": "quiz",
-    "uz": "SAVOL: Nega bug' turbinasi LP pichoqlari eng uzun bo'ladi? JAVOB: Past bosimda bug' hajmi juda katta — uni qabul qilish uchun katta pichoqlar kerak.",
-    "en": "Q: Why are steam turbine LP blades the longest? A: At low pressure steam volume is huge — large blades are needed to handle it."
-  },
-  {
     "cat": "Ishga tushirish / Rejim",
     "type": "lesson",
     "uz": "Combined cycle ishga tushishi bosqichma-bosqich: avval gaz turbinasi, keyin HRSG bug' hosil qiladi, oxirida bug' turbinasi qo'shiladi. To'liq quvvatga chiqish vaqt oladi.",
@@ -2902,12 +2230,6 @@
     "type": "fact",
     "uz": "Bug' turbinasi ishga tushishi uchun HRSG yetarli bug' hosil qilishi kerak — shuning uchun u gaz turbinasidan keyin, biroz kechroq qo'shiladi.",
     "en": "The steam turbine needs the HRSG to raise enough steam first — so it joins a bit later, after the gas turbine."
-  },
-  {
-    "cat": "Ishga tushirish / Rejim",
-    "type": "quiz",
-    "uz": "SAVOL: Combined cycle'da nega bug' turbinasi gaz turbinasidan keyin ishga tushadi? JAVOB: Avval HRSG bug' hosil qilishi kerak, buning uchun gaz turbinasi issiq gaz berishi lozim.",
-    "en": "Q: Why does the steam turbine start after the gas turbine in a combined cycle? A: The HRSG must first raise steam, which needs the gas turbine's hot gas."
   },
   {
     "cat": "Yordamchi tizimlar",
@@ -2922,12 +2244,6 @@
     "en": "When fuel gas is heated, part of that heat comes from the combined cycle itself — this further raises efficiency ('fuel gas heating')."
   },
   {
-    "cat": "Yordamchi tizimlar",
-    "type": "quiz",
-    "uz": "SAVOL: Yoqilg'i gaz tizimi gazni qanday tayyorlaydi? JAVOB: Filtrlaydi, bosimini rostlaydi va isitadi — barqaror yonish uchun.",
-    "en": "Q: How does the fuel gas system prepare the gas? A: It filters, regulates pressure and heats it — for stable combustion."
-  },
-  {
     "cat": "Nasos / Klapan",
     "type": "lesson",
     "uz": "'Boiler feed pump' HRSG'ga suvni yuqori bosim ostida haydaydi. U stansiyadagi eng quvvatli va muhim nasoslardan biri.",
@@ -2938,12 +2254,6 @@
     "type": "fact",
     "uz": "Feed pump ishlamay qolsa, HRSG suvsiz qolib quvurlari kuyishi mumkin — shuning uchun ko'pincha zaxira feed pump bo'ladi.",
     "en": "If the feed pump fails, the HRSG could run dry and its tubes overheat — so a backup feed pump is usually provided."
-  },
-  {
-    "cat": "Nasos / Klapan",
-    "type": "quiz",
-    "uz": "SAVOL: 'Boiler feed pump' nima qiladi? JAVOB: Suvni yuqori bosim ostida HRSG'ga haydab, bug' hosil bo'lishini ta'minlaydi.",
-    "en": "Q: What does the boiler feed pump do? A: It forces water into the HRSG at high pressure so steam can be raised."
   },
   {
     "cat": "Boshqaruv / Asboblar",
@@ -2958,12 +2268,6 @@
     "en": "A DCS displays thousands of points (temperature, pressure, valve position) in real time and automates many processes — the operator mainly supervises."
   },
   {
-    "cat": "Boshqaruv / Asboblar",
-    "type": "quiz",
-    "uz": "SAVOL: DCS operatorga nima imkon beradi? JAVOB: Butun stansiyani nazorat xonasidan, ekranlar orqali kuzatish va boshqarish.",
-    "en": "Q: What does a DCS let an operator do? A: Monitor and control the whole plant from the control room via screens."
-  },
-  {
     "cat": "Ta'mir / Xavfsizlik",
     "type": "lesson",
     "uz": "Vibratsiya monitoringi turbina 'salomatligining' asosiy ko'rsatkichi. Podshipniklardagi datchiklar vibratsiyani doimiy o'lchaydi — o'sishi nosozlikdan darak beradi.",
@@ -2976,21 +2280,1023 @@
     "en": "If vibration rises sharply the turbine automatically trips — preventing major damage from rotor rubbing or breaking apart."
   },
   {
-    "cat": "Ta'mir / Xavfsizlik",
-    "type": "quiz",
-    "uz": "SAVOL: Vibratsiya keskin oshsa turbina nima qiladi? JAVOB: Avtomatik trip bo'ladi (xavfsiz to'xtaydi) — katta shikastning oldini olish uchun.",
-    "en": "Q: What does a turbine do if vibration rises sharply? A: It automatically trips (safely stops) — to prevent major damage."
-  },
-  {
     "cat": "Combined Cycle / Samaradorlik",
     "type": "lesson",
     "uz": "Combined cycle FIKi ~60% dan yuqori — bu ma'noda u dunyodagi eng samarali issiqlik elektr stansiyasi turi. Sababi: bir yoqilg'idan ikki marta ish olinadi.",
     "en": "Combined cycle efficiency exceeds ~60% — making it the most efficient type of thermal power plant. The reason: work is extracted twice from one fuel."
   },
   {
-    "cat": "Combined Cycle / Samaradorlik",
     "type": "quiz",
-    "uz": "SAVOL: Nega combined cycle oddiy gaz turbinasidan ancha samarali? JAVOB: U gaz turbinasi chiqindi issiqligini ham bug' turbinasida ishlatadi — bir yoqilg'idan ikki marta ish.",
-    "en": "Q: Why is combined cycle much more efficient than a simple gas turbine? A: It also uses the gas turbine's waste heat in a steam turbine — two rounds of work from one fuel."
+    "cat": "Gaz turbinasi (GT)",
+    "q": "Combined cycle stansiyasida gaz turbinasining issiq chiqindi gazi qayerga boradi?",
+    "options": [
+      "HRSG'ga — bug' hosil qilishga",
+      "To'g'ridan mo'riga chiqariladi",
+      "Kompressorga qaytariladi",
+      "Kondensatorga"
+    ],
+    "correct": 0,
+    "explain": "Chiqindi gaz HRSG'da bug' hosil qiladi va bug' turbinasini aylantiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "Nega to'xtagan issiq turbina rotori 'turning gear' bilan aylantirib turiladi?",
+    "options": [
+      "O'z og'irligidan egilib (bow) qolmasligi uchun",
+      "Elektr ishlab chiqarish uchun",
+      "Moyni isitish uchun",
+      "Havoni siqish uchun"
+    ],
+    "correct": 0,
+    "explain": "Issiq rotor bir joyda tursa og'irligidan egiladi va vibratsiya beradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Gaz turbinasi (GT)",
+    "q": "Nega turbina pichoqlarining ichi bo'sh (kanalli) qilinadi?",
+    "options": [
+      "Ichidan sovuq havo o'tkazib sovutish uchun",
+      "Og'irligini kamaytirish uchun",
+      "Ko'proq yoqilg'i sig'dirish uchun",
+      "Shovqinni kamaytirish uchun"
+    ],
+    "correct": 0,
+    "explain": "Ichidan sovuq havo o'tkazib, pichoqni erib ketishdan saqlaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Moy / Podshipnik",
+    "q": "Turbina moy bosimi to'satdan yo'qolsa nima bo'ladi?",
+    "options": [
+      "Turbina darhol xavfsiz to'xtatiladi (trip)",
+      "Hech narsa, ishlayveradi",
+      "Quvvat oshadi",
+      "Moy o'zi tiklanadi"
+    ],
+    "correct": 0,
+    "explain": "Podshipniklar sovutish va moylashsiz shikastlanadi, shuning uchun darhol trip."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "'Overspeed trip' nima uchun kerak?",
+    "options": [
+      "Turbina xavfli tezlashsa to'xtatib, parchalanishdan saqlash",
+      "Tezlikni oshirish uchun",
+      "Yoqilg'i tejash uchun",
+      "Havoni sovutish uchun"
+    ],
+    "correct": 0,
+    "explain": "Haddan tashqari tezlikda rotor parchalanishi mumkin — trip buni oldini oladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Generator",
+    "q": "Generatorni to'rga (grid) ulashdan oldin nima qilinadi?",
+    "options": [
+      "Sinxronizatsiya — chastota, kuchlanish, faza moslanadi",
+      "Darhol ulanadi",
+      "Kuchlanish pasaytiriladi",
+      "Rotor to'xtatiladi"
+    ],
+    "correct": 0,
+    "explain": "Chastota, kuchlanish va faza to'rga aniq mos kelmasa kuchli zarba bo'ladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "Nega 'cold start' 'hot start'dan uzoqroq davom etadi?",
+    "options": [
+      "Sovuq qismlarni asta qizdirish kerak",
+      "Yoqilg'i ko'p ketadi",
+      "Generator sovuq bo'ladi",
+      "Havo zich bo'ladi"
+    ],
+    "correct": 0,
+    "explain": "Sovuq qismlarni tez qizdirish termik kuchlanish va shikast keltiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yonish / Combustor",
+    "q": "DLN yonish kamerasining asosiy maqsadi nima?",
+    "options": [
+      "NOx (azot oksidi) chiqindisini kamaytirish",
+      "Ko'proq quvvat berish",
+      "Yoqilg'ini isitish",
+      "Shovqinni kamaytirish"
+    ],
+    "correct": 0,
+    "explain": "Yoqilg'ini havo bilan oldindan aralashtirib, sovuqroq alanga va kam NOx beradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Generator",
+    "q": "Generatorning qaysi qismi aylanadi?",
+    "options": [
+      "Rotor (magnit maydon yaratadi)",
+      "Stator",
+      "Ikkalasi ham",
+      "Hech qaysi"
+    ],
+    "correct": 0,
+    "explain": "Rotor aylanib magnit maydon yaratadi; stator qo'zg'almas, unda tok hosil bo'ladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Moy / Podshipnik",
+    "q": "'Thrust bearing' (o'q podshipnigi) nima vazifani bajaradi?",
+    "options": [
+      "Rotorni o'q bo'ylab siljishdan ushlaydi",
+      "Rotorni aylantiradi",
+      "Moyni sovutadi",
+      "Havoni siqadi"
+    ],
+    "correct": 0,
+    "explain": "Journal bearing yon tomondan, thrust bearing esa o'q bo'ylab ushlab turadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yordamchi tizimlar",
+    "q": "Turbina kabinasi nega doimiy ventilyatsiya qilinadi?",
+    "options": [
+      "Issiqlik va sizgan gazni tarqatib, portlashni oldini olish",
+      "Faqat shovqin uchun",
+      "Havoni siqish uchun",
+      "Yoritish uchun"
+    ],
+    "correct": 0,
+    "explain": "Gaz to'planib qolmasligi kerak, aks holda portlash xavfi tug'iladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yordamchi tizimlar",
+    "q": "CO₂ o't o'chirish tizimi olovni qanday o'chiradi?",
+    "options": [
+      "Kislorodni siqib chiqarib, olovni bo'g'adi",
+      "Suv sepadi",
+      "Olovni sovutadi",
+      "Havo puflaydi"
+    ],
+    "correct": 0,
+    "explain": "Bo'limni CO₂ bilan to'ldiradi — olov kislorodsiz o'chadi. Odamlar oldin chiqishi kerak."
+  },
+  {
+    "type": "quiz",
+    "cat": "HRSG / Bug' sikli",
+    "q": "HRSG'da 'superheater' nima qiladi?",
+    "options": [
+      "Bug'ni qaynash haroratidan yuqori qizdiradi",
+      "Suvni sovutadi",
+      "Bug'ni suvga aylantiradi",
+      "Havoni filtrlaydi"
+    ],
+    "correct": 0,
+    "explain": "Quruq, yuqori energiyali bug' turbina pichoqlarini namlik shikastidan saqlaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kondensator / Sovutish",
+    "q": "Sovutish minorasidan chiqadigan oq 'tutun' aslida nima?",
+    "options": [
+      "Suv bug'i (kondensatlangan)",
+      "Tutun",
+      "Zaharli gaz",
+      "CO₂"
+    ],
+    "correct": 0,
+    "explain": "Bu tutun emas — bug'langan suvning kondensatlangan bug'i."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kompressor",
+    "q": "IGV (Inlet Guide Vanes) pichoqlari nima uchun kerak?",
+    "options": [
+      "Kirayotgan havo miqdorini boshqarish",
+      "Yoqilg'ini yoqish",
+      "Bug' hosil qilish",
+      "Generatorni sovutish"
+    ],
+    "correct": 0,
+    "explain": "Havo miqdorini rostlab, turbina quvvatini va barqarorligini boshqaradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kompressor",
+    "q": "Kompressor 'surge'i nima?",
+    "options": [
+      "Havo oqimining teskari urilishi (xavfli)",
+      "Havo tez oqishi",
+      "Bug' hosil bo'lishi",
+      "Oddiy ish rejimi"
+    ],
+    "correct": 0,
+    "explain": "Teskari oqim kuchli tebranish va pichoqlarga shikast keltiradi; IGV/VV buni oldini oladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Generator",
+    "q": "Nega yirik generatorlar vodorod (H₂) bilan sovutiladi?",
+    "options": [
+      "Vodorod havodan ~7 barobar yaxshi issiqlik o'tkazadi",
+      "Vodorod arzon",
+      "Vodorod og'ir",
+      "Vodorod yonmaydi"
+    ],
+    "correct": 0,
+    "explain": "Yaxshi issiqlik o'tkazishi va shovqinni kamaytirishi tufayli; lekin portlovchi, ehtiyot shart."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "SFC (Static Frequency Converter) gaz turbinasini qanday ishga tushiradi?",
+    "options": [
+      "Generatorni motor qilib ishlatib, rotorni aylantiradi",
+      "Bug' beradi",
+      "Yoqilg'i quyadi",
+      "Havo puflaydi"
+    ],
+    "correct": 0,
+    "explain": "Generator vaqtincha motor bo'lib, turbina rotorini yonish boshlanguncha aylantiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "Nega generator kuchlanishi to'rga uzatishdan oldin oshiriladi?",
+    "options": [
+      "Yuqori kuchlanishda uzatish yo'qotishlari kam bo'ladi",
+      "Xavfsizlik uchun",
+      "Generatorni sovutish uchun",
+      "Tezlikni oshirish uchun"
+    ],
+    "correct": 0,
+    "explain": "Yuqori kuchlanishda tok kichrayadi, shu bois uzatishdagi issiqlik yo'qotishlari kamayadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "Neytral yerlashtirish (neutral grounding) nima uchun kerak?",
+    "options": [
+      "Nosozlik tokini xavfsiz yo'naltirib himoya qilish",
+      "Kuchlanishni oshirish",
+      "Generatorni sovutish",
+      "Chastotani rostlash"
+    ],
+    "correct": 0,
+    "explain": "Nosozlikda tokni yerga xavfsiz yo'naltirib, jihoz va odamlarni himoya qiladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "Circuit breaker (avtomatik uzgich) va oddiy kalit farqi nima?",
+    "options": [
+      "Breaker nosozlikda avtomatik va tez uzadi",
+      "Farqi yo'q",
+      "Kalit tezroq",
+      "Breaker faqat qo'lda ishlaydi"
+    ],
+    "correct": 0,
+    "explain": "Breaker nosozlikda o'zi trip qiladi; oddiy kalit faqat qo'lda ulash/uzish uchun."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "Nega tok va kuchlanish CT/VT orqali o'lchanadi (to'g'ridan emas)?",
+    "options": [
+      "Katta qiymatni xavfsiz kichiraytirib, asboblarni himoya qilish",
+      "Aniqroq bo'lishi uchun",
+      "Arzon bo'lishi uchun",
+      "Tezroq bo'lishi uchun"
+    ],
+    "correct": 0,
+    "explain": "CT/VT katta tok/kuchlanishni xavfsiz kichik qiymatga aylantiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yonish / Combustor",
+    "q": "Alanga datchigi (flame detector) alanga o'chganini sezsa nima bo'ladi?",
+    "options": [
+      "Yoqilg'i darhol to'xtatiladi",
+      "Ko'proq yoqilg'i beriladi",
+      "Hech narsa",
+      "Turbina tezlashadi"
+    ],
+    "correct": 0,
+    "explain": "Aks holda yonmagan gaz to'planib portlash xavfi tug'iladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "HRSG / Bug' sikli",
+    "q": "'Once-through' HRSG barabanli HRSG'dan qanday farq qiladi?",
+    "options": [
+      "Barabani yo'q — suv to'g'ridan bug'ga aylanadi",
+      "Kattaroq",
+      "Sekinroq ishga tushadi",
+      "Suv ishlatmaydi"
+    ],
+    "correct": 0,
+    "explain": "Barabansiz — tez ishga tushadi, lekin suv sifatiga qattiqroq talab qo'yadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kondensator / Sovutish",
+    "q": "Kondensatorda vakuum yo'qolsa nima bo'ladi?",
+    "options": [
+      "Bug' kam kengayadi, quvvat va FIK tushadi",
+      "Quvvat oshadi",
+      "Hech narsa",
+      "Bug' ko'payadi"
+    ],
+    "correct": 0,
+    "explain": "Past bosim bug'ning ko'proq kengayishiga imkon beradi; vakuumsiz quvvat tushadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "HRSG / Bug' sikli",
+    "q": "Qozon 'blowdown'i nima uchun qilinadi?",
+    "options": [
+      "To'plangan tuzlarni chiqarib, quyqa/korroziyani oldini olish",
+      "Bug' ko'paytirish",
+      "Suv qo'shish",
+      "Bosimni oshirish"
+    ],
+    "correct": 0,
+    "explain": "Bug'lanishdan to'plangan tuzlarni chiqarib tashlaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Bug' turbinasi (ST)",
+    "q": "Nega bug' quruq (yuqori sifatli) bo'lishi kerak?",
+    "options": [
+      "Suv tomchilari pichoqlarni yeydi (erozion)",
+      "Quruq bug' arzon",
+      "Nam bug' sovuq",
+      "Farqi yo'q"
+    ],
+    "correct": 0,
+    "explain": "Suv tomchilari yuqori tezlikda pichoqqa urilib ularni asta yeydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Bug' turbinasi (ST)",
+    "q": "Bug'ni 'reheat' qilish (qayta qizdirish) nima beradi?",
+    "options": [
+      "Ko'proq ish, yuqori FIK, quruqroq bug'",
+      "Faqat isitadi",
+      "Bug'ni kamaytiradi",
+      "Hech narsa"
+    ],
+    "correct": 0,
+    "explain": "Ikki marta qizdirib ko'proq ish oladi va oxirgi bosqichda bug'ni quruqroq saqlaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Combined Cycle / Samaradorlik",
+    "q": "Nega hech qanday elektr stansiyasi 100% samarali emas?",
+    "options": [
+      "Termodinamika: issiqning bir qismi doim atrofga ketadi",
+      "Jihozlar eski",
+      "Yoqilg'i yomon",
+      "Operatorlar xato qiladi"
+    ],
+    "correct": 0,
+    "explain": "Termodinamika qonuniga ko'ra issiqlikning bir qismi doim sovuq manbaga tarqaladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Combined Cycle / Samaradorlik",
+    "q": "Black start qobiliyati nima uchun muhim?",
+    "options": [
+      "To'r o'chganda stansiya o'zini toksiz ishga tushiradi",
+      "Tezroq ishlash uchun",
+      "Yoqilg'i tejash uchun",
+      "Shovqin kam bo'lishi uchun"
+    ],
+    "correct": 0,
+    "explain": "Total blackoutdan keyin tashqi toksiz ishga tushib, to'rni tiklashga yordam beradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kompressor",
+    "q": "Nega kompressor chiqishida havo issiq bo'ladi?",
+    "options": [
+      "Siqilish gazni qizdiradi",
+      "Yoqilg'i yonadi",
+      "Quyosh isitadi",
+      "Elektr qizdiradi"
+    ],
+    "correct": 0,
+    "explain": "Bosim oshgani sari harorat ko'tariladi — yoqilg'i yonmasidan oldin ham 400°C dan oshadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Gaz turbinasi (GT)",
+    "q": "Turbinaning qaysi pichoqlari eng qattiq issiqlikka duchor bo'ladi?",
+    "options": [
+      "Birinchi bosqich pichoqlari",
+      "Oxirgi bosqich",
+      "Kompressor pichoqlari",
+      "Hammasi teng"
+    ],
+    "correct": 0,
+    "explain": "Birinchi bosqich eng issiq gaz oqimini birinchi qabul qiladi — eng ko'p sovutiladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Generator",
+    "q": "Nega gaz turbinasi generatorga ko'pincha to'g'ridan-to'g'ri ulanadi?",
+    "options": [
+      "Uning tezligi (3000 ayl/min) 50 Hz uchun aynan mos",
+      "Arzon bo'lishi uchun",
+      "Xavfsizlik uchun",
+      "Reduktor yo'q bo'lgani uchun"
+    ],
+    "correct": 0,
+    "explain": "3000 ayl/min 2 qutbli 50 Hz generator uchun aynan to'g'ri keladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Boshqaruv / Asboblar",
+    "q": "GT boshqaruv tizimi yoqilg'ini nima asosida rostlaydi?",
+    "options": [
+      "Yuzlab datchik ma'lumoti asosida, real vaqtda",
+      "Operator qo'li bilan",
+      "Taymer bo'yicha",
+      "Tasodifiy"
+    ],
+    "correct": 0,
+    "explain": "Harorat, tezlik, bosim, vibratsiya datchiklaridan ma'lumot olib real vaqtda boshqaradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ta'mir / Xavfsizlik",
+    "q": "Vibratsiya keskin oshsa turbina nima qiladi?",
+    "options": [
+      "Avtomatik trip bo'ladi (xavfsiz to'xtaydi)",
+      "Tezlashadi",
+      "Hech narsa",
+      "Sekinlashadi"
+    ],
+    "correct": 0,
+    "explain": "Katta shikast (tegib ketish, parchalanish)ning oldini olish uchun avtomatik to'xtaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ta'mir / Xavfsizlik",
+    "q": "Borescope inspection nima afzallik beradi?",
+    "options": [
+      "Turbinani ochmasdan ichini ko'rish",
+      "Tezroq quvvat",
+      "Kam yoqilg'i",
+      "Ko'proq bug'"
+    ],
+    "correct": 0,
+    "explain": "Ingichka kamera orqali ichki pichoqlarni ko'radi — vaqt va xarajat tejaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ta'mir / Xavfsizlik",
+    "q": "LOTO (Lockout-Tagout) nima uchun kerak?",
+    "options": [
+      "Ta'mirda jihoz tasodifan yoqilishining oldini olish",
+      "Tezroq ishlash",
+      "Yoqilg'i tejash",
+      "Shovqin kam bo'lishi"
+    ],
+    "correct": 0,
+    "explain": "Energiya manbai qulflanadi; faqat ishchi o'zi ochadi — bexos yoqilishdan himoya."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ta'mir / Xavfsizlik",
+    "q": "Nega tor makonga (confined space) kirishdan oldin havo tekshiriladi?",
+    "options": [
+      "Kislorod yetarli va zaharli gaz yo'qligiga ishonch uchun",
+      "Harorat uchun",
+      "Namlik uchun",
+      "Shovqin uchun"
+    ],
+    "correct": 0,
+    "explain": "Kislorod kam yoki zaharli/yonuvchi gaz bo'lishi mumkin — tekshirilmasa xavfli."
+  },
+  {
+    "type": "quiz",
+    "cat": "Combined Cycle / Samaradorlik",
+    "q": "GTCC'da bug' turbinasi taxminan qancha quvvat beradi?",
+    "options": [
+      "Umumiy quvvatning ~1/3 qismi",
+      "Yarmi",
+      "Hammasi",
+      "~1/10"
+    ],
+    "correct": 0,
+    "explain": "Gaz turbinasi ~2/3, bug' turbinasi ~1/3 — qo'shimcha yoqilg'isiz."
+  },
+  {
+    "type": "quiz",
+    "cat": "Gaz turbinasi (GT)",
+    "q": "Gaz turbinasida foydali quvvat qanday hisoblanadi?",
+    "options": [
+      "Turbina quvvatidan kompressor quvvati ayriladi",
+      "Turbina va kompressor quvvati qo'shiladi",
+      "Faqat kompressor quvvati",
+      "Faqat yoqilg'i miqdori"
+    ],
+    "correct": 0,
+    "explain": "Kompressor turbina quvvatining deyarli yarmini iste'mol qiladi; qolgani foydali."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kompressor",
+    "q": "IGV ishga tushirishda nega yopiq turadi?",
+    "options": [
+      "Havoni cheklab, surge'ning oldini olish",
+      "Ko'proq havo kiritish",
+      "Yoqilg'i tejash",
+      "Generatorni sovutish"
+    ],
+    "correct": 0,
+    "explain": "Kam havo bilan yumshoq start beradi va kompressor surge'ining oldini oladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yonish / Combustor",
+    "q": "Yonish kamerasidagi havoning hammasi yoqilg'i yonishiga ketadimi?",
+    "options": [
+      "Yo'q — ko'p qismi alangani sovutish/aralashtirishga",
+      "Ha, hammasi",
+      "Yarmi generatorga",
+      "Hech qaysi"
+    ],
+    "correct": 0,
+    "explain": "Bir qismi yonishga, ko'p qismi alangani sovutish va gazni aralashtirishga ketadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Bug' turbinasi (ST)",
+    "q": "'Single shaft' combined cycle nima degani?",
+    "options": [
+      "Gaz va bug' turbinasi bir valda, bitta generator",
+      "Bitta gaz turbinasi",
+      "Bitta bug' turbinasi",
+      "Ikki generator"
+    ],
+    "correct": 0,
+    "explain": "Ikkala turbina bir valda joylashib, bitta generatorni birga harakatga keltiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Moy / Podshipnik",
+    "q": "Moy podshipnikda qaysi ikki vazifani bajaradi?",
+    "options": [
+      "Moylash va sovutish",
+      "Moylash va yoritish",
+      "Sovutish va bug' hosil qilish",
+      "Faqat moylash"
+    ],
+    "correct": 0,
+    "explain": "Ishqalanishni kamaytiradi (moylash) va issiqlikni olib chiqadi (sovutish)."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "Generator elektri to'rga borishdan oldin qayerdan o'tadi?",
+    "options": [
+      "Circuit breaker, keyin step-up transformator",
+      "To'g'ridan to'rga",
+      "Faqat kondensator",
+      "Kompressor"
+    ],
+    "correct": 0,
+    "explain": "Avval generator circuit breaker, keyin step-up transformatorda kuchlanish oshiriladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "Gaz turbinasi ishga tushirishda 'purge' qaysi qadamda bo'ladi?",
+    "options": [
+      "Rotorni aylantirishdan keyin, yoqishdan oldin",
+      "Eng oxirida",
+      "Sinxronizatsiyadan keyin",
+      "To'xtatishda"
+    ],
+    "correct": 0,
+    "explain": "Yonuvchi gazni tozalab, yoqishda portlash xavfini yo'qotadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yordamchi tizimlar",
+    "q": "Kirish havo yo'lidagi filtr va kanal turbina quvvatiga qanday ta'sir qiladi?",
+    "options": [
+      "Bosim yo'qotishi tufayli quvvatni biroz kamaytiradi",
+      "Quvvatni oshiradi",
+      "Ta'sir qilmaydi",
+      "Ikki barobar kamaytiradi"
+    ],
+    "correct": 0,
+    "explain": "Shuning uchun ular past qarshilikli qilib loyihalanadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yordamchi tizimlar",
+    "q": "Turbinani sovutgan havo qayerga boradi?",
+    "options": [
+      "Asosiy gaz oqimiga qo'shilib HRSG tomon",
+      "Tashqariga chiqariladi",
+      "Kompressorga qaytadi",
+      "Bakka yig'iladi"
+    ],
+    "correct": 0,
+    "explain": "Sovutuvchi havo asosiy gaz oqimiga qo'shilib, chiqindi bilan HRSG'ga ketadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Combined Cycle / Samaradorlik",
+    "q": "Nega combined cycle oddiy gaz turbinasidan ancha samarali?",
+    "options": [
+      "Chiqindi issiqlikni bug' turbinasida ham ishlatadi",
+      "Ko'proq yoqilg'i yoqadi",
+      "Kattaroq",
+      "Tezroq aylanadi"
+    ],
+    "correct": 0,
+    "explain": "Bir yoqilg'idan ikki marta ish — gaz turbinasi + bug' turbinasi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kondensator / Sovutish",
+    "q": "Kondensatdan keyin suv qayerga boradi?",
+    "options": [
+      "Qaytadan HRSG'ga haydaladi (yopiq sikl)",
+      "Tashqariga tashlanadi",
+      "Kompressorga",
+      "Bug' turbinasiga to'g'ridan"
+    ],
+    "correct": 0,
+    "explain": "Sikl yopiq — suv qayta-qayta ishlatiladi, behuda ketmaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Energetika asoslari",
+    "q": "Nega stansiyalar quvvatni doimiy moslab turadi?",
+    "options": [
+      "Elektr saqlanmaydi — ishlab chiqarish=iste'mol",
+      "Yoqilg'i tejash uchun",
+      "Jihoz eskirmasligi uchun",
+      "Shovqin kam bo'lishi uchun"
+    ],
+    "correct": 0,
+    "explain": "Elektr ishlab chiqarilgan zahoti iste'mol qilinadi, ikkalasi teng bo'lishi kerak."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kompressor",
+    "q": "Kompressor bosqichida stator (qo'zg'almas) pichoqlari nima qiladi?",
+    "options": [
+      "Havo tezligini bosimga aylantiradi",
+      "Havoni tezlashtiradi",
+      "Yoqilg'i qo'shadi",
+      "Gazni sovutadi"
+    ],
+    "correct": 0,
+    "explain": "Rotor pichoqlar tezlashtiradi, stator pichoqlar tezlikni bosimga aylantiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Gaz turbinasi (GT)",
+    "q": "'Firing temperature' oshsa nima yutuq va nima xavf?",
+    "options": [
+      "Yutuq: FIK/quvvat; Xavf: materiallarga issiqlik yuki",
+      "Faqat yutuq",
+      "Faqat xavf",
+      "Hech qanday ta'sir yo'q"
+    ],
+    "correct": 0,
+    "explain": "Yuqori harorat samaradorlikni oshiradi, lekin materiallarni ko'proq sinaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yonish / Combustor",
+    "q": "NOx (azot oksidi) qachon ko'proq hosil bo'ladi?",
+    "options": [
+      "Juda yuqori haroratli alangada",
+      "Sovuq alangada",
+      "Yoqilg'i kam bo'lganda",
+      "Havo ko'p bo'lganda"
+    ],
+    "correct": 0,
+    "explain": "Shuning uchun DLN alangani nazorat ostida sovuqroq ushlab NOx'ni kamaytiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Generator",
+    "q": "Generatorda tok qaysi qismda hosil bo'ladi?",
+    "options": [
+      "Statorda (qo'zg'almas o'ramlarda)",
+      "Rotorda",
+      "Podshipnikda",
+      "Valda"
+    ],
+    "correct": 0,
+    "explain": "Aylanuvchi rotor magnit maydoni statordagi o'ramlarda tok induksiya qiladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "'Reverse power' himoyasi nimani sezadi?",
+    "options": [
+      "Generator motor bo'lib, to'rdan tok tortishini",
+      "Ortiqcha kuchlanishni",
+      "Yuqori haroratni",
+      "Vibratsiyani"
+    ],
+    "correct": 0,
+    "explain": "Turbina quvvat bermay qolsa generator to'rdan tok tortadi — bu xavfli holat."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "'Differential protection' qanday ishlaydi?",
+    "options": [
+      "Kirish va chiqish tokini solishtiradi",
+      "Haroratni o'lchaydi",
+      "Tezlikni kuzatadi",
+      "Vibratsiyani sezadi"
+    ],
+    "correct": 0,
+    "explain": "Farq bo'lsa ichkarida nosozlik bor deb darhol uzadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Moy / Podshipnik",
+    "q": "'Jacking oil' nima uchun kerak?",
+    "options": [
+      "Sekin aylanishda valni ko'tarib, metall tegishdan saqlash",
+      "Moyni isitish",
+      "Moyni sovutish",
+      "Bosimni o'lchash"
+    ],
+    "correct": 0,
+    "explain": "Start/stopda moy pardasi zaif — jacking oil valni ko'taradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "HRSG / Bug' sikli",
+    "q": "Nega HRSG ko'p bosim darajasida ishlaydi (HP/IP/LP)?",
+    "options": [
+      "Chiqindi gaz issiqligidan maksimal foydalanish",
+      "Xavfsizlik uchun",
+      "Arzon bo'lishi uchun",
+      "Kam joy egallashi uchun"
+    ],
+    "correct": 0,
+    "explain": "Issiqroq gaz HP bug', sovuqroq gaz LP bug' hosil qiladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Bug' turbinasi (ST)",
+    "q": "Nega bug' turbinasi LP pichoqlari eng uzun bo'ladi?",
+    "options": [
+      "Past bosimda bug' hajmi juda katta",
+      "Mustahkam bo'lishi uchun",
+      "Sovutish uchun",
+      "Balans uchun"
+    ],
+    "correct": 0,
+    "explain": "Past bosimli katta hajmdagi bug'ni qabul qilish uchun uzun pichoqlar kerak."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "Combined cycle'da nega bug' turbinasi gaz turbinasidan keyin ishga tushadi?",
+    "options": [
+      "Avval HRSG yetarli bug' hosil qilishi kerak",
+      "Xavfsizlik uchun",
+      "Tejash uchun",
+      "Tasodifan"
+    ],
+    "correct": 0,
+    "explain": "HRSG bug' hosil qilishi uchun gaz turbinasidan issiq gaz kerak."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yordamchi tizimlar",
+    "q": "Yoqilg'i gaz tizimi gazni qanday tayyorlaydi?",
+    "options": [
+      "Filtrlaydi, bosimini rostlaydi, isitadi",
+      "Faqat filtrlaydi",
+      "Faqat sovutadi",
+      "Hech narsa qilmaydi"
+    ],
+    "correct": 0,
+    "explain": "Toza, to'g'ri bosimli, iliq gaz barqaror yonishni ta'minlaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Nasos / Klapan",
+    "q": "'Boiler feed pump' nima qiladi?",
+    "options": [
+      "Suvni yuqori bosimda HRSG'ga haydaydi",
+      "Moyni haydaydi",
+      "Havoni siqadi",
+      "Bug'ni sovutadi"
+    ],
+    "correct": 0,
+    "explain": "Yuqori bosim ostida suvni HRSG'ga haydab, bug' hosil bo'lishini ta'minlaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Boshqaruv / Asboblar",
+    "q": "DCS operatorga nima imkon beradi?",
+    "options": [
+      "Butun stansiyani ekranlar orqali boshqarish",
+      "Faqat harorat o'lchash",
+      "Faqat yoqish",
+      "Faqat to'xtatish"
+    ],
+    "correct": 0,
+    "explain": "Minglab nuqtani real vaqtda ko'rsatib, ko'p jarayonni avtomatik boshqaradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ta'mir / Xavfsizlik",
+    "q": "Gaz turbinasi ta'mir vaqtini nima belgilaydi?",
+    "options": [
+      "Ishlagan soatlar yoki startlar — qaysi biri avval",
+      "Faqat yosh",
+      "Faqat quvvat",
+      "Havo harorati"
+    ],
+    "correct": 0,
+    "explain": "Qaysi biri avval chegaraga yetsa, o'sha inspection vaqtini belgilaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kompressor",
+    "q": "Nega part-load (qisman quvvat)da IGV havo oqimini kamaytiradi?",
+    "options": [
+      "Chiqindi gaz haroratini yuqori ushlab HRSG samaradorligini saqlash",
+      "Yoqilg'i tejash",
+      "Shovqin kam bo'lishi",
+      "Xavfsizlik"
+    ],
+    "correct": 0,
+    "explain": "Yuqori chiqindi harorati bug' turbinasiga yetarli bug' beradi, FIK saqlanadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yonish / Combustor",
+    "q": "DLN combustor NOx'ni qanday kamaytiradi?",
+    "options": [
+      "Yoqilg'ini oldindan aralashtirib, tekis/sovuq alanga",
+      "Ko'proq havo puflab",
+      "Suv sepib",
+      "Yoqilg'ini isitib"
+    ],
+    "correct": 0,
+    "explain": "Premix yonish sovuqroq va tekisroq alanga beradi, NOx kamayadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "Reaktiv quvvat (var) nima uchun kerak?",
+    "options": [
+      "To'r kuchlanishini barqaror ushlash",
+      "Foydali ish bajarish",
+      "Chastotani oshirish",
+      "Generatorni sovutish"
+    ],
+    "correct": 0,
+    "explain": "Foydali ish bajarmasa ham to'r kuchlanishini barqaror ushlash uchun zarur."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "VFD (o'zgaruvchan chastota drayveri) qanday energiya tejaydi?",
+    "options": [
+      "Motor tezligini ehtiyojga qarab pasaytirib",
+      "Kuchlanishni oshirib",
+      "Motorni sovutib",
+      "Tokni kuchaytirib"
+    ],
+    "correct": 0,
+    "explain": "Nasos har doim to'liq tezlikda aylanmaydi — talabga moslab energiya tejaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Nasos / Klapan",
+    "q": "Nasosdagi 'cavitation' nima va nega zararli?",
+    "options": [
+      "Bosim pasayib bug' pufakchalari portlab nasosni yeydi",
+      "Nasos qizib ketishi",
+      "Nasos tez aylanishi",
+      "Suv toshishi"
+    ],
+    "correct": 0,
+    "explain": "Past bosimda bug' pufakchalari hosil bo'lib, portlaydi va nasosni yemiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Nasos / Klapan",
+    "q": "'Check valve' (qaytmas klapan) nima vazifani bajaradi?",
+    "options": [
+      "Suyuqlikni faqat bir yo'nalishda o'tkazadi",
+      "Bosimni o'lchaydi",
+      "Suyuqlikni sovutadi",
+      "Oqimni to'xtatadi"
+    ],
+    "correct": 0,
+    "explain": "Orqaga oqishni to'sib, nasos va jihozlarni himoya qiladi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Nasos / Klapan",
+    "q": "'Relief valve' (himoya klapani) qachon ochiladi?",
+    "options": [
+      "Bosim xavfli sozlangan darajaga yetganda",
+      "Har doim ochiq",
+      "Hech qachon",
+      "Harorat oshganda"
+    ],
+    "correct": 0,
+    "explain": "Ortiqcha bosimni chiqarib portlashning oldini oladi — tizimning 'xavfsizlik qopqog'i'."
+  },
+  {
+    "type": "quiz",
+    "cat": "Boshqaruv / Asboblar",
+    "q": "'Fail-safe' klapan signal yo'qolganda nima qiladi?",
+    "options": [
+      "O'z-o'zidan xavfsiz holatga o'tadi",
+      "Ochiq qoladi",
+      "Portlaydi",
+      "Signal kutadi"
+    ],
+    "correct": 0,
+    "explain": "Masalan yoqilg'i klapani signal yo'qolsa o'zi yopiladi — xavfsiz holat."
+  },
+  {
+    "type": "quiz",
+    "cat": "Boshqaruv / Asboblar",
+    "q": "'2-out-of-3' datchik mantig'i nega ishlatiladi?",
+    "options": [
+      "Bitta datchik yanglishsa ham to'g'ri qaror",
+      "Tezroq bo'lishi uchun",
+      "Arzon bo'lishi uchun",
+      "Kam joy uchun"
+    ],
+    "correct": 0,
+    "explain": "Uch datchikdan ikkitasi rozi bo'lsa harakat — ko'pchilik ovoz g'olib."
+  },
+  {
+    "type": "quiz",
+    "cat": "Boshqaruv / Asboblar",
+    "q": "'Alarm' va 'trip' o'rtasidagi farq nima?",
+    "options": [
+      "Alarm ogohlantiradi; trip avtomatik to'xtatadi",
+      "Farqi yo'q",
+      "Trip faqat ogohlantiradi",
+      "Alarm to'xtatadi"
+    ],
+    "correct": 0,
+    "explain": "Alarm — e'tibor ber; trip — jihozni zudlik bilan xavfsiz to'xtatadi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "Nega turbina 'kritik tezlik'dan tez o'tkaziladi?",
+    "options": [
+      "Rezonans tufayli vibratsiya kuchayadi",
+      "Yoqilg'i tejash uchun",
+      "Tezroq bo'lishi uchun",
+      "Xavfsizlik uchun emas"
+    ],
+    "correct": 0,
+    "explain": "Kritik tezlikda rotor rezonansga tushadi; uzoq turish shikast keltiradi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Combined Cycle / Samaradorlik",
+    "q": "'2x1' combined cycle nima degani?",
+    "options": [
+      "Ikki gaz turbinasi bitta bug' turbinasiga",
+      "Ikki bug' turbinasi",
+      "Ikki generator",
+      "Bitta hammasi"
+    ],
+    "correct": 0,
+    "explain": "Ikki gaz turbinasining chiqindi issig'i bitta bug' turbinasini ta'minlaydi."
+  },
+  {
+    "type": "quiz",
+    "cat": "Combined Cycle / Samaradorlik",
+    "q": "Past 'heat rate' nimani bildiradi?",
+    "options": [
+      "Yuqori samaradorlik (kam yoqilg'i, ko'p elektr)",
+      "Past quvvat",
+      "Ko'p yoqilg'i",
+      "Eski jihoz"
+    ],
+    "correct": 0,
+    "explain": "Heat rate past bo'lsa FIK yuqori — kam issiqlik bilan ko'p elektr."
   }
 ]
