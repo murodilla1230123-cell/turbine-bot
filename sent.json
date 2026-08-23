@@ -2,5 +2,9 @@
   {
     "uz": "Combined Cycle Power Plant (CCPP) bitta yoqilg'idan ikki marta energiya oladi: avval gaz, keyin bug' turbinasi orqali.",
     "en": "A Combined Cycle Power Plant extracts energy twice from one fuel: first via the gas turbine, then the steam turbine."
+  },
+  {
+    "uz": "Turbina rotori ideal balansda bo'lishi shart: 1 gramm nomutanosiblik 3000 ayl/min tezlikda kuchli vibratsiya beradi.",
+    "en": "A turbine rotor must be perfectly balanced — even 1 gram of imbalance causes strong vibration at 3000 rpm."
   }
 ]
