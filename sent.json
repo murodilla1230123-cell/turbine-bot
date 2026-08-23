@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "type": "quiz",
+    "cat": "Bug' turbinasi (ST)",
+    "q": "Bug'ni 'reheat' qilish (qayta qizdirish) nima beradi?",
+    "options": [
+      "Ko'proq ish, yuqori FIK, quruqroq bug'",
+      "Faqat isitadi",
+      "Bug'ni kamaytiradi",
+      "Hech narsa"
+    ],
+    "correct": 0,
+    "explain": "Ikki marta qizdirib ko'proq ish oladi va oxirgi bosqichda bug'ni quruqroq saqlaydi."
+  }
+]
