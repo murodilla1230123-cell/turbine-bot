@@ -4,5 +4,11 @@
     "uz": "Stansiya shovqini nazorat qilinadi — turbina, transformator va ventilyatorlar shovqin chiqaradi. Shovqin himoyasi ishchilar salomatligi uchun muhim.",
     "en": "Plant noise is controlled — turbines, transformers and fans produce noise. Noise protection matters for worker health.",
     "cat": "Elektr / Himoya"
+  },
+  {
+    "type": "fact",
+    "uz": "DCS 'distributed' (taqsimlangan) deyiladi, chunki boshqaruv bitta kompyuterda emas, ko'p kontrollerlarga taqsimlangan — biri ishlamay qolsa, tizim to'xtamaydi.",
+    "en": "A DCS is called 'distributed' because control is spread across many controllers, not one computer — if one fails, the system keeps running.",
+    "cat": "Boshqaruv / Asboblar"
   }
 ]
