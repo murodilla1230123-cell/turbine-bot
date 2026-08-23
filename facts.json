@@ -3298,5 +3298,751 @@
     ],
     "correct": 0,
     "explain": "Heat rate past bo'lsa FIK yuqori — kam issiqlik bilan ko'p elektr."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Releli himoya — elektr tizimidagi nosozlikni (qisqa tutashuv, ortiqcha yuk) avtomatik sezib, shikastlangan qismni tez uzib tashlaydigan tizim. U elektr tarmog'ining 'qorovuli'.",
+    "en": "Relay protection is a system that automatically senses faults (short circuit, overload) in the power system and quickly disconnects the damaged part. It's the 'guard' of the electrical network."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Releli himoyaning asosiy vazifasi — nosozlikni imkon qadar tez o'chirib, jihoz shikastini va energetika tizimining barqarorligiga tahdidni kamaytirish.",
+    "en": "The main task of relay protection is to clear a fault as fast as possible, minimizing equipment damage and threats to power system stability."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Releli himoyaning to'rt asosiy talabi bor: selektivlik (tanlovchanlik), tezkorlik, sezgirlik va ishonchlilik. Yaxshi himoya shu to'rttasini birga ta'minlaydi.",
+    "en": "Relay protection has four key requirements: selectivity, speed, sensitivity and reliability. Good protection provides all four together."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Selektivlik (tanlovchanlik) — himoya faqat shikastlangan qismni uzishi, sog'lom qismlarni esa ishlab turishga qoldirishi. Bu iste'molchilar keraksiz o'chib qolmasligini ta'minlaydi.",
+    "en": "Selectivity means protection disconnects only the faulted part, leaving healthy parts in service. This keeps consumers from being needlessly cut off."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Releli himoyada 'selektivlik' (tanlovchanlik) nima degani?",
+    "options": [
+      "Faqat shikastlangan qismni uzish, sog'lomini qoldirish",
+      "Hamma narsani o'chirish",
+      "Faqat tez ishlash",
+      "Faqat kuchli tok"
+    ],
+    "correct": 0,
+    "explain": "Selektivlik faqat nosoz qismni uzib, iste'molchilarni keraksiz o'chishdan saqlaydi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Tezkorlik — himoya nosozlikni qanchalik tez o'chirishi. Yuqori kuchlanishli tarmoqlarda (330-500 kV) qisqa tutashuv 0,06-0,08 sekundda o'chirilishi kerak.",
+    "en": "Speed is how fast protection clears a fault. In high-voltage networks (330-500 kV) a short circuit must be cleared in 0.06-0.08 seconds."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Qisqa tutashuvni tez o'chirish energetika tizimining barqarorligini saqlaydi — kechiksa, generatorlar sinxronizmdan chiqib, avariya kengayishi mumkin.",
+    "en": "Fast fault clearing preserves power system stability — if delayed, generators can lose synchronism and the disturbance can spread."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Sezgirlik — himoyaning eng kichik nosozlikni ham sezish qobiliyati. U tizimning barcha rejimlarida, hatto minimal rejimda ham yetarli bo'lishi kerak.",
+    "en": "Sensitivity is the ability to detect even the smallest fault. It must be sufficient in all system modes, even minimum mode."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Ishonchlilik — himoya kerak bo'lganda albatta ishlashi, kerak bo'lmaganda esa yolg'on ishlamasligi. Sxema soddaligi va sifatli elementlar ishonchlilikni oshiradi.",
+    "en": "Reliability means protection operates when needed and does not misoperate when not needed. Simple schemes and quality components improve reliability."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Releli himoyaning to'rt asosiy talabi qaysilar?",
+    "options": [
+      "Selektivlik, tezkorlik, sezgirlik, ishonchlilik",
+      "Tezlik, arzonlik, ranglik, og'irlik",
+      "Faqat tezlik va sezgirlik",
+      "Faqat ishonchlilik"
+    ],
+    "correct": 0,
+    "explain": "Yaxshi himoya shu to'rt talabni birga ta'minlaydi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Asosiy himoya' shikastni birinchi bo'lib o'chirishga mo'ljallangan. Agar u ishlamay qolsa, 'zaxira himoya' (rezerv) uni almashtirib, nosozlikni o'chiradi.",
+    "en": "'Main protection' is meant to clear a fault first. If it fails, 'backup protection' takes over and clears the fault instead."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Zaxira himoya biroz kechikish bilan ishlaydi — u avval asosiy himoyaga imkon beradi, faqat u ishlamasagina o'zi harakatga kiradi.",
+    "en": "Backup protection operates with a slight delay — it first gives the main protection a chance, acting only if the main one fails."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "'Zaxira himoya' (backup) qachon ishlaydi?",
+    "options": [
+      "Asosiy himoya ishlamay qolsa",
+      "Har doim birinchi",
+      "Hech qachon",
+      "Faqat tunda"
+    ],
+    "correct": 0,
+    "explain": "Zaxira himoya biroz kechikish bilan, asosiy himoya ishlamasa harakatga kiradi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Rele — kirish kattaligi (tok, kuchlanish) belgilangan qiymatdan oshsa ishga tushadigan qurilma. U kontaktlarini yopib, uzgichga 'uz' buyrug'ini beradi.",
+    "en": "A relay is a device that operates when its input quantity (current, voltage) exceeds a set value. It closes contacts and sends a 'trip' command to the breaker."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Ilk relelar elektromexanik edi (aylanuvchi disk, prujina). Zamonaviylari raqamli (mikroprotsessorli) — ular tez, aniq va ko'p funksiyani bir qurilmada bajaradi.",
+    "en": "Early relays were electromechanical (rotating disc, spring). Modern ones are digital (microprocessor-based) — fast, accurate, and combining many functions in one device."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Tokli himoya' (current protection) tarmoqdagi tokni kuzatadi. Qisqa tutashuvda tok keskin oshadi — himoya buni sezib, zanjirni uzadi.",
+    "en": "Current protection monitors the current in the network. In a short circuit the current rises sharply — the protection senses this and trips the circuit."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Qisqa tutashuv toki normal ish tokidan o'nlab, ba'zan yuzlab barobar katta bo'lishi mumkin — shuning uchun uni sezish nisbatan oson.",
+    "en": "A short-circuit current can be tens, sometimes hundreds of times larger than normal load current — so it is relatively easy to detect."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Qisqa tutashuvda tok qanday o'zgaradi?",
+    "options": [
+      "Keskin oshadi (o'nlab barobar)",
+      "Keskin kamayadi",
+      "O'zgarmaydi",
+      "Sekin oshadi"
+    ],
+    "correct": 0,
+    "explain": "Tok keskin oshgani uchun tokli himoya uni oson sezadi va zanjirni uzadi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Maksimal tokli himoya' (MTZ) tok belgilangan chegaradan oshsa ishga tushadi. Bu eng oddiy va keng tarqalgan himoya turi.",
+    "en": "'Overcurrent protection' (MTZ) operates when current exceeds a set threshold. It is the simplest and most widespread type of protection."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Maksimal tokli himoya selektivligini ta'minlash uchun vaqt kechikishi ishlatiladi — manbadan uzoqroq himoyalar tezroq, yaqinrog'i sekinroq ishlaydi.",
+    "en": "To make overcurrent protection selective, time delays are used — protections farther from the source act faster, those nearer act slower."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Maksimal tokli himoya (MTZ) qachon ishga tushadi?",
+    "options": [
+      "Tok belgilangan chegaradan oshganda",
+      "Kuchlanish tushganda",
+      "Harorat oshganda",
+      "Chastota o'zgarganda"
+    ],
+    "correct": 0,
+    "explain": "MTZ — eng oddiy va keng tarqalgan himoya, tok chegaradan oshsa ishlaydi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Tok otsechkasi' (tez ishlovchi tokli himoya) juda katta toklarda darhol, kechikishsiz ishlaydi. U faqat manbaga yaqin, eng xavfli qisqa tutashuvlarga javob beradi.",
+    "en": "An 'instantaneous overcurrent' (current cut-off) operates immediately, without delay, at very high currents. It responds only to the most dangerous faults near the source."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Tok otsechkasi vaqt kechikishisiz ishlagani uchun eng tez himoyalardan biri — lekin u faqat liniyaning bir qismini qamraydi, butunini emas.",
+    "en": "Because it acts without time delay, current cut-off is among the fastest protections — but it covers only part of a line, not all of it."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Vaqt kechikishi' (vidergka vremeni) himoyalar orasida muvofiqlik yaratadi. Har bosqich o'zidan oldingisidan bir 'pog'ona' (masalan 0,3-0,5 s) sekinroq ishlaydi.",
+    "en": "A 'time delay' coordinates protections. Each stage acts one 'step' slower (e.g. 0.3-0.5 s) than the previous one."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Nega maksimal tokli himoyada vaqt kechikishi ishlatiladi?",
+    "options": [
+      "Selektivlik — to'g'ri qismni uzish uchun",
+      "Tejash uchun",
+      "Tezroq bo'lishi uchun",
+      "Shovqin kam bo'lishi uchun"
+    ],
+    "correct": 0,
+    "explain": "Vaqt kechikishi himoyalar orasida muvofiqlik yaratib, faqat kerakli qism uzilishini ta'minlaydi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Tok transformatori' (TT) tarmoqdagi katta tokni kichik, o'lchash mumkin bo'lgan tokka (masalan 5 A yoki 1 A) aylantiradi. Rele shu kichik tok bilan ishlaydi.",
+    "en": "A current transformer (CT) scales the large network current down to a small, measurable one (e.g. 5 A or 1 A). The relay works with this small current."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Tok transformatori relelarni yuqori kuchlanishdan ajratadi ham — rele xavfsiz, past kuchlanishli tomonda ishlaydi.",
+    "en": "A current transformer also isolates relays from high voltage — the relay works safely on the low-voltage side."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Tok transformatori (TT) nima qiladi?",
+    "options": [
+      "Katta tokni kichik o'lchanadigan tokka aylantiradi",
+      "Kuchlanishni oshiradi",
+      "Tokni to'xtatadi",
+      "Bug' hosil qiladi"
+    ],
+    "correct": 0,
+    "explain": "Katta tokni 5A yoki 1A ga aylantirib, rele bilan xavfsiz o'lchash imkonini beradi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Kuchlanish transformatori' (KT) yuqori kuchlanishni past (masalan 100 V) ga aylantiradi — kuchlanishga bog'liq himoyalar va o'lchash asboblari uchun.",
+    "en": "A voltage transformer (VT) reduces high voltage to a low level (e.g. 100 V) — for voltage-dependent protections and measuring instruments."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Differensial himoya' himoyalanadigan qismga kirayotgan va chiqayotgan tokni solishtiradi. Normal holatda ular teng; farq paydo bo'lsa — ichkarida nosozlik bor.",
+    "en": "Differential protection compares current entering and leaving the protected element. Normally they're equal; a difference means an internal fault."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Differensial himoya juda selektiv — u faqat o'z zonasidagi nosozlikka javob beradi, tashqi qisqa tutashuvga esa umuman ta'sir qilmaydi.",
+    "en": "Differential protection is highly selective — it responds only to faults within its zone and not at all to external short circuits."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Differensial himoya qanday ishlaydi?",
+    "options": [
+      "Kirish va chiqish tokini solishtiradi",
+      "Faqat kuchlanishni o'lchaydi",
+      "Haroratni kuzatadi",
+      "Chastotani sanaydi"
+    ],
+    "correct": 0,
+    "explain": "Kirish va chiqish toki farqi ichki nosozlikni ko'rsatadi; differensial himoya juda selektiv."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Transformatorning differensial himoyasi uning ikki tomonidagi tokni solishtiradi. Ichki nosozlik (o'ram tutashuvi) bo'lsa, tok muvozanati buziladi va himoya ishlaydi.",
+    "en": "A transformer's differential protection compares currents on its two sides. An internal fault (winding short) upsets the balance and the protection operates."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Transformator ulanganda kuchli 'magnitlash toki' (inrush) o'tadi — u nosozlikka o'xshaydi. Differensial himoya buni ajratib, yolg'on ishlamasligi kerak.",
+    "en": "When a transformer is energized, a large 'inrush' magnetizing current flows — it resembles a fault. Differential protection must distinguish it and not misoperate."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Transformator ulanganda o'tadigan 'inrush' toki himoyaga qanday muammo tug'diradi?",
+    "options": [
+      "Nosozlikka o'xshaydi, yolg'on ishlashi mumkin",
+      "Hech qanday",
+      "Tokni kamaytiradi",
+      "Kuchlanishni oshiradi"
+    ],
+    "correct": 0,
+    "explain": "Differensial himoya inrush tokini haqiqiy nosozlikdan ajrata olishi kerak."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Gaz himoyasi' (Buxgolts relesi) moyli transformatorda ichki nosozlikda hosil bo'ladigan gazni sezadi. Yengil nosozlikda signal, kuchli nosozlikda uzish beradi.",
+    "en": "Gas protection (Buchholz relay) senses gas formed by an internal fault in an oil-filled transformer. It signals for minor faults and trips for severe ones."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Buxgolts relesi transformator ichidagi nosozlikni (o'ram kuyishi, yoy) gaz pufakchalari orqali sezadi — bu elektr o'lchovlar ko'ra olmagan nosozlikni ham topadi.",
+    "en": "A Buchholz relay detects internal transformer faults (winding burn, arcing) via gas bubbles — catching faults even electrical measurements might miss."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Buxgolts (gaz) relesi nimani sezadi?",
+    "options": [
+      "Transformator ichidagi nosozlikdan hosil bo'lgan gazni",
+      "Tashqi haroratni",
+      "Chastotani",
+      "Yorug'likni"
+    ],
+    "correct": 0,
+    "explain": "Ichki nosozlikda gaz hosil bo'ladi; yengil holda signal, kuchli holda uzish beradi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Masofaviy himoya' (distansion) nosozlikkacha bo'lgan masofani (impedans) o'lchaydi. Nosozlik yaqin bo'lsa tez, uzoq bo'lsa sekinroq uzadi — bu selektivlikni beradi.",
+    "en": "Distance protection measures the distance (impedance) to a fault. A near fault trips fast, a far one slower — providing selectivity."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Masofaviy himoya uzun yuqori kuchlanishli liniyalarda keng ishlatiladi — u tok va kuchlanish nisbatidan nosozlik masofasini hisoblaydi.",
+    "en": "Distance protection is widely used on long high-voltage lines — it computes fault distance from the ratio of voltage to current."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Masofaviy (distansion) himoya nimani o'lchaydi?",
+    "options": [
+      "Nosozlikkacha masofani (impedans)",
+      "Faqat tokni",
+      "Haroratni",
+      "Chastotani"
+    ],
+    "correct": 0,
+    "explain": "Nosozlik yaqin bo'lsa tez, uzoq bo'lsa sekin uzadi — tok/kuchlanish nisbatidan masofa topiladi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Yerga tutashuv himoyasi' bir faza yerga tegib qolganda ishlaydi. Bunday nosozlik ko'p uchraydi va uni tez topish muhim.",
+    "en": "Earth-fault protection operates when one phase touches earth. Such faults are common, and detecting them quickly is important."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Yerga tutashuv toki tarmoq neytralining yerlashtirilish usuliga bog'liq — u kichik yoki katta bo'lishi mumkin, himoya shunga moslanadi.",
+    "en": "Earth-fault current depends on how the network neutral is grounded — it can be small or large, and protection is adapted accordingly."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'AVR' (Avtomatik Vklyuchenie Rezerva / zaxirani avtomatik ulash) asosiy ta'minot yo'qolsa, iste'molchini zaxira manbaga avtomatik ulaydi. Bu uzilishni minimallashtiradi.",
+    "en": "Automatic transfer (AVR/ATS) switches a consumer to a backup supply automatically when the main supply is lost. This minimizes interruption."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'APV' (Avtomatik Povtornoe Vklyuchenie / avtomatik qayta ulash) liniya uzilgach, uni avtomatik qayta ulashga urinadi. Ko'p qisqa tutashuvlar o'tkinchi — qayta ulaganda yo'qoladi.",
+    "en": "Auto-reclosing (APV) automatically tries to re-energize a line after it trips. Many short circuits are transient — they disappear on reclosing."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "'APV' (avtomatik qayta ulash) nima uchun foydali?",
+    "options": [
+      "Ko'p qisqa tutashuvlar o'tkinchi — qayta ulaganda yo'qoladi",
+      "Tok tejaydi",
+      "Kuchlanish oshiradi",
+      "Haroratni pasaytiradi"
+    ],
+    "correct": 0,
+    "explain": "O'tkinchi nosozlik (masalan chaqmoq) qayta ulaganda ketadi, ta'minot tiklanadi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Havo liniyalaridagi qisqa tutashuvlarning ko'pi o'tkinchi (chaqmoq, shamol) — shuning uchun APV ta'minotni tez tiklab, uzilishni qisqartiradi.",
+    "en": "Most faults on overhead lines are transient (lightning, wind) — so auto-reclosing quickly restores supply and shortens outages."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Motorlar ham himoyalanadi: ortiqcha yukdan (issiqlik), qisqa tutashuvdan, faza yo'qolishidan va kuchlanish pasayishidan. Har biri motor uchun xavfli.",
+    "en": "Motors are also protected: from overload (thermal), short circuit, phase loss and undervoltage. Each is dangerous for a motor."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Elektr motor qaysi nosozlikdan himoyalanadi?",
+    "options": [
+      "Ortiqcha yuk, qisqa tutashuv, faza yo'qolishi",
+      "Faqat shovqindan",
+      "Faqat changdan",
+      "Faqat namlikdan"
+    ],
+    "correct": 0,
+    "explain": "Ortiqcha yuk (issiqlik), qisqa tutashuv, faza yo'qolishi va kuchlanish pasayishi motorga xavfli."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Liniya (elektr uzatish liniyasi) himoyasi eng muhim vazifalardan biri, chunki liniyalar uzun va ochiq havoda — chaqmoq, shamol, muz ularga tez-tez ta'sir qiladi.",
+    "en": "Line (transmission line) protection is one of the most important tasks, because lines are long and out in the open — lightning, wind and ice frequently affect them."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Uzatish liniyalari energetika tizimining eng ko'p uchraydigan nosozlik joyi — shuning uchun ular ishonchli va tez himoya bilan ta'minlanadi.",
+    "en": "Transmission lines are the most common fault location in a power system — so they are equipped with reliable, fast protection."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Tokli kesim' (otsechka) zonasi liniya uzunligining faqat bir qismini (odatda 80-85%) qamraydi. Qolgan qismi zaxira himoya orqali himoyalanadi.",
+    "en": "A 'current cut-off' zone covers only part of a line's length (usually 80-85%). The remainder is covered by backup protection."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Tokli kesim liniyaning boshini tez himoya qiladi, lekin oxirini qamramaydi — chunki uzoq nosozlikda tok kamayadi va kesim uni ajrata olmaydi.",
+    "en": "Current cut-off protects the start of a line quickly but not its far end — because for a distant fault the current is lower and the cut-off can't distinguish it."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Nega tokli kesim (otsechka) liniyaning butun uzunligini qamramaydi?",
+    "options": [
+      "Uzoq nosozlikda tok kamayadi, kesim ajrata olmaydi",
+      "Liniya juda uzun",
+      "Rele qimmat",
+      "Tok yo'q"
+    ],
+    "correct": 0,
+    "explain": "Faqat boshini (80-85%) tez himoya qiladi; qolgani zaxira himoyada."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Bosqichli himoya' (stupenchataya) bir necha zonadan iborat: birinchi zona tez, keyingilari kechikish bilan. Bu selektivlik va zaxira himoyani birga beradi.",
+    "en": "'Stepped protection' has several zones: the first is fast, the later ones delayed. This provides both selectivity and backup together."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Bosqichli (stupenchataya) himoyaning birinchi zonasi qanday ishlaydi?",
+    "options": [
+      "Tez, kechikishsiz",
+      "Sekin, katta kechikish bilan",
+      "Umuman ishlamaydi",
+      "Faqat tunda"
+    ],
+    "correct": 0,
+    "explain": "Birinchi zona tez ishlaydi; keyingi zonalar kechikish bilan zaxira vazifasini o'taydi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Yo'nalishli himoya (directional) nafaqat tokni, balki uning yo'nalishini ham hisobga oladi. U faqat 'himoyalanadigan tomonga' oqadigan nosozlik tokiga javob beradi.",
+    "en": "Directional protection considers not only the current but also its direction. It responds only to fault current flowing 'toward the protected side'."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Yo'nalishli himoya ikki tomondan quvvat keladigan tarmoqlarda kerak — u nosozlik qaysi tomonda ekanini ajratib, faqat kerakli uzgichni uzadi.",
+    "en": "Directional protection is needed in networks fed from both sides — it identifies which side the fault is on and trips only the right breaker."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Yo'nalishli himoya tokdan tashqari yana nimani hisobga oladi?",
+    "options": [
+      "Tokning yo'nalishini",
+      "Haroratni",
+      "Namlikni",
+      "Rangni"
+    ],
+    "correct": 0,
+    "explain": "Faqat himoyalanadigan tomonga oqadigan nosozlik tokiga javob beradi — ikki tomonlama tarmoqda muhim."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Generator himoyasi murakkab — u statordagi qisqa tutashuv, yerga tutashuv, ortiqcha yuk, teskari quvvat va rotor nosozliklaridan himoya qiladi.",
+    "en": "Generator protection is complex — it guards against stator short circuits, earth faults, overload, reverse power and rotor faults."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Generator differensial himoyasi stator o'ramidagi ichki qisqa tutashuvni bir zumda sezadi — bu eng xavfli va tez himoya talab qiladigan nosozlik.",
+    "en": "A generator's differential protection instantly senses an internal stator winding short — the most dangerous fault, needing the fastest protection."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Generator differensial himoyasi qaysi nosozlikni sezadi?",
+    "options": [
+      "Stator o'ramidagi ichki qisqa tutashuvni",
+      "Tashqi haroratni",
+      "Havo namligini",
+      "Shovqinni"
+    ],
+    "correct": 0,
+    "explain": "Ichki qisqa tutashuv eng xavfli — differensial himoya uni bir zumda sezadi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Teskari quvvat himoyasi' generator motor bo'lib qolganini sezadi — turbina quvvat bermay qolsa, generator to'rdan tok tortib aylanaveradi, bu turbinaga zararli.",
+    "en": "Reverse power protection detects a generator becoming a motor — if the turbine stops driving it, the generator draws power from the grid, harming the turbine."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Shina (busbar) himoyasi — podstansiyaning eng muhim nuqtasini himoya qiladi. Shinada nosozlik butun podstansiyani o'chirishi mumkin, shuning uchun himoya juda tez bo'lishi kerak.",
+    "en": "Busbar protection guards the most critical point of a substation. A busbar fault can shut down the whole substation, so its protection must be very fast."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Shina differensial himoyasi shinaga ulangan barcha liniyalar tokini yig'adi — normal holatda yig'indi nol, nosozlikda esa noldan farq qiladi.",
+    "en": "Busbar differential protection sums the currents of all lines connected to the busbar — normally the sum is zero, but in a fault it differs from zero."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Nega shina (busbar) himoyasi juda tez bo'lishi kerak?",
+    "options": [
+      "Shina nosozligi butun podstansiyani o'chirishi mumkin",
+      "Shina arzon",
+      "Shina uzun",
+      "Shina sovuq"
+    ],
+    "correct": 0,
+    "explain": "Shina eng muhim nuqta — undagi nosozlik butun podstansiyaga ta'sir qiladi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Operativ zanjir' (operativnie tsepi) — relelar, uzgichlar va signal qurilmalarini bog'laydigan boshqaruv zanjiri. U odatda o'zgarmas tok (batareya) bilan ishlaydi.",
+    "en": "The 'control circuit' (operative circuit) links relays, breakers and signaling devices. It usually runs on DC (battery) power."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Operativ zanjir batareyada ishlagani uchun asosiy tok yo'qolganda ham himoya ishlaydi — bu ishonchlilik uchun hayotiy muhim.",
+    "en": "Because the control circuit runs on battery, protection works even when the main power is lost — vital for reliability."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Nega releli himoyaning operativ zanjiri batareya (DC) da ishlaydi?",
+    "options": [
+      "Asosiy tok yo'qolganda ham ishlashi uchun",
+      "Arzon bo'lishi uchun",
+      "Tez bo'lishi uchun",
+      "Kam joy uchun"
+    ],
+    "correct": 0,
+    "explain": "Batareya tufayli asosiy ta'minot yo'qolganda ham himoya ishlaydi — ishonchlilik uchun."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Chastota himoyasi (ChAPV/AChR) tizim chastotasi xavfli pasaysa ishga tushadi. Chastota pasayishi ishlab chiqarish talabdan kam ekanini bildiradi.",
+    "en": "Frequency protection (load shedding) operates when system frequency drops dangerously. A frequency drop means generation is below demand."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "AChR (avtomatik chastotali yuklamani tushirish) chastota pasayganda bir qism iste'molchini avtomatik uzadi — bu qolgan tizimni to'liq qulashdan saqlaydi.",
+    "en": "Automatic frequency load shedding disconnects some consumers when frequency drops — saving the rest of the system from total collapse."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Chastota xavfli pasayganda AChR nima qiladi?",
+    "options": [
+      "Bir qism iste'molchini uzib, tizimni saqlaydi",
+      "Chastotani oshiradi",
+      "Generatorlarni uzadi",
+      "Hech narsa"
+    ],
+    "correct": 0,
+    "explain": "Chastota pasayishi ishlab chiqarish yetishmasligini bildiradi; yuk tushirish tizimni qulashdan saqlaydi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Telemexanika — podstansiyalarni masofadan boshqarish va kuzatish tizimi. Dispetcher markazdan turib uzgichlarni ulash/uzish va holatni ko'rish imkoniga ega.",
+    "en": "Telemechanics is a system for remote control and monitoring of substations. A dispatcher can switch breakers and view status from a central point."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Dispetcherlik boshqaruvi butun energetika tizimini bir markazdan muvofiqlashtiradi — u quvvat oqimini, chastotani va avariyalarni real vaqtda kuzatadi.",
+    "en": "Dispatcher control coordinates the entire power system from one center — monitoring power flow, frequency and faults in real time."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Telemexanika nima imkon beradi?",
+    "options": [
+      "Podstansiyalarni masofadan boshqarish va kuzatish",
+      "Faqat yoritish",
+      "Faqat isitish",
+      "Faqat o'lchash"
+    ],
+    "correct": 0,
+    "explain": "Dispetcher markazdan uzgichlarni boshqaradi va holatni real vaqtda ko'radi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Zamonaviy raqamli (mikroprotsessorli) relelar bir qurilmada ko'p funksiyani bajaradi: himoya, o'lchash, qayd qilish (registratsiya) va aloqa.",
+    "en": "Modern digital (microprocessor) relays combine many functions in one device: protection, measurement, event recording and communication."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Raqamli rele nosozlik paytidagi tok va kuchlanishni yozib oladi ('fault record') — bu keyin nosozlik sababini tahlil qilishda juda qimmat.",
+    "en": "A digital relay records the current and voltage during a fault ('fault record') — invaluable later for analyzing the fault's cause."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Raqamli (mikroprotsessorli) relening afzalligi nima?",
+    "options": [
+      "Bir qurilmada ko'p funksiya + nosozlikni yozib olish",
+      "Faqat arzonligi",
+      "Faqat kattaligi",
+      "Faqat og'irligi"
+    ],
+    "correct": 0,
+    "explain": "Himoya, o'lchash, qayd qilish va aloqani birlashtiradi; fault record tahlil uchun qimmat."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Rele 'o'rnatma' (ustavka/setting) — himoya ishga tushadigan aniq qiymat. To'g'ri o'rnatma selektivlik va sezgirlikni ta'minlaydi; noto'g'ri o'rnatma yolg'on ishlashga olib keladi.",
+    "en": "A relay 'setting' is the exact value at which protection operates. Correct settings ensure selectivity and sensitivity; wrong ones cause misoperation."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Rele o'rnatmalari hisob-kitob bilan tanlanadi — qisqa tutashuv toklari, yuk toklari va boshqa himoyalar bilan muvofiqlik hisobga olinadi.",
+    "en": "Relay settings are chosen by calculation — accounting for short-circuit currents, load currents and coordination with other protections."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Rele 'o'rnatmasi' (ustavka) nima?",
+    "options": [
+      "Himoya ishga tushadigan aniq qiymat",
+      "Relening rangi",
+      "Relening og'irligi",
+      "Relening narxi"
+    ],
+    "correct": 0,
+    "explain": "To'g'ri o'rnatma selektivlik va sezgirlikni beradi; noto'g'risi yolg'on ishlashga olib keladi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Himoyaning 'ishga tushish toki' — undan oshsa rele ishlaydigan tok. U eng katta ish (yuk) tokidan yuqori, lekin eng kichik qisqa tutashuv tokidan past bo'lishi kerak.",
+    "en": "A protection's 'pickup current' is the current above which the relay operates. It must be above the largest load current but below the smallest fault current."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Himoyaning ishga tushish toki qaysi oraliqda bo'lishi kerak?",
+    "options": [
+      "Eng katta yuk tokidan yuqori, eng kichik qisqa tutashuv tokidan past",
+      "Har qanday qiymat",
+      "Nol",
+      "Eng katta"
+    ],
+    "correct": 0,
+    "explain": "Aks holda yuk tokida yolg'on ishlaydi yoki qisqa tutashuvni sezmaydi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Vozvrat koeffitsienti' (qaytish koeffitsienti) — rele qaysi tokda o'z holatiga qaytishini ko'rsatadi. U 1 ga qancha yaqin bo'lsa, himoya shuncha sezgir va aniq.",
+    "en": "The 'reset ratio' shows at what current a relay returns to its rest state. The closer it is to 1, the more sensitive and accurate the protection."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Himoya 'sxemalari' relelar qanday ulanganini ko'rsatadi: to'liq yulduz, to'liqsiz yulduz, uchburchak. Har biri turli nosozliklarni turlicha qamraydi.",
+    "en": "Protection 'schemes' show how relays are connected: full star, incomplete star, delta. Each covers different faults differently."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "To'liqsiz yulduz (ikki fazali) sxema arzonroq, lekin ba'zi nosozliklarga kamroq sezgir — to'liq yulduz esa uch fazani ham qamraydi.",
+    "en": "An incomplete star (two-phase) scheme is cheaper but less sensitive to some faults — a full star covers all three phases."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Himoyani davriy tekshirish (proverka) muhim — rele yillar davomida ishlamay tursa ham, kerak bo'lganda albatta ishga tushishi kerak. Sozligi muntazam sinovdan o'tkaziladi.",
+    "en": "Periodic testing of protection is important — a relay may sit idle for years, yet must operate when needed. Its health is regularly tested."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Zamonaviy relelar o'z-o'zini tekshiradi ('self-supervision') — ichki nosozlikni sezsa signal beradi, shuning uchun ular doim ishga tayyor.",
+    "en": "Modern relays perform self-supervision — they signal if they detect an internal fault, so they are always ready to operate."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Nega releli himoyani davriy tekshirish muhim?",
+    "options": [
+      "Rele yillar ishlamay tursa ham, kerakda ishlashi shart",
+      "Chiroyli ko'rinishi uchun",
+      "Arzon bo'lishi uchun",
+      "Shovqin uchun"
+    ],
+    "correct": 0,
+    "explain": "Himoya kam ishlaydi, lekin kerak bo'lganda albatta ishga tushishi kerak — sozligi sinaladi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Blokirovka' — himoyani ma'lum sharoitda vaqtincha to'sib qo'yish. Masalan, kuchlanish yo'qolganda ba'zi himoyalar bloklanadi (yolg'on ishlamaslik uchun).",
+    "en": "A 'block' temporarily inhibits protection under certain conditions. For example, some protections are blocked when voltage is lost (to avoid misoperation)."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Zamin (yerga) tutashuvda kompensatsiya: ba'zi tarmoqlar neytralida 'Petersen g'altagi' bo'ladi — u yerga tutashuv tokini kompensatsiya qilib, yoyni o'z-o'zidan o'chiradi.",
+    "en": "For earth faults, some networks use a 'Petersen coil' in the neutral — it compensates the earth-fault current, self-extinguishing the arc."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Petersen g'altagi o'tkinchi zamin tutashuvlarini o'z-o'zidan o'chiradi — shuning uchun bunday tarmoqlar bir faza yerga tegsa ham qisqa muddat ishlab tura oladi.",
+    "en": "A Petersen coil self-extinguishes transient earth faults — so such networks can keep running briefly even with one phase touching earth."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Petersen g'altagi (neytralda) nima qiladi?",
+    "options": [
+      "Yerga tutashuv tokini kompensatsiya qilib yoyni o'chiradi",
+      "Kuchlanishni oshiradi",
+      "Tokni kuchaytiradi",
+      "Chastotani rostlaydi"
+    ],
+    "correct": 0,
+    "explain": "O'tkinchi zamin tutashuvini o'z-o'zidan o'chiradi — tarmoq qisqa muddat ishlab tura oladi."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Releli himoya energetika tizimining 'immun tizimi' kabi — u kasallikni (nosozlik) sezadi, joyini aniqlaydi va tez ajratib, butun 'organizm'ni saqlab qoladi.",
+    "en": "Relay protection is like the power system's 'immune system' — it senses illness (a fault), locates it and quickly isolates it, saving the whole 'body'."
   }
 ]
