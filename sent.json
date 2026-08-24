@@ -41,5 +41,11 @@
     "uz": "'Level transmitter' (sath datchigi) bak yoki barabandagi suyuqlik sathini o'lchaydi. Bug' barabanida sath nazorati juda muhim — suv kam yoki ko'p bo'lsa xavfli.",
     "en": "A level transmitter measures liquid level in a tank or drum. Level control in a steam drum is critical — too little or too much water is dangerous.",
     "cat": "HRSG / Bug' sikli"
+  },
+  {
+    "type": "fact",
+    "uz": "'Borescope inspection' — turbinani ochmasdan, ingichka kamera (borescope) orqali ichki pichoqlarni ko'zdan kechirish usuli. Bu vaqt va xarajatni tejaydi.",
+    "en": "A borescope inspection checks internal blades through a thin camera (borescope) without opening the turbine — saving time and cost.",
+    "cat": "Ta'mir / Xavfsizlik"
   }
 ]
