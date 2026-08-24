@@ -35,5 +35,11 @@
     "uz": "'Baseload' rejimida stansiya doim to'liq quvvatda ishlaydi — bu eng samarali va jihoz uchun eng yumshoq rejim, chunki harorat o'zgarishlari kam.",
     "en": "In 'baseload' mode a plant runs at full power continuously — the most efficient and gentlest mode for equipment, since temperature swings are few.",
     "cat": "Ishga tushirish / Rejim"
+  },
+  {
+    "type": "lesson",
+    "uz": "'Level transmitter' (sath datchigi) bak yoki barabandagi suyuqlik sathini o'lchaydi. Bug' barabanida sath nazorati juda muhim — suv kam yoki ko'p bo'lsa xavfli.",
+    "en": "A level transmitter measures liquid level in a tank or drum. Level control in a steam drum is critical — too little or too much water is dangerous.",
+    "cat": "HRSG / Bug' sikli"
   }
 ]
