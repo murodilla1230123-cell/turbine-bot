@@ -59,5 +59,11 @@
     "uz": "'Creep' — metallning yuqori harorat va yukdan asta cho'zilishi. Turbina pichoqlari yillar davomida sekin cho'ziladi, shuning uchun umri cheklangan.",
     "en": "'Creep' is the slow stretching of metal under high temperature and load. Turbine blades slowly elongate over years, so their life is limited.",
     "cat": "Gaz turbinasi (GT)"
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "fact",
+    "uz": "'Hot gas path inspection' — turbinaning eng issiq qismlarini (pichoq, transition piece) ko'zdan kechirish va almashtirish. Bu eng muhim ta'mir turlaridan.",
+    "en": "A 'hot gas path inspection' examines and replaces the turbine's hottest parts (blades, transition pieces). It's among the most important overhauls."
   }
 ]
