@@ -53,5 +53,11 @@
     "uz": "Ba'zi tizimlar 'redundant' (zaxirali) quriladi — muhim nasos yoki ventilyator ikkitadan bo'ladi, biri buzilsa ikkinchisi ishni davom ettiradi.",
     "en": "Some systems are built 'redundant' — critical pumps or fans come in pairs, so if one fails the other continues the job.",
     "cat": "Yordamchi tizimlar"
+  },
+  {
+    "type": "lesson",
+    "uz": "'Creep' — metallning yuqori harorat va yukdan asta cho'zilishi. Turbina pichoqlari yillar davomida sekin cho'ziladi, shuning uchun umri cheklangan.",
+    "en": "'Creep' is the slow stretching of metal under high temperature and load. Turbine blades slowly elongate over years, so their life is limited.",
+    "cat": "Gaz turbinasi (GT)"
   }
 ]
