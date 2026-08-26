@@ -149,7 +149,7 @@ def get_today_state():
     today = now.strftime("%Y-%m-%d")
     state = load_json(STATE_FILE, {})
     if state.get("date") != today:
-        state = {"date": today, "target": random.randint(3, 5), "posted": 0}
+        state = {"date": today, "target": random.randint(4, 6), "posted": 0}
         save_json(STATE_FILE, state)
     return state, now
 

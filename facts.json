@@ -4044,5 +4044,1622 @@
     "type": "lesson",
     "uz": "Releli himoya energetika tizimining 'immun tizimi' kabi — u kasallikni (nosozlik) sezadi, joyini aniqlaydi va tez ajratib, butun 'organizm'ni saqlab qoladi.",
     "en": "Relay protection is like the power system's 'immune system' — it senses illness (a fault), locates it and quickly isolates it, saving the whole 'body'."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "Bug' turbinasi 'gland seal' (val zichlagichi) tizimi val korpusdan chiqadigan joyni zichlaydi. U tashqi havoning kondensator vakuumiga kirishini va bug'ning tashqariga sizishini oldini oladi.",
+    "en": "A steam turbine's gland seal system seals where the shaft exits the casing. It prevents outside air from entering the condenser vacuum and steam from leaking out."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Gland seal past bosimli qismda 'bug' beradi' (havo kirmasligi uchun), yuqori bosimli qismda esa bug'ni 'ushlaydi' (sizib chiqmasligi uchun) — bir tizim ikki vazifa.",
+    "en": "The gland seal 'supplies' steam at low-pressure ends (to keep air out) and 'contains' steam at high-pressure ends (to stop leakage) — one system, two jobs."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Bug' turbinasi 'gland seal' (val zichlagichi) nima uchun kerak?",
+    "options": [
+      "Havo kondensatorga kirmasligi va bug' sizmasligi uchun",
+      "Valni sovutish uchun",
+      "Bug' hosil qilish uchun",
+      "Shovqinni kamaytirish uchun"
+    ],
+    "correct": 0,
+    "explain": "Val korpusdan chiqadigan joyni zichlab, vakuumni saqlaydi va bug' yo'qotishning oldini oladi."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Gland steam condenser' — gland seal'dan chiqqan bug'-havo aralashmasini yig'ib, bug'ni kondensatlaydi. Bu bug'ni tejaydi va bug' xonaga tarqalmasligini ta'minlaydi.",
+    "en": "A gland steam condenser collects the steam-air mixture from the gland seals and condenses the steam. This saves steam and keeps it from escaping into the room."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Steam drain' (bug' drenaji) tizimi quvur va turbinada to'plangan kondensatni (suyuq suvni) chiqarib tashlaydi. Ishga tushirishda bu ayniqsa muhim.",
+    "en": "A steam drain system removes condensate (liquid water) that collects in pipes and the turbine. This is especially important during startup."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Ishga tushirishda sovuq quvurlarda bug' kondensatlanib suv hosil bo'ladi — drenaj uni chiqarmasa, 'water hammer' (suv zarbasi) turbina va quvurlarni shikastlashi mumkin.",
+    "en": "During startup, steam condenses to water in cold pipes — if drains don't remove it, 'water hammer' can damage the turbine and piping."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Ishga tushirishda bug' drenaji (steam drain) nima uchun juda muhim?",
+    "options": [
+      "Kondensatni chiqarib, water hammer'ning oldini olish",
+      "Bug'ni isitish",
+      "Vakuum yaratish",
+      "Valni moylash"
+    ],
+    "correct": 0,
+    "explain": "Sovuq quvurlarda hosil bo'lgan suv chiqarilmasa, suv zarbasi jihozni sindiradi."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'LP hood spray' — past bosim (LP) qismidagi haroratni nazorat qiluvchi suv purkash tizimi. Yuk kam bo'lganda LP qismi qizib ketishi mumkin, spray uni sovutadi.",
+    "en": "An 'LP hood spray' is a water spray system that controls temperature in the low-pressure (LP) section. At low load the LP section can overheat, and the spray cools it."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Past yuk yoki bo'sh yurishда LP qismдан kam bug' o'tadi — pichoqlarning ishqalanishidan issiqlik to'planadi. LP hood spray shu issiqlikni sovutib turadi.",
+    "en": "At low load or no-load, little steam passes through the LP section — heat builds up from blade windage. The LP hood spray cools this heat."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "'LP hood spray' nima uchun kerak?",
+    "options": [
+      "Past yukда LP qismini sovutish uchun",
+      "Bug' hosil qilish uchun",
+      "Vakuum uchun",
+      "Valni moylash uchun"
+    ],
+    "correct": 0,
+    "explain": "Kam bug' oqimida LP qismi qizib ketadi; suv purkash uni sovutadi."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Rotor pre-warming' (rotorni oldindan isitish) — sovuq turbinani ishga tushirishдан oldin rotorни asta-sekin isitish. Bu termik kuchlanishni kamaytiradi va startni tezlashtiradi.",
+    "en": "Rotor pre-warming gently heats the rotor before starting a cold turbine. This reduces thermal stress and speeds up the start."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Sovuq rotorga to'satdan issiq bug' berilsa, tashqi qismi ichkarisidan tezroq kengayadi — bu kuchlanish va yoriqlar keltiradi. Pre-warming buni yumshatadi.",
+    "en": "If hot steam suddenly hits a cold rotor, its outer part expands faster than the inside — causing stress and cracks. Pre-warming softens this."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "'Rotor pre-warming' (oldindan isitish) nima beradi?",
+    "options": [
+      "Termik kuchlanishni kamaytirib, startni tezlashtiradi",
+      "Rotorni sovutadi",
+      "Bug' hosil qiladi",
+      "Vakuum yaratadi"
+    ],
+    "correct": 0,
+    "explain": "Sovuq rotorni asta isitib, to'satdan issiq bug'дан keladigan kuchlanishni oldini oladi."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "lesson",
+    "uz": "Bug' turbinasi 'lube oil' tizimi podshipniklarni moylaydi va sovutadi. U bak, nasoslar, sovutgichlar va filtrlardan iborat — gaz turbinasiникига o'xshash.",
+    "en": "A steam turbine's lube oil system lubricates and cools the bearings. It has a tank, pumps, coolers and filters — similar to a gas turbine's."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "lesson",
+    "uz": "'Jacking oil' — yuqori bosimli moy, u ishga tushirishда va to'xtashда valni ko'taradi. Sekin aylanishда oddiy moy pardasi zaif, jacking oil metall tegishдан saqlaydi.",
+    "en": "'Jacking oil' is high-pressure oil that lifts the shaft during startup and shutdown. At low speed the normal oil film is weak, and jacking oil prevents metal contact."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "fact",
+    "uz": "Jacking oil turbina 'turning gear'да sekin aylanганда ayniqsa muhim — u og'ir rotorni podshipnikда ko'tarib turadi, aks holда yeyilish tez bo'lardi.",
+    "en": "Jacking oil is especially important when the turbine turns slowly on the turning gear — it lifts the heavy rotor in the bearing, otherwise wear would be rapid."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "q": "'Jacking oil' (yuqori bosimli moy) qачон eng muhim?",
+    "options": [
+      "Sekin aylanishда (start/stop, turning gear)",
+      "To'liq tezlikда",
+      "To'xtaган holatда",
+      "Faqat yozда"
+    ],
+    "correct": 0,
+    "explain": "Sekin aylanishда moy pardasi zaif; jacking oil valni ko'tarib metall tegishдан saqlaydi."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Hydraulic oil' (gidravlik moy) tizimi turbina klapanlarини (HPV, IPV) harakatga keltiradi. U yuqori bosimли va tez ta'sirли — klapanni bir zumда yopa oladi.",
+    "en": "A hydraulic oil system moves the turbine valves (HPV, IPV). It is high-pressure and fast-acting — able to close a valve in an instant."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Gidravlik moy ko'pincha lube oil'дан alohida va toza bo'ladi, chunki klapan boshqaruvи juda aniq va tez javob talab qiladi.",
+    "en": "Hydraulic oil is often separate from and cleaner than lube oil, because valve control demands very precise, fast response."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'HPV' (High Pressure Valve) va 'IPV' (Intermediate Pressure Valve) — bug' turbinasига kirayotган bug' oqimини boshqaradiган asosий klapanlar. Ular quvvатни rostlaydи va favqulodда yopiladi.",
+    "en": "HPV (High Pressure Valve) and IPV (Intermediate Pressure Valve) are the main valves controlling steam flow into the turbine. They regulate power and close in emergencies."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Har klapan ikki qismдан iborат: 'stop valve' (favqulodда to'liq yopadi) va 'control valve' (oqimни nozик rostlaydи). Ular birга turbинани himoya va boshqaради.",
+    "en": "Each valve has two parts: a 'stop valve' (closes fully in emergency) and a 'control valve' (finely regulates flow). Together they protect and control the turbine."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "HPV va IPV klapanlар bug' turbинасидა nima qiladi?",
+    "options": [
+      "Kirayotган bug' oqимини boshqаради va favqulodда yopadi",
+      "Bug' hosil qиладі",
+      "Valни moylaydi",
+      "Vakuum yaratади"
+    ],
+    "correct": 0,
+    "explain": "Ular quvvатни rostlaydи (control) va xavфда to'liq yopиладі (stop)."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Rotor vibration' (rotor tebranishi) bug' turbинаси salomatlигининг asosий ko'rsатkичи. Podшipniklardagи datчиклар vibrацияни doimий o'lchaydi — o'sishi nosozликdан darak beradи.",
+    "en": "Rotor vibration is a key health indicator of a steam turbine. Sensors on the bearings measure it continuously — a rise signals trouble."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Bug' turbинасидა vibraция sabablari: nomutаносиблик, rotor egилиши (bow), podшipник yeyilиши yoки pichoqда nuqson. Har bири alohида belги beradi.",
+    "en": "Causes of steam turbine vibration include imbalance, rotor bow, bearing wear or blade defect. Each gives a distinct signature."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Bug' turbинасидა rotor vibrацияси nima uchun kuzатилади?",
+    "options": [
+      "Nosozликни (nomutаносиблик, egилиш) erta sezish uchun",
+      "Faqат shovqин uchун",
+      "Tezликни oshириш uchून",
+      "Bug' hosил qилиш uchून"
+    ],
+    "correct": 0,
+    "explain": "Vibraция o'sиши nomutаносиблик, rotor egилиши yoки podшipник yeyилишини ko'rsатади."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Off-frequency operation' — to'р chastотаси me'yордан chetга chиqqanда turbинанинг ishlаши. Juda past yoки yuqori chastотада uzun ishlаш pichoqларни charchатади (rezonанс).",
+    "en": "Off-frequency operation is running the turbine when grid frequency deviates from normal. Prolonged running at very low or high frequency fatigues the blades (resonance)."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Bug' turbинаси pichoqлари ma'lум chastота oralиğидa ishлаш uchून mo'ljалланган — undан chetга chиqса, rezonанс vibrацияси pichoqni yeмиради, shuнинг uchún vaqt cheкланади.",
+    "en": "Steam turbine blades are designed for a certain frequency range — outside it, resonance vibration fatigues them, so the time is limited."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Nega 'off-frequency operation' (me'yордан chetга chastота) vaqti cheкланади?",
+    "options": [
+      "Rezonанс vibrацияси pichoqларни charchатади",
+      "Yoqилğи ko'п ketади",
+      "Vakuум yo'qоладі",
+      "Moy qизиб ketади"
+    ],
+    "correct": 0,
+    "explain": "Pichoqлар ma'lум chastотага mo'ljалланган; chetда rezonанс ularни yeмиради."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Steam purity' (bug' tozалиги) bug' turbинаси uchун juda muhим. Bug'дагі erиган tuz va minерallар pichoqларга cho'ким hosил qилиб, ularни yeмиради va samaрадорликни pasайтиради.",
+    "en": "Steam purity is critical for a steam turbine. Dissolved salts and minerals in the steam form deposits on blades, corroding them and lowering efficiency."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Bug'дагі mayда tuz zarralари pichoqларда cho'ким bo'lиб o'tиради — bu 'deposition' pichoq shакلини buzади va turbина samaрадорлигини sekин pasайтиради.",
+    "en": "Tiny salt particles in steam settle as deposits on blades — this 'deposition' distorts the blade shape and slowly reduces turbine efficiency."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Nega bug' turbинасига toza (past tuzли) bug' kerак?",
+    "options": [
+      "Tuz pichoqларга cho'ким bo'lиб ularни yeмиради",
+      "Toza bug' arzон",
+      "Nam bug' sovуқ",
+      "Farqи yo'қ"
+    ],
+    "correct": 0,
+    "explain": "Erиган tuzlар pichoqларда cho'ким hosил qилиб korrozия va samaрадорлик yo'qотишига olиб keladі."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Exhaust pressure' (chиqиш bosими) — bug' turbинаси LP qисми chиqишидагі bosим, u kondenсатор vakuумига tenг. Past bosим (yaxshи vakuум) ko'proq quvват beradи.",
+    "en": "Exhaust pressure is the pressure at the LP section outlet, equal to the condenser vacuum. Low pressure (good vacuum) yields more power."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Agar exhaust bosими ko'tарилса (vakuум yomonlашса), bug' kam kengаяди va turbина quvваti tushади — shuнинг uchún kondenсатор vakuуми doim kuzатилади.",
+    "en": "If exhaust pressure rises (vacuum worsens), steam expands less and turbine power drops — so condenser vacuum is constantly monitored."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Bug' turbинаси 'exhaust pressure' (chиqиш bosими) past bo'lса nima yutuq?",
+    "options": [
+      "Bug' ko'proq kengаяди, ko'proq quvват",
+      "Kam quvват",
+      "Farqи yo'қ",
+      "Turbина qизиб ketади"
+    ],
+    "correct": 0,
+    "explain": "Past chиqиш bosими (yaxshи vakuум) bug'нинг ko'proq kengаyишига imкон berиб quvватни oshиради."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "Bug' turbинаси 'trip & protection' tizими xavфли holатда (yuqori vibraция, past moy bosими, over-speed, past vakuум) turbинани darhол xavфсиз to'xtатади.",
+    "en": "A steam turbine's trip & protection system immediately and safely stops the turbine in dangerous conditions (high vibration, low oil pressure, overspeed, low vacuum)."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Bug' turbинасида 'over-speed trip' eng muhим himoyaлардан — bug' klapанлари to'liq yopилиб, rotorнинг xavфли tezlашиб ketишини oldини oladі.",
+    "en": "An overspeed trip is among the most important protections in a steam turbine — steam valves close fully, preventing the rotor from dangerously accelerating."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Bug' turbинаси qaysи holатда 'trip' (darhол to'xtаш) bo'lади?",
+    "options": [
+      "Yuqori vibraция, past moy bosими, over-speed, past vakuум",
+      "Faqат tunда",
+      "Faqат yozда",
+      "Hech qачон"
+    ],
+    "correct": 0,
+    "explain": "Bu xavфли holатлар turbинани avtomatик xavфсиз to'xtатишни talab qиladі."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Turning gear' (aylantирувчи mexanizм) to'xtаган turbина rotorини sekин aylantирiб turадi. To'xtагandан keyин soatlаб shundай aylantирилади — rotor egилиб (bow) qolмаslиги uchún.",
+    "en": "A turning gear slowly rotates a stopped turbine rotor. After shutdown it runs for hours — to keep the rotor from bowing."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Issиq bug' turbинаси rotorи bir joyда to'xtаб qolsа, pastки qисми tepаsидан sovуб, rotor egилиб qolади (bow) — turning gear buни oldини oladі.",
+    "en": "If a hot steam turbine rotor stops in one place, its lower part cools faster than the top and the rotor bows — the turning gear prevents this."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Nega to'xtаган bug' turbинаси rotorи turning gear bilан aylantирилади?",
+    "options": [
+      "Notekис sovушдан egилиб (bow) qolмаslиги uchún",
+      "Elektr ishлаб chиqариш uchún",
+      "Bug' hosил qилиш uchún",
+      "Vakuум uchún"
+    ],
+    "correct": 0,
+    "explain": "Bir joyда tursа rotor notekис sovуб egилади; aylanتириб turиш buни oldини oladі."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "Bug' turbинаси 'startup curve' (ishga tushириш egри chизиğи) rotorни qanchалик tez qиздириш va tezlатишни belgилаyди. Uni buzиш termик kuchланиш va yoriqларга olиб keladі.",
+    "en": "A steam turbine's startup curve defines how fast to heat and accelerate the rotor. Violating it leads to thermal stress and cracks."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Bug' turbинаси hot/warm/cold start turlarига bo'lинади — turbина qanchалик sovуган bo'lса, startup shунча sekин va uzoq davом etади.",
+    "en": "Steam turbine starts are classed as hot/warm/cold — the more the turbine has cooled, the slower and longer the startup."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "Nega bug' turbинасида 'cold start' 'hot start'дан uzoqрoq?",
+    "options": [
+      "Sovуган rotorни asta qиздириш kerак",
+      "Yoqилğи ko'п",
+      "Generатор sovуқ",
+      "Vakuум yo'қ"
+    ],
+    "correct": 0,
+    "explain": "Sovуq rotorни tez qиздириш termик kuchланиш va shikаст beradі."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "'Steam blowing' (bug' bilан puflаsh) — yangи bug' quvurларини ishга tushириशдан oldин yuqori tezликдагі bug' bilан tozалаsh. U quvurдагі qoldиq va zang zarraчаларини uchириб chиqаради.",
+    "en": "'Steam blowing' cleans new steam pipes before commissioning by blasting them with high-velocity steam. It blows out debris and rust particles."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Steam blowing muhим — agar quvurдагі zarraчаlar qolса, ular turbина pichoqларига urилиб ularни shikаstلайди. Shuнинг uchún yangи tizим avval puflанади.",
+    "en": "Steam blowing is important — if particles remain in pipes, they strike turbine blades and damage them. So new systems are blown first."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "q": "'Steam blowing' (bug' bilан puflаsh) nima uchún qилинади?",
+    "options": [
+      "Quvurдагі qoldиq/zangни chиqариб, pichoqларни saqlаsh",
+      "Bug' hosил qилиш",
+      "Vakuум yaratиш",
+      "Valни moylаsh"
+    ],
+    "correct": 0,
+    "explain": "Zarraчаlar turbина pichoqларини shikаstlаshи mumkин; puflаsh ularни chиqаради."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "uz": "Bug' turbинаси 'casing' (korpus) yuqori bosимли issиq bug'ни ushлаб turадi. U qалин metallдан yasaлади va notekис qиzишдан deformацияланмаslиги uchún ehтиyoтkorlик bilан qиздирилади.",
+    "en": "A steam turbine casing contains the high-pressure hot steam. It's made of thick metal and heated carefully to avoid deforming from uneven heating."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "uz": "Katta bug' turbинаси korpusи ikки qават bo'lишi mumkин (double casing) — ichки va tashqи. Bu bosим va harorат yukини taqsimлаб, deformацияни kamayтиради.",
+    "en": "A large steam turbine casing can be double-walled (inner and outer). This distributes pressure and temperature load, reducing deformation."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "lesson",
+    "uz": "Kondensator minglab yupqa quvurчадан iborat. Sovutuvchi suv ular ichидан oqadi, tashqарисидa bug' sovиб suvга aylanади — issиqлик quvur devоридан o'tади.",
+    "en": "A condenser has thousands of thin tubes. Cooling water flows inside them while steam condenses on the outside — heat passes through the tube walls."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "fact",
+    "uz": "Kondensатor turbинадан chиqqan bug'нинг deyarлі barchasини qayta suvга aylanتиради — bu suv qimматли (toza, tayyorlаngan), shuнинг uchún behuda ketмаsлиги muhим.",
+    "en": "A condenser turns almost all steam from the turbine back into water — this water is valuable (pure, treated), so it's important it isn't wasted."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "quiz",
+    "q": "Kondensаторда issиqлик qanday uzатилади?",
+    "options": [
+      "Bug'дан sovuтувчи suvга quvur devори orqалі",
+      "To'gридан havoга",
+      "Elektr orqалі",
+      "Uzатилмайди"
+    ],
+    "correct": 0,
+    "explain": "Bug' quvur tashqарисида, sovuтувчи suv ичида — issиqлик devор orqалі o'tади."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "lesson",
+    "uz": "'Cooling tower' (sovuتиш minoраси) kondensатор suvини havoда sovuтади. Issиq suv yupqa parda bo'lиб tushади, bir qисми bug'lanиб qolgаnини sovuтади.",
+    "en": "A cooling tower cools the condenser water using air. Hot water falls as a thin film, part evaporates and cools the rest."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "fact",
+    "uz": "Sovuтиш minoрасидаги oq 'tutun' — tutun emas, balки bug'lanган suvнинг kondensатланган bug'и (suv bug'и). U zararсиз.",
+    "en": "The white 'smoke' from a cooling tower isn't smoke — it's condensed vapor from evaporated water. It's harmless."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "lesson",
+    "uz": "'Vacuum pump' yoки 'ejector' kondensатордан havoni va bug'lanмаган gazlarни doimий so'rиб chиqаради — bu vakuумni saqлаб turади.",
+    "en": "A vacuum pump or ejector continuously removes air and non-condensing gases from the condenser — maintaining the vacuum."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "quiz",
+    "q": "Kondensаторда vakuумni nima saqлаб turади?",
+    "options": [
+      "Vacuum pump yoки ejector (havoni so'rиб)",
+      "Nasos suv haydаб",
+      "Ventilyатор",
+      "Klapan"
+    ],
+    "correct": 0,
+    "explain": "Ular havo va bug'lanмаган gazlarни so'rиб, past bosимni (vakuумni) ushлаб turади."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "lesson",
+    "uz": "'Condensate pump' (kondensат nasosи) kondensатор tubидан yig'ilган suvни chиqариб, uni qayta bug' sikлига (deaerатор, HRSG) haydаyди.",
+    "en": "A condensate pump removes water collected at the bottom of the condenser and sends it back to the steam cycle (deaerator, HRSG)."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "fact",
+    "uz": "Kondensат nasosи kondensатор tubидаги past bosимдан suvni so'rиб olади — u cavitацияга moyил, shuнинг uchún ehтиyoтkorlик bilан loyihalanади.",
+    "en": "A condensate pump draws water from the low pressure at the condenser bottom — it's prone to cavitation, so it's carefully designed."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "quiz",
+    "q": "'Condensate pump' nima qiladi?",
+    "options": [
+      "Kondensатор tubидан suvни qayta sikлга haydаyди",
+      "Bug' hosил qиладі",
+      "Havoni siqади",
+      "Moyни sovuтади"
+    ],
+    "correct": 0,
+    "explain": "Yig'ilган suvни deaerатор/HRSG'ga qaytаriб, yopиq sikлni davом etтиради."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "lesson",
+    "uz": "Elektr energiя kuchланиш (Volt), tok (Amper) va quvват (Vatt) bilan o'lchанади. Quvват = kuchланиш × tok — bu elektrотехnиканинг asosий formуласи.",
+    "en": "Electricity is measured by voltage (Volt), current (Ampere) and power (Watt). Power = voltage × current — the basic formula of electrical engineering."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "fact",
+    "uz": "1 megaVatt (MVt) = 1 million Vatt. Yirик elektr stanсияси yuzlаб yoки minglаb MVt quvват ishлаб chиqаради.",
+    "en": "1 megawatt (MW) = 1 million watts. A large power plant produces hundreds or thousands of MW."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "quiz",
+    "q": "Elektr quvваti qanday hisoblanади?",
+    "options": [
+      "Kuchланиш × tok",
+      "Kuchланиш + tok",
+      "Tok ÷ kuchланиш",
+      "Faqат tok"
+    ],
+    "correct": 0,
+    "explain": "Quvват (Vatt) = kuchланиш (Volt) × tok (Amper) — asosий formула."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "lesson",
+    "uz": "O'zgаrувчан tok (AC) yo'nалишини sekundiga 50 marta o'zgаrtiради (50 Hz). Deyarли barcha elektr tarmoqлари AC'да ishлайди, chunки uni transformатор bilан oson o'zgаrtириш mumkин.",
+    "en": "Alternating current (AC) reverses direction 50 times per second (50 Hz). Almost all power grids use AC, because it's easy to transform with a transformer."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "fact",
+    "uz": "O'zbekiстон va ko'п mamlакаtlар to'rи 50 Hz'да ishлайди; ba'zи mamlакаtlар (AQSh, Japонia qисми) 60 Hz'да.",
+    "en": "Uzbekistan and many countries use a 50 Hz grid; some (USA, part of Japan) use 60 Hz."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "quiz",
+    "q": "Nega elektr tarmoqлари o'zgаrувчан tok (AC)'да ishлайди?",
+    "options": [
+      "Transformатор bilан kuchланишни oson o'zgаrtириш mumkín",
+      "AC arzон",
+      "AC xavфсиз",
+      "AC sekин"
+    ],
+    "correct": 0,
+    "explain": "AC'ни transformатор bilан oson oshириш/pasайтириш mumkín — uzатиш uchún qulай."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "lesson",
+    "uz": "'Uch fazали' (three-phase) tizim uch alohида AC toкидан iborат, ular bir-bиrидан 120 gradusга surилган. Bu motorlар va uzатиш uchún samaралıroq.",
+    "en": "A three-phase system has three separate AC currents, offset from each other by 120 degrees. This is more efficient for motors and transmission."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "fact",
+    "uz": "Uch fazали tizим bir fazалıдан ko'proq quvват uzаtади va motorlarни silлиq aylanتиради — sanoат va energetикада standарт.",
+    "en": "A three-phase system transmits more power than single-phase and turns motors smoothly — it's the standard in industry and power."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "quiz",
+    "q": "'Uch fazали' tizимда fazalар bir-bиrидан qancha surилган?",
+    "options": [
+      "120 gradus",
+      "90 gradus",
+      "45 gradus",
+      "360 gradus"
+    ],
+    "correct": 0,
+    "explain": "Uch faza 120 gradusга surилган — bu silлиq va samaралı quvват beradі."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "lesson",
+    "uz": "Combined cycle stanсияси issиqликни ikки marta ishлаtади: gaz turbинаси (Brayton sikли) + bug' turbинаси (Rankine sikли). Ikки sikл birlашiб yuqori FIK beradі.",
+    "en": "A combined cycle plant uses heat twice: the gas turbine (Brayton cycle) plus the steam turbine (Rankine cycle). The two cycles combine for high efficiency."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "fact",
+    "uz": "'Rankine sikли' — bug' turbинаси ishлайдиган termodinamик sikл: suv qиздирилиб bug'га, bug' turbинани aylanتириб, keyин kondensатланиб qayta suvга aylanади.",
+    "en": "The 'Rankine cycle' is the thermodynamic cycle of a steam turbine: water is heated to steam, the steam spins the turbine, then condenses back to water."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "quiz",
+    "q": "Combined cycle qaysи ikки sikлni birlашtиради?",
+    "options": [
+      "Brayton (gaz) + Rankine (bug')",
+      "Faqат Brayton",
+      "Faqат Rankine",
+      "Otto + Diesel"
+    ],
+    "correct": 0,
+    "explain": "Gaz turbинаси Brayton, bug' turbинаси Rankine sikлida ishлайди; birga yuqori FIK."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "lesson",
+    "uz": "'Cogeneration' (birgалikда ishлаб chиqариш) — stanсия ham elektr, ham foydali issиqлик (bug', issиq suv) beradі. Bu umumий samaралıлıкни yanада oshиради.",
+    "en": "Cogeneration means a plant produces both electricity and useful heat (steam, hot water). This raises overall efficiency further."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "fact",
+    "uz": "Cogenerацияда chиqиндi issиqлик isиtiш yoки sanoат uchún ishлаtилади — hech narsa behuda ketмайди, samaралıлık 80%'дан oshишi mumkín.",
+    "en": "In cogeneration, waste heat is used for heating or industry — nothing is wasted, and efficiency can exceed 80%."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "quiz",
+    "q": "'Cogeneration' nima beradi?",
+    "options": [
+      "Ham elektr, ham foydali issиqлик",
+      "Faqат elektr",
+      "Faqат issиqлик",
+      "Faqат bug'"
+    ],
+    "correct": 0,
+    "explain": "Elektr + issиqлик birga — chиqиндi issиqлик ishлаtилиб samaралıлık oshади."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "lesson",
+    "uz": "Stanсия 'capacity factor' (quvват koeffitsienti) — u haqиqатда qancha ishлаб chиqарганини maksimал mumkínга nisbатан ko'rsатади. Yuqori bo'lса, stanсия samaралı ishлатилаyoтган.",
+    "en": "A plant's capacity factor shows how much it actually produced versus the maximum possible. High means the plant is used efficiently."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "quiz",
+    "q": "'Capacity factor' (quvват koeffitsienti) nima ko'rsатади?",
+    "options": [
+      "Haqиqий ishлаb chиqариш / maksimал mumkín",
+      "Faqат maksimал quvват",
+      "Faqат yoqилğи",
+      "Shovqин darajası"
+    ],
+    "correct": 0,
+    "explain": "Yuqori capacity factor stanсия samaралı va ko'п ishлатилганини bildiради."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "uz": "'Preventiv ta'mir' (rejали) — jihoz buzилishдан oldин, jadval bo'yicha xizmat ko'rsатиш. Bu kutилmagan to'xtаshlar va katta zararларнинг oldини oladі.",
+    "en": "Preventive (planned) maintenance means servicing equipment on schedule, before it breaks. This avoids unexpected shutdowns and major damage."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "fact",
+    "uz": "'Prediktив ta'mir' — jihoz holатини (vibraция, harorат, moy) kuzатиб, ta'mirни aynан kerак bo'lганда qилиш. Bu vaqt va xarаjатни tejayди.",
+    "en": "Predictive maintenance monitors equipment condition (vibration, temperature, oil) to service it exactly when needed. This saves time and cost."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "quiz",
+    "q": "'Preventiv ta'mir' va 'prediktив ta'mir' farqи nima?",
+    "options": [
+      "Preventiv - jadval bo'yicha; prediktив - holатга qarаб",
+      "Farqи yo'q",
+      "Ikkalasi bir xил",
+      "Preventiv - buzилгач"
+    ],
+    "correct": 0,
+    "explain": "Preventiv jadval bilан, prediktив jihoz holатини kuzатиб kerакли vaqtда qилинади."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "uz": "Xavфсизлик belgилари (ranglar) muhим: qизил - xavф/to'xtаsh, sariq - ogohlantириш, yashил - xavфсиз/ishга tayyor. Ular tez tushunишни ta'minлайди.",
+    "en": "Safety signs (colors) matter: red - danger/stop, yellow - warning, green - safe/ready. They enable quick understanding."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "fact",
+    "uz": "Stanсияда shaxsий himoya vositalари (PPE) majburий: kaska, quloq himoyası, ko'zoynак, xavфсизлик poyabzalи. Ular jismonий shikаstдан himoya qиladі.",
+    "en": "Personal protective equipment (PPE) is mandatory in a plant: helmet, hearing protection, goggles, safety shoes. They protect from physical injury."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "quiz",
+    "q": "Xavфсизлик belgилаrида qизил rang nimани bildиради?",
+    "options": [
+      "Xavф yoки to'xtаsh",
+      "Xavфсизлик",
+      "Ogohlantириш",
+      "Ma'lумот"
+    ],
+    "correct": 0,
+    "explain": "Qизил - xavф/to'xtаsh, sariq - ogohlantириш, yashил - xavфсиз."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "uz": "'Risk assessment' (xavф-xatарни baholаsh) — ishдан oldин mumkín xavфларni aniqlаb, ularни kamayтириш choralари ko'rиш. Bu baxtсизлik hodисаларини oldини oladі.",
+    "en": "A risk assessment identifies possible hazards before work and takes steps to reduce them. This prevents accidents."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "quiz",
+    "q": "'Risk assessment' (xavфni baholаsh) nima uchún qилинади?",
+    "options": [
+      "Xavфларни oldindan aniqlаb, baxtсизликни oldini olish",
+      "Tezроq ishлаsh",
+      "Arzон bo'lиsh",
+      "Chiroyлі ko'rinиsh"
+    ],
+    "correct": 0,
+    "explain": "Ishдан oldин xavфlar aniqlanиб, kamayтириш choralари ko'rilади."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "lesson",
+    "uz": "'Centrifugal pump' (markazdан qochма nasos) aylanувчи g'ildирак (impeller) bilан suyuqликни tashqаrига uloqtириб bosим hosил qиladі. Stanсиядагі eng keng tarqалган nasos.",
+    "en": "A centrifugal pump uses a spinning impeller to fling liquid outward, creating pressure. It's the most common pump in a plant."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "fact",
+    "uz": "Impeller qanchалık tez aylanса, nasos shунча yuqori bosım beradі — lekin oqим va bosım orasида muvozанат bor.",
+    "en": "The faster the impeller spins, the higher the pressure the pump gives — but there's a balance between flow and pressure."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "quiz",
+    "q": "'Centrifugal pump' bosимni qanday hosил qиладі?",
+    "options": [
+      "Aylanувчи impeller suyuqликни tashqаrига uloqtiriб",
+      "Suyuqликни siqиб",
+      "Havo puflаб",
+      "Isиtиб"
+    ],
+    "correct": 0,
+    "explain": "Impeller suyuqликни markazдан tashqаrига uloqtiriб bosım yaratади."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "lesson",
+    "uz": "'Gate valve' (shibер klapan) to'liq ochиq yoки to'liq yopиq holатда ishлаtилади — oqимни to'sиш yoки ochish uchún, rostlаsh uchún emas.",
+    "en": "A gate valve is used fully open or fully closed — to block or allow flow, not to regulate it."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "fact",
+    "uz": "'Globe valve' (sharли klapan) esa oqимni nozик rostlаsh uchún — u qисман ochиq turиб oqим miqдorини boshqаради.",
+    "en": "A globe valve, in contrast, is for fine flow regulation — it can stay partly open to control the flow rate."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "quiz",
+    "q": "'Gate valve' va 'globe valve' farqi nima?",
+    "options": [
+      "Gate - ochиq/yopиq; globe - oqимni rostлайди",
+      "Ikkalasi bir xил",
+      "Gate rostлайди",
+      "Globe faqат yopади"
+    ],
+    "correct": 0,
+    "explain": "Gate valve to'sиш/ochish uchún, globe valve oqимni nozик rostlаsh uchún."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "lesson",
+    "uz": "'Butterfly valve' (kapalак klapan) — disk 90 gradусга burилиб oqимni ochади yoки yopади. U yengил, arzон va katta quvurлар uchún qulай.",
+    "en": "A butterfly valve has a disc that turns 90 degrees to open or close flow. It's light, cheap and suitable for large pipes."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "quiz",
+    "q": "'Butterfly valve' (kapalак klapan) qanday ishlaydi?",
+    "options": [
+      "Disk 90 gradусга burилиб oqимni boshqаради",
+      "Sharни ko'tариб",
+      "Suvni siqиб",
+      "Havo bilан"
+    ],
+    "correct": 0,
+    "explain": "Disk burилиб ochади/yopади — yengил va katta quvurлар uchún qulай."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "lesson",
+    "uz": "'Strainer' (filtr to'r) suyuqликдагі yiriк zarraчаларni ushлаб, nasos va klapanларni ularдан himoya qиladі. U davriy tozаланади.",
+    "en": "A strainer catches large particles in a liquid, protecting pumps and valves from them. It is cleaned periodically."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "fact",
+    "uz": "Strainer nasos kirишида joylashади — u tosh, metall qиpиq kabи zarraчаларni to'sиб, impellerni shikаstдан saqлайди.",
+    "en": "A strainer sits at a pump inlet — it blocks particles like stones or metal chips, protecting the impeller from damage."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "quiz",
+    "q": "'Strainer' (filtr to'r) nima uchún kerак?",
+    "options": [
+      "Yiriк zarraчаларni to'sиб nasos/klapanni himoya qилиsh",
+      "Bosımni oshириsh",
+      "Suvни isиtиsh",
+      "Oqимni tezlаtиsh"
+    ],
+    "correct": 0,
+    "explain": "Zarraчаlar impeller va klapanларni shikаstlаshи mumkín; strainer ularni ushлайди."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "lesson",
+    "uz": "Nasoslар ko'pincha juftлик bo'lиб o'rnатилади: bири ishлайди (duty), ikkinчиси zaxиra (standby). Bири buzилса, ikkinчиси avtomatик ishга tushади.",
+    "en": "Pumps are often installed in pairs: one running (duty), the other standby. If one fails, the other starts automatically."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "quiz",
+    "q": "Nega muhим nasoslар juftлик (duty + standby) o'rnатилади?",
+    "options": [
+      "Bири buzилса ikkinчиси ishlab, to'xtаsh bo'lмаsлиги uchún",
+      "Arzон bo'lиsh uchún",
+      "Chiroyлі ko'rinиsh",
+      "Shovqин uchún"
+    ],
+    "correct": 0,
+    "explain": "Zaxira nasos avtomatик ishга tushиб, stanсия to'xtаmаsлигини ta'minлайди."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "lesson",
+    "uz": "HRSG 'economizer' — eng oxиrги (eng sovуq gaz) qисми. U qolган issиqлик bilан HRSG'ga kirayoтган suvни oldиndan isиtади — bu samaралıлıкni oshиради.",
+    "en": "An HRSG economizer is the last (coolest gas) section. It preheats the incoming water with remaining heat — raising efficiency."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "lesson",
+    "uz": "HRSG 'evaporator' — suvни qaynаtиб bug'га aylanتиради. Bu yerда suv va bug' aralаshмаsи bug' barabаnіга borиб ajrатилади.",
+    "en": "An HRSG evaporator boils water into steam. Here the water-steam mixture goes to the steam drum to be separated."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "quiz",
+    "q": "HRSG'нинг qaysи qисми suvни oldиndan isиtади?",
+    "options": [
+      "Economizer (eng sovуq gaz qисми)",
+      "Superheater",
+      "Evaporator",
+      "Drum"
+    ],
+    "correct": 0,
+    "explain": "Economizer qolган issиqлик bilан suvни oldиndan isиtиб samaралıлıкni oshиради."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "lesson",
+    "uz": "'Steam drum' (bug' barabаnі) suv va bug'ни ajrатади. Bug' yuqoriга chиqади va turbинага borади, suv esa qayta aylanишга tushади.",
+    "en": "A steam drum separates water from steam. Steam rises and goes to the turbine, while water returns to circulate."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "fact",
+    "uz": "Bug' barabаnіда suv sath nazorати juda muhім — juda past bo'lса quvurлар kuyади, juda yuqori bo'lса suv turbинага o'tиб ketади.",
+    "en": "Water level control in the steam drum is critical — too low and tubes overheat, too high and water carries into the turbine."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "quiz",
+    "q": "Bug' barabаnіда suv sath juda yuqori bo'lса nima xavф?",
+    "options": [
+      "Suv turbинага o'tиб ketиб shikаst beradі",
+      "Quvurлар kuyади",
+      "Bug' ko'payади",
+      "Hech narsa"
+    ],
+    "correct": 0,
+    "explain": "Ortиqcha suv turbинага o'tса (carryover), pichoqларни shikаstлайди."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "lesson",
+    "uz": "'Attemperator' (desuperheater) bug'га oz suv purkаб, uning harorатини kerакли darajага tushиради. Juda issиq bug' turbинani shikаstлashи mumkín.",
+    "en": "An attemperator (desuperheater) sprays a little water into steam to lower its temperature. Steam that's too hot can damage the turbine."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "quiz",
+    "q": "'Attemperator' nima qiladi?",
+    "options": [
+      "Bug'га suv purkаб harorатини pasайтиради",
+      "Bug'ни isиtади",
+      "Suvни qaynаtади",
+      "Havoни siqади"
+    ],
+    "correct": 0,
+    "explain": "Juda issиq bug' turbинага zararли; attemperator uni kerакли harorатга tushиради."
+  },
+  {
+    "cat": "HRSG / Bug' sikли",
+    "type": "lesson",
+    "uz": "'Duct burner' — HRSG ичида qo'shимча yoqилğи yoqиb, ko'proq bug' hosил qiladі. U talab yuqori bo'lганда quvватni oshиради.",
+    "en": "A duct burner burns extra fuel inside the HRSG to make more steam. It boosts power when demand is high."
+  },
+  {
+    "cat": "HRSG / Bug' sikли",
+    "type": "fact",
+    "uz": "Duct burner gaz turbинаси chиqиndi gazида yetарлі kislorod bo'lганидан foydаланади — chunки undа hali yonиш uchún havo qolган bo'lади.",
+    "en": "A duct burner uses the oxygen still present in the gas turbine exhaust — since there's leftover air for combustion."
+  },
+  {
+    "cat": "HRSG / Bug' sikли",
+    "type": "quiz",
+    "q": "'Duct burner' qачон foydаланади?",
+    "options": [
+      "Talab yuqori bo'lганда ko'proq bug'/quvват uchún",
+      "Har doim",
+      "To'xtаshда",
+      "Faqат tunда"
+    ],
+    "correct": 0,
+    "explain": "HRSG'da qo'shимча yoqилği yoqиb ko'proq bug' va quvват beradі."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "lesson",
+    "uz": "Gaz turbинаси ishга tushишида 'SFC' (Static Frequency Converter) generатorni motor qиlиб ishлатиб, rotorни yonиш boshlangunча aylanتиради.",
+    "en": "At startup, the SFC (Static Frequency Converter) runs the generator as a motor to spin the rotor until combustion takes over."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "fact",
+    "uz": "SFC bilan alohида ishга tushириш motorи kerак bo'lмайди — generатor ham motor, ham tok manbaи vazифаsини bajaради.",
+    "en": "With an SFC no separate starting motor is needed — the generator acts as both motor and power source."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "quiz",
+    "q": "Gaz turbинаsi ishga tushириshда SFC nima qiladi?",
+    "options": [
+      "Generатorni motor qиlиб rotorни aylanتиради",
+      "Bug' beradi",
+      "Yoqилğи quyади",
+      "Havoни sovuтади"
+    ],
+    "correct": 0,
+    "explain": "Generатor vaqtинча motor bo'lиб, rotorни yonиш boshlangunча aylanтиради."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "lesson",
+    "uz": "'FSNL' (Full Speed No Load) — turbина to'liq tezликда aylanаyoтган, lekin hali to'рга quvват berмаyoтган holат. Bu sinxronиzациядан oldинги tayyorгарлик.",
+    "en": "FSNL (Full Speed No Load) is when the turbine spins at full speed but isn't yet supplying power — a preparation stage before synchronization."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "quiz",
+    "q": "'FSNL' (Full Speed No Load) nima holат?",
+    "options": [
+      "To'liq tezликда, lekin to'рга quvватsiz",
+      "To'xtаган",
+      "Yarим tezликда",
+      "To'liq yukда"
+    ],
+    "correct": 0,
+    "explain": "Sinxronиzациядан oldинги holат — to'liq tezлик, lekin hali yuk yo'q."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "lesson",
+    "uz": "'Load ramp' — turbина to'рга ulангач, quvватni asta-sekин oshириш. Tez ramp foydали, lekin jihozni ko'proq charchатади (termик kuchланiш).",
+    "en": "A 'load ramp' is gradually raising power after the turbine connects to the grid. Fast ramping is useful but wears equipment more (thermal stress)."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "quiz",
+    "q": "Nega tez 'load ramp' (quvват oshириш) jihozni charchатади?",
+    "options": [
+      "Termик kuchланiш ortади",
+      "Yoqилğи ko'п",
+      "Shovqин ko'п",
+      "Vakuум yo'qоladі"
+    ],
+    "correct": 0,
+    "explain": "Tez isиtиsh/sovuтиsh termик kuchланiш va charchoq keltiradі."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "lesson",
+    "uz": "'PID controller' jarayонni kerакли qiymatga (setpoint) yaqinлashtиradи. U proporsional (hozирги xato), integral (to'plangan xato), differensial (o'zgаriш tezлиги) qисмлардан iborat.",
+    "en": "A PID controller drives a process toward a setpoint. It has proportional (current error), integral (accumulated error) and derivative (rate of change) terms."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "fact",
+    "uz": "PID boshqarув turbина tezлиги, harorат, bosım va sathни silлиq ushлайди — kичик og'ishни sezиб darhол tuzатади.",
+    "en": "PID control keeps turbine speed, temperature, pressure and level smooth — sensing small deviations and correcting instantly."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "quiz",
+    "q": "'PID controller' qaysи uch qисмdан iborat?",
+    "options": [
+      "Proporsional, integral, differensial",
+      "Katta, o'rta, kичик",
+      "Issиq, sovуq, iliq",
+      "Yuqori, past, o'rta"
+    ],
+    "correct": 0,
+    "explain": "P (hozирги xato) + I (to'plangan) + D (o'zgаriш tezлиги) — silлиq boshqarув beradi."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "lesson",
+    "uz": "'Thermocouple' (termopara) ikки xил metall birikмаsидан hosил bo'lган kичik kuchланиш orqалі harorатni o'lchayди. U yuqori harorатларni o'lchash uchún ideal.",
+    "en": "A thermocouple measures temperature via a small voltage generated at a junction of two different metals. It's ideal for high temperatures."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "fact",
+    "uz": "Turbина va chиqиndi gaz harorати ko'п nuqtада termopara bilан o'lchанади — notekисlik yonиshдаgi nosozликдан darak beradі.",
+    "en": "Turbine and exhaust gas temperature are measured at many points with thermocouples — unevenness hints at a combustion problem."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "quiz",
+    "q": "'Thermocouple' (termopara) qanday ishlaydi?",
+    "options": [
+      "Ikки metall birikмаsидаgi kuchланиш orqалі harorат o'lchайdi",
+      "Suv bilан",
+      "Havo bilан",
+      "Yorug'лик bilан"
+    ],
+    "correct": 0,
+    "explain": "Ikки xил metall birikмаsi harorатга qarаб kичik kuchланиш beradi — yuqori harorат uchún ideal."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "lesson",
+    "uz": "'RTD' (Resistance Temperature Detector) harorатni metall qarshилигининг o'zgаriши orqалі o'lchайdi. U termopараdан aniqrоq, lekин yuqori harorатда kamроq ishlaydi.",
+    "en": "An RTD (Resistance Temperature Detector) measures temperature via change in a metal's resistance. It's more accurate than a thermocouple but works less at very high temperatures."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "quiz",
+    "q": "'RTD' harorатni qanday o'lchайdi?",
+    "options": [
+      "Metall qarshилигининг o'zgаriши orqалі",
+      "Kuchланiш orqалі",
+      "Bosım orqалі",
+      "Yorug'лик orqалі"
+    ],
+    "correct": 0,
+    "explain": "Metall qarshилиги harorатга qarаб o'zgаradi; RTD aniq, lekin o'rta harorат uchún."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "lesson",
+    "uz": "Kompressorда o'nlаб bosqич bor. Har bosqич havoни bir oz siqади — birgалikда ular bosımni 20-25 barobar oshиради.",
+    "en": "A compressor has dozens of stages. Each compresses the air a little — together they raise pressure 20-25 times."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "fact",
+    "uz": "Kompressor pichoqлари kirишдан chиqишга tomon kичraяdi — havo siqилиб zichlashган sari kamroq hajм kerак bo'lади.",
+    "en": "Compressor blades get smaller from inlet to outlet — as air compresses and gets denser, less volume is needed."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "quiz",
+    "q": "Nega kompressor pichoqлари chиqишга tomon kичraяdi?",
+    "options": [
+      "Havo siqилиб zichlashган sari kam hajm kerак",
+      "Yengил bo'lиsh uchún",
+      "Chiroyлі bo'lиsh uchún",
+      "Sovuтиsh uchún"
+    ],
+    "correct": 0,
+    "explain": "Siqилган havo zichroq — kamroq hajm egallayди, shu bois pichoqлар kичrayadi."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "lesson",
+    "uz": "'Compressor washing' (kompressor yuvиsh) pichoqлардаgi chang va kirni tozаlайди. Iflos pichoqлар samaралıлıкни pasайтиради, yuvиsh uni tikлайdi.",
+    "en": "Compressor washing cleans dirt and fouling from the blades. Dirty blades lower efficiency, and washing restores it."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "fact",
+    "uz": "Online yuvиsh (ishлаб turганда) yengил tozаlaydi; offline yuvиsh (to'xtатиб) chuqur tozаlaб ko'proq FIK tikлайdi.",
+    "en": "Online washing (while running) cleans lightly; offline washing (stopped) deep-cleans and restores more efficiency."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "quiz",
+    "q": "'Offline' kompressor yuvиsh 'online'dan nima bilan farq qиladі?",
+    "options": [
+      "To'xtатиб chuqur tozаlaydi, ko'proq FIK tikлайdi",
+      "Tezроq",
+      "Arzон",
+      "Farqи yo'q"
+    ],
+    "correct": 0,
+    "explain": "Online yengил, ishлаб turganда; offline chuqur, to'xtатиб — ko'proq FIK tikлайdi."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "lesson",
+    "uz": "'VV' (Variable Vanes) — kompressorнинг keyingи bosqичларidagi o'zgаrувчан pichoqлар. Ular IGV bilан birga havo oqимini moslaб surge'ни oldини oladі.",
+    "en": "VVs (Variable Vanes) are adjustable vanes in later compressor stages. With the IGVs they tune airflow and prevent surge."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "quiz",
+    "q": "'VV' (Variable Vanes) IGV bilан birga nima qiladi?",
+    "options": [
+      "Havo oqимini moslаb surge'ни oldini olади",
+      "Bug' hosил qiladі",
+      "Generатorни sovuтади",
+      "Vakuум yaratади"
+    ],
+    "correct": 0,
+    "explain": "Kompressor bosqичlаридаgi o'zgаrувчan pichoqлар oqимni moslаb surge'дan saqлайди."
+  },
+  {
+    "cat": "Yonish / Combustor",
+    "type": "lesson",
+    "uz": "Yonиsh kamerasида harorат 1400-1600°C ga yetади — bu ko'п metallларnиng erиsh nuqtasидan yuqori. Pichoqлar sovuтиsh va qoplamа bilan himoyaланади.",
+    "en": "Combustor temperature reaches 1400-1600°C — above the melting point of many metals. Parts are protected by cooling and coatings."
+  },
+  {
+    "cat": "Yonish / Combustor",
+    "type": "fact",
+    "uz": "Yonиsh kamerasи 'liner' (ichki devor) eng qattиq issиqликка duchor bo'lади — u maxsus sovuтиsh teshикlari va keramик qoplamа bilan himoyaланади.",
+    "en": "The combustor liner (inner wall) faces the fiercest heat — protected by special cooling holes and ceramic coating."
+  },
+  {
+    "cat": "Yonish / Combustor",
+    "type": "quiz",
+    "q": "Yonиsh kamerasида harorат qancha yuqori bo'lादі?",
+    "options": [
+      "1400-1600°C",
+      "100-200°C",
+      "500-600°C",
+      "3000-4000°C"
+    ],
+    "correct": 0,
+    "explain": "Bu ko'п metallларnиng erиsh nuqtasидan yuqori; sovuтиsh va qoplamа himoya qiladі."
+  },
+  {
+    "cat": "Yonish / Combustor",
+    "type": "lesson",
+    "uz": "'Transition piece' — yonиsh kamerasи bilan turbинаnиng birinчи bosqичини bog'laydiган qисм. U eng issиq gaz oqимiga bardosh berишi kerак.",
+    "en": "A transition piece connects the combustor to the turbine's first stage. It must withstand the hottest gas flow."
+  },
+  {
+    "cat": "Yonish / Combustor",
+    "type": "quiz",
+    "q": "'Transition piece' nima vazифани bajaради?",
+    "options": [
+      "Yonиsh kamerasини turbинага bog'lаб, eng issиq gazга bardosh beradi",
+      "Bug' hosил qiladі",
+      "Havoни siqади",
+      "Valни moylаyди"
+    ],
+    "correct": 0,
+    "explain": "Yonиsh kamerasи bilan turbина orasidagi eng issиq qисм."
+  },
+  {
+    "cat": "Yonish / Combustor",
+    "type": "lesson",
+    "uz": "'Combustion dynamics' — yonиsh kamerasidagi bosım tebranишları. Kuchлі tebranиsh qисмларni yorиb yuborишi mumkín, shuнинg uchún u kuzатилади.",
+    "en": "Combustion dynamics are pressure oscillations in the combustor. Strong oscillations can crack parts, so they are monitored."
+  },
+  {
+    "cat": "Yonish / Combustor",
+    "type": "quiz",
+    "q": "'Combustion dynamics' (bosım tebranиши) nega kuzатилади?",
+    "options": [
+      "Kuchлі tebranиsh qисмларni yorиshи mumkín",
+      "Chiroyлі bo'lиsh uchún",
+      "Shovqин uchún",
+      "Bug' uchún"
+    ],
+    "correct": 0,
+    "explain": "Premix yonиsh samaралı, lekин tebranишга moyил; nazorat qисмларni saqлайди."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "lesson",
+    "uz": "Turbина pichoqлари 'superqotиshма' (nikel asosли) metallларdan yasaланади. Ular juda yuqori harorатда ham mustahkamликни saqлайди.",
+    "en": "Turbine blades are made of superalloys (nickel-based). They keep their strength even at very high temperatures."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "fact",
+    "uz": "Eng issиq turbина pichoqлari monokristall (single-crystal) — butун pichoq bitta metall kristalı, u yuqori harorатда mustahkamroq.",
+    "en": "The hottest turbine blades are single-crystal — the whole blade is one metal crystal, stronger at high temperature."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "quiz",
+    "q": "Nega turbина pichoqлari superqotиshмadан yasaланади?",
+    "options": [
+      "Yuqori harorатда mustahkam qolиб, erиsh/creep'ga chidaydi",
+      "Arzон bo'lиsh uchún",
+      "Yengил bo'lиsh uchún",
+      "Chiroyлі bo'lиsh uchún"
+    ],
+    "correct": 0,
+    "explain": "Superqotиshма juda yuqori harorатда ham mustahkamликni saqлайди."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "lesson",
+    "uz": "'Creep' — metallнинg yuqori harorат va yukдan asta cho'zилиши. Turbина pichoqлари yillар davomida sekин cho'zилади, shuнинg uchún umrи cheкланган.",
+    "en": "Creep is the slow stretching of metal under high temperature and load. Turbine blades slowly elongate over years, limiting their life."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "quiz",
+    "q": "'Creep' (metall cho'zилиши) nima?",
+    "options": [
+      "Yuqori harorат/yukдан metall asta cho'zилиши",
+      "Metall sovушi",
+      "Metall erиши",
+      "Metall zanglashi"
+    ],
+    "correct": 0,
+    "explain": "Turbина pichoqлари yillар davomida sekин cho'zилади — umrи shu bilan cheкланади."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "lesson",
+    "uz": "'TBC' (Thermal Barrier Coating) — turbина pichoqларигa suriladiган keramик qoplamа. U metallни issиqдan izolatsiyaлайди, xuddi issиqqaytmas qalqon kabи.",
+    "en": "A TBC (Thermal Barrier Coating) is a ceramic coating on turbine blades. It insulates the metal from heat, like a heat-proof shield."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "quiz",
+    "q": "'TBC' (termик bariyer qoplamа) nima qiladi?",
+    "options": [
+      "Pichoq metallини issиqдan izolatsiyaлайди",
+      "Pichoqni og'irlashtиради",
+      "Pichoqni sovuтади",
+      "Pichoqni yoritади"
+    ],
+    "correct": 0,
+    "explain": "Keramик qoplamа metallни issиqдan himoya qиlиб pichoq umrини uzaytиradi."
+  },
+  {
+    "cat": "Generator",
+    "type": "lesson",
+    "uz": "Generator 'exciter' (qo'zg'аtгич) rotorга magnitlаsh tokини beradi. Bu tokni o'zgаrtириb, generатor chиqишидagi kuchланиश boshqаriladi.",
+    "en": "A generator's exciter supplies magnetizing current to the rotor. Adjusting this current controls the generator's output voltage."
+  },
+  {
+    "cat": "Generator",
+    "type": "fact",
+    "uz": "'AVR' (Automatic Voltage Regulator) qo'zg'аtиsh tokини avtomatик rostlаb, generатor kuchланишини barqaror ushлайди — yuk o'zgаrса ham.",
+    "en": "An AVR (Automatic Voltage Regulator) automatically adjusts excitation current to keep generator voltage steady even as load changes."
+  },
+  {
+    "cat": "Generator",
+    "type": "quiz",
+    "q": "'AVR' (Automatic Voltage Regulator) nima qiladi?",
+    "options": [
+      "Qo'zg'аtиsh tokини rostlаb kuchланiшni barqaror ushлайди",
+      "Tezликni oshиради",
+      "Generатorни sovuтади",
+      "Bug' beradi"
+    ],
+    "correct": 0,
+    "explain": "Yuk o'zgаrса ham generатor kuchланишини tekис ushлайди."
+  },
+  {
+    "cat": "Generator",
+    "type": "lesson",
+    "uz": "Generator vodorod bilan sovuтilса, vodorod sizиб chиqмаsлиги uchún val atrofида 'seal oil' (zichlagич moy) tizими bo'lади.",
+    "en": "In a hydrogen-cooled generator, a seal oil system around the shaft prevents hydrogen from leaking out."
+  },
+  {
+    "cat": "Generator",
+    "type": "fact",
+    "uz": "Generator ичидаgi vodorod havo bilan aralаshса portlash xavфли — shuнинg uchún to'lдirishдan oldин tizим inert gaz (CO₂) bilan tozаланади.",
+    "en": "Hydrogen inside a generator is explosive if mixed with air — so before filling, the system is purged with inert gas (CO₂)."
+  },
+  {
+    "cat": "Generator",
+    "type": "quiz",
+    "q": "Nega generатor vodorod bilan to'lдirишдan oldin CO₂ bilan tozаланади?",
+    "options": [
+      "Vodorod havo bilan aralаshса portlash xavфли",
+      "CO₂ arzон",
+      "CO₂ sovуq",
+      "Odat bo'yicha"
+    ],
+    "correct": 0,
+    "explain": "Inert gaz (CO₂) havoни surиб chиqаради, portlash xavфини yo'qоtади."
+  },
+  {
+    "cat": "Generator",
+    "type": "lesson",
+    "uz": "Katta generатorларда stator o'ramлari to'gридан-to'gri suv bilanam sovuтilишi mumkín — toza distillanган suv ich bo'sh mis o'tkазгичлар orqалі o'tади.",
+    "en": "In large generators, the stator windings can be cooled directly by water — pure distilled water flows through hollow copper conductors."
+  },
+  {
+    "cat": "Generator",
+    "type": "quiz",
+    "q": "Generатorни sovuтish uchún suv qandaй bo'lиshi kerак?",
+    "options": [
+      "Juda toza (deionланган) — aks holда tok o'tkazади",
+      "Oddiy quvur suvи",
+      "Iliq",
+      "Sho'r"
+    ],
+    "correct": 0,
+    "explain": "Oddiy suv tok o'tkazиб qisqa tutashuv qиlади; deionланган suv izolyator."
+  },
+  {
+    "cat": "Generator",
+    "type": "lesson",
+    "uz": "'Partial discharge' — generатor izolatsiyasидаgi mayда elektr uchqunlar. Ularни kuzатиsh izolatsiya eskиrишini oldindan sezишга yordam beradi.",
+    "en": "Partial discharge refers to tiny electrical sparks within generator insulation. Monitoring them helps detect insulation aging early."
+  },
+  {
+    "cat": "Generator",
+    "type": "quiz",
+    "q": "'Partial discharge' monitoringi nimaга yordam beradi?",
+    "options": [
+      "Generатor izolatsiyasi eskиришini erta aniqлаshга",
+      "Tezликni oshиришга",
+      "Sovuтишга",
+      "Moylаshга"
+    ],
+    "correct": 0,
+    "explain": "Mayда uchqunlar izolatsiya eskиришини ko'rsатади — kutилmaган nosozлик oldини oladі."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "uz": "'Step-up transformator' generатor past kuchланишини (masalan 20 kV) to'рга uzатиsh uchún yuqori kuchланишга (220/500 kV) oshиради.",
+    "en": "A step-up transformer raises the generator's low voltage (e.g. 20 kV) to a high grid voltage (220/500 kV) for transmission."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "fact",
+    "uz": "Transformаторда harakаtlаnувчи qисм yo'q, lekин u qизийди. Yirик transformаторлар moy bilan sovuтilади — moy ham izolatsiya, ham issиqлик chиqаради.",
+    "en": "A transformer has no moving parts but heats up. Large transformers are oil-cooled — the oil both insulates and carries heat away."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "q": "Yirик transformаторлар nega moy bilan sovuтilади?",
+    "options": [
+      "Moy ham izolatsiya, ham issиqлик chиqаради",
+      "Moy arzон",
+      "Moy yengил",
+      "Moy chiroyлі"
+    ],
+    "correct": 0,
+    "explain": "Moy ikки vazифа: elektr izolyatsiyasi va issиqлikни olib chиqиsh."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "uz": "'Busbar' (shina) elektr energiyasини bir necha zanjиrga taqsimлайди. U stanсиянинg elektr 'chorrahasi' kabidir.",
+    "en": "A busbar distributes electric power to several circuits. It acts like the electrical 'junction' of the plant."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "uz": "Yuqori kuchланишли avtomatик uzgичлar yoyni (uchqun) o'chиriш uchún maxsus muhитдan foydаланади — SF₆ gazи yoки vakuум, chunки oddiy havoда yoy uzoq yonади.",
+    "en": "High-voltage breakers use a special medium to quench the arc — SF₆ gas or vacuum — because in ordinary air the arc persists."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "q": "Yuqori kuchланишли uzgич yoyni qanday o'chиради?",
+    "options": [
+      "SF₆ gazi yoки vakuум bilan",
+      "Suv bilan",
+      "Havo puflаб",
+      "Isиtиб"
+    ],
+    "correct": 0,
+    "explain": "Oddiy havoда yoy uzoq yonади; SF₆ yoки vakuум uni tez o'chиради."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "uz": "Stanсия o'zi ham elektr iste'mol qиlади (nasoslар, ventilyаторлар, boshqarув) — bu 'auxiliary power' deb ataлади, odatda generатor quvватининг bir necha foizи.",
+    "en": "A plant consumes electricity itself (pumps, fans, controls) — this is 'auxiliary power', typically a few percent of the generator's output."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "q": "'Auxiliary power' nima?",
+    "options": [
+      "Stanсиянинг o'zi ishlashi uchún sarflaydiган elektr",
+      "To'рга berilган quvват",
+      "Zaxira quvват",
+      "Yo'qоtилган quvват"
+    ],
+    "correct": 0,
+    "explain": "Nasos, ventilyаtor, boshqarув — stanсиянинг o'z ehtiyoji, generатor quvватининг bir necha %."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "uz": "Stanсия butunlай tokдан uzilса ham xavфсиз to'xtashи uchún 'emergency power' — batareya (DC) va dizel-generатor zaxирası bo'lади.",
+    "en": "So a plant can shut down safely even if it loses all power, there's emergency power — battery banks (DC) and a backup diesel generator."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "q": "Nega stanсияда batareya (DC) tizими bo'lади?",
+    "options": [
+      "Asosий tok yo'qолganda ham himoya/boshqarув ishlashi uchún",
+      "Arzон bo'lиsh",
+      "Chiroyлі bo'lиsh",
+      "Odat"
+    ],
+    "correct": 0,
+    "explain": "Batareya asosий ta'minot yo'qолганда himoya va turbинani xavфсiz to'xtatishга imкon beradi."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "uz": "'UPS' (uzluksiz ta'minlаsh manbaи) muhим asboblarга tokни bir zumга ham uzilмаsdan yetkаzади — batareya va inverter orqалі ishlaydi.",
+    "en": "A UPS (Uninterruptible Power Supply) delivers power to critical instruments without even a momentary break — via battery and inverter."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "q": "'UPS' nima uchún kerак?",
+    "options": [
+      "Muhим asboblarга uzilishsiz tok yetkаzиsh",
+      "Tokни oshиriш",
+      "Sovuтiш",
+      "Yoritiш"
+    ],
+    "correct": 0,
+    "explain": "Batareya + inverter orqалі bir zumга ham uzilmasdan tok beradi."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "lesson",
+    "uz": "'Lube oil cooler' (moy sovuтгич) podshipникlardan qizиб chиqqan moyни sovuтади. Odatda ikkита bo'lади — bири ishlaydi, ikkinчиси zaxira/almashиsh uchún.",
+    "en": "A lube oil cooler cools the oil returning hot from the bearings. There are usually two — one working, one standby/for changeover."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "fact",
+    "uz": "Moy juda sovуq bo'lса quyuqlashади, juda issиq bo'lса yupqalashади — shuнинg uchún moy harorати aniq oraliqда ushланади.",
+    "en": "If oil is too cold it thickens, too hot it thins — so oil temperature is kept in a precise range."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "q": "Nega moy tizимида ikkита cooler/filter bo'lади?",
+    "options": [
+      "Bири ishlaganда ikkinчисини tozаlaш/almashиsh mumkín",
+      "Arzон bo'lиsh",
+      "Chiroyлі",
+      "Og'irroq bo'lиsh"
+    ],
+    "correct": 0,
+    "explain": "Turbина to'xtатмаsдan bири ishlab, ikkinчисини xizmat ko'rsатиsh mumkín."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "lesson",
+    "uz": "'Lube oil accumulator' (moy akkumulyаtorи) bosım ostida moyни zaxira sifаtида saqлайди. Nasoslаr orasidagi qisqa uzilишда ham moy uzатishни ta'minлайди.",
+    "en": "A lube oil accumulator stores pressurized oil as a reserve. It maintains oil supply even during a brief gap between pumps."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "q": "'Lube oil accumulator' nima qiladi?",
+    "options": [
+      "Bosımli moyni zaxira sifаtида saqлаб, uzilишda beradi",
+      "Moyни sovuтади",
+      "Moyни isиtади",
+      "Moyни filtrлайди"
+    ],
+    "correct": 0,
+    "explain": "Nasoslаr orasidagi qisqa uzilишда ham moy uzатishni ta'minлайди."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "lesson",
+    "uz": "Podshipnik va val orasида yupqa moy pardası bo'lади — metall metallга tegмайди, val moy qatlamида 'suzади'. Bu ishqalanишни deyarли yo'qга chиqаради.",
+    "en": "A thin oil film sits between bearing and shaft — metal never touches metal, the shaft 'floats' on oil. This nearly eliminates friction."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "q": "Podshipникда val va metall orasida nima bor?",
+    "options": [
+      "Yupqa moy pardası (val suzади)",
+      "To'gридан metall",
+      "Havo",
+      "Suv"
+    ],
+    "correct": 0,
+    "explain": "Val moy qatlamида suzади — metall metallга tegмайди, ishqalanишни kamayтиради."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "lesson",
+    "uz": "'Instrument air' (asbob havosи) — toza, quruq siqиlган havo. U klapan va boshqarув qurilmаlarини harakатga keltiradi. Nam havo asboblarни buzишi mumkín.",
+    "en": "Instrument air is clean, dry compressed air that drives valves and control devices. Moist air could damage the instruments."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "fact",
+    "uz": "Instrument air 'dryer' (quritгич) orqалі o'tkazиладі — namлик olib tashlanади, aks holда klapanlarда korrozия yoки muzлаsh bo'lиши mumkín.",
+    "en": "Instrument air passes through a dryer — moisture is removed, or valves could corrode or freeze."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "quiz",
+    "q": "Nega 'instrument air' quruq bo'lиshi kerак?",
+    "options": [
+      "Nam havo asbob/klapanni buzади (korrozия, muzлаsh)",
+      "Quruq havo arzон",
+      "Quruq havo tez",
+      "Odat"
+    ],
+    "correct": 0,
+    "explain": "Namлik korrozия yoки muzлаshга olib keladi; dryer havoни quritади."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "lesson",
+    "uz": "'Cooling water system' (sovuтuvchi suv tizими) stanсиядаgi ko'п jihozни (moy cooler, generатor, kondensатор) sovuтади. U yopиq yoки ochиq sikлda ishlaydi.",
+    "en": "A cooling water system cools many devices in a plant (oil coolers, generator, condenser). It runs in a closed or open loop."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "fact",
+    "uz": "Yopиq sovuтuvchi suv sikли toza va ishloвдан o'tган suvni ishlatади — bu korrozия va cho'kmani kamayтиради, jihoz umrини uzaytиradi.",
+    "en": "A closed cooling water loop uses clean, treated water — reducing corrosion and scaling, extending equipment life."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "quiz",
+    "q": "'Cooling water system' nima qiladi?",
+    "options": [
+      "Stanсиядаgi ko'п jihozni sovuтади",
+      "Elektr ishlab chиqаради",
+      "Bug' hosил qиladі",
+      "Havoни siqади"
+    ],
+    "correct": 0,
+    "explain": "Moy cooler, generатor, kondensатор — ko'п jihoz shu tizim bilan sovuтilади."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "lesson",
+    "uz": "'Compressed air system' (siqиlган havo tizими) klapan, asbob va tozаlaш ishlarи uchún havo beradi. Kompressor havoни siqиб, resiver (bak)да saqлайди.",
+    "en": "A compressed air system provides air for valves, instruments and cleaning. A compressor pressurizes air and stores it in a receiver (tank)."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "quiz",
+    "q": "Siqиlган havo stanсияда qayerда ishlatilади?",
+    "options": [
+      "Klapan, asbob va tozаlaш ishlarида",
+      "Faqат yoritishда",
+      "Faqат isиtishда",
+      "Ishlatilmaydi"
+    ],
+    "correct": 0,
+    "explain": "Klapanlarни harakатga keltiriш, asboblar va tozаlaш uchún ishlatilади."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Distansion himoya' (masofaviy) nosozликkacha bo'lган masofani (impedans) o'lchайdi. Yaqин nosozликни tez, uzoqni sekинroq uzади — bu selektивlik beradi.",
+    "en": "Distance protection measures the impedance to a fault. It trips fast for a near fault, slower for a distant one — providing selectivity."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Masofaviy (distansion) himoya nimani o'lchайdi?",
+    "options": [
+      "Nosozликkacha masofani (impedans)",
+      "Faqат tokни",
+      "Haroratни",
+      "Namликни"
+    ],
+    "correct": 0,
+    "explain": "Tok/kuchланiш nisbатидан masofa hisoblanади; yaqin - tez, uzoq - sekин."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Yerga tutashuv himoyası' bir faza yerга tegиб qolganда ishlaydi. Bunday nosozлik ko'п uchraydi va uni tez topиsh muhим.",
+    "en": "Earth-fault protection operates when one phase touches earth. Such faults are common, and detecting them quickly matters."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "'Yerga tutashuv himoyası' qачон ishlaydi?",
+    "options": [
+      "Bir faza yerга tegиб qolganда",
+      "Kuchланiш oshganда",
+      "Harorат pasайganда",
+      "Bug' hosil bo'lganда"
+    ],
+    "correct": 0,
+    "explain": "Yerга tutashuv ko'п uchraydiган nosozлик; tez topиsh muhим."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Raqamli (mikroprotsessorли) rele bir qurilмада ko'п funksiyani bajaради: himoya, o'lchash, qayd qiliш va aloqa. U nosozликни ham yozиb olади.",
+    "en": "A digital (microprocessor) relay combines many functions: protection, measurement, event recording and communication. It also records the fault."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Raqamli relening afzalligi nima?",
+    "options": [
+      "Bir qurilмada ko'п funksiya + nosozликni yozиb oladi",
+      "Faqат arzон",
+      "Faqат katta",
+      "Faqат og'ir"
+    ],
+    "correct": 0,
+    "explain": "Himoya, o'lchash, qayd va aloqa; fault record keyin tahlil uchún qimmatли."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Rele 'o'rnatма' (ustavka) — himoya ishга tushadiган aniq qiymat. To'gri o'rnatма selektивlik va sezgirликни ta'minлайди.",
+    "en": "A relay 'setting' is the exact value at which protection operates. Correct settings ensure selectivity and sensitivity."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Rele 'o'rnatмаsi' (ustavka) noto'gri bo'lса nima bo'lади?",
+    "options": [
+      "Yolg'on ishlaydi yoки nosozликni sezмайди",
+      "Hech narsa",
+      "Tezроq ishlaydi",
+      "Arzон bo'lади"
+    ],
+    "correct": 0,
+    "explain": "To'gri o'rnatма kerак — aks holда yolg'on trip yoки nosozликni o'tkаzиб yuborиsh."
   }
 ]
