@@ -77,6 +77,36 @@ KIND_LABEL = {
     "quiz":   ("\u2753", "Savol / Quiz"),
 }
 
+# Har toifa uchun mavzuga mos hashtaglar
+CAT_TAGS = {
+    "Gaz turbinasi (GT)": ["gazturbinasi", "GT", "turbina"],
+    "Kompressor": ["kompressor", "havo", "turbina"],
+    "Yonish / Combustor": ["yonish", "combustor", "yoqilgi"],
+    "Bug' turbinasi (ST)": ["bugturbinasi", "ST", "bug"],
+    "HRSG / Bug' sikli": ["HRSG", "bugsikli", "issiqlik"],
+    "Kondensator / Sovutish": ["kondensator", "sovutish", "vakuum"],
+    "Generator": ["generator", "elektr", "kuchlanish"],
+    "Elektr / Himoya": ["elektr", "himoya", "kuchlanish"],
+    "Moy / Podshipnik": ["moy", "podshipnik", "moylash"],
+    "Yordamchi tizimlar": ["yordamchitizim", "auxiliary", "tizim"],
+    "Nasos / Klapan": ["nasos", "klapan", "suyuqlik"],
+    "Boshqaruv / Asboblar": ["boshqaruv", "asbob", "avtomatika"],
+    "Ishga tushirish / Rejim": ["ishgatushirish", "rejim", "start"],
+    "Ta'mir / Xavfsizlik": ["tamir", "xavfsizlik", "profilaktika"],
+    "Combined Cycle / Samaradorlik": ["combinedcycle", "samaradorlik", "FIK"],
+    "Energetika asoslari": ["energetika", "asoslar", "elektr"],
+    "Releli himoya": ["relehimoya", "himoya", "rele"],
+}
+
+
+def build_hashtags(fact):
+    cat = fact.get("cat", "")
+    tags = list(fact.get("tags") or CAT_TAGS.get(cat, ["energetika", "power", "engineering"]))
+    # doim umumiy bitta teg qo'shamiz
+    if "energetika" not in tags:
+        tags.append("energetika")
+    return " ".join("#" + t for t in tags)
+
 
 def build_message(fact):
     uz = html.escape(fact["uz"])
@@ -85,18 +115,24 @@ def build_message(fact):
     cat = fact.get("cat", "")
 
     kemoji, klabel = KIND_LABEL.get(kind, KIND_LABEL["fact"])
-    cemoji = CAT_EMOJI.get(cat, "\U0001f527")  # 🔧 default
 
-    header = f"{kemoji} <b>{klabel}</b>"
-    if cat:
-        header += f"\n{cemoji} <b>{html.escape(cat)}</b>"
+    # Mini darsda emoji minimal: faqat sarlavhada, toifa oldida emoji yo'q
+    if kind == "lesson":
+        header = f"{kemoji} <b>{klabel}</b>"
+        if cat:
+            header += f"\n<b>{html.escape(cat)}</b>"
+    else:
+        cemoji = CAT_EMOJI.get(cat, "\U0001f527")
+        header = f"{kemoji} <b>{klabel}</b>"
+        if cat:
+            header += f"\n{cemoji} <b>{html.escape(cat)}</b>"
 
     return (
         f"{header}\n"
         f"\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n"
         f"\U0001f1fa\U0001f1ff {uz}\n\n"
         f"\U0001f1ec\U0001f1e7 {en}\n\n"
-        f"#energetika #turbina #power #engineering"
+        f"{build_hashtags(fact)}"
     )
 
 
