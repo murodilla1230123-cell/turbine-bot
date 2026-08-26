@@ -65,5 +65,11 @@
     "type": "fact",
     "uz": "'Hot gas path inspection' — turbinaning eng issiq qismlarini (pichoq, transition piece) ko'zdan kechirish va almashtirish. Bu eng muhim ta'mir turlaridan.",
     "en": "A 'hot gas path inspection' examines and replaces the turbine's hottest parts (blades, transition pieces). It's among the most important overhauls."
+  },
+  {
+    "type": "fact",
+    "uz": "Heat rate va FIK bir narsaning ikki ko'rinishi — past heat rate yuqori FIKni bildiradi. Ular stansiya samaradorligini o'lchaydi.",
+    "en": "Heat rate and efficiency are two views of the same thing — a low heat rate means high efficiency. Both measure plant performance.",
+    "cat": "Combined Cycle / Samaradorlik"
   }
 ]
