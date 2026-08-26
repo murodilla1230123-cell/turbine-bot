@@ -4,5 +4,11 @@
     "uz": "Turbina qismida esa teskari jarayon: issiq gaz kengayib, pichoqlarga urilib ularni aylantiradi. Bosim va harorat bosqichma-bosqich tushadi.",
     "en": "In the turbine section the reverse happens: hot gas expands, striking the blades to spin them. Pressure and temperature drop stage by stage.",
     "cat": "Energetika asoslari"
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "AChR (avtomatik chastotali yuklamani tushirish) chastota pasayganda bir qism iste'molchini avtomatik uzadi — bu qolgan tizimni to'liq qulashdan saqlaydi.",
+    "en": "Automatic frequency load shedding disconnects some consumers when frequency drops — saving the rest of the system from total collapse."
   }
 ]
