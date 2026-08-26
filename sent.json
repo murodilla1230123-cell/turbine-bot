@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "tags": [
+      "elektr",
+      "UPS",
+      "uzluksiz"
+    ],
+    "q": "UPS nima uchun kerak?",
+    "options": [
+      "Muhim asboblarga uzilishsiz tok yetkazish",
+      "Tokni oshirish",
+      "Sovutish",
+      "Yoritish"
+    ],
+    "correct": 0,
+    "explain": "Batareya va inverter orqali bir zumga ham uzilmasdan tok beradi."
+  }
+]
