@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "cat": "Yonish / Combustor",
+    "type": "lesson",
+    "uz": "'Combustion dynamics' — yonish kamerasidagi bosim tebranishlari. Kuchli tebranish qismlarni yorib yuborishi mumkin, shuning uchun u kuzatiladi va nazorat qilinadi.",
+    "en": "'Combustion dynamics' are pressure oscillations in the combustor. Strong oscillations can crack parts, so they are monitored and controlled.",
+    "ru": "«Динамика сгорания» — колебания давления в камере сгорания. Сильная вибрация может привести к растрескиванию деталей, поэтому ее отслеживают и контролируют."
+  }
+]
