@@ -289,11 +289,14 @@ def main():
 
     state, now = get_today_state()
 
-    if now.hour < DAY_START or now.hour > DAY_END:
+    # Qo'lda ishga tushirilganda (Run workflow) majburan post qiladi
+    force = os.environ.get("FORCE_POST", "").strip() == "1"
+
+    if not force and (now.hour < DAY_START or now.hour > DAY_END):
         print("Post oynasidan tashqarida.")
         return
 
-    if not should_post_now(state, now):
+    if not force and not should_post_now(state, now):
         print(f"Hozir post yo'q. Bugun: {state['posted']}/{state['target']}, soat {now.hour}")
         return
 
