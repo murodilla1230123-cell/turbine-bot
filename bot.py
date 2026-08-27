@@ -26,6 +26,70 @@ DAY_START = 0
 DAY_END   = 23
 
 
+def translate_to_ru(text):
+    """O'zbekcha matnni rus tiliga tarjima qiladi (bepul, kalitsiz).
+    Xato bo'lsa bo'sh string qaytaradi — bot baribir ishlayveradi."""
+    if not text:
+        return ""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/120.0.0.0 Safari/537.36"
+    }
+    # 1-usul: translate.googleapis.com
+    try:
+        url = "https://translate.googleapis.com/translate_a/single"
+        params = {"client": "gtx", "sl": "uz", "tl": "ru", "dt": "t", "q": text}
+        r = requests.get(url, params=params, headers=headers, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        return "".join(part[0] for part in data[0] if part[0])
+    except Exception as e:
+        print(f"Tarjima 1-usul xatosi: {e}")
+
+    # 2-usul (zaxira): clients5.google.com
+    try:
+        url = "https://clients5.google.com/translate_a/t"
+        params = {"client": "dict-chrome-ex", "sl": "uz", "tl": "ru", "q": text}
+        r = requests.get(url, params=params, headers=headers, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        # javob format: [["tarjima", "manba"], ...] yoki {"sentences":[...]}
+        if isinstance(data, list):
+            if data and isinstance(data[0], list):
+                return "".join(seg[0] for seg in data if seg and seg[0])
+            if data and isinstance(data[0], str):
+                return data[0]
+        return ""
+    except Exception as e:
+        print(f"Tarjima 2-usul xatosi: {e}")
+
+    # 3-usul (zaxira): MyMemory API
+    try:
+        url = "https://api.mymemory.translated.net/get"
+        params = {"q": text, "langpair": "uz|ru"}
+        r = requests.get(url, params=params, headers=headers, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        return data.get("responseData", {}).get("translatedText", "") or ""
+    except Exception as e:
+        print(f"Tarjima 3-usul xatosi (o'tkazib yuborildi): {e}")
+        return ""
+
+
+def ensure_ru(fact):
+    """Fakt uchun rus tarjimasini ta'minlaydi (agar yo'q bo'lsa, tarjima qiladi)."""
+    if fact.get("type") == "quiz":
+        if not fact.get("q_ru"):
+            fact["q_ru"] = translate_to_ru(fact.get("q", ""))
+        if not fact.get("explain_ru"):
+            fact["explain_ru"] = translate_to_ru(fact.get("explain", ""))
+    else:
+        if not fact.get("ru"):
+            fact["ru"] = translate_to_ru(fact.get("uz", ""))
+    return fact
+
+
 def load_json(path, default):
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -72,9 +136,9 @@ CAT_EMOJI = {
 }
 
 KIND_LABEL = {
-    "fact":   ("\u26a1\ufe0f", "Fakt / Fact"),
-    "lesson": ("\U0001f4d8", "Mini dars / Mini lesson"),
-    "quiz":   ("\u2753", "Savol / Quiz"),
+    "fact":   "Fakt / Факт / Fact",
+    "lesson": "Mini dars / Мини урок / Mini lesson",
+    "quiz":   "Savol / Вопрос / Quiz",
 }
 
 # Har toifa uchun mavzuga mos hashtaglar
@@ -102,7 +166,6 @@ CAT_TAGS = {
 def build_hashtags(fact):
     cat = fact.get("cat", "")
     tags = list(fact.get("tags") or CAT_TAGS.get(cat, ["energetika", "power", "engineering"]))
-    # doim umumiy bitta teg qo'shamiz
     if "energetika" not in tags:
         tags.append("energetika")
     return " ".join("#" + t for t in tags)
@@ -110,28 +173,27 @@ def build_hashtags(fact):
 
 def build_message(fact):
     uz = html.escape(fact["uz"])
+    ru = html.escape(fact.get("ru", ""))
     en = html.escape(fact["en"])
     kind = fact.get("type", "fact")
     cat = fact.get("cat", "")
 
-    kemoji, klabel = KIND_LABEL.get(kind, KIND_LABEL["fact"])
+    klabel = KIND_LABEL.get(kind, KIND_LABEL["fact"])
 
-    # Mini darsda emoji minimal: faqat sarlavhada, toifa oldida emoji yo'q
-    if kind == "lesson":
-        header = f"{kemoji} <b>{klabel}</b>"
-        if cat:
-            header += f"\n<b>{html.escape(cat)}</b>"
-    else:
-        cemoji = CAT_EMOJI.get(cat, "\U0001f527")
-        header = f"{kemoji} <b>{klabel}</b>"
-        if cat:
-            header += f"\n{cemoji} <b>{html.escape(cat)}</b>"
+    # Minimal: bitta bo'lim sarlavhasi, toifa nomi (emojisiz)
+    header = f"<b>{klabel}</b>"
+    if cat:
+        header += f"\n<b>{html.escape(cat)}</b>"
+
+    body = f"\U0001f1fa\U0001f1ff {uz}\n\n"
+    if ru:
+        body += f"\U0001f1f7\U0001f1fa {ru}\n\n"
+    body += f"\U0001f1ec\U0001f1e7 {en}\n\n"
 
     return (
         f"{header}\n"
         f"\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n"
-        f"\U0001f1fa\U0001f1ff {uz}\n\n"
-        f"\U0001f1ec\U0001f1e7 {en}\n\n"
+        f"{body}"
         f"{build_hashtags(fact)}"
     )
 
@@ -155,14 +217,31 @@ def send_to_telegram(message):
 def send_quiz_poll(fact):
     """Telegram interaktiv quiz (poll) yuboradi."""
     cat = fact.get("cat", "")
-    cemoji = CAT_EMOJI.get(cat, "\U0001f527")
     q = fact["q"]
-    question = f"\u2753 {cemoji} {cat}\n\n{q}" if cat else f"\u2753 {q}"
-    # Telegram poll savoli 300 belgigacha
+    q_ru = fact.get("q_ru", "")
+    q_en = fact.get("q_en", "")
+
+    # Savol 3 tilda (Telegram cheklovi 300 belgi)
+    parts = [q]
+    if q_ru:
+        parts.append(q_ru)
+    if q_en:
+        parts.append(q_en)
+    qtext = "\n".join(parts)
+    question = f"{cat}\n{qtext}" if cat else qtext
     question = question[:295]
 
     options = [o[:100] for o in fact["options"]]  # har variant 100 belgigacha
-    explanation = fact.get("explain", "")[:200]
+
+    # Izoh 3 tilda
+    exp_parts = []
+    if fact.get("explain"):
+        exp_parts.append(fact["explain"])
+    if fact.get("explain_ru"):
+        exp_parts.append(fact["explain_ru"])
+    if fact.get("explain_en"):
+        exp_parts.append(fact["explain_en"])
+    explanation = " | ".join(exp_parts)[:200]
 
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPoll"
     data = {
@@ -185,7 +264,7 @@ def get_today_state():
     today = now.strftime("%Y-%m-%d")
     state = load_json(STATE_FILE, {})
     if state.get("date") != today:
-        state = {"date": today, "target": random.randint(4, 6), "posted": 0}
+        state = {"date": today, "target": random.randint(10, 15), "posted": 0}
         save_json(STATE_FILE, state)
     return state, now
 
@@ -195,11 +274,12 @@ def should_post_now(state, now):
     posted = state["posted"]
     if posted >= target:
         return False
-    hours_left = max(1, DAY_END - now.hour + 1)
+    # 30 daqiqalik interval: kuniga 48 ta imkoniyat
+    slots_left = max(1, (DAY_END - now.hour + 1) * 2)
     posts_left = target - posted
-    if posts_left >= hours_left:
+    if posts_left >= slots_left:
         return True
-    probability = posts_left / hours_left
+    probability = posts_left / slots_left
     return random.random() < probability
 
 
@@ -223,6 +303,9 @@ def main():
     fact = pick_fact(sent_texts)
     if not fact:
         raise SystemExit("Fakt topilmadi.")
+
+    # Rus tarjimasini ta'minlash (agar yo'q bo'lsa, avtomatik tarjima)
+    fact = ensure_ru(fact)
 
     # Quiz turi -> interaktiv poll; boshqalari -> oddiy xabar
     if fact.get("type") == "quiz" and fact.get("options") and "correct" in fact:

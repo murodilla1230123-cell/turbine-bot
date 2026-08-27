@@ -3,541 +3,631 @@
     "type": "fact",
     "uz": "GTCC (Gas Turbine Combined Cycle) stansiyasida bitta yoqilg'idan ikki bosqichda energiya olinadi: avval gaz turbinasi, keyin uning issiq chiqindi gazidan bug' hosil qilib bug' turbinasi.",
     "en": "In a GTCC (Gas Turbine Combined Cycle) plant, energy is extracted from one fuel in two stages: first the gas turbine, then a steam turbine driven by steam raised from the hot exhaust.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "На станции GTCC (Gas Turbine Combined Cycle) энергия из одного топлива получается в два этапа: сначала газовая турбина, затем из её горячих выхлопных газов образуется пар для паровой турбины."
   },
   {
     "type": "fact",
     "uz": "Combined cycle stansiyasining umumiy FIK (samaradorlik)i 60-64% ga yetadi, oddiy siklli gaz turbinasi esa faqat ~35-40% beradi.",
     "en": "A combined cycle plant reaches 60-64% overall efficiency, while a simple-cycle gas turbine alone yields only about 35-40%.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Общий КПД станции комбинированного цикла достигает 60-64%, тогда как простая газовая турбина даёт лишь около 35-40%."
   },
   {
     "type": "lesson",
     "uz": "Gaz turbinasi uch asosiy qismdan iborat: kompressor (havoni siqadi), yonish kamerasi (yoqilg'i yonadi) va turbina (issiq gaz energiyani aylanishga aylantiradi). Bu 'Brayton sikli' deb ataladi.",
     "en": "A gas turbine has three core parts: the compressor (compresses air), the combustor (burns fuel), and the turbine (converts hot gas energy into rotation). This is called the Brayton cycle.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Газовая турбина состоит из трёх основных частей: компрессор (сжимает воздух), камера сгорания (сжигает топливо) и турбина (превращает энергию горячего газа во вращение). Это называется циклом Брайтона."
   },
   {
     "type": "fact",
     "uz": "Gaz turbinasi kompressori o'zi ishlab chiqargan quvvatning deyarli yarmini havoni siqishga sarflaydi — qolgani foydali quvvat bo'ladi.",
     "en": "A gas turbine's compressor consumes nearly half of the power the turbine produces just to compress incoming air; the rest is useful output.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Компрессор газовой турбины тратит почти половину вырабатываемой мощности на сжатие воздуха — остальное составляет полезную мощность."
   },
   {
     "type": "lesson",
     "uz": "HRSG (Heat Recovery Steam Generator) — gaz turbinasining ~600°C chiqindi gazidan issiqlikni 'ushlab', suvni bug'ga aylantiradigan katta issiqlik almashtirgich. U combined cycle'ning yuragi.",
     "en": "An HRSG (Heat Recovery Steam Generator) is a large heat exchanger that captures heat from the ~600°C gas turbine exhaust to turn water into steam. It is the heart of combined cycle.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "HRSG (Heat Recovery Steam Generator) — большой теплообменник, который улавливает тепло из выхлопных газов газовой турбины (~600°C) и превращает воду в пар. Это сердце комбинированного цикла."
   },
   {
     "type": "fact",
     "uz": "Generator elektr ishlab chiqarganda kuchli qiziydi, shuning uchun yirik generatorlar vodorod (H₂) gazi bilan sovutiladi — vodorod havodan ~7 barobar yaxshi issiqlik o'tkazadi.",
     "en": "A generator heats up strongly while producing electricity, so large generators are cooled with hydrogen (H₂) gas, which conducts heat about 7 times better than air.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Генератор сильно нагревается при выработке электричества, поэтому крупные генераторы охлаждаются водородом (H₂) — водород проводит тепло примерно в 7 раз лучше воздуха."
   },
   {
     "type": "lesson",
     "uz": "Ishga tushirish (startup) jarayonida turbina asta-sekin aylantiriladi va qizdiriladi. Tez isitish metallda kuchlanish va yoriqlar keltirib chiqarishi mumkin, shuning uchun bosqichma-bosqich boriladi.",
     "en": "During startup, the turbine is slowly rotated and warmed. Rapid heating can cause thermal stress and cracks in the metal, so it is done step by step.",
-    "cat": "Boshqaruv / Asboblar"
+    "cat": "Boshqaruv / Asboblar",
+    "ru": "При запуске (startup) турбину постепенно раскручивают и прогревают. Быстрый нагрев может вызвать напряжения и трещины в металле, поэтому действуют поэтапно."
   },
   {
     "type": "fact",
     "uz": "Turbina to'xtatilgandan keyin ham 'turning gear' (aylantirish mexanizmi) rotorni sekin aylantirib turadi — aks holda og'irligidan rotor egilib qolishi mumkin.",
     "en": "Even after a turbine is shut down, a turning gear keeps the rotor slowly rotating; otherwise the rotor could bow (sag) under its own weight.",
-    "cat": "Ishga tushirish / Rejim"
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "Даже после остановки турбины валоповоротное устройство (turning gear) медленно вращает ротор — иначе ротор может прогнуться под собственным весом."
   },
   {
     "type": "fact",
     "uz": "Kompressor pichoqlariga vaqt o'tishi bilan chang va kir yopishadi, bu FIKni pasaytiradi. Shuning uchun davriy ravishda 'compressor blade washing' (pichoqlarni yuvish) o'tkaziladi.",
     "en": "Dirt and fouling build up on compressor blades over time, lowering efficiency. That is why periodic compressor blade washing is performed.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Со временем на лопатки компрессора налипают пыль и грязь, что снижает КПД. Поэтому периодически проводят промывку лопаток компрессора (compressor blade washing)."
   },
   {
     "type": "lesson",
     "uz": "Kompressor yuvish ikki xil bo'ladi: 'online' (turbina ishlab turganda, yengil tozalash) va 'offline' (turbina to'xtatilib, chuqur tozalash). Offline yuvish ko'proq FIK tiklaydi.",
     "en": "Compressor washing comes in two types: online (while running, light cleaning) and offline (turbine stopped, deep cleaning). Offline washing restores more efficiency.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Промывка компрессора бывает двух видов: online (при работающей турбине, лёгкая очистка) и offline (с остановкой турбины, глубокая очистка). Offline-промывка восстанавливает больше КПД."
   },
   {
     "type": "fact",
     "uz": "Gaz turbinasi yonish kamerasida harorat 1400-1600°C ga yetadi — bu ko'pchilik metallarning erish nuqtasidan yuqori. Pichoqlar maxsus sovutish va qoplamalar bilan himoyalanadi.",
     "en": "Temperatures in a gas turbine combustor reach 1400-1600°C, above the melting point of most metals. Blades are protected by special cooling and coatings.",
-    "cat": "Yonish / Combustor"
+    "cat": "Yonish / Combustor",
+    "ru": "В камере сгорания газовой турбины температура достигает 1400-1600°C — это выше точки плавления большинства металлов. Лопатки защищены специальным охлаждением и покрытиями."
   },
   {
     "type": "lesson",
     "uz": "Turbina pichoqlari ichida mayda kanallar bo'ladi — ular orqali sovuq havo o'tkaziladi. Bu 'film cooling' pichoq sirtida himoya havo qatlamini yaratadi.",
     "en": "Turbine blades contain tiny internal channels through which cool air flows. This 'film cooling' creates a protective air layer over the blade surface.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Внутри лопаток турбины есть мелкие каналы, через которые проходит холодный воздух. Это плёночное охлаждение (film cooling) создаёт защитный слой воздуха на поверхности лопатки."
   },
   {
     "type": "fact",
     "uz": "Eng issiq turbina pichoqlari monokristall (single-crystal) qotishmalardan quyiladi — butun pichoq bitta metall kristali bo'lib, u yuqori haroratda mustahkamroq turadi.",
     "en": "The hottest turbine blades are cast as single crystals — the whole blade is one metal crystal, which resists high-temperature deformation better.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Самые горячие лопатки турбины отливают из монокристаллических (single-crystal) сплавов — вся лопатка представляет собой один кристалл металла, который прочнее при высокой температуре."
   },
   {
     "type": "fact",
     "uz": "Bug' turbinasi pichog'ining uchi ba'zan tovush tezligidan tezroq — sekundiga 500+ metr harakatlanadi.",
     "en": "The tip of a steam turbine blade can move faster than the speed of sound — over 500 meters per second.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Конец лопатки паровой турбины иногда движется быстрее скорости звука — более 500 метров в секунду."
   },
   {
     "type": "lesson",
     "uz": "Bug' turbinasi bir necha bosqichdan iborat: yuqori bosim (HP), o'rta bosim (IP) va past bosim (LP). Bug' har bosqichda kengayib, energiyasini beradi va bosimi pasayadi.",
     "en": "A steam turbine has several stages: high-pressure (HP), intermediate-pressure (IP), and low-pressure (LP). Steam expands through each stage, giving up energy as its pressure drops.",
-    "cat": "Bug' turbinasi (ST)"
+    "cat": "Bug' turbinasi (ST)",
+    "ru": "Паровая турбина состоит из нескольких ступеней: высокого давления (HP), среднего давления (IP) и низкого давления (LP). Пар на каждой ступени расширяется, отдаёт энергию и его давление падает."
   },
   {
     "type": "fact",
     "uz": "Bug' turbinasidan chiqqan bug' kondensatorda sovutilib qaytadan suvga aylantiriladi va sikl qayta boshlanadi — suv behuda ketmaydi, aylanib yuradi.",
     "en": "Steam leaving the turbine is cooled in a condenser back into water and reused, so the water is not wasted but circulates in a closed loop.",
-    "cat": "Bug' turbinasi (ST)"
+    "cat": "Bug' turbinasi (ST)",
+    "ru": "Конденсатор превращает отработанный пар турбины обратно в воду, создавая вакуум. Низкое давление позволяет пару расширяться сильнее и отдавать больше энергии."
   },
   {
     "type": "lesson",
     "uz": "Kondensatorda vakuum (past bosim) bo'ladi. Past bosim bug'ning ko'proq kengayishiga imkon beradi, bu esa turbinadan ko'proq energiya olishni bildiradi.",
     "en": "A condenser operates under vacuum (low pressure). Lower pressure lets the steam expand more, which means more energy is extracted from the turbine.",
-    "cat": "Kondensator / Sovutish"
+    "cat": "Kondensator / Sovutish",
+    "ru": "Градирня охлаждает воду конденсатора с помощью воздуха. Горячая вода стекает тонкой плёнкой, часть испаряется и охлаждает остальную."
   },
   {
     "type": "fact",
     "uz": "Generator chiqishidagi kuchlanish transformator orqali oshiriladi (masalan 20 kV → 500 kV), chunki yuqori kuchlanishda energiya uzoq masofaga kam yo'qotish bilan uzatiladi.",
     "en": "The generator's output voltage is stepped up by a transformer (e.g. 20 kV to 500 kV), because at high voltage energy travels long distances with fewer losses.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Белый 'дым' из градирни — это не дым, а сконденсировавшийся пар от испарившейся воды. Он безвреден."
   },
   {
     "type": "lesson",
     "uz": "'Single line diagram' — stansiyaning elektr tizimini bitta chiziq bilan soddalashtirib ko'rsatadigan sxema. U generator, transformator va shinalar orasidagi bog'lanishni tushunishga yordam beradi.",
     "en": "A single line diagram shows a plant's electrical system simplified to single lines. It helps engineers understand connections between generator, transformers and busbars.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Подшипники несут вес ротора и позволяют ему вращаться. Тонкая плёнка масла между подшипником и валом почти устраняет трение — вал 'плавает' на масле."
   },
   {
     "type": "fact",
     "uz": "Generator to'rga (grid) ulanishidan oldin 'sinxronizatsiya' qilinadi: uning chastotasi, kuchlanishi va fazasi to'r bilan aniq mos kelishi kerak, aks holda kuchli zarba bo'ladi.",
     "en": "Before a generator connects to the grid it must be synchronized: its frequency, voltage and phase must exactly match the grid, or a damaging shock occurs.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Масляная система выполняет две задачи: смазывает подшипники (уменьшает трение) и охлаждает их (отводит тепло). Без масла подшипники быстро выходят из строя."
   },
   {
     "type": "fact",
     "uz": "O'zbekiston to'ri 50 Hz chastotada ishlaydi, ya'ni generator rotori sekundiga 50 marta (yoki 3000 ayl/min) aylanadi (2 qutbli mashinada).",
     "en": "Uzbekistan's grid runs at 50 Hz, meaning a 2-pole generator rotor spins 50 times per second (3000 rpm) to match it.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Если давление масла падает, турбина автоматически останавливается (trip). Это защищает дорогие подшипники и вал от повреждения."
   },
   {
     "type": "lesson",
     "uz": "Gaz turbinasining yonilg'i tizimi yoqilg'i (tabiiy gaz yoki suyuq) miqdorini juda aniq boshqaradi. Yoqilg'i oqimi turbinaning quvvati va haroratini belgilaydi.",
     "en": "A gas turbine's fuel system controls the amount of fuel (natural gas or liquid) very precisely. Fuel flow determines the turbine's power and temperature.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Генератор превращает механическое вращение в электричество. Вращающийся ротор создаёт магнитное поле, которое наводит ток в обмотках неподвижного статора."
   },
   {
     "type": "fact",
     "uz": "Ko'p gaz turbinalari 'dual fuel' — asosan tabiiy gazda, lekin zarurda suyuq yoqilg'ida ham ishlay oladi, bu ishonchlilikni oshiradi.",
     "en": "Many gas turbines are 'dual fuel' — running mainly on natural gas but able to switch to liquid fuel when needed, improving reliability.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Прежде чем подключить генератор к сети, выполняют синхронизацию: частота, напряжение и фаза должны точно совпасть с сетью, иначе произойдёт сильный удар."
   },
   {
     "type": "lesson",
     "uz": "'Lube oil' (moylash tizimi) turbina podshipniklarini nafaqat moylaydi, balki sovutadi ham. Moy bosimi yo'qolsa, turbina darhol xavfsiz to'xtatiladi.",
     "en": "The lube oil system not only lubricates the turbine bearings but also cools them. If oil pressure is lost, the turbine is tripped (safely stopped) immediately.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Трансформатор повышает или понижает напряжение. Генератор вырабатывает низкое напряжение, а трансформатор повышает его для передачи по сети."
   },
   {
     "type": "fact",
     "uz": "Turbina podshipniklari ko'pincha 'oq metall' (babbitt) bilan qoplanadi — bu yumshoq qotishma val bilan ishqalanishni kamaytiradi va uni himoya qiladi.",
     "en": "Turbine bearings are often lined with 'white metal' (babbitt), a soft alloy that reduces friction with the shaft and protects it.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Почему для передачи используют высокое напряжение? При высоком напряжении ток меньше, а значит меньше потери тепла в проводах."
   },
   {
     "type": "lesson",
     "uz": "Rotor mukammal balansda bo'lishi shart. 3000 ayl/min tezlikda hatto 1 gramm nomutanosiblik ham kuchli vibratsiya beradi, shuning uchun vibratsiya doimiy nazorat qilinadi.",
     "en": "A rotor must be perfectly balanced. At 3000 rpm even 1 gram of imbalance causes strong vibration, so vibration is monitored continuously.",
-    "cat": "Ta'mir / Xavfsizlik"
+    "cat": "Ta'mir / Xavfsizlik",
+    "ru": "Релейная защита — это система, которая автоматически обнаруживает неисправность (короткое замыкание, перегрузку) и быстро отключает повреждённый участок. Это 'страж' электросети."
   },
   {
     "type": "fact",
     "uz": "Gaz turbinasi ishga tushishida 'starting device' (ishga tushirgich) rotorni yonish boshlanguncha aylantiradi — chunki turbina o'zi to'xtagan holatdan mustaqil boshlay olmaydi.",
     "en": "At startup a starting device spins the gas turbine rotor until combustion can sustain it, since the turbine cannot start itself from rest.",
-    "cat": "Yonish / Combustor"
+    "cat": "Yonish / Combustor",
+    "ru": "Главная задача релейной защиты — как можно быстрее устранить неисправность, снижая повреждение оборудования и угрозу устойчивости энергосистемы."
   },
   {
     "type": "lesson",
     "uz": "'FSNL' (Full Speed No Load) — turbina to'liq tezlikda aylanayotgan, lekin hali to'rga quvvat bermayotgan holat. Bu sinxronizatsiyadan oldingi tayyorgarlik bosqichi.",
     "en": "FSNL (Full Speed No Load) is when the turbine spins at full speed but is not yet supplying power to the grid — a preparation stage before synchronization.",
-    "cat": "Elektr / Himoya"
+    "cat": "Elektr / Himoya",
+    "ru": "У релейной защиты четыре ключевых требования: селективность, быстродействие, чувствительность и надёжность. Хорошая защита обеспечивает все четыре вместе."
   },
   {
     "type": "fact",
     "uz": "'Spin cooling' — turbinani to'xtatgandan keyin uni bir muddat aylantirib, issiqlikni bir tekis tarqatib sovutish usuli. Bu notekis sovushdan kelib chiqadigan egilishning oldini oladi.",
     "en": "Spin cooling is rotating the turbine for a while after shutdown to distribute heat evenly as it cools, preventing bowing caused by uneven cooling.",
-    "cat": "Yordamchi tizimlar"
+    "cat": "Yordamchi tizimlar",
+    "ru": "Селективность означает, что защита отключает только повреждённый участок, оставляя исправные в работе. Это не даёт потребителям отключиться без надобности."
   },
   {
     "type": "lesson",
     "uz": "Turbina 'casing' (korpus) ichki qismlarini o'rab turadi va bug'/gaz bosimini ushlab turadi. Korpus notekis qizisa yoki sovusa, u ham deformatsiyalanishi mumkin.",
     "en": "The turbine casing surrounds the internal parts and contains the steam/gas pressure. If the casing heats or cools unevenly, it too can deform.",
-    "cat": "Energetika asoslari"
+    "cat": "Energetika asoslari",
+    "ru": "Быстродействие — это то, насколько быстро защита устраняет неисправность. В высоковольтных сетях (330-500 кВ) короткое замыкание должно устраняться за 0,06-0,08 секунды."
   },
   {
     "type": "fact",
     "uz": "'Blowout' yoki 'blow' operatsiyasi — quvurlardagi qoldiq va iflosliklarni yuqori tezlikdagi oqim bilan uchirib tozalash. Yangi tizimlar ishga tushishdan oldin shunday tozalanadi.",
     "en": "A 'blowout' or 'blow' operation cleans pipes by blasting out debris with high-velocity flow. New systems are cleaned this way before commissioning.",
-    "cat": "Ta'mir / Xavfsizlik"
+    "cat": "Ta'mir / Xavfsizlik",
+    "ru": "Чувствительность — способность обнаружить даже самую малую неисправность. Она должна быть достаточной во всех режимах системы, даже в минимальном."
   },
   {
     "type": "lesson",
     "uz": "Nazorat tizimi (control system) turbinaning 'miyasi' — u yuzlab datchiklardan ma'lumot olib, yoqilg'i, klapanlar va tezlikni real vaqtda boshqaradi.",
     "en": "The control system is the turbine's 'brain' — it reads hundreds of sensors and manages fuel, valves and speed in real time.",
-    "cat": "Nasos / Klapan"
+    "cat": "Nasos / Klapan",
+    "ru": "Надёжность означает, что защита срабатывает, когда нужно, и не срабатывает ложно, когда не нужно. Простота схемы и качественные элементы повышают надёжность."
   },
   {
     "type": "fact",
     "uz": "Turbinada 'trip' — xavf paydo bo'lganda (masalan haddan tashqari tezlik yoki vibratsiya) turbinani zudlik bilan xavfsiz to'xtatuvchi himoya tizimi.",
     "en": "A 'trip' is a protection function that instantly and safely shuts down the turbine when a danger appears, such as overspeed or excessive vibration.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Основная защита предназначена устранять неисправность первой. Если она не сработает, резервная защита берёт на себя её функцию и устраняет неисправность."
   },
   {
     "type": "fact",
     "uz": "HRSG'da suv bir necha bosim darajasida bug'ga aylantiriladi (HP, IP, LP) — bu chiqindi gaz issiqligidan imkon qadar ko'proq foydalanish imkonini beradi.",
     "en": "In an HRSG, water is turned to steam at several pressure levels (HP, IP, LP), which extracts as much heat as possible from the exhaust gas.",
-    "cat": "HRSG / Bug' sikli"
+    "cat": "HRSG / Bug' sikli",
+    "ru": "Реле — это устройство, которое срабатывает, когда входная величина (ток, напряжение) превышает заданное значение. Оно замыкает контакты и подаёт команду отключения выключателю."
   },
   {
     "type": "lesson",
     "uz": "'Deaerator' — suvdan erigan kislorod va gazlarni chiqarib tashlaydigan qurilma. Kislorod metallni yemiradi (korroziya), shuning uchun bug' tizimidan oldin olib tashlanadi.",
     "en": "A deaerator removes dissolved oxygen and gases from water. Oxygen corrodes metal, so it is stripped out before the water enters the steam system.",
-    "cat": "HRSG / Bug' sikli"
+    "cat": "HRSG / Bug' sikli",
+    "ru": "Токовая защита следит за током в сети. При коротком замыкании ток резко возрастает — защита это обнаруживает и отключает цепь."
   },
   {
     "type": "fact",
     "uz": "Bug' quvurlari juda issiq bo'lgani uchun kengayadi. Shuning uchun quvurlarda maxsus 'kengayish' bo'g'inlari va tayanchlar bo'lib, ular harakatga imkon beradi.",
     "en": "Steam pipes get very hot and expand. That is why piping has special expansion joints and supports that allow movement without breaking.",
-    "cat": "Energetika asoslari"
+    "cat": "Energetika asoslari",
+    "ru": "Максимальная токовая защита (МТЗ) срабатывает, когда ток превышает заданный порог. Это самый простой и распространённый вид защиты."
   },
   {
     "type": "lesson",
     "uz": "Stansiya 'baseload' (doimiy to'liq quvvat) yoki 'cycling' (kun davomida quvvatni o'zgartirib) rejimida ishlashi mumkin. Tez-tez ishga tushirish/to'xtatish jihozlarni ko'proq charchatadi.",
     "en": "A plant can run 'baseload' (constant full power) or 'cycling' (varying power through the day). Frequent starts and stops wear equipment more.",
-    "cat": "Ishga tushirish / Rejim"
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "Трансформатор тока (ТТ) преобразует большой ток сети в малый измеримый (например 5 А или 1 А). Реле работает с этим малым током."
   },
   {
     "type": "fact",
     "uz": "Gaz turbinasi tashqi havo haroratiga sezgir: issiq havoda havo zichligi kamayadi, shuning uchun yozda turbina quvvati biroz pasayadi.",
     "en": "A gas turbine is sensitive to ambient air temperature: hot air is less dense, so the turbine's power output drops slightly in summer.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Дифференциальная защита сравнивает ток, входящий в защищаемый элемент, и выходящий из него. В норме они равны; разница означает внутреннюю неисправность."
   },
   {
     "type": "lesson",
     "uz": "Ba'zi stansiyalarda 'inlet air cooling' bo'ladi — kirayotgan havoni sovutib, uni zichroq qiladi va issiq kunlarda quvvatni tiklaydi.",
     "en": "Some plants use inlet air cooling — chilling the incoming air to make it denser and recover power on hot days.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Газовая защита (реле Бухгольца) реагирует на газ, образующийся при внутренней неисправности в масляном трансформаторе. При лёгкой неисправности подаёт сигнал, при тяжёлой — отключает."
   },
   {
     "type": "fact",
     "uz": "Combined cycle stansiyasi to'liq ishga tushishi (sovuq holatdan) bir necha soat davom etishi mumkin, chunki barcha qismlar bosqichma-bosqich qizdirilishi kerak.",
     "en": "Starting a combined cycle plant fully from cold can take several hours, because all components must be warmed up gradually.",
-    "cat": "Combined Cycle / Samaradorlik"
+    "cat": "Combined Cycle / Samaradorlik",
+    "ru": "Дистанционная защита измеряет расстояние (сопротивление) до места неисправности. Ближнюю неисправность отключает быстро, дальнюю — медленнее, что обеспечивает селективность."
   },
   {
     "type": "lesson",
     "uz": "'Hot', 'warm' va 'cold' start farqlanadi: turbina qanchalik uzoq to'xtagan bo'lsa, u shunchalik sovigan va ishga tushirish shuncha uzoq davom etadi.",
     "en": "Starts are classed as hot, warm or cold: the longer a turbine has been stopped, the cooler it is and the longer startup takes.",
-    "cat": "Ishga tushirish / Rejim"
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "Различают hot, warm и cold start: чем дольше турбина простаивала, тем сильнее она остыла и тем дольше длится запуск."
   },
   {
     "type": "fact",
     "uz": "Xavfsizlik birinchi o'rinda: stansiyada gaz sizishi, yong'in va bosim uchun ko'plab datchiklar va avtomatik himoya tizimlari o'rnatilgan.",
     "en": "Safety comes first: a plant has many sensors and automatic protection systems for gas leaks, fire and pressure.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Безопасность прежде всего: на станции установлено множество датчиков и автоматических систем защиты от утечки газа, пожара и давления."
   },
   {
     "type": "lesson",
     "uz": "Gaz turbinasi bo'limida yong'in xavfi yuqori, shuning uchun ko'pincha CO₂ yoki maxsus gaz bilan avtomatik o't o'chirish tizimi bo'ladi, u kislorodni siqib chiqaradi.",
     "en": "The gas turbine compartment has high fire risk, so it often has an automatic CO₂ or special-gas fire suppression system that displaces oxygen.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "В отсеке газовой турбины высокая пожароопасность, поэтому часто устанавливается автоматическая система пожаротушения на CO₂ или специальном газе, вытесняющем кислород."
   },
   {
     "type": "fact",
     "uz": "Stansiyaning yuragi — nazorat xonasi (control room), u yerda operatorlar ekranlar orqali butun stansiyani kuzatadi va boshqaradi.",
     "en": "The heart of the plant is the control room, where operators monitor and control the entire station through screens.",
-    "cat": "Energetika asoslari"
+    "cat": "Energetika asoslari",
+    "ru": "Сердце станции — щит управления (control room), где операторы через экраны наблюдают и управляют всей станцией."
   },
   {
     "type": "lesson",
     "uz": "IGV (Inlet Guide Vanes) — kompressor kirishidagi burilib turadigan yo'naltiruvchi pichoqlar. Ular kirayotgan havo miqdorini rostlab, turbina quvvatini nozik boshqaradi.",
     "en": "IGVs (Inlet Guide Vanes) are adjustable vanes at the compressor inlet. They regulate the amount of incoming air, giving fine control over turbine power.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "IGV (Inlet Guide Vanes) — поворотные направляющие лопатки на входе компрессора. Регулируя количество поступающего воздуха, они тонко управляют мощностью турбины."
   },
   {
     "type": "fact",
     "uz": "IGV pichoqlari ishga tushirishda yopiq turadi (kam havo), turbina quvvati oshgani sari asta-sekin ochiladi — bu barqaror va samarali ishlashni ta'minlaydi.",
     "en": "IGVs stay nearly closed during startup (less air) and gradually open as power rises, ensuring stable and efficient operation.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Лопатки IGV при запуске закрыты (мало воздуха) и постепенно открываются по мере роста мощности — это обеспечивает устойчивую и эффективную работу."
   },
   {
     "type": "lesson",
     "uz": "VV (Variable Vanes) — kompressorning keyingi bosqichlaridagi o'zgaruvchan pichoqlar. Ular IGV bilan birga havo oqimini moslashtirib, kompressorni 'surge' (silkinish) dan saqlaydi.",
     "en": "VVs (Variable Vanes) are adjustable vanes in later compressor stages. Together with the IGVs they tune airflow and protect the compressor from surge.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "VV (Variable Vanes) — регулируемые лопатки на последующих ступенях компрессора. Вместе с IGV они подстраивают поток воздуха и защищают компрессор от помпажа (surge)."
   },
   {
     "type": "fact",
     "uz": "IGV va VV burchagi LVDT deb ataladigan aniq datchik bilan o'lchanadi — u pichoqning holatini elektr signalga aylantiradi.",
     "en": "IGV and VV angles are measured by a precise sensor called an LVDT, which converts vane position into an electrical signal.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Угол IGV и VV измеряется точным датчиком LVDT — он преобразует положение лопатки в электрический сигнал."
   },
   {
     "type": "lesson",
     "uz": "Turbina rotori disklardan yig'iladi. Ular 'CURVIC coupling' — tishli yuzalar orqali bir-biriga aniq va mustahkam ulanadi, bu markazlashuvni saqlaydi.",
     "en": "The turbine rotor is assembled from discs joined by a 'CURVIC coupling' — precisely toothed faces that lock them together accurately and keep them centered.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Ротор турбины собирается из дисков. Они точно и прочно соединяются через зубчатые поверхности CURVIC coupling, что сохраняет центровку."
   },
   {
     "type": "fact",
     "uz": "Rotor disklari ichidan uzun tortuvchi val (tie bolt/tie rod) o'tadi va ularni birga siqib ushlaydi — go'yo boncuklarni ipga terganday.",
     "en": "A long central tie bolt runs through the rotor discs and clamps them together, much like beads threaded on a string.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Сквозь диски ротора проходит длинный стяжной вал (tie bolt/tie rod), сжимающий их вместе — словно бусины на нити."
   },
   {
     "type": "lesson",
     "uz": "Gaz turbinasida ikki xil podshipnik bor: 'journal bearing' valni yon tomondan ushlaydi (aylanishga), 'thrust bearing' esa uni o'q bo'ylab siljishdan ushlab turadi.",
     "en": "A gas turbine has two bearing types: journal bearings support the shaft radially (for rotation), while the thrust bearing holds it against axial movement.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "В газовой турбине два типа подшипников: опорный (journal bearing) держит вал сбоку (для вращения), а упорный (thrust bearing) удерживает его от осевого смещения."
   },
   {
     "type": "fact",
     "uz": "Zamonaviy turbinalarda 'tilting-pad' (egiluvchi tagliksimon) podshipniklar ishlatiladi — ular yuqori tezlikda barqaror va vibratsiyaga chidamli.",
     "en": "Modern turbines use 'tilting-pad' bearings — their pads pivot to stay stable at high speed and resist vibration.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "В современных турбинах применяют сегментные подшипники (tilting-pad) — они устойчивы на высокой скорости и стойки к вибрации."
   },
   {
     "type": "lesson",
     "uz": "Podshipnik va val orasida yupqa moy pardasi bo'ladi — metal metallga tegmaydi, faqat moy qatlamida 'suzadi'. Bu ishqalanishni deyarli yo'qqa chiqaradi.",
     "en": "A thin oil film sits between bearing and shaft — metal never touches metal, the shaft 'floats' on oil. This nearly eliminates friction.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Между подшипником и валом есть тонкая плёнка масла — металл не касается металла, вал 'плавает' в слое масла. Это почти устраняет трение."
   },
   {
     "type": "lesson",
     "uz": "'Seal' (zichlagich) — gaz, bug' yoki moyning kerakmas joyga o'tib ketishining oldini oladi. Turbinalarda ko'pincha 'labirint zichlagich' — ko'p tishli tor yo'lak ishlatiladi.",
     "en": "A seal prevents gas, steam or oil from leaking where it shouldn't. Turbines often use a 'labyrinth seal' — a narrow, many-toothed path that restricts flow.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Уплотнение (seal) предотвращает утечку газа, пара или масла в ненужное место. В турбинах часто применяют лабиринтное уплотнение — узкий канал с множеством зубьев."
   },
   {
     "type": "fact",
     "uz": "Labirint zichlagich oqimni to'liq to'smaydi, balki uni ko'p burilishlar orqali sekinlashtiradi — har burilishda bosim tushadi va sizish kamayadi.",
     "en": "A labyrinth seal doesn't fully block flow but slows it through many turns — pressure drops at each turn, reducing leakage.",
-    "cat": "Energetika asoslari"
+    "cat": "Energetika asoslari",
+    "ru": "Лабиринтное уплотнение не перекрывает поток полностью, а замедляет его множеством поворотов — на каждом повороте давление падает и утечка уменьшается."
   },
   {
     "type": "lesson",
     "uz": "M701JAC — Mitsubishi Power'ning yirik, yuqori haroratli gaz turbinasi. 'J-class' turbinalar dunyodagi eng samarali gaz turbinalari qatoriga kiradi.",
     "en": "The M701JAC is a large, high-temperature gas turbine from Mitsubishi Power. 'J-class' turbines are among the most efficient gas turbines in the world.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "M701JAC — крупная высокотемпературная газовая турбина Mitsubishi Power. Турбины J-class входят в число самых эффективных газовых турбин в мире."
   },
   {
     "type": "fact",
     "uz": "J-class gaz turbinalari ~1600°C harorat sinfida ishlaydi — harorat qancha yuqori bo'lsa, sikl shuncha samarali, lekin materiallar shuncha ko'proq sinovga tushadi.",
     "en": "J-class gas turbines operate at a ~1600°C temperature class — the higher the temperature, the more efficient the cycle, but the more the materials are tested.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Газовые турбины J-class работают в температурном классе ~1600°C — чем выше температура, тем эффективнее цикл, но тем большему испытанию подвергаются материалы."
   },
   {
     "type": "lesson",
     "uz": "Yonish kamerasi (combustor) yoqilg'i va havoni aralashtirib yoqadi. Zamonaviy 'quruq past-emissiya' (DLN) kameralar azot oksidi (NOx) chiqindisini kamaytiradi.",
     "en": "The combustor mixes and burns fuel with air. Modern 'dry low-emission' (DLN) combustors reduce nitrogen oxide (NOx) emissions.",
-    "cat": "Yonish / Combustor"
+    "cat": "Yonish / Combustor",
+    "ru": "Камера сгорания (combustor) смешивает и сжигает топливо с воздухом. Современные камеры сухого низкоэмиссионного горения (DLN) снижают выброс оксида азота (NOx)."
   },
   {
     "type": "fact",
     "uz": "DLN yonish kamerasi yoqilg'ini havo bilan oldindan yaxshi aralashtiradi — bu tekisroq, sovuqroq yonishni beradi va zararli NOx chiqindisini pasaytiradi.",
     "en": "A DLN combustor pre-mixes fuel thoroughly with air, giving a more even, cooler flame that lowers harmful NOx emissions.",
-    "cat": "Yonish / Combustor"
+    "cat": "Yonish / Combustor",
+    "ru": "Камера DLN заранее хорошо смешивает топливо с воздухом — это даёт более равномерное, холодное горение и снижает вредный выброс NOx."
   },
   {
     "type": "lesson",
     "uz": "'Transition piece' — yonish kamerasi bilan turbinaning birinchi bosqichini bog'laydigan qism. U eng issiq gaz oqimiga bardosh berishi kerak.",
     "en": "A 'transition piece' connects the combustor to the turbine's first stage. It must withstand the hottest gas flow in the engine.",
-    "cat": "Yonish / Combustor"
+    "cat": "Yonish / Combustor",
+    "ru": "Transition piece — деталь, соединяющая камеру сгорания с первой ступенью турбины. Она должна выдерживать самый горячий поток газа."
   },
   {
     "type": "fact",
     "uz": "Turbinaning eng issiq qismlariga 'termik bariyer qoplama' (TBC) — keramik qatlam suriladi. U metallni issiqdan izolatsiya qiladi, xuddi issiqqaytmas termos kabi.",
     "en": "The hottest turbine parts get a 'thermal barrier coating' (TBC) — a ceramic layer that insulates the metal from heat, like a heat-proof shield.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "На самые горячие части турбины наносят термобарьерное покрытие (TBC) — керамический слой. Оно изолирует металл от жара, как термос."
   },
   {
     "type": "lesson",
     "uz": "Generator ikki asosiy qismdan iborat: 'rotor' (aylanuvchi, magnit maydon yaratadi) va 'stator' (qo'zg'almas, unda elektr toki hosil bo'ladi).",
     "en": "A generator has two main parts: the rotor (rotating, creates a magnetic field) and the stator (stationary, where electric current is induced).",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Генератор состоит из двух основных частей: ротор (вращающийся, создаёт магнитное поле) и статор (неподвижный, в нём образуется электрический ток)."
   },
   {
     "type": "fact",
     "uz": "Generator rotori aslida katta aylanuvchi elektromagnit — u 'excitation' (qo'zg'atish) toki bilan magnitlanadi va statorda kuchlanish hosil qiladi.",
     "en": "A generator rotor is essentially a large spinning electromagnet — it is magnetized by an 'excitation' current and induces voltage in the stator.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Ротор генератора — это по сути большой вращающийся электромагнит; он намагничивается током возбуждения (excitation) и создаёт напряжение в статоре."
   },
   {
     "type": "lesson",
     "uz": "'Exciter' (qo'zg'atgich) generator rotoriga magnitlash tokini beradi. Bu tokni o'zgartirib, generator chiqishidagi kuchlanish boshqariladi.",
     "en": "An 'exciter' supplies the magnetizing current to the generator rotor. Adjusting this current controls the generator's output voltage.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Возбудитель (exciter) подаёт ток намагничивания на ротор генератора. Изменяя этот ток, управляют напряжением на выходе генератора."
   },
   {
     "type": "lesson",
     "uz": "Vodorod bilan sovutiladigan generatorlarda vodorod sizib chiqmasligi uchun val atrofida 'moy zichlagich' (seal oil) tizimi bo'ladi.",
     "en": "In hydrogen-cooled generators, a 'seal oil' system around the shaft prevents hydrogen from leaking out.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "В генераторах с водородным охлаждением вокруг вала есть система уплотнительного масла (seal oil), чтобы водород не вытекал наружу."
   },
   {
     "type": "fact",
     "uz": "Generator ichidagi vodorod havo bilan aralashsa portlash xavfli, shuning uchun to'ldirish oldidan tizim inert gaz (CO₂) bilan tozalanadi.",
     "en": "Hydrogen inside a generator is explosive if mixed with air, so before filling, the system is purged with an inert gas (CO₂).",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Водород внутри генератора взрывоопасен при смешении с воздухом, поэтому перед заполнением систему продувают инертным газом (CO₂)."
   },
   {
     "type": "lesson",
     "uz": "Katta generatorlarda stator o'ramlari to'g'ridan-to'g'ri suv bilan ham sovutilishi mumkin — toza distillangan suv ichi bo'sh mis o'tkazgichlar orqali o'tadi.",
     "en": "In large generators the stator windings can be cooled directly by water — pure distilled water flows through hollow copper conductors.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "В больших генераторах обмотки статора могут охлаждаться напрямую водой — чистая дистиллированная вода проходит через полые медные проводники."
   },
   {
     "type": "fact",
     "uz": "Generatorni sovutish uchun ishlatiladigan suv juda toza (deionlangan) bo'lishi kerak — oddiy suv elektr tokini o'tkazib, qisqa tutashuvga olib kelardi.",
     "en": "Water used to cool a generator must be ultra-pure (deionized) — ordinary water would conduct electricity and cause a short circuit.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Вода для охлаждения генератора должна быть очень чистой (деионизированной) — обычная вода проводила бы ток и вызвала короткое замыкание."
   },
   {
     "type": "lesson",
     "uz": "HRSG ichida 'economizer', 'evaporator' va 'superheater' bo'limlari bor. Suv avval isitiladi, keyin bug'ga aylantiriladi, so'ng bug' yana qizdiriladi.",
     "en": "An HRSG contains economizer, evaporator and superheater sections. Water is first heated, then boiled to steam, then the steam is further heated.",
-    "cat": "HRSG / Bug' sikli"
+    "cat": "HRSG / Bug' sikli",
+    "ru": "Внутри HRSG есть секции economizer, evaporator и superheater. Вода сначала нагревается, затем превращается в пар, после чего пар ещё раз перегревается."
   },
   {
     "type": "fact",
     "uz": "'Superheater' bug'ni qaynash haroratidan yuqoriroq qizdiradi — quruq, yuqori energiyali bug' turbina pichoqlarini namlik shikastidan saqlaydi.",
     "en": "A superheater heats steam above its boiling point — dry, high-energy steam protects turbine blades from moisture damage.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Пароперегреватель (superheater) нагревает пар выше температуры кипения — сухой, высокоэнергетический пар защищает лопатки турбины от повреждения влагой."
   },
   {
     "type": "lesson",
     "uz": "'Economizer' — HRSG'ning eng oxirgi (eng sovuq gaz) qismi. U qolgan issiqlikni suvni oldindan isitishga sarflab, samaradorlikni oshiradi.",
     "en": "An economizer is the last (coolest gas) section of the HRSG. It uses remaining heat to preheat water, boosting efficiency.",
-    "cat": "Bug' turbinasi (ST)"
+    "cat": "Bug' turbinasi (ST)",
+    "ru": "Economizer — самая последняя (с самым холодным газом) секция HRSG. Расходуя остаточное тепло на подогрев воды, он повышает КПД."
   },
   {
     "type": "lesson",
     "uz": "'Steam drum' (bug' baraboni) — HRSG'da suv va bug'ni ajratadigan idish. Bug' yuqoriga chiqadi, suv esa qaytadan aylanishga tushadi.",
     "en": "A steam drum in an HRSG separates water from steam. Steam rises off the top while water returns to circulate again.",
-    "cat": "HRSG / Bug' sikli"
+    "cat": "HRSG / Bug' sikli",
+    "ru": "Барабан пара (steam drum) — ёмкость в HRSG, отделяющая воду от пара. Пар уходит вверх, а вода возвращается в циркуляцию."
   },
   {
     "type": "fact",
     "uz": "Bug' turbinasiga kirayotgan bug' juda toza bo'lishi kerak — undagi mayda tuz zarralari pichoqlarga o'tirib, ularni yemirishi mumkin.",
     "en": "Steam entering the steam turbine must be very clean — tiny salt particles in it can deposit on blades and corrode them.",
-    "cat": "Bug' turbinasi (ST)"
+    "cat": "Bug' turbinasi (ST)",
+    "ru": "Пар, поступающий в паровую турбину, должен быть очень чистым — мелкие частицы соли в нём могут оседать на лопатках и разъедать их."
   },
   {
     "type": "lesson",
     "uz": "Kondensator minglab yupqa quvurchalardan iborat — ular ichidan sovutuvchi suv o'tadi, tashqarisida bug' sovib suvga aylanadi.",
     "en": "A condenser is made of thousands of thin tubes — cooling water flows inside them while steam condenses to water on the outside.",
-    "cat": "Kondensator / Sovutish"
+    "cat": "Kondensator / Sovutish",
+    "ru": "Конденсатор состоит из тысяч тонких трубок — внутри них проходит охлаждающая вода, а снаружи пар остывает и превращается в воду."
   },
   {
     "type": "fact",
     "uz": "Kondensatordagi sovutish ba'zan daryo/dengiz suvi bilan, ba'zan esa 'sovutish minorasi' (cooling tower) orqali havoda amalga oshiriladi.",
     "en": "Condenser cooling is sometimes done with river/sea water, and sometimes through a cooling tower that rejects heat to the air.",
-    "cat": "Kondensator / Sovutish"
+    "cat": "Kondensator / Sovutish",
+    "ru": "Охлаждение в конденсаторе иногда идёт речной/морской водой, а иногда через градирню (cooling tower) в воздухе."
   },
   {
     "type": "lesson",
     "uz": "Sovutish minorasida issiq suv yupqa parda bo'lib tushadi va havo bilan uchrashadi — bir qismi bug'lanib, qolganini sovutadi. Oq 'tutun' aslida suv bug'i.",
     "en": "In a cooling tower hot water falls as a thin film and meets air — part evaporates, cooling the rest. The white 'smoke' is actually water vapor.",
-    "cat": "Kondensator / Sovutish"
+    "cat": "Kondensator / Sovutish",
+    "ru": "В градирне горячая вода стекает тонкой плёнкой и встречается с воздухом — часть испаряется, охлаждая остальную. Белый 'дым' — на самом деле водяной пар."
   },
   {
     "type": "lesson",
     "uz": "Nasoslar stansiyada suv va moyni harakatga keltiradi. 'Boiler feed pump' (qozon oziqlantirish nasosi) suvni yuqori bosim ostida HRSG'ga haydaydi.",
     "en": "Pumps move water and oil around the plant. The boiler feed pump forces water into the HRSG at high pressure.",
-    "cat": "HRSG / Bug' sikli"
+    "cat": "HRSG / Bug' sikli",
+    "ru": "Насосы перемещают воду и масло по станции. Питательный насос котла (boiler feed pump) под высоким давлением подаёт воду в HRSG."
   },
   {
     "type": "fact",
     "uz": "Boiler feed pump stansiyadagi eng quvvatli nasoslardan biri — u suvni o'nlab atmosfera bosimigacha siqib haydaydi.",
     "en": "The boiler feed pump is one of the most powerful pumps in the plant — it pushes water up to dozens of atmospheres of pressure.",
-    "cat": "Nasos / Klapan"
+    "cat": "Nasos / Klapan",
+    "ru": "Питательный насос котла — один из самых мощных насосов станции; он сжимает и подаёт воду до давления в десятки атмосфер."
   },
   {
     "type": "lesson",
     "uz": "'Valve' (klapan) suyuqlik yoki gaz oqimini ochadi, yopadi yoki rostlaydi. Turbinada 'control valve' bug' oqimini nozik boshqarib, quvvatni belgilaydi.",
     "en": "A valve opens, closes or regulates flow of liquid or gas. In a turbine, a control valve finely manages steam flow to set the power.",
-    "cat": "Nasos / Klapan"
+    "cat": "Nasos / Klapan",
+    "ru": "Клапан (valve) открывает, закрывает или регулирует поток жидкости или газа. В турбине регулирующий клапан (control valve) тонко управляет потоком пара, задавая мощность."
   },
   {
     "type": "fact",
     "uz": "'Stop valve' (to'xtatish klapani) favqulodda holatda bug'ni bir zumda to'liq to'sadi — bu turbinani himoya qiladigan tez ta'sirli qurilma.",
     "en": "A stop valve instantly and fully blocks steam in an emergency — a fast-acting device that protects the turbine.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Стопорный клапан (stop valve) в аварийной ситуации мгновенно полностью перекрывает пар — это быстродействующее устройство защиты турбины."
   },
   {
     "type": "lesson",
     "uz": "Turbina 'diffuser' orqali chiqindi gazni sekinlashtiradi. Oqimni sekinlashtirish bosimni tiklaydi va turbinadan ko'proq energiya olishga yordam beradi.",
     "en": "A turbine exhausts through a 'diffuser' that slows the gas. Slowing the flow recovers pressure and helps extract more energy from the turbine.",
-    "cat": "Yordamchi tizimlar"
+    "cat": "Yordamchi tizimlar",
+    "ru": "Турбина замедляет выхлопной газ через диффузор. Замедление потока восстанавливает давление и помогает извлечь из турбины больше энергии."
   },
   {
     "type": "fact",
     "uz": "Kompressor pichoqlari kirishdan chiqishga tomon kichrayib boradi — havo siqilib zichlashgani sari kichikroq hajm kerak bo'ladi.",
     "en": "Compressor blades get smaller from inlet to outlet — as air is compressed and gets denser, less volume is needed.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Лопатки компрессора уменьшаются от входа к выходу — по мере сжатия и уплотнения воздуха требуется меньший объём."
   },
   {
     "type": "lesson",
     "uz": "'Surge' — kompressorda havo oqimi teskari yo'nalishga urilib ketadigan xavfli hodisa. IGV/VV va boshqaruv tizimi buni oldini oladi.",
     "en": "'Surge' is a dangerous event where airflow reverses in the compressor. The IGV/VV and control system work to prevent it.",
-    "cat": "Kompressor"
+    "cat": "Kompressor",
+    "ru": "Помпаж (surge) — опасное явление, при котором поток воздуха в компрессоре устремляется в обратную сторону. IGV/VV и система управления предотвращают его."
   },
   {
     "type": "lesson",
     "uz": "Turbina 'enclosure' (qobiq/kabina) ichiga joylashtiriladi — bu shovqinni kamaytiradi, issiqlikni ushlaydi va yong'in himoyasini osonlashtiradi.",
     "en": "A turbine sits inside an enclosure — this reduces noise, contains heat, and makes fire protection easier.",
-    "cat": "Moy / Podshipnik"
+    "cat": "Moy / Podshipnik",
+    "ru": "Турбину размещают в кожухе/кабине (enclosure) — это снижает шум, удерживает тепло и облегчает противопожарную защиту."
   },
   {
     "type": "fact",
     "uz": "Gaz turbinasi kabinasi ichida havo doimiy almashtirilib turiladi (ventilyatsiya) — sizib chiqishi mumkin bo'lgan gazni tarqatib, portlash xavfini kamaytiradi.",
     "en": "The gas turbine enclosure is continuously ventilated — this disperses any leaking gas and reduces explosion risk.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Внутри кабины газовой турбины воздух постоянно обновляется (вентиляция) — это рассеивает возможные утечки газа и снижает опасность взрыва."
   },
   {
     "type": "lesson",
     "uz": "'Instrument air' (asbob havosi) — toza, quruq siqilgan havo. U klapan va boshqaruv qurilmalarini harakatga keltiradi. Nam havo asboblarni buzishi mumkin.",
     "en": "'Instrument air' is clean, dry compressed air that drives valves and control devices. Moist air could damage the instruments.",
-    "cat": "Nasos / Klapan"
+    "cat": "Nasos / Klapan",
+    "ru": "Приборный воздух (instrument air) — чистый, сухой сжатый воздух. Он приводит в действие клапаны и устройства управления. Влажный воздух может испортить приборы."
   },
   {
     "type": "lesson",
     "uz": "SFC (Static Frequency Converter) — gaz turbinasini ishga tushirishda generatorni motor sifatida ishlatib, rotorni aylantiradigan elektron qurilma. Ya'ni generatorning o'zi 'starter' bo'ladi.",
     "en": "An SFC (Static Frequency Converter) is an electronic device that spins the rotor at startup by running the generator as a motor. The generator itself becomes the 'starter'.",
-    "cat": "Gaz turbinasi (GT)"
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "SFC (Static Frequency Converter) — электронное устройство, которое при запуске газовой турбины использует генератор как двигатель и раскручивает ротор. То есть генератор сам становится стартером."
   },
   {
     "type": "fact",
     "uz": "SFC yordamida alohida ishga tushirish dvigateli kerak bo'lmaydi — generator ham motor, ham tok manbai vazifasini bajaradi, bu joy va xarajatni tejaydi.",
     "en": "With an SFC no separate starting motor is needed — the generator acts as both motor and power source, saving space and cost.",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "С помощью SFC не нужен отдельный пусковой двигатель — генератор выполняет роль и двигателя, и источника тока, что экономит место и затраты."
   },
   {
     "type": "lesson",
     "uz": "Generator 'step-up transformer' orqali to'rga ulanadi. U generatorning past kuchlanishini (masalan ~20 kV) uzatish uchun yuqori kuchlanishga (masalan 220/500 kV) ko'taradi.",
     "en": "A generator connects to the grid through a step-up transformer, raising the generator's low voltage (~20 kV) to a high transmission voltage (e.g. 220/500 kV).",
-    "cat": "Generator"
+    "cat": "Generator",
+    "ru": "Генератор подключается к сети через повышающий трансформатор (step-up). Он поднимает низкое напряжение генератора (например ~20 кВ) до высокого для передачи (например 220/500 кВ)."
   },
   {
     "type": "fact",
     "uz": "Transformatorda harakatlanuvchi qism yo'q, lekin u qiziydi. Yirik transformatorlar moy bilan sovutiladi — moy ham izolatsiya, ham issiqlikni chiqarish vazifasini bajaradi.",
     "en": "A transformer has no moving parts but heats up. Large transformers are oil-cooled — the oil both insulates and carries away heat.",
-    "cat": "Elektr / Himoya"
+    "cat": "Elektr / Himoya",
+    "ru": "У трансформатора нет движущихся частей, но он нагревается. Крупные трансформаторы охлаждаются маслом — масло служит и изоляцией, и отводит тепло."
   },
   {
     "type": "lesson",

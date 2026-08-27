@@ -2,7 +2,7 @@ name: Daily Turbine Fact
 
 on:
   schedule:
-    - cron: '0 * * * *'   # Har soatda ishga tushadi; bot o'zi post qilishni hal qiladi
+    - cron: '0,30 * * * *'   # Har 30 daqiqada ishga tushadi (kuniga 48 marta); bot o'zi post qilishni hal qiladi
   workflow_dispatch:       # Qo'lda ishga tushirish tugmasi
 
 permissions:
