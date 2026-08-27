@@ -37,5 +37,12 @@
     "uz": "To'r chastotasi pasaysa, bu tizimda quvvat yetishmasligini bildiradi. Operator (yoki avtomatika) generator quvvatini oshiradi. Agar chastota juda tushsa, yuk tushirish (load shedding) ishga tushadi.",
     "en": "If grid frequency drops, it means the system is short of power. The operator (or automatics) raises generator output. If frequency falls too far, load shedding activates.",
     "ru": "Если частота сети падает, это означает, что системе не хватает мощности. Оператор (или автоматика) увеличивает мощность генератора. Если частота падает слишком сильно, начинается сброс нагрузки."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Shina (busbar) himoyasi — podstansiyaning eng muhim nuqtasini himoya qiladi. Shinada nosozlik butun podstansiyani o'chirishi mumkin, shuning uchun himoya juda tez bo'lishi kerak.",
+    "en": "Busbar protection guards the most critical point of a substation. A busbar fault can shut down the whole substation, so its protection must be very fast.",
+    "ru": "Защита шин – защищает важнейшую точку подстанции. Неисправность шины может привести к отключению всей подстанции, поэтому защита должна быть очень быстрой."
   }
 ]
