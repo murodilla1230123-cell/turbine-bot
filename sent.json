@@ -5,5 +5,25 @@
     "uz": "'Combustion dynamics' — yonish kamerasidagi bosim tebranishlari. Kuchli tebranish qismlarni yorib yuborishi mumkin, shuning uchun u kuzatiladi va nazorat qilinadi.",
     "en": "'Combustion dynamics' are pressure oscillations in the combustor. Strong oscillations can crack parts, so they are monitored and controlled.",
     "ru": "«Динамика сгорания» — колебания давления в камере сгорания. Сильная вибрация может привести к растрескиванию деталей, поэтому ее отслеживают и контролируют."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "tags": [
+      "elektr",
+      "sinxronizatsiya",
+      "ulash"
+    ],
+    "q": "Generatorni to'rga ulashdan oldin nima qilinadi?",
+    "options": [
+      "Sinxronizatsiya — chastota, kuchlanish, faza mos qilinadi",
+      "Darhol ulanadi",
+      "Kuchlanish pasaytiriladi",
+      "Rotor to'xtatiladi"
+    ],
+    "correct": 0,
+    "explain": "Chastota, kuchlanish va faza mos kelmasa kuchli zarba bo'ladi.",
+    "q_ru": "Что делается перед подключением генератора к сети?",
+    "explain_ru": "Если частота, напряжение и фаза не совпадают, произойдет сильный толчок."
   }
 ]
