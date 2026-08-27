@@ -25,5 +25,17 @@
     "explain": "Chastota, kuchlanish va faza mos kelmasa kuchli zarba bo'ladi.",
     "q_ru": "Что делается перед подключением генератора к сети?",
     "explain_ru": "Если частота, напряжение и фаза не совпадают, произойдет сильный толчок."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "fact",
+    "tags": [
+      "elektr",
+      "operator",
+      "yuk"
+    ],
+    "uz": "To'r chastotasi pasaysa, bu tizimda quvvat yetishmasligini bildiradi. Operator (yoki avtomatika) generator quvvatini oshiradi. Agar chastota juda tushsa, yuk tushirish (load shedding) ishga tushadi.",
+    "en": "If grid frequency drops, it means the system is short of power. The operator (or automatics) raises generator output. If frequency falls too far, load shedding activates.",
+    "ru": "Если частота сети падает, это означает, что системе не хватает мощности. Оператор (или автоматика) увеличивает мощность генератора. Если частота падает слишком сильно, начинается сброс нагрузки."
   }
 ]
