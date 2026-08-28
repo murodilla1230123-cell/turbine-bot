@@ -24,5 +24,26 @@
     "en": "The hotter the feedwater, the less extra heat is needed to boil it to steam — improving efficiency.",
     "cat": "HRSG / Bug' sikli",
     "ru": "Чем выше температура питательной воды, тем меньше дополнительного тепла требуется для ее преобразования в пар, что повышает эффективность."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Masofaviy (distansion) himoya nimani o'lchaydi?",
+    "options": [
+      "Nosozlikkacha masofani (impedans)",
+      "Faqat tokni",
+      "Haroratni",
+      "Chastotani"
+    ],
+    "correct": 0,
+    "explain": "Nosozlik yaqin bo'lsa tez, uzoq bo'lsa sekin uzadi — tok/kuchlanish nisbatidan masofa topiladi.",
+    "q_en": "What does distance protection measure?",
+    "options_en": [
+      "The distance (impedance) to the fault",
+      "Only current",
+      "Temperature",
+      "Frequency"
+    ],
+    "explain_en": "A near fault trips fast, a far one slower — distance is found from the current/voltage ratio."
   }
 ]
