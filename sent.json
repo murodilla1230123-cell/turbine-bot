@@ -44,5 +44,12 @@
     "uz": "Shina (busbar) himoyasi — podstansiyaning eng muhim nuqtasini himoya qiladi. Shinada nosozlik butun podstansiyani o'chirishi mumkin, shuning uchun himoya juda tez bo'lishi kerak.",
     "en": "Busbar protection guards the most critical point of a substation. A busbar fault can shut down the whole substation, so its protection must be very fast.",
     "ru": "Защита шин – защищает важнейшую точку подстанции. Неисправность шины может привести к отключению всей подстанции, поэтому защита должна быть очень быстрой."
+  },
+  {
+    "type": "fact",
+    "uz": "'CEMS' (Continuous Emissions Monitoring System) chiqindilarni real vaqtda o'lchaydi — bu ekologik me'yorlarga rioya qilinishini ta'minlaydi.",
+    "en": "A CEMS (Continuous Emissions Monitoring System) measures emissions in real time — ensuring compliance with environmental limits.",
+    "cat": "Yordamchi tizimlar",
+    "ru": "CEMS (система непрерывного мониторинга выбросов) измеряет выбросы в режиме реального времени, обеспечивая соответствие экологическим стандартам."
   }
 ]
