@@ -78,15 +78,12 @@ def translate_to_ru(text):
 
 
 def ensure_ru(fact):
-    """Fakt uchun rus tarjimasini ta'minlaydi (agar yo'q bo'lsa, tarjima qiladi)."""
+    """Post uchun rus tarjimasini ta'minlaydi (faqat fakt/dars uchun).
+    Quizlar faqat ingliz tilida bo'ladi, ularга tegmaydi."""
     if fact.get("type") == "quiz":
-        if not fact.get("q_ru"):
-            fact["q_ru"] = translate_to_ru(fact.get("q", ""))
-        if not fact.get("explain_ru"):
-            fact["explain_ru"] = translate_to_ru(fact.get("explain", ""))
-    else:
-        if not fact.get("ru"):
-            fact["ru"] = translate_to_ru(fact.get("uz", ""))
+        return fact  # quiz ingliz tilida, tarjima kerak emas
+    if not fact.get("ru"):
+        fact["ru"] = translate_to_ru(fact.get("uz", ""))
     return fact
 
 
@@ -215,33 +212,20 @@ def send_to_telegram(message):
 
 
 def send_quiz_poll(fact):
-    """Telegram interaktiv quiz (poll) yuboradi."""
+    """Telegram interaktiv quiz (poll) yuboradi — faqat ingliz tilida."""
     cat = fact.get("cat", "")
-    q = fact["q"]
-    q_ru = fact.get("q_ru", "")
-    q_en = fact.get("q_en", "")
 
-    # Savol 3 tilda (Telegram cheklovi 300 belgi)
-    parts = [q]
-    if q_ru:
-        parts.append(q_ru)
-    if q_en:
-        parts.append(q_en)
-    qtext = "\n".join(parts)
-    question = f"{cat}\n{qtext}" if cat else qtext
+    # Ingliz tilidagi savol (agar yo'q bo'lsa, o'zbekchaga qaytadi)
+    q_en = fact.get("q_en") or fact.get("q", "")
+    question = f"{cat}\n{q_en}" if cat else q_en
     question = question[:295]
 
-    options = [o[:100] for o in fact["options"]]  # har variant 100 belgigacha
+    # Ingliz variantlari (agar yo'q bo'lsa, o'zbekcha)
+    opts = fact.get("options_en") or fact.get("options", [])
+    options = [o[:100] for o in opts]
 
-    # Izoh 3 tilda
-    exp_parts = []
-    if fact.get("explain"):
-        exp_parts.append(fact["explain"])
-    if fact.get("explain_ru"):
-        exp_parts.append(fact["explain_ru"])
-    if fact.get("explain_en"):
-        exp_parts.append(fact["explain_en"])
-    explanation = " | ".join(exp_parts)[:200]
+    # Ingliz izohi (agar yo'q bo'lsa, o'zbekcha)
+    explanation = (fact.get("explain_en") or fact.get("explain", ""))[:200]
 
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPoll"
     data = {
@@ -264,23 +248,32 @@ def get_today_state():
     today = now.strftime("%Y-%m-%d")
     state = load_json(STATE_FILE, {})
     if state.get("date") != today:
-        state = {"date": today, "target": random.randint(10, 15), "posted": 0}
+        state = {"date": today, "target": random.randint(10, 12), "posted": 0}
         save_json(STATE_FILE, state)
     return state, now
 
 
-def should_post_now(state, now):
+def posts_to_send_now(state, now):
+    """Hozir nechta post yuborishni hal qiladi (soatiga 1 marta ishga tushishga moslangan)."""
     target = state["target"]
     posted = state["posted"]
-    if posted >= target:
-        return False
-    # 30 daqiqalik interval: kuniga 48 ta imkoniyat
-    slots_left = max(1, (DAY_END - now.hour + 1) * 2)
-    posts_left = target - posted
-    if posts_left >= slots_left:
-        return True
-    probability = posts_left / slots_left
-    return random.random() < probability
+    remaining = target - posted
+    if remaining <= 0:
+        return 0
+
+    # Kun oxirigacha qolgan soatlar (imkoniyatlar)
+    hours_left = max(1, DAY_END - now.hour + 1)
+
+    # Agar qolgan postlar soatlardan ko'p bo'lsa — yetkazish uchun bir nechta yuboramiz
+    if remaining >= hours_left:
+        # Har soatga teng taqsimlab, ortiqchasini ham qo'shamiz
+        base = remaining // hours_left
+        extra = 1 if (remaining % hours_left) > 0 else 0
+        return max(1, base + extra)
+
+    # Aks holda — tasodifiy: o'rtacha remaining/hours_left ehtimol bilan 1 ta
+    probability = remaining / hours_left
+    return 1 if random.random() < probability else 0
 
 
 def main():
@@ -289,42 +282,59 @@ def main():
 
     state, now = get_today_state()
 
-    # Qo'lda ishga tushirilganda (Run workflow) majburan post qiladi
+    # Qo'lda ishga tushirilganda (Run workflow) majburan 1 ta post qiladi
     force = os.environ.get("FORCE_POST", "").strip() == "1"
 
-    if not force and (now.hour < DAY_START or now.hour > DAY_END):
-        print("Post oynasidan tashqarida.")
-        return
-
-    if not force and not should_post_now(state, now):
-        print(f"Hozir post yo'q. Bugun: {state['posted']}/{state['target']}, soat {now.hour}")
-        return
+    if force:
+        n_posts = 1
+    else:
+        if now.hour < DAY_START or now.hour > DAY_END:
+            print("Post oynasidan tashqarida.")
+            return
+        n_posts = posts_to_send_now(state, now)
+        if n_posts <= 0:
+            print(f"Hozir post yo'q. Bugun: {state['posted']}/{state['target']}, soat {now.hour}")
+            return
 
     sent = load_json(SENT_FILE, [])
     sent_texts = {fact_key(s) for s in sent}
 
-    fact = pick_fact(sent_texts)
-    if not fact:
-        raise SystemExit("Fakt topilmadi.")
+    yuborilgan = 0
+    for _ in range(n_posts):
+        # Kunlik chegaradan oshmaymiz
+        if not force and state["posted"] >= state["target"]:
+            break
 
-    # Rus tarjimasini ta'minlash (agar yo'q bo'lsa, avtomatik tarjima)
-    fact = ensure_ru(fact)
+        fact = pick_fact(sent_texts)
+        if not fact:
+            print("Yangi fakt qolmadi.")
+            break
 
-    # Quiz turi -> interaktiv poll; boshqalari -> oddiy xabar
-    if fact.get("type") == "quiz" and fact.get("options") and "correct" in fact:
-        send_quiz_poll(fact)
-        print("Quiz yuborildi:", fact.get("q", "")[:60])
-    else:
-        send_to_telegram(build_message(fact))
-        print("Yuborildi:", fact["uz"][:60])
+        # Rus tarjimasini ta'minlash (faqat fakt/dars uchun)
+        fact = ensure_ru(fact)
 
-    sent.append(fact)
+        # Quiz -> interaktiv poll (ingliz); boshqalari -> 3 tilli xabar
+        try:
+            if fact.get("type") == "quiz" and fact.get("options") and "correct" in fact:
+                send_quiz_poll(fact)
+                print("Quiz yuborildi:", fact.get("q", "")[:60])
+            else:
+                send_to_telegram(build_message(fact))
+                print("Yuborildi:", fact["uz"][:60])
+        except Exception as e:
+            print(f"Yuborishda xato: {e}")
+            break
+
+        sent.append(fact)
+        sent_texts.add(fact_key(fact))
+        state["posted"] += 1
+        yuborilgan += 1
+
+    # Saqlash
     sent = sent[-1000:]
     save_json(SENT_FILE, sent)
-
-    state["posted"] += 1
     save_json(STATE_FILE, state)
-    print(f"Bugun: {state['posted']}/{state['target']}")
+    print(f"Bu safar yuborildi: {yuborilgan} | Bugun jami: {state['posted']}/{state['target']}")
 
 
 if __name__ == "__main__":

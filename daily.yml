@@ -2,7 +2,7 @@ name: Daily Turbine Fact
 
 on:
   schedule:
-    - cron: '0,30 * * * *'   # Har 30 daqiqada ishga tushadi (kuniga 48 marta); bot o'zi post qilishni hal qiladi
+    - cron: '17 * * * *'   # Har soatning 17-daqiqasida (kuniga 24 marta). "G'alati" vaqt GitHub'da ishonchliroq ishlaydi. Bot o'zi 10-12 post tarqatadi.
   workflow_dispatch:       # Qo'lda ishga tushirish tugmasi
 
 permissions:
