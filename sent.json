@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "tags": [
+      "tamir",
+      "riskassessment",
+      "xavf"
+    ],
+    "uz": "Risk assessment (xavf-xatarni baholash) ishdan oldin mumkin xavflarni aniqlab, ularni kamaytirish choralari ko'rish. Bu baxtsizlik hodisalarini oldini oladi.",
+    "en": "A risk assessment identifies possible hazards before work and takes steps to reduce them. This prevents accidents.",
+    "ru": "Оценка рисков заключается в выявлении возможных рисков перед началом работы и принятии мер по их снижению. Это предотвратит несчастные случаи."
+  }
+]
