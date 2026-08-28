@@ -10,5 +10,12 @@
     "uz": "Risk assessment (xavf-xatarni baholash) ishdan oldin mumkin xavflarni aniqlab, ularni kamaytirish choralari ko'rish. Bu baxtsizlik hodisalarini oldini oladi.",
     "en": "A risk assessment identifies possible hazards before work and takes steps to reduce them. This prevents accidents.",
     "ru": "Оценка рисков заключается в выявлении возможных рисков перед началом работы и принятии мер по их снижению. Это предотвратит несчастные случаи."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Lube oil heater' (moy isitgich) turbina ishga tushishidan oldin sovuq moyni isitadi. Iliq moy yaxshi oqadi va ishga tushishni osonlashtiradi.",
+    "en": "A lube oil heater warms cold oil before startup. Warm oil flows well and makes starting easier.",
+    "cat": "Moy / Podshipnik",
+    "ru": "«Нагреватель смазочного масла» нагревает холодное масло перед запуском турбины. Теплое масло течет лучше и облегчает запуск."
   }
 ]
