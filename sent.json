@@ -45,5 +45,12 @@
       "Frequency"
     ],
     "explain_en": "A near fault trips fast, a far one slower — distance is found from the current/voltage ratio."
+  },
+  {
+    "type": "fact",
+    "uz": "Moy tizimida ikkita filtr bo'lib, ular 'changeover' qilinadi — turbina ishlab turganda bir filtrdan boshqasiga o'tib, ifloslanganini almashtirish mumkin.",
+    "en": "The oil system has two filters that can be 'changed over' — while the turbine runs, flow can switch from one to the other to replace a dirty filter.",
+    "cat": "Moy / Podshipnik",
+    "ru": "В масляной системе два фильтра, которые являются «перекидными» — при работе турбины можно переключаться с одного фильтра на другой и заменять грязный."
   }
 ]
