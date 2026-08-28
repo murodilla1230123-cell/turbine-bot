@@ -17,5 +17,12 @@
     "en": "A lube oil heater warms cold oil before startup. Warm oil flows well and makes starting easier.",
     "cat": "Moy / Podshipnik",
     "ru": "«Нагреватель смазочного масла» нагревает холодное масло перед запуском турбины. Теплое масло течет лучше и облегчает запуск."
+  },
+  {
+    "type": "fact",
+    "uz": "Feedwater harorati qancha yuqori bo'lsa, uni bug'ga aylantirish uchun shuncha kam qo'shimcha issiqlik kerak — bu samaradorlikni oshiradi.",
+    "en": "The hotter the feedwater, the less extra heat is needed to boil it to steam — improving efficiency.",
+    "cat": "HRSG / Bug' sikli",
+    "ru": "Чем выше температура питательной воды, тем меньше дополнительного тепла требуется для ее преобразования в пар, что повышает эффективность."
   }
 ]
