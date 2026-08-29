@@ -52,5 +52,17 @@
     "en": "The oil system has two filters that can be 'changed over' — while the turbine runs, flow can switch from one to the other to replace a dirty filter.",
     "cat": "Moy / Podshipnik",
     "ru": "В масляной системе два фильтра, которые являются «перекидными» — при работе турбины можно переключаться с одного фильтра на другой и заменять грязный."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "lesson",
+    "tags": [
+      "combinedcycle",
+      "blackstart",
+      "tiklash"
+    ],
+    "uz": "Black start qobiliyati to'r o'chganda stansiya o'zini toksiz ishga tushiradi. Total blackoutdan keyin tashqi toksiz ishga tushib, to'rni tiklashga yordam beradi.",
+    "en": "Black start capability lets a plant start itself without external power when the grid is down. After a total blackout it can start and help restore the grid.",
+    "ru": "Возможность черного запуска позволяет станции запускаться без питания при отключении электросети. После полного отключения электроэнергии он запускается без внешнего питания и помогает восстановить сеть."
   }
 ]
