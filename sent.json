@@ -191,5 +191,31 @@
     "en": "Pumps move water and oil around the plant. The boiler feed pump forces water into the HRSG at high pressure.",
     "cat": "HRSG / Bug' sikli",
     "ru": "Насосы перемещают воду и масло по станции. Питательный насос котла (boiler feed pump) под высоким давлением подаёт воду в HRSG."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "tags": [
+      "moy",
+      "heater",
+      "start"
+    ],
+    "q": "Lube oil heater nima uchun kerak?",
+    "options": [
+      "Start oldi sovuq moyni isitib yaxshi oqishini ta'minlash",
+      "Moyni sovutish",
+      "Moyni filtrlash",
+      "Moyni haydash"
+    ],
+    "correct": 0,
+    "explain": "Iliq moy yaxshi oqadi, sovuq moy quyuq, start osonlashadi.",
+    "q_en": "Why is a lube oil heater needed?",
+    "options_en": [
+      "To warm cold oil before start for good flow",
+      "To cool oil",
+      "To filter oil",
+      "To pump oil"
+    ],
+    "explain_en": "Warm oil flows well; cold oil is thick, making starting easier when warmed."
   }
 ]
