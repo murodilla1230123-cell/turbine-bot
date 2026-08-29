@@ -137,5 +137,12 @@
       "By habit"
     ],
     "explain_en": "A dryer removes moisture that would cause corrosion or freezing."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Combustor' (yonish kamerasi)da ko'p 'basket'/'can' (kichik yonish idishlari) bo'lishi mumkin — ular halqa bo'ylab joylashib, gazni bir tekis qizdiradi.",
+    "en": "A combustor may have several 'baskets'/'cans' (small combustion chambers) arranged in a ring — they heat the gas evenly around the circle.",
+    "cat": "Yonish / Combustor",
+    "ru": "«Камера сгорания» (камера сгорания) может иметь множество «корзин»/«банок» (небольших сосудов сгорания), расположенных кольцом для равномерного нагрева газа."
   }
 ]
