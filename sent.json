@@ -165,5 +165,12 @@
       "By heating fuel"
     ],
     "explain_en": "Premixed combustion gives a cooler, more even flame, reducing NOx."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Level transmitter' (sath datchigi) bak yoki barabandagi suyuqlik sathini o'lchaydi. Bug' barabanida sath nazorati juda muhim — suv kam yoki ko'p bo'lsa xavfli.",
+    "en": "A level transmitter measures liquid level in a tank or drum. Level control in a steam drum is critical — too little or too much water is dangerous.",
+    "cat": "HRSG / Bug' sikli",
+    "ru": "«Датчик уровня» измеряет уровень жидкости в резервуаре или бочке. Контроль уровня в паровом барабане очень важен: слишком мало или слишком много воды опасно."
   }
 ]
