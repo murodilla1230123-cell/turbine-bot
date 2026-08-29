@@ -64,5 +64,31 @@
     "uz": "Black start qobiliyati to'r o'chganda stansiya o'zini toksiz ishga tushiradi. Total blackoutdan keyin tashqi toksiz ishga tushib, to'rni tiklashga yordam beradi.",
     "en": "Black start capability lets a plant start itself without external power when the grid is down. After a total blackout it can start and help restore the grid.",
     "ru": "Возможность черного запуска позволяет станции запускаться без питания при отключении электросети. После полного отключения электроэнергии он запускается без внешнего питания и помогает восстановить сеть."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "quiz",
+    "tags": [
+      "nasos",
+      "gatevalve",
+      "globevalve"
+    ],
+    "q": "Gate valve va globe valve farqi nima?",
+    "options": [
+      "Gate ochiq yoki yopiq, globe oqimni rostlaydi",
+      "Ikkalasi bir xil",
+      "Gate rostlaydi",
+      "Globe faqat yopadi"
+    ],
+    "correct": 0,
+    "explain": "Gate valve to'sish yoki ochish uchun, globe valve oqimni nozik rostlash uchun.",
+    "q_en": "What is the difference between a gate valve and a globe valve?",
+    "options_en": [
+      "Gate is open or shut, globe regulates flow",
+      "They're the same",
+      "Gate regulates",
+      "Globe only shuts"
+    ],
+    "explain_en": "A gate valve blocks or allows flow; a globe valve finely regulates it."
   }
 ]
