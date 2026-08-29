@@ -238,5 +238,26 @@
       "Not for safety"
     ],
     "explain_en": "At critical speed the rotor resonates; lingering causes damage."
+  },
+  {
+    "type": "quiz",
+    "cat": "HRSG / Bug' sikli",
+    "q": "HRSG'da 'superheater' nima qiladi?",
+    "options": [
+      "Bug'ni qaynash haroratidan yuqori qizdiradi",
+      "Suvni sovutadi",
+      "Bug'ni suvga aylantiradi",
+      "Havoni filtrlaydi"
+    ],
+    "correct": 0,
+    "explain": "Quruq, yuqori energiyali bug' turbina pichoqlarini namlik shikastidan saqlaydi.",
+    "q_en": "Why does the compressor have many stages?",
+    "options_en": [
+      "Each stage compresses a little, together a lot",
+      "To look nice",
+      "To be heavier",
+      "To run slower"
+    ],
+    "explain_en": "One stage compresses air a little; dozens together raise it 20-25 times."
   }
 ]
