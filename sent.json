@@ -172,5 +172,17 @@
     "en": "A level transmitter measures liquid level in a tank or drum. Level control in a steam drum is critical — too little or too much water is dangerous.",
     "cat": "HRSG / Bug' sikli",
     "ru": "«Датчик уровня» измеряет уровень жидкости в резервуаре или бочке. Контроль уровня в паровом барабане очень важен: слишком мало или слишком много воды опасно."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "lesson",
+    "tags": [
+      "boshqaruv",
+      "flowmeter",
+      "oqim"
+    ],
+    "uz": "Flow meter (oqim o'lchagich) quvurdan o'tayotgan suyuqlik yoki gaz miqdorini o'lchaydi. Turli usullar bor: bosim farqi, aylanuvchi g'ildirak yoki ultratovush. Oqim ma'lumoti jarayonni boshqarish uchun muhim.",
+    "en": "A flow meter measures the amount of liquid or gas passing through a pipe. There are various methods: differential pressure, a spinning wheel or ultrasound. Flow data is important for process control.",
+    "ru": "Расходомер измеряет количество жидкости или газа, проходящего через трубу. Существуют разные методы: перепад давления, вращающееся колесо или ультразвук. Информация о потоке важна для управления процессом."
   }
 ]
