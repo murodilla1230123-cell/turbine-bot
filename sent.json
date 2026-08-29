@@ -90,5 +90,31 @@
       "Globe only shuts"
     ],
     "explain_en": "A gate valve blocks or allows flow; a globe valve finely regulates it."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "tags": [
+      "relehimoya",
+      "operativzanjir",
+      "DC"
+    ],
+    "q": "Nega releli himoya operativ zanjiri batareya (DC)da ishlaydi?",
+    "options": [
+      "Asosiy tok yo'qolganda ham ishlashi uchun",
+      "Arzon",
+      "Tez",
+      "Kam joy egallaydi"
+    ],
+    "correct": 0,
+    "explain": "Batareya tufayli asosiy ta'minot yo'qolganda ham himoya ishlaydi.",
+    "q_en": "Why does relay protection's control circuit run on battery (DC)?",
+    "options_en": [
+      "To work even when main power is lost",
+      "Cheap",
+      "Fast",
+      "Takes less space"
+    ],
+    "explain_en": "Thanks to the battery, protection works even when the main supply fails."
   }
 ]
