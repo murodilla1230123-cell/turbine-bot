@@ -217,5 +217,26 @@
       "To pump oil"
     ],
     "explain_en": "Warm oil flows well; cold oil is thick, making starting easier when warmed."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "Nega turbina 'kritik tezlik'dan tez o'tkaziladi?",
+    "options": [
+      "Rezonans tufayli vibratsiya kuchayadi",
+      "Yoqilg'i tejash uchun",
+      "Tezroq bo'lishi uchun",
+      "Xavfsizlik uchun emas"
+    ],
+    "correct": 0,
+    "explain": "Kritik tezlikda rotor rezonansga tushadi; uzoq turish shikast keltiradi.",
+    "q_en": "Why is the turbine taken quickly through critical speed?",
+    "options_en": [
+      "Vibration peaks due to resonance",
+      "To save fuel",
+      "To be faster",
+      "Not for safety"
+    ],
+    "explain_en": "At critical speed the rotor resonates; lingering causes damage."
   }
 ]
