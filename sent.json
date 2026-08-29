@@ -144,5 +144,26 @@
     "en": "A combustor may have several 'baskets'/'cans' (small combustion chambers) arranged in a ring — they heat the gas evenly around the circle.",
     "cat": "Yonish / Combustor",
     "ru": "«Камера сгорания» (камера сгорания) может иметь множество «корзин»/«банок» (небольших сосудов сгорания), расположенных кольцом для равномерного нагрева газа."
+  },
+  {
+    "type": "quiz",
+    "cat": "Yonish / Combustor",
+    "q": "DLN combustor NOx'ni qanday kamaytiradi?",
+    "options": [
+      "Yoqilg'ini oldindan aralashtirib, tekis/sovuq alanga",
+      "Ko'proq havo puflab",
+      "Suv sepib",
+      "Yoqilg'ini isitib"
+    ],
+    "correct": 0,
+    "explain": "Premix yonish sovuqroq va tekisroq alanga beradi, NOx kamayadi.",
+    "q_en": "How does a DLN combustor reduce NOx?",
+    "options_en": [
+      "By premixing fuel for an even, cool flame",
+      "By blowing more air",
+      "By spraying water",
+      "By heating fuel"
+    ],
+    "explain_en": "Premixed combustion gives a cooler, more even flame, reducing NOx."
   }
 ]
