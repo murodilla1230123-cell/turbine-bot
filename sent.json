@@ -116,5 +116,26 @@
       "Takes less space"
     ],
     "explain_en": "Thanks to the battery, protection works even when the main supply fails."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "SFC (Static Frequency Converter) gaz turbinasini qanday ishga tushiradi?",
+    "options": [
+      "Generatorni motor qilib ishlatib, rotorni aylantiradi",
+      "Bug' beradi",
+      "Yoqilg'i quyadi",
+      "Havo puflaydi"
+    ],
+    "correct": 0,
+    "explain": "Generator vaqtincha motor bo'lib, turbina rotorini yonish boshlanguncha aylantiradi.",
+    "q_en": "Why must instrument air be dry?",
+    "options_en": [
+      "Moist air corrodes or freezes valves and instruments",
+      "Dry air is cheap",
+      "Dry air is fast",
+      "By habit"
+    ],
+    "explain_en": "A dryer removes moisture that would cause corrosion or freezing."
   }
 ]
