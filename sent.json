@@ -184,5 +184,12 @@
     "uz": "Flow meter (oqim o'lchagich) quvurdan o'tayotgan suyuqlik yoki gaz miqdorini o'lchaydi. Turli usullar bor: bosim farqi, aylanuvchi g'ildirak yoki ultratovush. Oqim ma'lumoti jarayonni boshqarish uchun muhim.",
     "en": "A flow meter measures the amount of liquid or gas passing through a pipe. There are various methods: differential pressure, a spinning wheel or ultrasound. Flow data is important for process control.",
     "ru": "Расходомер измеряет количество жидкости или газа, проходящего через трубу. Существуют разные методы: перепад давления, вращающееся колесо или ультразвук. Информация о потоке важна для управления процессом."
+  },
+  {
+    "type": "lesson",
+    "uz": "Nasoslar stansiyada suv va moyni harakatga keltiradi. 'Boiler feed pump' (qozon oziqlantirish nasosi) suvni yuqori bosim ostida HRSG'ga haydaydi.",
+    "en": "Pumps move water and oil around the plant. The boiler feed pump forces water into the HRSG at high pressure.",
+    "cat": "HRSG / Bug' sikli",
+    "ru": "Насосы перемещают воду и масло по станции. Питательный насос котла (boiler feed pump) под высоким давлением подаёт воду в HRSG."
   }
 ]
