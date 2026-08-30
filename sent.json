@@ -259,5 +259,31 @@
       "To run slower"
     ],
     "explain_en": "One stage compresses air a little; dozens together raise it 20-25 times."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "quiz",
+    "tags": [
+      "ishgatushirish",
+      "clearance",
+      "casing"
+    ],
+    "q": "Korpusni to'g'ri sovutish nimani optimal ushlaydi?",
+    "options": [
+      "Korpus va rotor orasidagi masofani (clearance)",
+      "Yoqilg'i miqdorini",
+      "Shovqin darajasini",
+      "Rangni"
+    ],
+    "correct": 0,
+    "explain": "To'g'ri clearance samaradorlik uchun muhim, juda kichik bo'lsa tegib ketadi.",
+    "q_en": "What does correct casing cooling keep optimal?",
+    "options_en": [
+      "The clearance between casing and rotor",
+      "The fuel amount",
+      "The noise level",
+      "The color"
+    ],
+    "explain_en": "Correct clearance matters for efficiency; too small and it rubs."
   }
 ]
