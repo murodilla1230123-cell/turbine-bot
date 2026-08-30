@@ -337,5 +337,12 @@
       "Only when broken"
     ],
     "explain_en": "Whichever comes first, ensuring cleanliness."
+  },
+  {
+    "type": "fact",
+    "uz": "Bug'dagi suv tomchilari yuqori tezlikda pichoqqa urilib, ularni asta yeydi (erozion) — shuning uchun bug' quruq bo'lishi kerak.",
+    "en": "Water droplets in steam strike blades at high speed, slowly eroding them — which is why steam must be dry.",
+    "cat": "Energetika asoslari",
+    "ru": "Капли воды в паре с большой скоростью ударяются о лезвие и разъедают его (эрозия) – поэтому пар должен быть сухим."
   }
 ]
