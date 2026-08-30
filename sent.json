@@ -370,5 +370,12 @@
     "en": "Connecting a generator to the grid uses a synchroscope or automatic synchronizer — it watches phase alignment and connects at the exact moment.",
     "cat": "Generator",
     "ru": "Подключение генератора к сети осуществляется с помощью «синхроскопа» или автоматического синхронизатора — он контролирует совместимость фаз и подключается в нужный момент."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Hot', 'warm' va 'cold' start farqlanadi: turbina qanchalik uzoq to'xtagan bo'lsa, u shunchalik sovigan va ishga tushirish shuncha uzoq davom etadi.",
+    "en": "Starts are classed as hot, warm or cold: the longer a turbine has been stopped, the cooler it is and the longer startup takes.",
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "Различают hot, warm и cold start: чем дольше турбина простаивала, тем сильнее она остыла и тем дольше длится запуск."
   }
 ]
