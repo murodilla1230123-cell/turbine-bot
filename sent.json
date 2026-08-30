@@ -351,5 +351,17 @@
     "uz": "'Tok otsechkasi' (tez ishlovchi tokli himoya) juda katta toklarda darhol, kechikishsiz ishlaydi. U faqat manbaga yaqin, eng xavfli qisqa tutashuvlarga javob beradi.",
     "en": "An 'instantaneous overcurrent' (current cut-off) operates immediately, without delay, at very high currents. It responds only to the most dangerous faults near the source.",
     "ru": "«Токовой выключатель» (быстродействующий сетевой фильтр) срабатывает немедленно, без задержки, при очень высоких токах. Он реагирует только на наиболее опасные короткие замыкания вблизи источника."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "tags": [
+      "bugturbinasi",
+      "reheat",
+      "FIK"
+    ],
+    "uz": "Cold reheat va hot reheat — bug' HP turbinadan chiqib, HRSG'da qayta qizdirilib, IP turbinaga qaytadi. Bu FIK'ni oshiradi.",
+    "en": "Cold reheat and hot reheat describe steam leaving the HP turbine, reheated in the HRSG, and returning to the IP turbine. This raises efficiency.",
+    "ru": "Холодный промежуточный нагрев и горячий промежуточный нагрев — пар выходит из турбины ВД, повторно нагревается в котле-утилизаторе и возвращается в турбину ПД. Это увеличивает ФИК."
   }
 ]
