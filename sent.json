@@ -363,5 +363,12 @@
     "uz": "Cold reheat va hot reheat — bug' HP turbinadan chiqib, HRSG'da qayta qizdirilib, IP turbinaga qaytadi. Bu FIK'ni oshiradi.",
     "en": "Cold reheat and hot reheat describe steam leaving the HP turbine, reheated in the HRSG, and returning to the IP turbine. This raises efficiency.",
     "ru": "Холодный промежуточный нагрев и горячий промежуточный нагрев — пар выходит из турбины ВД, повторно нагревается в котле-утилизаторе и возвращается в турбину ПД. Это увеличивает ФИК."
+  },
+  {
+    "type": "lesson",
+    "uz": "Generatorni to'rga ulash 'synchroscope' yoki avtomatik sinxronlashtirgich yordamida bajariladi — u faza mosligini kuzatib, aniq lahzada ulaydi.",
+    "en": "Connecting a generator to the grid uses a synchroscope or automatic synchronizer — it watches phase alignment and connects at the exact moment.",
+    "cat": "Generator",
+    "ru": "Подключение генератора к сети осуществляется с помощью «синхроскопа» или автоматического синхронизатора — он контролирует совместимость фаз и подключается в нужный момент."
   }
 ]
