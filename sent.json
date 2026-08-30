@@ -285,5 +285,31 @@
       "The color"
     ],
     "explain_en": "Correct clearance matters for efficiency; too small and it rubs."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "tags": [
+      "bugturbinasi",
+      "LPhood",
+      "sovutish"
+    ],
+    "q": "LP hood spray nima uchun kerak?",
+    "options": [
+      "Past yukda LP qismini sovutish uchun",
+      "Bug' hosil qilish uchun",
+      "Vakuum uchun",
+      "Valni moylash uchun"
+    ],
+    "correct": 0,
+    "explain": "Kam bug' oqimida LP qismi qizib ketadi, suv purkash uni sovutadi.",
+    "q_en": "Why is an LP hood spray needed?",
+    "options_en": [
+      "To cool the LP section at low load",
+      "To make steam",
+      "For vacuum",
+      "To lubricate the shaft"
+    ],
+    "explain_en": "At low steam flow the LP section overheats; the spray cools it."
   }
 ]
