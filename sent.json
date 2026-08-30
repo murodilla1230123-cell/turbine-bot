@@ -311,5 +311,31 @@
       "To lubricate the shaft"
     ],
     "explain_en": "At low steam flow the LP section overheats; the spray cools it."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "tags": [
+      "moy",
+      "filter",
+      "muddat"
+    ],
+    "q": "Filtr qachon almashtiriladi?",
+    "options": [
+      "Bosim tushishi chegaraga yetganda yoki belgilangan vaqt o'tganda",
+      "Faqat yangi yilda",
+      "Hech qachon",
+      "Faqat buzilganda"
+    ],
+    "correct": 0,
+    "explain": "Qaysi biri avval kelsa, shu paytda almashtiriladi, tozalikni kafolatlaydi.",
+    "q_en": "When is a filter replaced?",
+    "options_en": [
+      "When pressure drop reaches the limit or a set time passes",
+      "Only at new year",
+      "Never",
+      "Only when broken"
+    ],
+    "explain_en": "Whichever comes first, ensuring cleanliness."
   }
 ]
