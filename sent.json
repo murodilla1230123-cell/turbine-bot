@@ -417,5 +417,12 @@
     "en": "All generators on the grid spin synchronously at the same frequency — they work together as if one giant machine.",
     "cat": "Generator",
     "ru": "Все генераторы в сети вращаются с одинаковой частотой и синхронно — они работают вместе, как если бы они были одной гигантской машиной."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Asosiy himoya' shikastni birinchi bo'lib o'chirishga mo'ljallangan. Agar u ishlamay qolsa, 'zaxira himoya' (rezerv) uni almashtirib, nosozlikni o'chiradi.",
+    "en": "'Main protection' is meant to clear a fault first. If it fails, 'backup protection' takes over and clears the fault instead.",
+    "ru": "«Основная защита» предназначена для нанесения урона в первую очередь. В случае сбоя «резервная защита» (резерв) заменяет ее и устраняет неисправность."
   }
 ]
