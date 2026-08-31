@@ -473,5 +473,12 @@
     "en": "Steam entering the steam turbine must be very clean — tiny salt particles in it can deposit on blades and corrode them.",
     "cat": "Bug' turbinasi (ST)",
     "ru": "Пар, поступающий в паровую турбину, должен быть очень чистым — мелкие частицы соли в нём могут оседать на лопатках и разъедать их."
+  },
+  {
+    "type": "lesson",
+    "uz": "Ishga tushirish (startup) jarayonida turbina asta-sekin aylantiriladi va qizdiriladi. Tez isitish metallda kuchlanish va yoriqlar keltirib chiqarishi mumkin, shuning uchun bosqichma-bosqich boriladi.",
+    "en": "During startup, the turbine is slowly rotated and warmed. Rapid heating can cause thermal stress and cracks in the metal, so it is done step by step.",
+    "cat": "Boshqaruv / Asboblar",
+    "ru": "При запуске (startup) турбину постепенно раскручивают и прогревают. Быстрый нагрев может вызвать напряжения и трещины в металле, поэтому действуют поэтапно."
   }
 ]
