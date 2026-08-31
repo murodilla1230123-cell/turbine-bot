@@ -403,5 +403,12 @@
       "Stop the turbine"
     ],
     "explain_en": "Each alarm signals an event; ignoring it can lead to a major fault."
+  },
+  {
+    "type": "lesson",
+    "uz": "Kondensatorda vakuum (past bosim) bo'ladi. Past bosim bug'ning ko'proq kengayishiga imkon beradi, bu esa turbinadan ko'proq energiya olishni bildiradi.",
+    "en": "A condenser operates under vacuum (low pressure). Lower pressure lets the steam expand more, which means more energy is extracted from the turbine.",
+    "cat": "Kondensator / Sovutish",
+    "ru": "Градирня охлаждает воду конденсатора с помощью воздуха. Горячая вода стекает тонкой плёнкой, часть испаряется и охлаждает остальную."
   }
 ]
