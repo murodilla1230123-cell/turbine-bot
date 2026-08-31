@@ -494,5 +494,12 @@
     "en": "IGVs stay nearly closed during startup (less air) and gradually open as power rises, ensuring stable and efficient operation.",
     "cat": "Kompressor",
     "ru": "Лопатки IGV при запуске закрыты (мало воздуха) и постепенно открываются по мере роста мощности — это обеспечивает устойчивую и эффективную работу."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Lube oil accumulator' (moy akkumulyatori) bosim ostidagi moyni zaxira sifatida saqlaydi. Nasoslar orasidagi qisqa uzilishda ham moy uzatishni ta'minlaydi.",
+    "en": "A lube oil accumulator stores pressurized oil as a reserve. It maintains oil supply even during a brief gap between pumps.",
+    "cat": "Moy / Podshipnik",
+    "ru": "«Маслоаккумулятор Lube» хранит масло под давлением в качестве резерва. Обеспечивает перекачку масла даже во время коротких перерывов между насосами."
   }
 ]
