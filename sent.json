@@ -452,5 +452,12 @@
       "An alarm stops"
     ],
     "explain_en": "An alarm says pay attention; a trip stops the equipment safely at once."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Cooling air system' (sovutuvchi havo tizimi) kompressordan bir qism havoni olib, turbinaning eng issiq qismlarini (pichoq, disk) sovutishga yo'naltiradi.",
+    "en": "The cooling air system takes some air from the compressor and directs it to cool the turbine's hottest parts (blades, discs).",
+    "cat": "Kompressor",
+    "ru": "Система воздушного охлаждения забирает часть воздуха от компрессора и направляет его на охлаждение наиболее горячих частей турбины (лопасти, диски)."
   }
 ]
