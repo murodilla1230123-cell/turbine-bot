@@ -466,5 +466,12 @@
     "en": "Neutral grounding connects the generator's neutral point to earth. During a fault it safely channels current, protecting equipment.",
     "cat": "Generator",
     "ru": "«Нейтральное заземление» соединяет нейтральную точку генератора с землей. В случае неисправности он безопасно отводит ток и защищает устройство."
+  },
+  {
+    "type": "fact",
+    "uz": "Bug' turbinasiga kirayotgan bug' juda toza bo'lishi kerak — undagi mayda tuz zarralari pichoqlarga o'tirib, ularni yemirishi mumkin.",
+    "en": "Steam entering the steam turbine must be very clean — tiny salt particles in it can deposit on blades and corrode them.",
+    "cat": "Bug' turbinasi (ST)",
+    "ru": "Пар, поступающий в паровую турбину, должен быть очень чистым — мелкие частицы соли в нём могут оседать на лопатках и разъедать их."
   }
 ]
