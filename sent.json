@@ -501,5 +501,12 @@
     "en": "A lube oil accumulator stores pressurized oil as a reserve. It maintains oil supply even during a brief gap between pumps.",
     "cat": "Moy / Podshipnik",
     "ru": "«Маслоаккумулятор Lube» хранит масло под давлением в качестве резерва. Обеспечивает перекачку масла даже во время коротких перерывов между насосами."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "uz": "Generatordan chiqqan elektr avval 'generator circuit breaker' orqali o'tadi, keyin step-up transformatorda kuchlanishi oshiriladi va to'rga uzatiladi.",
+    "en": "Power from the generator first passes through a generator circuit breaker, then its voltage is raised in the step-up transformer and sent to the grid.",
+    "ru": "Электричество от генератора сначала проходит через «генераторный выключатель», затем его напряжение увеличивается в повышающем трансформаторе и передается в сеть."
   }
 ]
