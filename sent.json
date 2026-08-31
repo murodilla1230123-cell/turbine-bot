@@ -377,5 +377,31 @@
     "en": "Starts are classed as hot, warm or cold: the longer a turbine has been stopped, the cooler it is and the longer startup takes.",
     "cat": "Ishga tushirish / Rejim",
     "ru": "Различают hot, warm и cold start: чем дольше турбина простаивала, тем сильнее она остыла и тем дольше длится запуск."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "quiz",
+    "tags": [
+      "boshqaruv",
+      "operator",
+      "alarm"
+    ],
+    "q": "Alarm chiqqanda operatorning birinchi vazifasi nima?",
+    "options": [
+      "Uni tan olish va sababni aniqlash, ko'r-ko'rona o'chirmaslik",
+      "Darhol o'chirish",
+      "E'tibor bermaslik",
+      "Turbinani to'xtatish"
+    ],
+    "correct": 0,
+    "explain": "Har alarm bir voqeani bildiradi, e'tiborsizlik katta nosozlikka olib kelishi mumkin.",
+    "q_en": "What is the operator's first task when an alarm sounds?",
+    "options_en": [
+      "Acknowledge it and find the cause, not blindly silence it",
+      "Silence it at once",
+      "Ignore it",
+      "Stop the turbine"
+    ],
+    "explain_en": "Each alarm signals an event; ignoring it can lead to a major fault."
   }
 ]
