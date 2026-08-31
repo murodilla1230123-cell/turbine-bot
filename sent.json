@@ -487,5 +487,12 @@
     "en": "The 'reheat' cycle heats steam twice, extracting more work and keeping the steam drier in the final stages.",
     "cat": "Bug' turbinasi (ST)",
     "ru": "Цикл «Повторный нагрев» нагревает пар дважды, чтобы получить от него больше пользы, и удерживает паровую сушилку на последней стадии."
+  },
+  {
+    "type": "fact",
+    "uz": "IGV pichoqlari ishga tushirishda yopiq turadi (kam havo), turbina quvvati oshgani sari asta-sekin ochiladi — bu barqaror va samarali ishlashni ta'minlaydi.",
+    "en": "IGVs stay nearly closed during startup (less air) and gradually open as power rises, ensuring stable and efficient operation.",
+    "cat": "Kompressor",
+    "ru": "Лопатки IGV при запуске закрыты (мало воздуха) и постепенно открываются по мере роста мощности — это обеспечивает устойчивую и эффективную работу."
   }
 ]
