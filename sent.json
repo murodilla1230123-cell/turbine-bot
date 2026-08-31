@@ -424,5 +424,12 @@
     "uz": "'Asosiy himoya' shikastni birinchi bo'lib o'chirishga mo'ljallangan. Agar u ishlamay qolsa, 'zaxira himoya' (rezerv) uni almashtirib, nosozlikni o'chiradi.",
     "en": "'Main protection' is meant to clear a fault first. If it fails, 'backup protection' takes over and clears the fault instead.",
     "ru": "«Основная защита» предназначена для нанесения урона в первую очередь. В случае сбоя «резервная защита» (резерв) заменяет ее и устраняет неисправность."
+  },
+  {
+    "type": "fact",
+    "uz": "DLN yonish kamerasi yoqilg'ini havo bilan oldindan yaxshi aralashtiradi — bu tekisroq, sovuqroq yonishni beradi va zararli NOx chiqindisini pasaytiradi.",
+    "en": "A DLN combustor pre-mixes fuel thoroughly with air, giving a more even, cooler flame that lowers harmful NOx emissions.",
+    "cat": "Yonish / Combustor",
+    "ru": "Камера DLN заранее хорошо смешивает топливо с воздухом — это даёт более равномерное, холодное горение и снижает вредный выброс NOx."
   }
 ]
