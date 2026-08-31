@@ -508,5 +508,17 @@
     "uz": "Generatordan chiqqan elektr avval 'generator circuit breaker' orqali o'tadi, keyin step-up transformatorda kuchlanishi oshiriladi va to'rga uzatiladi.",
     "en": "Power from the generator first passes through a generator circuit breaker, then its voltage is raised in the step-up transformer and sent to the grid.",
     "ru": "Электричество от генератора сначала проходит через «генераторный выключатель», затем его напряжение увеличивается в повышающем трансформаторе и передается в сеть."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "tags": [
+      "tamir",
+      "confinedspace",
+      "havo"
+    ],
+    "uz": "Confined space (tor makon) HRSG yoki kondensator ichi kabi joylar. Ularga kirishdan oldin havo tarkibi tekshiriladi, chunki kislorod kam yoki zaharli gaz bo'lishi mumkin.",
+    "en": "A confined space is a place like the inside of an HRSG or condenser. Before entry the air is tested, since oxygen may be low or toxic gas present.",
+    "ru": "Ограниченное пространство (узкое пространство). Такие помещения, как внутри котла-утилизатора или конденсатора. Перед входом в них проверяют содержание воздуха, так как там может быть мало кислорода или ядовитый газ."
   }
 ]
