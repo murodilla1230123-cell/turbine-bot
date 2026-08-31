@@ -410,5 +410,12 @@
     "en": "A condenser operates under vacuum (low pressure). Lower pressure lets the steam expand more, which means more energy is extracted from the turbine.",
     "cat": "Kondensator / Sovutish",
     "ru": "Градирня охлаждает воду конденсатора с помощью воздуха. Горячая вода стекает тонкой плёнкой, часть испаряется и охлаждает остальную."
+  },
+  {
+    "type": "fact",
+    "uz": "To'rdagi barcha generatorlar bir xil chastotada, sinxron aylanadi — ular go'yo bitta ulkan mashina kabi birga ishlaydi.",
+    "en": "All generators on the grid spin synchronously at the same frequency — they work together as if one giant machine.",
+    "cat": "Generator",
+    "ru": "Все генераторы в сети вращаются с одинаковой частотой и синхронно — они работают вместе, как если бы они были одной гигантской машиной."
   }
 ]
