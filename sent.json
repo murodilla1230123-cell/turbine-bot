@@ -431,5 +431,26 @@
     "en": "A DLN combustor pre-mixes fuel thoroughly with air, giving a more even, cooler flame that lowers harmful NOx emissions.",
     "cat": "Yonish / Combustor",
     "ru": "Камера DLN заранее хорошо смешивает топливо с воздухом — это даёт более равномерное, холодное горение и снижает вредный выброс NOx."
+  },
+  {
+    "type": "quiz",
+    "cat": "Boshqaruv / Asboblar",
+    "q": "'Alarm' va 'trip' o'rtasidagi farq nima?",
+    "options": [
+      "Alarm ogohlantiradi; trip avtomatik to'xtatadi",
+      "Farqi yo'q",
+      "Trip faqat ogohlantiradi",
+      "Alarm to'xtatadi"
+    ],
+    "correct": 0,
+    "explain": "Alarm — e'tibor ber; trip — jihozni zudlik bilan xavfsiz to'xtatadi.",
+    "q_en": "What is the difference between an alarm and a trip?",
+    "options_en": [
+      "An alarm warns; a trip stops automatically",
+      "No difference",
+      "A trip only warns",
+      "An alarm stops"
+    ],
+    "explain_en": "An alarm says pay attention; a trip stops the equipment safely at once."
   }
 ]
