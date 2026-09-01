@@ -581,5 +581,12 @@
       "Only fuel amount"
     ],
     "explain_en": "The compressor uses nearly half the turbine power; the rest is useful."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Maksimal tokli himoya' (MTZ) tok belgilangan chegaradan oshsa ishga tushadi. Bu eng oddiy va keng tarqalgan himoya turi.",
+    "en": "'Overcurrent protection' (MTZ) operates when current exceeds a set threshold. It is the simplest and most widespread type of protection.",
+    "ru": "«Защита по максимальному току» (MTZ) срабатывает, когда ток превышает установленный предел. Это самый простой и распространенный вид защиты."
   }
 ]
