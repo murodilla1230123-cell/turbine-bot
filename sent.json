@@ -520,5 +520,12 @@
     "uz": "Confined space (tor makon) HRSG yoki kondensator ichi kabi joylar. Ularga kirishdan oldin havo tarkibi tekshiriladi, chunki kislorod kam yoki zaharli gaz bo'lishi mumkin.",
     "en": "A confined space is a place like the inside of an HRSG or condenser. Before entry the air is tested, since oxygen may be low or toxic gas present.",
     "ru": "Ограниченное пространство (узкое пространство). Такие помещения, как внутри котла-утилизатора или конденсатора. Перед входом в них проверяют содержание воздуха, так как там может быть мало кислорода или ядовитый газ."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Zaxira himoya biroz kechikish bilan ishlaydi — u avval asosiy himoyaga imkon beradi, faqat u ishlamasagina o'zi harakatga kiradi.",
+    "en": "Backup protection operates with a slight delay — it first gives the main protection a chance, acting only if the main one fails.",
+    "ru": "Резервная защита срабатывает с небольшой задержкой — она позволяет первой активировать основную защиту только в случае ее сбоя."
   }
 ]
