@@ -656,5 +656,17 @@
     "en": "The coolant inside a generator (air/hydrogen) circulates in a closed loop: it heats up, cools in the cooler, and re-enters the generator.",
     "cat": "Generator",
     "ru": "Охлаждающая среда (воздух/водород) внутри генератора циркулирует замкнуто: нагревается, охлаждается в охладителе и снова поступает в генератор."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "lesson",
+    "tags": [
+      "yordamchitizim",
+      "sovutishhavo",
+      "turbina"
+    ],
+    "uz": "GT cooling air system (sovutuvchi havo tizimi) kompressordan havoning bir qismini olib, turbinaning eng issiq qismlarini (pichoq, disk) sovutadi.",
+    "en": "The GT cooling air system takes some air from the compressor to cool the turbine's hottest parts (blades, discs).",
+    "ru": "Воздушная система охлаждения ГТ забирает часть воздуха от компрессора и охлаждает наиболее горячие части турбины (лопатку, диск)."
   }
 ]
