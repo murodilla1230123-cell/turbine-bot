@@ -621,5 +621,26 @@
       "For safety"
     ],
     "explain_en": "Heated gas burns stably and raises combined-cycle efficiency."
+  },
+  {
+    "type": "quiz",
+    "cat": "Kompressor",
+    "q": "Nega kompressor chiqishida havo issiq bo'ladi?",
+    "options": [
+      "Siqilish gazni qizdiradi",
+      "Yoqilg'i yonadi",
+      "Quyosh isitadi",
+      "Elektr qizdiradi"
+    ],
+    "correct": 0,
+    "explain": "Bosim oshgani sari harorat ko'tariladi — yoqilg'i yonmasidan oldin ham 400°C dan oshadi.",
+    "q_en": "Why is air hot at the compressor outlet?",
+    "options_en": [
+      "Compression heats the gas",
+      "Fuel burns",
+      "The sun heats it",
+      "Electricity heats it"
+    ],
+    "explain_en": "Temperature rises with pressure — over 400°C even before fuel burns."
   }
 ]
