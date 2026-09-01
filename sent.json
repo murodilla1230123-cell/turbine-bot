@@ -649,5 +649,12 @@
     "uz": "Part-load (qisman quvvat)da IGV havo oqimini kamaytiradi — bu chiqindi gaz haroratini yuqori ushlab, HRSG samaradorligini saqlaydi.",
     "en": "At part-load the IGVs reduce airflow — this keeps exhaust temperature high, maintaining HRSG efficiency.",
     "ru": "При частичной нагрузке IGV уменьшает поток воздуха — это поддерживает высокую температуру выхлопных газов и сохраняет эффективность котла-утилизатора."
+  },
+  {
+    "type": "fact",
+    "uz": "Generator ichidagi sovutuvchi muhit (havo/vodorod) yopiq aylanadi: qiziydi, cooler'da soviydi, qaytadan generatorga kiradi.",
+    "en": "The coolant inside a generator (air/hydrogen) circulates in a closed loop: it heats up, cools in the cooler, and re-enters the generator.",
+    "cat": "Generator",
+    "ru": "Охлаждающая среда (воздух/водород) внутри генератора циркулирует замкнуто: нагревается, охлаждается в охладителе и снова поступает в генератор."
   }
 ]
