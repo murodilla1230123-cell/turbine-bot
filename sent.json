@@ -555,5 +555,31 @@
       "Noise"
     ],
     "explain_en": "An internal short is most dangerous — differential protection senses it instantly."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "quiz",
+    "tags": [
+      "gazturbinasi",
+      "foydaliquvvat",
+      "kompressor"
+    ],
+    "q": "Gaz turbinasida foydali quvvat qanday olinadi?",
+    "options": [
+      "Turbina quvvatidan kompressor quvvati ayriladi",
+      "Turbina va kompressor quvvati qo'shiladi",
+      "Faqat kompressor quvvati",
+      "Faqat yoqilg'i miqdori"
+    ],
+    "correct": 0,
+    "explain": "Kompressor turbina quvvatining deyarli yarmini iste'mol qiladi, qolgani foydali.",
+    "q_en": "How is useful power obtained in a gas turbine?",
+    "options_en": [
+      "Turbine power minus compressor power",
+      "Turbine plus compressor power",
+      "Only compressor power",
+      "Only fuel amount"
+    ],
+    "explain_en": "The compressor uses nearly half the turbine power; the rest is useful."
   }
 ]
