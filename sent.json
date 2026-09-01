@@ -534,5 +534,26 @@
     "en": "Enclosure ventilation is vital for safety — gas must not accumulate, or an explosion risk arises.",
     "cat": "Yordamchi tizimlar",
     "ru": "Вентиляция турбинной кабины важна для безопасности — газ не должен скапливаться, иначе существует опасность взрыва."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Generator differensial himoyasi qaysi nosozlikni sezadi?",
+    "options": [
+      "Stator o'ramidagi ichki qisqa tutashuvni",
+      "Tashqi haroratni",
+      "Havo namligini",
+      "Shovqinni"
+    ],
+    "correct": 0,
+    "explain": "Ichki qisqa tutashuv eng xavfli — differensial himoya uni bir zumda sezadi.",
+    "q_en": "Which fault does generator differential protection sense?",
+    "options_en": [
+      "An internal short in the stator winding",
+      "External temperature",
+      "Air humidity",
+      "Noise"
+    ],
+    "explain_en": "An internal short is most dangerous — differential protection senses it instantly."
   }
 ]
