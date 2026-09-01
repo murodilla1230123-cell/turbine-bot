@@ -595,5 +595,31 @@
     "en": "A 'startup curve' defines how fast to heat and accelerate a turbine. Violating it causes thermal stress and damage.",
     "cat": "Ishga tushirish / Rejim",
     "ru": "«Кривая запуска» представляет собой таблицу, которая определяет, насколько быстро турбина может нагреваться и ускоряться. Если его сломать, это приведет к термическому напряжению и повреждению."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "quiz",
+    "tags": [
+      "yordamchitizim",
+      "fuelgasheater",
+      "FIK"
+    ],
+    "q": "Nega yoqilg'i gaz turbinaga kirishdan oldin isitiladi?",
+    "options": [
+      "Issiq gaz barqarorroq yonadi, FIK oshadi",
+      "Sovuq gaz tez yonadi",
+      "Odat bo'yicha",
+      "Xavfsizlik uchun"
+    ],
+    "correct": 0,
+    "explain": "Isitilgan gaz barqaror yonadi va combined cycle samaradorligini oshiradi.",
+    "q_en": "Why is fuel gas heated before entering the turbine?",
+    "options_en": [
+      "Hot gas burns more stably, raising efficiency",
+      "Cold gas burns fast",
+      "By habit",
+      "For safety"
+    ],
+    "explain_en": "Heated gas burns stably and raises combined-cycle efficiency."
   }
 ]
