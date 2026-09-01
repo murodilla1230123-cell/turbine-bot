@@ -588,5 +588,12 @@
     "uz": "'Maksimal tokli himoya' (MTZ) tok belgilangan chegaradan oshsa ishga tushadi. Bu eng oddiy va keng tarqalgan himoya turi.",
     "en": "'Overcurrent protection' (MTZ) operates when current exceeds a set threshold. It is the simplest and most widespread type of protection.",
     "ru": "«Защита по максимальному току» (MTZ) срабатывает, когда ток превышает установленный предел. Это самый простой и распространенный вид защиты."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Startup curve' — turbinani qanday tezlikda qizdirish va tezlatishni belgilaydigan jadval. Uni buzish termik kuchlanish va shikast keltiradi.",
+    "en": "A 'startup curve' defines how fast to heat and accelerate a turbine. Violating it causes thermal stress and damage.",
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "«Кривая запуска» представляет собой таблицу, которая определяет, насколько быстро турбина может нагреваться и ускоряться. Если его сломать, это приведет к термическому напряжению и повреждению."
   }
 ]
