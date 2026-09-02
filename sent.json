@@ -727,5 +727,12 @@
     "en": "The startup sequence goes 'purge → ignition → warm-up → acceleration → synchronization' — each step is verified.",
     "cat": "Yonish / Combustor",
     "ru": "Последовательность запуска — «продувка → зажигание → прогрев → разгон → синхронизация» — проверяется каждый шаг."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "fact",
+    "uz": "Chiqindi gaz harorati (EGT/exhaust temperature) gaz turbinasi 'sog'lig'ining' asosiy ko'rsatkichi — boshqaruv uni chegaradan oshirmaydi.",
+    "en": "Exhaust gas temperature (EGT) is a key indicator of gas turbine 'health' — the control system keeps it below limits.",
+    "ru": "Температура выхлопных газов (EGT/exhausttemperature) является основным показателем «здоровья» газовой турбины – контроль не превышает ее."
   }
 ]
