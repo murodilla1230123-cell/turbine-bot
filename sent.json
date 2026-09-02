@@ -748,5 +748,12 @@
     "en": "The 'Wobbe index' measures the combustion 'strength' of fuel gas. If gas composition changes, turbine settings must adapt.",
     "cat": "Yonish / Combustor",
     "ru": "«Индекс Воббе» — это индекс, который измеряет «мощность» сгорания топливного газа. При изменении состава газа необходимо скорректировать и настройки турбины."
+  },
+  {
+    "type": "fact",
+    "uz": "Generator elektr ishlab chiqarganda kuchli qiziydi, shuning uchun yirik generatorlar vodorod (H₂) gazi bilan sovutiladi — vodorod havodan ~7 barobar yaxshi issiqlik o'tkazadi.",
+    "en": "A generator heats up strongly while producing electricity, so large generators are cooled with hydrogen (H₂) gas, which conducts heat about 7 times better than air.",
+    "cat": "Generator",
+    "ru": "Генератор сильно нагревается при выработке электричества, поэтому крупные генераторы охлаждаются водородом (H₂) — водород проводит тепло примерно в 7 раз лучше воздуха."
   }
 ]
