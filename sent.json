@@ -720,5 +720,12 @@
     "uz": "Lube oil heater (moy isitgich) turbina ishga tushirishdan oldin sovuq moyni isitadi. Iliq moy yaxshi oqadi va startni osonlashtiradi.",
     "en": "A lube oil heater warms cold oil before startup. Warm oil flows well and eases starting.",
     "ru": "Нагреватель смазочного масла нагревает холодное масло перед запуском турбины. Теплое масло течет лучше и облегчает запуск."
+  },
+  {
+    "type": "fact",
+    "uz": "Ishga tushirish tartibi 'purge → ignition → warm-up → acceleration → synchronization' ketma-ketligida boradi — har qadam tekshiriladi.",
+    "en": "The startup sequence goes 'purge → ignition → warm-up → acceleration → synchronization' — each step is verified.",
+    "cat": "Yonish / Combustor",
+    "ru": "Последовательность запуска — «продувка → зажигание → прогрев → разгон → синхронизация» — проверяется каждый шаг."
   }
 ]
