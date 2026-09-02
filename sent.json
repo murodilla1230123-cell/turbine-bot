@@ -694,5 +694,12 @@
       "Cold air"
     ],
     "explain_en": "If it exceeds the limit, the control system trips the turbine for protection."
+  },
+  {
+    "type": "fact",
+    "uz": "Generator rotori aslida katta aylanuvchi elektromagnit — u 'excitation' (qo'zg'atish) toki bilan magnitlanadi va statorda kuchlanish hosil qiladi.",
+    "en": "A generator rotor is essentially a large spinning electromagnet — it is magnetized by an 'excitation' current and induces voltage in the stator.",
+    "cat": "Generator",
+    "ru": "Ротор генератора — это по сути большой вращающийся электромагнит; он намагничивается током возбуждения (excitation) и создаёт напряжение в статоре."
   }
 ]
