@@ -701,5 +701,12 @@
     "en": "A generator rotor is essentially a large spinning electromagnet — it is magnetized by an 'excitation' current and induces voltage in the stator.",
     "cat": "Generator",
     "ru": "Ротор генератора — это по сути большой вращающийся электромагнит; он намагничивается током возбуждения (excitation) и создаёт напряжение в статоре."
+  },
+  {
+    "type": "lesson",
+    "uz": "NOx (azot oksidi) yuqori haroratda havodagi azotdan hosil bo'ladi. Yonishni tekis va nazorat ostida ushlash uni kamaytiradi.",
+    "en": "NOx (nitrogen oxides) form from air's nitrogen at high temperatures. Keeping combustion even and controlled reduces it.",
+    "cat": "Yonish / Combustor",
+    "ru": "NOx (оксид азота) образуется из азота воздуха при высоких температурах. Если держать ожог ровным и держать его под контролем, это уменьшит его."
   }
 ]
