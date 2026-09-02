@@ -741,5 +741,12 @@
     "en": "An economizer is the last (coolest gas) section of the HRSG. It uses remaining heat to preheat water, boosting efficiency.",
     "cat": "Bug' turbinasi (ST)",
     "ru": "Economizer — самая последняя (с самым холодным газом) секция HRSG. Расходуя остаточное тепло на подогрев воды, он повышает КПД."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Wobbe index' — yoqilg'i gazining yonish 'kuchini' o'lchaydigan ko'rsatkich. Gaz tarkibi o'zgarsa, turbina sozlamalari ham moslashtirilishi kerak.",
+    "en": "The 'Wobbe index' measures the combustion 'strength' of fuel gas. If gas composition changes, turbine settings must adapt.",
+    "cat": "Yonish / Combustor",
+    "ru": "«Индекс Воббе» — это индекс, который измеряет «мощность» сгорания топливного газа. При изменении состава газа необходимо скорректировать и настройки турбины."
   }
 ]
