@@ -708,5 +708,17 @@
     "en": "NOx (nitrogen oxides) form from air's nitrogen at high temperatures. Keeping combustion even and controlled reduces it.",
     "cat": "Yonish / Combustor",
     "ru": "NOx (оксид азота) образуется из азота воздуха при высоких температурах. Если держать ожог ровным и держать его под контролем, это уменьшит его."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "lesson",
+    "tags": [
+      "moy",
+      "heater",
+      "start"
+    ],
+    "uz": "Lube oil heater (moy isitgich) turbina ishga tushirishdan oldin sovuq moyni isitadi. Iliq moy yaxshi oqadi va startni osonlashtiradi.",
+    "en": "A lube oil heater warms cold oil before startup. Warm oil flows well and eases starting.",
+    "ru": "Нагреватель смазочного масла нагревает холодное масло перед запуском турбины. Теплое масло течет лучше и облегчает запуск."
   }
 ]
