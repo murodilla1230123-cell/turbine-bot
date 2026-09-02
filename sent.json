@@ -734,5 +734,12 @@
     "uz": "Chiqindi gaz harorati (EGT/exhaust temperature) gaz turbinasi 'sog'lig'ining' asosiy ko'rsatkichi — boshqaruv uni chegaradan oshirmaydi.",
     "en": "Exhaust gas temperature (EGT) is a key indicator of gas turbine 'health' — the control system keeps it below limits.",
     "ru": "Температура выхлопных газов (EGT/exhausttemperature) является основным показателем «здоровья» газовой турбины – контроль не превышает ее."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Economizer' — HRSG'ning eng oxirgi (eng sovuq gaz) qismi. U qolgan issiqlikni suvni oldindan isitishga sarflab, samaradorlikni oshiradi.",
+    "en": "An economizer is the last (coolest gas) section of the HRSG. It uses remaining heat to preheat water, boosting efficiency.",
+    "cat": "Bug' turbinasi (ST)",
+    "ru": "Economizer — самая последняя (с самым холодным газом) секция HRSG. Расходуя остаточное тепло на подогрев воды, он повышает КПД."
   }
 ]
