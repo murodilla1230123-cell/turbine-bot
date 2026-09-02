@@ -668,5 +668,31 @@
     "uz": "GT cooling air system (sovutuvchi havo tizimi) kompressordan havoning bir qismini olib, turbinaning eng issiq qismlarini (pichoq, disk) sovutadi.",
     "en": "The GT cooling air system takes some air from the compressor to cool the turbine's hottest parts (blades, discs).",
     "ru": "Воздушная система охлаждения ГТ забирает часть воздуха от компрессора и охлаждает наиболее горячие части турбины (лопатку, диск)."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "quiz",
+    "tags": [
+      "gazturbinasi",
+      "operator",
+      "EGTspread"
+    ],
+    "q": "EGT spread (harorat tarqalishi) keskin oshsa bu nimani bildiradi?",
+    "options": [
+      "Yoqilg'i forsunkasi tiqilishi yoki alanga muammosi",
+      "Normal ish",
+      "Ko'proq quvvat",
+      "Sovuq havo"
+    ],
+    "correct": 0,
+    "explain": "Chegaradan oshsa boshqaruv tizimi turbinani himoya uchun trip qiladi.",
+    "q_en": "What does a sharp rise in EGT spread indicate?",
+    "options_en": [
+      "A clogged fuel nozzle or flame problem",
+      "Normal operation",
+      "More power",
+      "Cold air"
+    ],
+    "explain_en": "If it exceeds the limit, the control system trips the turbine for protection."
   }
 ]
