@@ -783,5 +783,12 @@
     "en": "An SFC (Static Frequency Converter) is an electronic device that spins the rotor at startup by running the generator as a motor. The generator itself becomes the 'starter'.",
     "cat": "Gaz turbinasi (GT)",
     "ru": "SFC (Static Frequency Converter) — электронное устройство, которое при запуске газовой турбины использует генератор как двигатель и раскручивает ротор. То есть генератор сам становится стартером."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "fact",
+    "uz": "Gaz turbinasida foydali quvvat = turbina ishlab chiqargan quvvat minus kompressorga sarflangan quvvat. Kompressor 'ochko'ziroq' bo'lsa, foydali quvvat kamayadi.",
+    "en": "In a gas turbine, useful power = turbine power minus compressor power. The 'greedier' the compressor, the less useful power remains.",
+    "ru": "В газовой турбине полезная мощность = мощность, производимая турбиной, минус мощность, потребляемая компрессором. Когда компрессор «жадный», полезная мощность снижается."
   }
 ]
