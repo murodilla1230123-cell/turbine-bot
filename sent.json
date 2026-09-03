@@ -840,5 +840,17 @@
     "uz": "Grid frequency (to'r chastotasi) elektr talab va ishlab chiqarish muvozanatini ko'rsatadi. Talab oshsa chastota tushadi, generatorlar quvvatni oshirib javob beradi.",
     "en": "Grid frequency reflects the balance of demand and supply. If demand rises, frequency dips, and generators raise power in response.",
     "ru": "Частота сети показывает баланс спроса и производства электроэнергии. Когда спрос увеличивается, частота падает, и генераторы реагируют увеличением мощности."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "lesson",
+    "tags": [
+      "ishgatushirish",
+      "spincooling",
+      "sovutish"
+    ],
+    "uz": "Spin cooling turbinani to'xtatgach uni bir muddat aylantirib, issiqlikni bir tekis tarqatib sovutish usuli. Bu notekis sovushdan kelib chiqadigan egilishni oldini oladi.",
+    "en": "Spin cooling is rotating the turbine for a while after shutdown to distribute heat evenly. It prevents bowing from uneven cooling.",
+    "ru": "Вращение вращения — это метод охлаждения турбины путем ее вращения в течение некоторого времени после остановки и равномерного распределения тепла. Это предотвращает коробление, вызванное неравномерным охлаждением."
   }
 ]
