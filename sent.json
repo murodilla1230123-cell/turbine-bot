@@ -776,5 +776,12 @@
       "Color"
     ],
     "explain_en": "It responds only to fault current flowing toward the protected side — key in two-source networks."
+  },
+  {
+    "type": "lesson",
+    "uz": "SFC (Static Frequency Converter) — gaz turbinasini ishga tushirishda generatorni motor sifatida ishlatib, rotorni aylantiradigan elektron qurilma. Ya'ni generatorning o'zi 'starter' bo'ladi.",
+    "en": "An SFC (Static Frequency Converter) is an electronic device that spins the rotor at startup by running the generator as a motor. The generator itself becomes the 'starter'.",
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "SFC (Static Frequency Converter) — электронное устройство, которое при запуске газовой турбины использует генератор как двигатель и раскручивает ротор. То есть генератор сам становится стартером."
   }
 ]
