@@ -821,5 +821,12 @@
     "uz": "Adapter filter — filtr elementi maxsus 'adapter' (ulagich)ga o'rnatiladi, bu uni tez almashtirishga imkon beradi. Iflos element chiqarilib, yangisi shu adapterga o'rnatiladi.",
     "en": "An adapter filter has its element mounted on a special adapter, allowing quick replacement. The dirty element is removed and a new one fitted to the adapter.",
     "ru": "Фильтр-переходник — фильтрующий элемент крепится на специальный «переходник» (разъем), что позволяет осуществлять быструю замену. Грязный элемент удаляется и в этот переходник устанавливается новый."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Heat rate' — bir birlik elektr ishlab chiqarish uchun sarflangan issiqlik. U qancha past bo'lsa, stansiya shuncha samarali.",
+    "en": "'Heat rate' is the heat used to produce one unit of electricity. The lower it is, the more efficient the plant.",
+    "cat": "Combined Cycle / Samaradorlik",
+    "ru": "«Тепловая мощность» — это количество тепла, используемое для производства одной единицы электроэнергии. Чем он ниже, тем эффективнее работает станция."
   }
 ]
