@@ -809,5 +809,17 @@
     "uz": "Turbina qizib to'liq yukka chiqqanda, val zichlagichi 'o'z-o'zini zichlash' (self-sealing) rejimiga o'tadi — turbinaning o'zidan chiqqan ortiqcha bug' zichlash uchun yetarli bo'ladi, tashqi bug' kerak emas.",
     "en": "When the turbine warms and reaches full load, the shaft seal enters 'self-sealing' mode — the turbine's own excess steam is enough for sealing, no external steam needed.",
     "ru": "При нагреве турбины до полной нагрузки уплотнитель вала переходит в режим «самоуплотнения» — для герметизации достаточно избытка пара от самой турбины, внешний пар не нужен."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "lesson",
+    "tags": [
+      "yordamchitizim",
+      "adapterfilter",
+      "tur"
+    ],
+    "uz": "Adapter filter — filtr elementi maxsus 'adapter' (ulagich)ga o'rnatiladi, bu uni tez almashtirishga imkon beradi. Iflos element chiqarilib, yangisi shu adapterga o'rnatiladi.",
+    "en": "An adapter filter has its element mounted on a special adapter, allowing quick replacement. The dirty element is removed and a new one fitted to the adapter.",
+    "ru": "Фильтр-переходник — фильтрующий элемент крепится на специальный «переходник» (разъем), что позволяет осуществлять быструю замену. Грязный элемент удаляется и в этот переходник устанавливается новый."
   }
 ]
