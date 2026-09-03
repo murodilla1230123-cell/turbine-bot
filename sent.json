@@ -828,5 +828,17 @@
     "en": "'Heat rate' is the heat used to produce one unit of electricity. The lower it is, the more efficient the plant.",
     "cat": "Combined Cycle / Samaradorlik",
     "ru": "«Тепловая мощность» — это количество тепла, используемое для производства одной единицы электроэнергии. Чем он ниже, тем эффективнее работает станция."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "lesson",
+    "tags": [
+      "energetika",
+      "gridfrequency",
+      "muvozanat"
+    ],
+    "uz": "Grid frequency (to'r chastotasi) elektr talab va ishlab chiqarish muvozanatini ko'rsatadi. Talab oshsa chastota tushadi, generatorlar quvvatni oshirib javob beradi.",
+    "en": "Grid frequency reflects the balance of demand and supply. If demand rises, frequency dips, and generators raise power in response.",
+    "ru": "Частота сети показывает баланс спроса и производства электроэнергии. Когда спрос увеличивается, частота падает, и генераторы реагируют увеличением мощности."
   }
 ]
