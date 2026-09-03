@@ -790,5 +790,12 @@
     "uz": "Gaz turbinasida foydali quvvat = turbina ishlab chiqargan quvvat minus kompressorga sarflangan quvvat. Kompressor 'ochko'ziroq' bo'lsa, foydali quvvat kamayadi.",
     "en": "In a gas turbine, useful power = turbine power minus compressor power. The 'greedier' the compressor, the less useful power remains.",
     "ru": "В газовой турбине полезная мощность = мощность, производимая турбиной, минус мощность, потребляемая компрессором. Когда компрессор «жадный», полезная мощность снижается."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Silencer' (shovqin pasaytirgich) turbina kirish va chiqishidagi kuchli shovqinni kamaytiradi. U tovush to'lqinlarini yutuvchi materiallardan iborat.",
+    "en": "A 'silencer' reduces the loud noise at a turbine's inlet and exhaust. It's made of sound-absorbing materials.",
+    "cat": "Yordamchi tizimlar",
+    "ru": "«Глушитель» (шумоподавитель) снижает сильный шум на входе и выходе турбины. Он состоит из материалов, поглощающих звуковые волны."
   }
 ]
