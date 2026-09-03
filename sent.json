@@ -852,5 +852,12 @@
     "uz": "Spin cooling turbinani to'xtatgach uni bir muddat aylantirib, issiqlikni bir tekis tarqatib sovutish usuli. Bu notekis sovushdan kelib chiqadigan egilishni oldini oladi.",
     "en": "Spin cooling is rotating the turbine for a while after shutdown to distribute heat evenly. It prevents bowing from uneven cooling.",
     "ru": "Вращение вращения — это метод охлаждения турбины путем ее вращения в течение некоторого времени после остановки и равномерного распределения тепла. Это предотвращает коробление, вызванное неравномерным охлаждением."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Confined space' (yopiq/tor makon) — HRSG yoki kondensator ichi kabi joylar. Ularga kirishdan oldin havo tarkibi tekshiriladi, chunki kislorod kam yoki zaharli gaz bo'lishi mumkin.",
+    "en": "A 'confined space' is a place like the inside of an HRSG or condenser. Before entry the air is tested, since oxygen may be low or toxic gas present.",
+    "cat": "HRSG / Bug' sikli",
+    "ru": "«Замкнутое пространство» — такие зоны, как котел-утилизатор или внутри конденсатора. Перед входом в них проверяют содержание воздуха, так как там может быть мало кислорода или ядовитый газ."
   }
 ]
