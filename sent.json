@@ -797,5 +797,17 @@
     "en": "A 'silencer' reduces the loud noise at a turbine's inlet and exhaust. It's made of sound-absorbing materials.",
     "cat": "Yordamchi tizimlar",
     "ru": "«Глушитель» (шумоподавитель) снижает сильный шум на входе и выходе турбины. Он состоит из материалов, поглощающих звуковые волны."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "tags": [
+      "bugturbinasi",
+      "selfsealing",
+      "zichlash"
+    ],
+    "uz": "Turbina qizib to'liq yukka chiqqanda, val zichlagichi 'o'z-o'zini zichlash' (self-sealing) rejimiga o'tadi — turbinaning o'zidan chiqqan ortiqcha bug' zichlash uchun yetarli bo'ladi, tashqi bug' kerak emas.",
+    "en": "When the turbine warms and reaches full load, the shaft seal enters 'self-sealing' mode — the turbine's own excess steam is enough for sealing, no external steam needed.",
+    "ru": "При нагреве турбины до полной нагрузки уплотнитель вала переходит в режим «самоуплотнения» — для герметизации достаточно избытка пара от самой турбины, внешний пар не нужен."
   }
 ]
