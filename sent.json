@@ -859,5 +859,12 @@
     "en": "A 'confined space' is a place like the inside of an HRSG or condenser. Before entry the air is tested, since oxygen may be low or toxic gas present.",
     "cat": "HRSG / Bug' sikli",
     "ru": "«Замкнутое пространство» — такие зоны, как котел-утилизатор или внутри конденсатора. Перед входом в них проверяют содержание воздуха, так как там может быть мало кислорода или ядовитый газ."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Ventilation fan' (ventilyatsiya ventilyatori) turbina kabinasi ichidagi havoni doimiy almashtiradi. Bu issiqlikni chiqaradi va sizib chiqqan gazni tarqatadi.",
+    "en": "A ventilation fan constantly refreshes the air inside the turbine enclosure. This removes heat and disperses any leaked gas.",
+    "cat": "Yordamchi tizimlar",
+    "ru": "«Вентилятор» (вентилятор) непрерывно заменяет воздух внутри турбинной кабины. При этом выделяется тепло и рассеивается вытекший газ."
   }
 ]
