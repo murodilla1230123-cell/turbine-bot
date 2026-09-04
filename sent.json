@@ -1001,5 +1001,31 @@
       "Pretty"
     ],
     "explain_en": "A low power factor causes extra losses in the grid."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "tags": [
+      "bugturbinasi",
+      "LP",
+      "pichoq"
+    ],
+    "q": "Bug' turbinasi qaysi qismida eng ko'p kengayadi?",
+    "options": [
+      "LP (past bosim) qismida",
+      "HP qismida",
+      "Faqat IP",
+      "Hech qaysi"
+    ],
+    "correct": 0,
+    "explain": "Past bosimda hajm katta, LP pichoqlari shu bois eng uzun.",
+    "q_en": "In which section does a steam turbine expand the most?",
+    "options_en": [
+      "The LP (low-pressure) section",
+      "The HP section",
+      "Only IP",
+      "None"
+    ],
+    "explain_en": "Volume is large at low pressure, so LP blades are the longest."
   }
 ]
