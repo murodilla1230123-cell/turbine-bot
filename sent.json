@@ -1041,5 +1041,12 @@
     "en": "The M701JAC is a large, high-temperature gas turbine from Mitsubishi Power. 'J-class' turbines are among the most efficient gas turbines in the world.",
     "cat": "Gaz turbinasi (GT)",
     "ru": "M701JAC — крупная высокотемпературная газовая турбина Mitsubishi Power. Турбины J-class входят в число самых эффективных газовых турбин в мире."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "fact",
+    "uz": "Sinxronizatsiya lahzasi juda muhim — generator chastotasi, kuchlanishi va fazasi to'rga aniq mos kelganda circuit breaker ulanadi.",
+    "en": "The moment of synchronization is critical — the breaker closes only when the generator's frequency, voltage and phase exactly match the grid.",
+    "ru": "Очень важен момент синхронизации – автоматический выключатель включается тогда, когда частота, напряжение и фаза генератора точно совпадают с сетью."
   }
 ]
