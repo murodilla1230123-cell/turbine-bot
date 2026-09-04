@@ -866,5 +866,31 @@
     "en": "A ventilation fan constantly refreshes the air inside the turbine enclosure. This removes heat and disperses any leaked gas.",
     "cat": "Yordamchi tizimlar",
     "ru": "«Вентилятор» (вентилятор) непрерывно заменяет воздух внутри турбинной кабины. При этом выделяется тепло и рассеивается вытекший газ."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "tags": [
+      "bugturbinasi",
+      "axialposition",
+      "thrust"
+    ],
+    "q": "Rotorning katta axial (o'q bo'ylab) siljishi nimani bildiradi?",
+    "options": [
+      "Thrust bearing (o'q podshipnigi) yeyilganini",
+      "Normal ish",
+      "Ko'proq quvvat",
+      "Sovuq havo"
+    ],
+    "correct": 0,
+    "explain": "Bu jiddiy nosozlik, thrust bearing rotorni o'q bo'ylab ushlab turadi.",
+    "q_en": "What does a large axial (along-shaft) rotor shift indicate?",
+    "options_en": [
+      "Thrust bearing wear",
+      "Normal operation",
+      "More power",
+      "Cold air"
+    ],
+    "explain_en": "It's a serious fault; the thrust bearing holds the rotor axially."
   }
 ]
