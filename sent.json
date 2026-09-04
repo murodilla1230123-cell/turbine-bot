@@ -975,5 +975,31 @@
     "en": "Many plants use fiber optic communication — it is immune to electrical noise and transmits data fast and reliably.",
     "cat": "Energetika asoslari",
     "ru": "Многие станции используют оптоволоконную связь — она нечувствительна к электрическим помехам и передает информацию быстро и надежно."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "quiz",
+    "tags": [
+      "energetika",
+      "powerfactor",
+      "cos"
+    ],
+    "q": "Power factor (quvvat koeffitsienti) 1 ga yaqin bo'lsa nima yaxshi?",
+    "options": [
+      "Energiya samarali ishlatiladi, kam yo'qotish",
+      "Ko'p yo'qotish",
+      "Sekin ishlash",
+      "Chiroyli"
+    ],
+    "correct": 0,
+    "explain": "Past power factor tarmoqda qo'shimcha yo'qotish keltiradi.",
+    "q_en": "What's good about a power factor near 1?",
+    "options_en": [
+      "Energy is used efficiently, with low losses",
+      "High losses",
+      "Slow operation",
+      "Pretty"
+    ],
+    "explain_en": "A low power factor causes extra losses in the grid."
   }
 ]
