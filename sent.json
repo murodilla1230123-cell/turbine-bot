@@ -930,5 +930,31 @@
     "uz": "Operator muntazam obhodda (aylanib chiqishda) ko'zi, qulog'i va hidi bilan tekshiradi: g'ayritabiiy shovqin, tebranish, sizib chiqqan moy yoki kuygan hid. Ko'p nosozlik datchik ko'rsatishdan oldin shunday seziladi.",
     "en": "On regular rounds, the operator inspects with eyes, ears and nose: unusual noise, vibration, leaked oil or a burning smell. Many faults are noticed this way before a sensor shows them.",
     "ru": "Оператор регулярно проверяет глазами, ушами и запахом: посторонний шум, вибрация, утечка масла или запах гари. Многие неисправности обнаруживаются до того, как об этом сигнализирует датчик."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "quiz",
+    "tags": [
+      "yordamchitizim",
+      "instrumentair",
+      "quruq"
+    ],
+    "q": "Nega instrument air (asbob havosi) quruq bo'lishi kerak?",
+    "options": [
+      "Nam havo asbob va klapanni buzadi (korroziya, muzlash)",
+      "Quruq havo arzon",
+      "Quruq havo tez",
+      "Odat bo'yicha"
+    ],
+    "correct": 0,
+    "explain": "Namlik korroziya yoki muzlashga olib keladi, dryer havoni quritadi.",
+    "q_en": "Why must instrument air be dry?",
+    "options_en": [
+      "Moist air damages instruments and valves (corrosion, freezing)",
+      "Dry air is cheap",
+      "Dry air is fast",
+      "By habit"
+    ],
+    "explain_en": "Moisture causes corrosion or freezing; a dryer dries the air."
   }
 ]
