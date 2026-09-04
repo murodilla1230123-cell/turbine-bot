@@ -956,5 +956,17 @@
       "By habit"
     ],
     "explain_en": "Moisture causes corrosion or freezing; a dryer dries the air."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "fact",
+    "tags": [
+      "bugturbinasi",
+      "EHC",
+      "tozalik"
+    ],
+    "uz": "EHC tizimining boshqaruv shkafi va panellari toza va quruq saqlanishi kerak. Chang va namlik nozik elektronikani buzadi, bu esa turbina boshqaruvining ishonchliligini pasaytiradi.",
+    "en": "The EHC system's control cabinet and panels must be kept clean and dry. Dust and moisture damage the sensitive electronics, reducing the reliability of turbine control.",
+    "ru": "Шкаф управления и панели системы EHC должны содержаться в чистоте и сухости. Пыль и влага повреждают нежную электронику, что снижает надежность управления турбиной."
   }
 ]
