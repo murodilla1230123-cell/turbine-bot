@@ -1034,5 +1034,12 @@
     "en": "Every valve, pump and sensor is shown on a P&I diagram with a unique 'tag number' — helping locate them precisely.",
     "cat": "Nasos / Klapan",
     "ru": "Каждый клапан, насос и датчик показаны на схеме P&I с уникальным «номером метки» — это помогает их точно найти."
+  },
+  {
+    "type": "lesson",
+    "uz": "M701JAC — Mitsubishi Power'ning yirik, yuqori haroratli gaz turbinasi. 'J-class' turbinalar dunyodagi eng samarali gaz turbinalari qatoriga kiradi.",
+    "en": "The M701JAC is a large, high-temperature gas turbine from Mitsubishi Power. 'J-class' turbines are among the most efficient gas turbines in the world.",
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "M701JAC — крупная высокотемпературная газовая турбина Mitsubishi Power. Турбины J-class входят в число самых эффективных газовых турбин в мире."
   }
 ]
