@@ -892,5 +892,31 @@
       "Cold air"
     ],
     "explain_en": "It's a serious fault; the thrust bearing holds the rotor axially."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "tags": [
+      "moy",
+      "emergencypump",
+      "DC"
+    ],
+    "q": "Lube oil emergency pump ko'pincha qaysi tokda ishlaydi?",
+    "options": [
+      "DC (batareya) — tok yo'qolsa ham ishlashi uchun",
+      "Faqat AC",
+      "Quyosh energiyasi",
+      "Siqilgan havo"
+    ],
+    "correct": 0,
+    "explain": "Batareyada ishlaganidan, umumiy tok yo'qolsa ham podshipniklarga moy uzatadi.",
+    "q_en": "On what power does the lube oil emergency pump usually run?",
+    "options_en": [
+      "DC (battery) — to work even during power loss",
+      "Only AC",
+      "Solar power",
+      "Compressed air"
+    ],
+    "explain_en": "Running on battery, it delivers oil to bearings even if all power is lost."
   }
 ]
