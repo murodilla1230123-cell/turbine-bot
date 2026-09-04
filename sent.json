@@ -918,5 +918,17 @@
       "Compressed air"
     ],
     "explain_en": "Running on battery, it delivers oil to bearings even if all power is lost."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "tags": [
+      "tamir",
+      "operator",
+      "obход"
+    ],
+    "uz": "Operator muntazam obhodda (aylanib chiqishda) ko'zi, qulog'i va hidi bilan tekshiradi: g'ayritabiiy shovqin, tebranish, sizib chiqqan moy yoki kuygan hid. Ko'p nosozlik datchik ko'rsatishdan oldin shunday seziladi.",
+    "en": "On regular rounds, the operator inspects with eyes, ears and nose: unusual noise, vibration, leaked oil or a burning smell. Many faults are noticed this way before a sensor shows them.",
+    "ru": "Оператор регулярно проверяет глазами, ушами и запахом: посторонний шум, вибрация, утечка масла или запах гари. Многие неисправности обнаруживаются до того, как об этом сигнализирует датчик."
   }
 ]
