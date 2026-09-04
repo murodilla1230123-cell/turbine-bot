@@ -1027,5 +1027,12 @@
       "None"
     ],
     "explain_en": "Volume is large at low pressure, so LP blades are the longest."
+  },
+  {
+    "type": "fact",
+    "uz": "Har bir klapan, nasos va datchik P&I diagrammada o'ziga xos 'tag number' (belgi raqami) bilan ko'rsatiladi — bu ularni aniq topishga yordam beradi.",
+    "en": "Every valve, pump and sensor is shown on a P&I diagram with a unique 'tag number' — helping locate them precisely.",
+    "cat": "Nasos / Klapan",
+    "ru": "Каждый клапан, насос и датчик показаны на схеме P&I с уникальным «номером метки» — это помогает их точно найти."
   }
 ]
