@@ -1109,5 +1109,31 @@
       "No current"
     ],
     "explain_en": "It quickly protects only the start (80-85%); the rest is on backup protection."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "tags": [
+      "elektr",
+      "rotorgrounding",
+      "podshipnik"
+    ],
+    "q": "Rotor grounding device nega kerak?",
+    "options": [
+      "Val zaryadini yerga chiqarib podshipnikni saqlash",
+      "Kuchlanish oshirish",
+      "Sovutish",
+      "Bug' hosil qilish"
+    ],
+    "correct": 0,
+    "explain": "Statik zaryad podshipnikka uchqun urib yemiradi, grounding uni yerga chiqaradi.",
+    "q_en": "Why is a rotor grounding device needed?",
+    "options_en": [
+      "To drain shaft charge to earth and protect the bearing",
+      "To raise voltage",
+      "To cool",
+      "To make steam"
+    ],
+    "explain_en": "Static charge would spark across the bearing and erode it; grounding drains it to earth."
   }
 ]
