@@ -1253,5 +1253,12 @@
     "uz": "Level meter (sath o'lchagich) bak yoki barabandagi suyuqlik sathini o'lchaydi. HRSG barabani sathini o'lchash ayniqsa muhim — noto'g'ri sath quvur kuyishi yoki turbinaga suv o'tishiga olib keladi.",
     "en": "A level meter measures liquid level in a tank or drum. Measuring the HRSG drum level is especially important — a wrong level leads to tube overheating or water carrying to the turbine.",
     "ru": "Уровнемер измеряет уровень жидкости в баке или бочке. Измерение уровня в барабане котла-утилизатора особенно важно: неправильный уровень может привести к ожогам труб или попаданию воды в турбину."
+  },
+  {
+    "type": "fact",
+    "uz": "AVR (Automatic Voltage Regulator) qo'zg'atish tokini avtomatik rostlab, generator kuchlanishini barqaror ushlaydi — yuklama o'zgarsa ham kuchlanish tekis qoladi.",
+    "en": "An AVR (Automatic Voltage Regulator) automatically adjusts the excitation current to keep the generator voltage steady even as load changes.",
+    "cat": "Generator",
+    "ru": "AVR (автоматический регулятор напряжения) автоматически регулирует ток возбуждения и поддерживает стабильное напряжение генератора — напряжение остается постоянным даже при изменении нагрузки."
   }
 ]
