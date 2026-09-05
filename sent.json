@@ -1076,5 +1076,17 @@
       "To cool the air"
     ],
     "explain_en": "At excessive speed the rotor can burst — the trip prevents it."
+  },
+  {
+    "cat": "Ishga tushirish / Rejim",
+    "type": "lesson",
+    "tags": [
+      "ishgatushirish",
+      "SFC",
+      "start"
+    ],
+    "uz": "Gaz turbinasi ishga tushishida SFC (Static Frequency Converter) generatorni motor qilib ishlatib, rotorni yonish boshlanguncha aylantiradi.",
+    "en": "At startup, the SFC (Static Frequency Converter) runs the generator as a motor to spin the rotor until combustion takes over.",
+    "ru": "Когда газовая турбина запускается, SFC (статический преобразователь частоты) использует генератор в качестве двигателя и вращает ротор до тех пор, пока не начнется сгорание."
   }
 ]
