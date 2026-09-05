@@ -1182,5 +1182,31 @@
       "Cool the gas"
     ],
     "explain_en": "Rotor blades accelerate air; stator blades convert speed into pressure."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "tags": [
+      "bugturbinasi",
+      "operator",
+      "rubbing"
+    ],
+    "q": "Bug' turbinasida g'ayritabiiy shovqin va keskin vibratsiya sakrashi nima belgisi?",
+    "options": [
+      "Rubbing (rotor korpusga tegishi)",
+      "Normal ish",
+      "Ko'proq quvvat",
+      "Sovuq havo"
+    ],
+    "correct": 0,
+    "explain": "Operator darhol yukni kamaytiradi va sababni aniqlaydi, bu jiddiy ogohlantirish.",
+    "q_en": "What does unusual noise and a sudden vibration jump indicate in a steam turbine?",
+    "options_en": [
+      "Rubbing (rotor touching casing)",
+      "Normal operation",
+      "More power",
+      "Cold air"
+    ],
+    "explain_en": "The operator immediately reduces load and finds the cause — a serious warning."
   }
 ]
