@@ -1234,5 +1234,12 @@
       "To raise pressure"
     ],
     "explain_en": "It removes salts concentrated by evaporation, preventing corrosion and scale."
+  },
+  {
+    "type": "lesson",
+    "uz": "Favqulodda moy nasosi ko'pincha DC (batareya) tokida ishlaydi — shu bois butun stansiya tokdan uzilib qolsa ham, podshipniklar moysiz qolmaydi.",
+    "en": "The emergency oil pump often runs on DC (battery) power — so even if the whole plant loses power, the bearings won't be left without oil.",
+    "cat": "Elektr / Himoya",
+    "ru": "Аварийный масляный насос часто питается от батареи постоянного тока — поэтому, даже если вся станция потеряет питание, в подшипниках не закончится масло."
   }
 ]
