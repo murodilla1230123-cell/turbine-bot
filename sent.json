@@ -1241,5 +1241,17 @@
     "en": "The emergency oil pump often runs on DC (battery) power — so even if the whole plant loses power, the bearings won't be left without oil.",
     "cat": "Elektr / Himoya",
     "ru": "Аварийный масляный насос часто питается от батареи постоянного тока — поэтому, даже если вся станция потеряет питание, в подшипниках не закончится масло."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "lesson",
+    "tags": [
+      "boshqaruv",
+      "levelmeter",
+      "sath"
+    ],
+    "uz": "Level meter (sath o'lchagich) bak yoki barabandagi suyuqlik sathini o'lchaydi. HRSG barabani sathini o'lchash ayniqsa muhim — noto'g'ri sath quvur kuyishi yoki turbinaga suv o'tishiga olib keladi.",
+    "en": "A level meter measures liquid level in a tank or drum. Measuring the HRSG drum level is especially important — a wrong level leads to tube overheating or water carrying to the turbine.",
+    "ru": "Уровнемер измеряет уровень жидкости в баке или бочке. Измерение уровня в барабане котла-утилизатора особенно важно: неправильный уровень может привести к ожогам труб или попаданию воды в турбину."
   }
 ]
