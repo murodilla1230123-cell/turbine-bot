@@ -1088,5 +1088,26 @@
     "uz": "Gaz turbinasi ishga tushishida SFC (Static Frequency Converter) generatorni motor qilib ishlatib, rotorni yonish boshlanguncha aylantiradi.",
     "en": "At startup, the SFC (Static Frequency Converter) runs the generator as a motor to spin the rotor until combustion takes over.",
     "ru": "Когда газовая турбина запускается, SFC (статический преобразователь частоты) использует генератор в качестве двигателя и вращает ротор до тех пор, пока не начнется сгорание."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "q": "Nega tokli kesim (otsechka) liniyaning butun uzunligini qamramaydi?",
+    "options": [
+      "Uzoq nosozlikda tok kamayadi, kesim ajrata olmaydi",
+      "Liniya juda uzun",
+      "Rele qimmat",
+      "Tok yo'q"
+    ],
+    "correct": 0,
+    "explain": "Faqat boshini (80-85%) tez himoya qiladi; qolgani zaxira himoyada.",
+    "q_en": "Why doesn't a current cut-off cover the whole line length?",
+    "options_en": [
+      "Current drops for far faults, the cut-off can't distinguish",
+      "The line is too long",
+      "Relays are costly",
+      "No current"
+    ],
+    "explain_en": "It quickly protects only the start (80-85%); the rest is on backup protection."
   }
 ]
