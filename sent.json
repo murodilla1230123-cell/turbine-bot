@@ -1156,5 +1156,31 @@
       "Cools steam"
     ],
     "explain_en": "It forces water into the HRSG under high pressure so steam can form."
+  },
+  {
+    "cat": "Kompressor",
+    "type": "quiz",
+    "tags": [
+      "kompressor",
+      "statorpichoq",
+      "bosim"
+    ],
+    "q": "Kompressorda stator (qo'zg'almas) pichoqlari nima qiladi?",
+    "options": [
+      "Havo tezligini bosimga aylantiradi",
+      "Havoni tezlashtiradi",
+      "Yoqilg'i qo'shadi",
+      "Gazni sovutadi"
+    ],
+    "correct": 0,
+    "explain": "Rotor pichoqlar tezlashtiradi, stator pichoqlar tezlikni bosimga aylantiradi.",
+    "q_en": "What do the stator (fixed) blades do in a compressor?",
+    "options_en": [
+      "Convert air speed into pressure",
+      "Speed up the air",
+      "Add fuel",
+      "Cool the gas"
+    ],
+    "explain_en": "Rotor blades accelerate air; stator blades convert speed into pressure."
   }
 ]
