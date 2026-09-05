@@ -1260,5 +1260,12 @@
     "en": "An AVR (Automatic Voltage Regulator) automatically adjusts the excitation current to keep the generator voltage steady even as load changes.",
     "cat": "Generator",
     "ru": "AVR (автоматический регулятор напряжения) автоматически регулирует ток возбуждения и поддерживает стабильное напряжение генератора — напряжение остается постоянным даже при изменении нагрузки."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Inlet air filter' (kirish havo filtri) gaz turbinasiga kirayotgan havoni chang va zarrachalardan tozalaydi. Iflos havo kompressor pichoqlarini yeydi va FIKni pasaytiradi.",
+    "en": "An inlet air filter cleans dust and particles from air entering the gas turbine. Dirty air erodes compressor blades and lowers efficiency.",
+    "cat": "Kompressor",
+    "ru": "Входной воздушный фильтр очищает воздух, поступающий в газовую турбину, от пыли и частиц. Грязный воздух разъедает лопатки компрессора и опускает ФИК."
   }
 ]
