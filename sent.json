@@ -1208,5 +1208,31 @@
       "Cold air"
     ],
     "explain_en": "The operator immediately reduces load and finds the cause — a serious warning."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "quiz",
+    "tags": [
+      "HRSG",
+      "blowdown",
+      "tuz"
+    ],
+    "q": "Qozon blowdown'i nima uchun qilinadi?",
+    "options": [
+      "To'plangan tuzlarni chiqarib quyqani oldini oladi",
+      "Bug' ko'paytirish",
+      "Suv qo'shish",
+      "Bosim oshirish"
+    ],
+    "correct": 0,
+    "explain": "Bug'lanishdan to'plangan tuzlarni chiqarib korroziya va quyqani oldini oladi.",
+    "q_en": "Why is boiler blowdown done?",
+    "options_en": [
+      "To remove concentrated salts and prevent scale",
+      "To make more steam",
+      "To add water",
+      "To raise pressure"
+    ],
+    "explain_en": "It removes salts concentrated by evaporation, preventing corrosion and scale."
   }
 ]
