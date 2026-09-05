@@ -1135,5 +1135,26 @@
       "To make steam"
     ],
     "explain_en": "Static charge would spark across the bearing and erode it; grounding drains it to earth."
+  },
+  {
+    "type": "quiz",
+    "cat": "Nasos / Klapan",
+    "q": "'Boiler feed pump' nima qiladi?",
+    "options": [
+      "Suvni yuqori bosimda HRSG'ga haydaydi",
+      "Moyni haydaydi",
+      "Havoni siqadi",
+      "Bug'ni sovutadi"
+    ],
+    "correct": 0,
+    "explain": "Yuqori bosim ostida suvni HRSG'ga haydab, bug' hosil bo'lishini ta'minlaydi.",
+    "q_en": "What does a boiler feed pump do?",
+    "options_en": [
+      "Forces water into the HRSG at high pressure",
+      "Pumps oil",
+      "Compresses air",
+      "Cools steam"
+    ],
+    "explain_en": "It forces water into the HRSG under high pressure so steam can form."
   }
 ]
