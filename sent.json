@@ -1055,5 +1055,26 @@
     "en": "A 'once-through' HRSG has no drum — water turns to steam directly. It allows faster startup and is common in modern plants.",
     "cat": "HRSG / Bug' sikli",
     "ru": "«Проходной» котел-утилизатор — без барабана, вода преобразуется непосредственно в пар. Это обеспечивает быстрый запуск и часто встречается на современных станциях."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "'Overspeed trip' nima uchun kerak?",
+    "options": [
+      "Turbina xavfli tezlashsa to'xtatib, parchalanishdan saqlash",
+      "Tezlikni oshirish uchun",
+      "Yoqilg'i tejash uchun",
+      "Havoni sovutish uchun"
+    ],
+    "correct": 0,
+    "explain": "Haddan tashqari tezlikda rotor parchalanishi mumkin — trip buni oldini oladi.",
+    "q_en": "Why is an 'overspeed trip' needed?",
+    "options_en": [
+      "To stop the turbine if it dangerously accelerates, preventing burst",
+      "To increase speed",
+      "To save fuel",
+      "To cool the air"
+    ],
+    "explain_en": "At excessive speed the rotor can burst — the trip prevents it."
   }
 ]
