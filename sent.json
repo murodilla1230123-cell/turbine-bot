@@ -1048,5 +1048,12 @@
     "uz": "Sinxronizatsiya lahzasi juda muhim — generator chastotasi, kuchlanishi va fazasi to'rga aniq mos kelganda circuit breaker ulanadi.",
     "en": "The moment of synchronization is critical — the breaker closes only when the generator's frequency, voltage and phase exactly match the grid.",
     "ru": "Очень важен момент синхронизации – автоматический выключатель включается тогда, когда частота, напряжение и фаза генератора точно совпадают с сетью."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Once-through' HRSG — barabansiz, suv to'g'ridan-to'g'ri bug'ga aylanadi. U tez ishga tushishga imkon beradi va zamonaviy stansiyalarda ko'p uchraydi.",
+    "en": "A 'once-through' HRSG has no drum — water turns to steam directly. It allows faster startup and is common in modern plants.",
+    "cat": "HRSG / Bug' sikli",
+    "ru": "«Проходной» котел-утилизатор — без барабана, вода преобразуется непосредственно в пар. Это обеспечивает быстрый запуск и часто встречается на современных станциях."
   }
 ]
