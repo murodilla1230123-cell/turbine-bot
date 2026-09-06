@@ -1274,5 +1274,12 @@
     "en": "An 'auxiliary boiler' provides the steam needed before the plant starts (e.g. for gland seals). Once the main system runs, it's shut off.",
     "cat": "Bug' turbinasi (ST)",
     "ru": "«Вспомогательный котел» (вспомогательный котел) — обеспечивает необходимый пар перед запуском станции (например, для сальникового уплотнения). Когда основная система запустится, она будет выключена."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Ramp rate' — turbina quvvatini qanchalik tez oshirish/kamaytirish mumkinligi (MW/daqiqa). Tez ramp foydali, lekin jihozni ko'proq charchatadi.",
+    "en": "'Ramp rate' is how fast a turbine's power can be raised/lowered (MW/minute). Fast ramping is useful but wears equipment more.",
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "«Скорость изменения» — это то, насколько быстро турбина может увеличиваться/замедляться (МВт/мин). Быстрый пандус полезен, но утомляет устройство еще больше."
   }
 ]
