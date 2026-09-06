@@ -1302,5 +1302,17 @@
     "en": "Black start uses a small diesel generator or battery — it first powers auxiliary systems, then the main turbine starts up.",
     "cat": "Generator",
     "ru": "Для черного запуска используется небольшой дизель-генератор или аккумулятор — сначала он включает вспомогательные системы, затем запускается основная турбина."
+  },
+  {
+    "cat": "Gaz turbinasi (GT)",
+    "type": "lesson",
+    "tags": [
+      "gazturbinasi",
+      "rotor",
+      "disk"
+    ],
+    "uz": "Gaz turbinasi rotori bir necha disk (g'ildirak)dan iborat, har biriga pichoqlar o'rnatilgan. Disklar birga mahkamlanib, uzun bir val hosil qiladi. Pichoqlar disk chetiga maxsus 'ildiz' (root) bilan ushlanadi.",
+    "en": "A gas turbine rotor consists of several discs (wheels), each holding blades. The discs are fastened together to form one long shaft. Blades attach to the disc rim by a special 'root'.",
+    "ru": "Ротор газовой турбины состоит из нескольких дисков (колес), каждый из которых имеет лопатки. Диски скреплены вместе, образуя длинный вал. Лопасти прикреплены к краю диска специальным корнем."
   }
 ]
