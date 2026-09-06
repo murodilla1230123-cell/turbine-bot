@@ -1314,5 +1314,31 @@
     "uz": "Gaz turbinasi rotori bir necha disk (g'ildirak)dan iborat, har biriga pichoqlar o'rnatilgan. Disklar birga mahkamlanib, uzun bir val hosil qiladi. Pichoqlar disk chetiga maxsus 'ildiz' (root) bilan ushlanadi.",
     "en": "A gas turbine rotor consists of several discs (wheels), each holding blades. The discs are fastened together to form one long shaft. Blades attach to the disc rim by a special 'root'.",
     "ru": "Ротор газовой турбины состоит из нескольких дисков (колес), каждый из которых имеет лопатки. Диски скреплены вместе, образуя длинный вал. Лопасти прикреплены к краю диска специальным корнем."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "quiz",
+    "tags": [
+      "elektr",
+      "rectifier",
+      "invertor"
+    ],
+    "q": "Rectifier va inverter farqi nima?",
+    "options": [
+      "Rectifier AC dan DC ga, inverter DC dan AC ga aylantiradi",
+      "Ikkalasi bir xil",
+      "Rectifier DC dan AC ga",
+      "Inverter faqat isitadi"
+    ],
+    "correct": 0,
+    "explain": "UPS'da ikkalasi ishlatiladi: AC-DC (zaryad), keyin DC-AC (asboblar).",
+    "q_en": "What is the difference between a rectifier and an inverter?",
+    "options_en": [
+      "Rectifier AC to DC, inverter DC to AC",
+      "They're the same",
+      "Rectifier DC to AC",
+      "Inverter only heats"
+    ],
+    "explain_en": "A UPS uses both: AC-DC (charging), then DC-AC (instruments)."
   }
 ]
