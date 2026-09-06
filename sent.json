@@ -1352,5 +1352,12 @@
     "uz": "Steam blowing (bug' bilan puflash) yangi bug' quvurlarini ishga tushirishdan oldin yuqori tezlikdagi bug' bilan tozalaydi. U quvurdagi qoldiq va zang zarrachalarini uchirib chiqaradi.",
     "en": "Steam blowing cleans new steam pipes before commissioning by blasting them with high-velocity steam. It blows out debris and rust particles.",
     "ru": "Паровая продувка очищает новые паровые трубы высокоскоростным паром перед вводом в эксплуатацию. Он сдувает остатки и частицы ржавчины в трубе."
+  },
+  {
+    "type": "lesson",
+    "uz": "Turbina 'enclosure' (qobiq/kabina) ichiga joylashtiriladi — bu shovqinni kamaytiradi, issiqlikni ushlaydi va yong'in himoyasini osonlashtiradi.",
+    "en": "A turbine sits inside an enclosure — this reduces noise, contains heat, and makes fire protection easier.",
+    "cat": "Moy / Podshipnik",
+    "ru": "Турбину размещают в кожухе/кабине (enclosure) — это снижает шум, удерживает тепло и облегчает противопожарную защиту."
   }
 ]
