@@ -1340,5 +1340,17 @@
       "Inverter only heats"
     ],
     "explain_en": "A UPS uses both: AC-DC (charging), then DC-AC (instruments)."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "tags": [
+      "bugturbinasi",
+      "steamblowing",
+      "tozalash"
+    ],
+    "uz": "Steam blowing (bug' bilan puflash) yangi bug' quvurlarini ishga tushirishdan oldin yuqori tezlikdagi bug' bilan tozalaydi. U quvurdagi qoldiq va zang zarrachalarini uchirib chiqaradi.",
+    "en": "Steam blowing cleans new steam pipes before commissioning by blasting them with high-velocity steam. It blows out debris and rust particles.",
+    "ru": "Паровая продувка очищает новые паровые трубы высокоскоростным паром перед вводом в эксплуатацию. Он сдувает остатки и частицы ржавчины в трубе."
   }
 ]
