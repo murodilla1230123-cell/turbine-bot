@@ -1288,5 +1288,12 @@
     "en": "'Governor droop' is a setting that fairly shares load among several generators on one grid. Each responds proportionally to frequency change.",
     "cat": "Generator",
     "ru": "«Спад регулятора» — это настройка, которая справедливо распределяет нагрузку, когда несколько генераторов работают в одной сети. Каждый из них пропорционально реагирует на изменение частоты."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Flame detector' (alanga datchigi) yonish kamerasida alanga bor-yo'qligini kuzatadi. Agar alanga o'chib qolsa, u yoqilg'ini darhol to'xtatib, portlash xavfini oldini oladi.",
+    "en": "A flame detector watches whether a flame is present in the combustor. If the flame goes out, it stops the fuel immediately to prevent an explosion risk.",
+    "cat": "Yonish / Combustor",
+    "ru": "«Детектор пламени» контролирует наличие пламени в камере сгорания. Если пламя гаснет, подача топлива немедленно прекращается, предотвращая риск взрыва."
   }
 ]
