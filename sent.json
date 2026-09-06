@@ -1267,5 +1267,12 @@
     "en": "An inlet air filter cleans dust and particles from air entering the gas turbine. Dirty air erodes compressor blades and lowers efficiency.",
     "cat": "Kompressor",
     "ru": "Входной воздушный фильтр очищает воздух, поступающий в газовую турбину, от пыли и частиц. Грязный воздух разъедает лопатки компрессора и опускает ФИК."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Auxiliary boiler' (yordamchi qozon) — stansiya ishga tushishdan oldin kerakli bug'ni beradi (masalan gland seal uchun). Asosiy tizim ishga tushgach, u o'chiriladi.",
+    "en": "An 'auxiliary boiler' provides the steam needed before the plant starts (e.g. for gland seals). Once the main system runs, it's shut off.",
+    "cat": "Bug' turbinasi (ST)",
+    "ru": "«Вспомогательный котел» (вспомогательный котел) — обеспечивает необходимый пар перед запуском станции (например, для сальникового уплотнения). Когда основная система запустится, она будет выключена."
   }
 ]
