@@ -1281,5 +1281,12 @@
     "en": "'Ramp rate' is how fast a turbine's power can be raised/lowered (MW/minute). Fast ramping is useful but wears equipment more.",
     "cat": "Ishga tushirish / Rejim",
     "ru": "«Скорость изменения» — это то, насколько быстро турбина может увеличиваться/замедляться (МВт/мин). Быстрый пандус полезен, но утомляет устройство еще больше."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Governor droop' — bir necha generator bir to'rda ishlaganda yukni adolatli taqsimlaydigan sozlama. Har biri chastota o'zgarishiga mutanosib javob beradi.",
+    "en": "'Governor droop' is a setting that fairly shares load among several generators on one grid. Each responds proportionally to frequency change.",
+    "cat": "Generator",
+    "ru": "«Спад регулятора» — это настройка, которая справедливо распределяет нагрузку, когда несколько генераторов работают в одной сети. Каждый из них пропорционально реагирует на изменение частоты."
   }
 ]
