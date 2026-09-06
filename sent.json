@@ -1295,5 +1295,12 @@
     "en": "A flame detector watches whether a flame is present in the combustor. If the flame goes out, it stops the fuel immediately to prevent an explosion risk.",
     "cat": "Yonish / Combustor",
     "ru": "«Детектор пламени» контролирует наличие пламени в камере сгорания. Если пламя гаснет, подача топлива немедленно прекращается, предотвращая риск взрыва."
+  },
+  {
+    "type": "fact",
+    "uz": "Black start uchun kichik dizel-generator yoki batareya ishlatiladi — u avval yordamchi tizimlarni yoqadi, keyin asosiy turbina ishga tushadi.",
+    "en": "Black start uses a small diesel generator or battery — it first powers auxiliary systems, then the main turbine starts up.",
+    "cat": "Generator",
+    "ru": "Для черного запуска используется небольшой дизель-генератор или аккумулятор — сначала он включает вспомогательные системы, затем запускается основная турбина."
   }
 ]
