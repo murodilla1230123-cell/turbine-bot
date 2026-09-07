@@ -1387,5 +1387,17 @@
       "At shutdown"
     ],
     "explain_en": "It clears fuel gas so ignition carries no explosion risk."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "tags": [
+      "relehimoya",
+      "petersen",
+      "zamin"
+    ],
+    "uz": "Petersen g'altagi ba'zi tarmoq neytralida bo'ladi — u yerga tutashuv tokini kompensatsiya qilib, yoyni o'z-o'zidan o'chiradi.",
+    "en": "A Petersen coil is used in some network neutrals — it compensates earth-fault current, self-extinguishing the arc.",
+    "ru": "Катушка Петерсена находится в некоторой нейтрали линии — она компенсирует ток замыкания на землю и автоматически гасит дугу."
   }
 ]
