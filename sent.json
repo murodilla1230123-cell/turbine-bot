@@ -1458,5 +1458,31 @@
     "en": "'Spinning reserve' is reserve capacity connected to the grid but not fully loaded. If demand suddenly rises, it kicks in instantly.",
     "cat": "Combined Cycle / Samaradorlik",
     "ru": "«Вращающийся резерв» — это запасная мощность, подключенная к сети, но не полностью загруженная. Если спрос вдруг увеличится, он будет активирован мгновенно."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "tags": [
+      "bugturbinasi",
+      "glandseal",
+      "vakuum"
+    ],
+    "q": "Bug' turbinasi gland seal (val zichlagichi) nima uchun kerak?",
+    "options": [
+      "Havo kondensatorga kirmasligi va bug' sizmasligi uchun",
+      "Valni sovutish uchun",
+      "Bug' hosil qilish uchun",
+      "Shovqinni kamaytirish uchun"
+    ],
+    "correct": 0,
+    "explain": "Val korpusdan chiqadigan joyni zichlab, vakuumni saqlaydi va bug' yo'qotishning oldini oladi.",
+    "q_en": "Why is a steam turbine gland seal needed?",
+    "options_en": [
+      "To keep air out of the condenser and steam from leaking",
+      "To cool the shaft",
+      "To make steam",
+      "To reduce noise"
+    ],
+    "explain_en": "It seals where the shaft exits the casing, holding vacuum and preventing steam loss."
   }
 ]
