@@ -1411,5 +1411,12 @@
     "uz": "Thermocouple (termopara) ikki xil metall birikmasidan hosil bo'lgan kichik kuchlanish orqali haroratni o'lchaydi. U yuqori haroratlarni o'lchash uchun ideal.",
     "en": "A thermocouple measures temperature via a small voltage at a junction of two different metals. It's ideal for high temperatures.",
     "ru": "Термопара (термопара) измеряет температуру посредством небольшого напряжения, создаваемого соединением двух разных металлов. Он идеально подходит для измерения высоких температур."
+  },
+  {
+    "type": "lesson",
+    "uz": "Turbina rotori disklardan yig'iladi. Ular 'CURVIC coupling' — tishli yuzalar orqali bir-biriga aniq va mustahkam ulanadi, bu markazlashuvni saqlaydi.",
+    "en": "The turbine rotor is assembled from discs joined by a 'CURVIC coupling' — precisely toothed faces that lock them together accurately and keep them centered.",
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "Ротор турбины собирается из дисков. Они точно и прочно соединяются через зубчатые поверхности CURVIC coupling, что сохраняет центровку."
   }
 ]
