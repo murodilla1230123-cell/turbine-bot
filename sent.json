@@ -1512,5 +1512,12 @@
       "To cool the generator"
     ],
     "explain_en": "Even without doing useful work, it's needed to hold grid voltage steady."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "To'liqsiz yulduz (ikki fazali) sxema arzonroq, lekin ba'zi nosozliklarga kamroq sezgir — to'liq yulduz esa uch fazani ham qamraydi.",
+    "en": "An incomplete star (two-phase) scheme is cheaper but less sensitive to some faults — a full star covers all three phases.",
+    "ru": "Схема частичной звезды (двухфазная) дешевле, но менее подвержена некоторым неисправностям, тогда как полная звезда охватывает все три фазы."
   }
 ]
