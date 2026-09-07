@@ -1451,5 +1451,12 @@
       "To make steam"
     ],
     "explain_en": "Rising vibration indicates imbalance, rotor bow or bearing wear."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Spinning reserve' — to'rga ulangan, lekin to'liq yuklanmagan zaxira quvvat. Talab to'satdan oshsa, u bir zumda ishga solinadi.",
+    "en": "'Spinning reserve' is reserve capacity connected to the grid but not fully loaded. If demand suddenly rises, it kicks in instantly.",
+    "cat": "Combined Cycle / Samaradorlik",
+    "ru": "«Вращающийся резерв» — это запасная мощность, подключенная к сети, но не полностью загруженная. Если спрос вдруг увеличится, он будет активирован мгновенно."
   }
 ]
