@@ -1359,5 +1359,12 @@
     "en": "A turbine sits inside an enclosure — this reduces noise, contains heat, and makes fire protection easier.",
     "cat": "Moy / Podshipnik",
     "ru": "Турбину размещают в кожухе/кабине (enclosure) — это снижает шум, удерживает тепло и облегчает противопожарную защиту."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Permissive' — biror amalni bajarishga 'ruxsat' beruvchi shart. Barcha permissivlar bajarilsagina, masalan, turbina ishga tushirilishi mumkin.",
+    "en": "A 'permissive' is a condition that grants permission for an action. Only when all permissives are satisfied can, say, a turbine be started.",
+    "cat": "Boshqaruv / Asboblar",
+    "ru": "«Разрешение» — это условие, которое «разрешает» действие. Только если все разрешительные документы выполнены, например, турбину можно запустить."
   }
 ]
