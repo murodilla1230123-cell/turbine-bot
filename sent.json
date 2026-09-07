@@ -1526,5 +1526,17 @@
     "en": "Condensate (liquid water) collects in steam pipes during startup — if drains don't remove it, 'water hammer' can damage the piping.",
     "cat": "Yordamchi tizimlar",
     "ru": "Конденсат (жидкая вода) скапливается в паровых трубах во время запуска – гидроудар может повредить трубу, если «слив» ее не удалит."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "fact",
+    "tags": [
+      "yordamchitizim",
+      "dryer",
+      "namlik"
+    ],
+    "uz": "Instrument air dryer (quritgich) orqali o'tkaziladi — namlik olib tashlanadi, aks holda klapanlarda korroziya yoki muzlash bo'lishi mumkin.",
+    "en": "Instrument air passes through a dryer — moisture is removed, or valves could corrode or freeze.",
+    "ru": "Инструмент пропускают через воздухоосушитель (осушитель) – удаляется влага, иначе клапаны могут подвергнуться коррозии или замерзнуть."
   }
 ]
