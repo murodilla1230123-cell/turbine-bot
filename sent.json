@@ -1491,5 +1491,26 @@
     "en": "If the turning gear fails and a hot rotor stops and bows, straightening it again is a long and costly process.",
     "cat": "Ishga tushirish / Rejim",
     "ru": "Если поворотное устройство выйдет из строя, а горячий ротор заглохнет и прогнется, его выпрямление — долгий и дорогостоящий процесс."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "Reaktiv quvvat (var) nima uchun kerak?",
+    "options": [
+      "To'r kuchlanishini barqaror ushlash",
+      "Foydali ish bajarish",
+      "Chastotani oshirish",
+      "Generatorni sovutish"
+    ],
+    "correct": 0,
+    "explain": "Foydali ish bajarmasa ham to'r kuchlanishini barqaror ushlash uchun zarur.",
+    "q_en": "Why is reactive power (var) needed?",
+    "options_en": [
+      "To keep grid voltage stable",
+      "To do useful work",
+      "To raise frequency",
+      "To cool the generator"
+    ],
+    "explain_en": "Even without doing useful work, it's needed to hold grid voltage steady."
   }
 ]
