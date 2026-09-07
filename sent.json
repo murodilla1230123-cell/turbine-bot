@@ -1399,5 +1399,17 @@
     "uz": "Petersen g'altagi ba'zi tarmoq neytralida bo'ladi — u yerga tutashuv tokini kompensatsiya qilib, yoyni o'z-o'zidan o'chiradi.",
     "en": "A Petersen coil is used in some network neutrals — it compensates earth-fault current, self-extinguishing the arc.",
     "ru": "Катушка Петерсена находится в некоторой нейтрали линии — она компенсирует ток замыкания на землю и автоматически гасит дугу."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "lesson",
+    "tags": [
+      "boshqaruv",
+      "thermocouple",
+      "harorat"
+    ],
+    "uz": "Thermocouple (termopara) ikki xil metall birikmasidan hosil bo'lgan kichik kuchlanish orqali haroratni o'lchaydi. U yuqori haroratlarni o'lchash uchun ideal.",
+    "en": "A thermocouple measures temperature via a small voltage at a junction of two different metals. It's ideal for high temperatures.",
+    "ru": "Термопара (термопара) измеряет температуру посредством небольшого напряжения, создаваемого соединением двух разных металлов. Он идеально подходит для измерения высоких температур."
   }
 ]
