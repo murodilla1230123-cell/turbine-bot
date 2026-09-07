@@ -1366,5 +1366,26 @@
     "en": "A 'permissive' is a condition that grants permission for an action. Only when all permissives are satisfied can, say, a turbine be started.",
     "cat": "Boshqaruv / Asboblar",
     "ru": "«Разрешение» — это условие, которое «разрешает» действие. Только если все разрешительные документы выполнены, например, турбину можно запустить."
+  },
+  {
+    "type": "quiz",
+    "cat": "Ishga tushirish / Rejim",
+    "q": "Gaz turbinasi ishga tushirishda 'purge' qaysi qadamda bo'ladi?",
+    "options": [
+      "Rotorni aylantirishdan keyin, yoqishdan oldin",
+      "Eng oxirida",
+      "Sinxronizatsiyadan keyin",
+      "To'xtatishda"
+    ],
+    "correct": 0,
+    "explain": "Yonuvchi gazni tozalab, yoqishda portlash xavfini yo'qotadi.",
+    "q_en": "At which step does the purge occur during gas turbine startup?",
+    "options_en": [
+      "After spinning the rotor, before ignition",
+      "At the very end",
+      "After synchronization",
+      "At shutdown"
+    ],
+    "explain_en": "It clears fuel gas so ignition carries no explosion risk."
   }
 ]
