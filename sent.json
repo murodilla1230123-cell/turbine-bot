@@ -1418,5 +1418,12 @@
     "en": "The turbine rotor is assembled from discs joined by a 'CURVIC coupling' — precisely toothed faces that lock them together accurately and keep them centered.",
     "cat": "Gaz turbinasi (GT)",
     "ru": "Ротор турбины собирается из дисков. Они точно и прочно соединяются через зубчатые поверхности CURVIC coupling, что сохраняет центровку."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "fact",
+    "uz": "Buxgolts relesi transformator ichidagi nosozlikni (o'ram kuyishi, yoy) gaz pufakchalari orqali sezadi — bu elektr o'lchovlar ko'ra olmagan nosozlikni ham topadi.",
+    "en": "A Buchholz relay detects internal transformer faults (winding burn, arcing) via gas bubbles — catching faults even electrical measurements might miss.",
+    "ru": "Реле Бухгольца обнаруживает неисправность внутри трансформатора (возгорание обмотки, искрение) через пузырьки газа — оно также обнаруживает неисправность, которую не могут обнаружить электрические измерения."
   }
 ]
