@@ -1519,5 +1519,12 @@
     "uz": "To'liqsiz yulduz (ikki fazali) sxema arzonroq, lekin ba'zi nosozliklarga kamroq sezgir — to'liq yulduz esa uch fazani ham qamraydi.",
     "en": "An incomplete star (two-phase) scheme is cheaper but less sensitive to some faults — a full star covers all three phases.",
     "ru": "Схема частичной звезды (двухфазная) дешевле, но менее подвержена некоторым неисправностям, тогда как полная звезда охватывает все три фазы."
+  },
+  {
+    "type": "fact",
+    "uz": "Bug' quvurlarida ishga tushirishda kondensat (suyuq suv) to'planadi — 'drain' uni chiqarib yubormasa, 'water hammer' (suv zarbasi) quvurni shikastlashi mumkin.",
+    "en": "Condensate (liquid water) collects in steam pipes during startup — if drains don't remove it, 'water hammer' can damage the piping.",
+    "cat": "Yordamchi tizimlar",
+    "ru": "Конденсат (жидкая вода) скапливается в паровых трубах во время запуска – гидроудар может повредить трубу, если «слив» ее не удалит."
   }
 ]
