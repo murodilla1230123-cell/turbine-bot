@@ -1484,5 +1484,12 @@
       "To reduce noise"
     ],
     "explain_en": "It seals where the shaft exits the casing, holding vacuum and preventing steam loss."
+  },
+  {
+    "type": "fact",
+    "uz": "Agar turning gear ishlamay, issiq rotor to'xtab qolsa va egilib qolsa (bow), uni qayta to'g'rilash uzoq va qimmat jarayon bo'ladi.",
+    "en": "If the turning gear fails and a hot rotor stops and bows, straightening it again is a long and costly process.",
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "Если поворотное устройство выйдет из строя, а горячий ротор заглохнет и прогнется, его выпрямление — долгий и дорогостоящий процесс."
   }
 ]
