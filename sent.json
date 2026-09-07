@@ -1425,5 +1425,31 @@
     "uz": "Buxgolts relesi transformator ichidagi nosozlikni (o'ram kuyishi, yoy) gaz pufakchalari orqali sezadi — bu elektr o'lchovlar ko'ra olmagan nosozlikni ham topadi.",
     "en": "A Buchholz relay detects internal transformer faults (winding burn, arcing) via gas bubbles — catching faults even electrical measurements might miss.",
     "ru": "Реле Бухгольца обнаруживает неисправность внутри трансформатора (возгорание обмотки, искрение) через пузырьки газа — оно также обнаруживает неисправность, которую не могут обнаружить электрические измерения."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "quiz",
+    "tags": [
+      "bugturbinasi",
+      "vibratsiya",
+      "nosozlik"
+    ],
+    "q": "Bug' turbinasida rotor vibratsiyasi nima uchun kuzatiladi?",
+    "options": [
+      "Nosozlikni (nomutanosiblik, egilish) erta sezish uchun",
+      "Faqat shovqin uchun",
+      "Tezlikni oshirish uchun",
+      "Bug' hosil qilish uchun"
+    ],
+    "correct": 0,
+    "explain": "Vibratsiya o'sishi nomutanosiblik, rotor egilishi yoki podshipnik yeyilishini ko'rsatadi.",
+    "q_en": "Why is rotor vibration monitored in a steam turbine?",
+    "options_en": [
+      "To catch faults (imbalance, bow) early",
+      "Only for noise",
+      "To increase speed",
+      "To make steam"
+    ],
+    "explain_en": "Rising vibration indicates imbalance, rotor bow or bearing wear."
   }
 ]
