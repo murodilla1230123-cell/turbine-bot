@@ -1538,5 +1538,17 @@
     "uz": "Instrument air dryer (quritgich) orqali o'tkaziladi — namlik olib tashlanadi, aks holda klapanlarda korroziya yoki muzlash bo'lishi mumkin.",
     "en": "Instrument air passes through a dryer — moisture is removed, or valves could corrode or freeze.",
     "ru": "Инструмент пропускают через воздухоосушитель (осушитель) – удаляется влага, иначе клапаны могут подвергнуться коррозии или замерзнуть."
+  },
+  {
+    "cat": "Elektr / Himoya",
+    "type": "lesson",
+    "tags": [
+      "elektr",
+      "stepup",
+      "transformator"
+    ],
+    "uz": "Step-up transformator generator past kuchlanishini (masalan 20 kV) to'rga uzatish uchun yuqori kuchlanishga (220/500 kV) oshiradi.",
+    "en": "A step-up transformer raises the generator's low voltage (e.g. 20 kV) to a high grid voltage (220/500 kV) for transmission.",
+    "ru": "Повышающий трансформатор повышает низкое напряжение генератора (например, 20 кВ) до высокого напряжения (220/500 кВ) для передачи в сеть."
   }
 ]
