@@ -1569,5 +1569,31 @@
     "uz": "Neytral tarafidagi himoya transformator neytrali orqali yerga qisqa tutashuvlardan himoyalaydi. Yerlashtirilgan neytralda yerga tutashuv katta tok beradi, bu himoya uni sezadi.",
     "en": "Neutral-side protection guards against earth faults through the transformer neutral. With a grounded neutral, an earth fault gives a large current, which this protection detects.",
     "ru": "Защита на нейтральной стороне защищает от короткого замыкания на землю через нейтраль трансформатора. Замыкание на землю в заземленной нейтрали создает большой ток, который обнаруживает защита."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "quiz",
+    "tags": [
+      "yordamchitizim",
+      "MOV",
+      "aktuator"
+    ],
+    "q": "MOV (Motor Operated Valve) nima afzallik beradi?",
+    "options": [
+      "Masofadan, boshqaruv xonasidan ochish-yopish",
+      "Faqat qo'lda",
+      "Faqat bug' bilan",
+      "Ishlamaydi"
+    ],
+    "correct": 0,
+    "explain": "Elektr motor yordamida katta klapanlar masofadan boshqariladi.",
+    "q_en": "What advantage does an MOV (Motor Operated Valve) give?",
+    "options_en": [
+      "Remote opening and closing from the control room",
+      "Only by hand",
+      "Only with steam",
+      "It doesn't work"
+    ],
+    "explain_en": "An electric motor controls large valves remotely."
   }
 ]
