@@ -1607,5 +1607,31 @@
     "uz": "Filtrlarda 'isolation valve' (ajratish klapani), 'filling valve' (to'ldirish klapani) va 'drain valve' (drenaj klapani) bo'ladi. Ular yordamida filtrni tizimdan ajratib, tozalab yoki almashtirib, keyin qayta ulash mumkin — turbina to'xtatmasdan.",
     "en": "Filters have an isolation valve, a filling valve and a drain valve. Using these, a filter can be isolated from the system, cleaned or replaced, then reconnected — without stopping the turbine.",
     "ru": "Фильтры имеют запорный клапан, наполнительный клапан и сливной клапан. С их помощью фильтр можно отключить от системы, почистить или заменить, а затем снова подключить – без остановки турбины."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "quiz",
+    "tags": [
+      "relehimoya",
+      "transformatorinrush",
+      "differensial"
+    ],
+    "q": "Transformator ulanganda o'tadigan inrush toki himoyaga qanday muammo tug'diradi?",
+    "options": [
+      "Nosozlikka o'xshaydi, yolg'on ishlashi mumkin",
+      "Hech qanday",
+      "Tokni kamaytiradi",
+      "Kuchlanishni oshiradi"
+    ],
+    "correct": 0,
+    "explain": "Differensial himoya inrush tokini haqiqiy nosozlikdan ajrata olishi kerak.",
+    "q_en": "What problem does transformer inrush current pose to protection?",
+    "options_en": [
+      "It resembles a fault and may cause false tripping",
+      "None",
+      "It reduces current",
+      "It raises voltage"
+    ],
+    "explain_en": "Differential protection must distinguish inrush from a real fault."
   }
 ]
