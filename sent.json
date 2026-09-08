@@ -1557,5 +1557,17 @@
     "en": "A large gas turbine ingests hundreds of kilograms of air per second — so its inlet air filter has a very large surface area.",
     "cat": "Kompressor",
     "ru": "Большая газовая турбина всасывает сотни килограммов воздуха в секунду — поэтому фильтр всасываемого воздуха имеет очень большую площадь поверхности."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "tags": [
+      "relehimoya",
+      "neytralhimoya",
+      "yergatutashuv"
+    ],
+    "uz": "Neytral tarafidagi himoya transformator neytrali orqali yerga qisqa tutashuvlardan himoyalaydi. Yerlashtirilgan neytralda yerga tutashuv katta tok beradi, bu himoya uni sezadi.",
+    "en": "Neutral-side protection guards against earth faults through the transformer neutral. With a grounded neutral, an earth fault gives a large current, which this protection detects.",
+    "ru": "Защита на нейтральной стороне защищает от короткого замыкания на землю через нейтраль трансформатора. Замыкание на землю в заземленной нейтрали создает большой ток, который обнаруживает защита."
   }
 ]
