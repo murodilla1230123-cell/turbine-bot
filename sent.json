@@ -1550,5 +1550,12 @@
     "uz": "Step-up transformator generator past kuchlanishini (masalan 20 kV) to'rga uzatish uchun yuqori kuchlanishga (220/500 kV) oshiradi.",
     "en": "A step-up transformer raises the generator's low voltage (e.g. 20 kV) to a high grid voltage (220/500 kV) for transmission.",
     "ru": "Повышающий трансформатор повышает низкое напряжение генератора (например, 20 кВ) до высокого напряжения (220/500 кВ) для передачи в сеть."
+  },
+  {
+    "type": "fact",
+    "uz": "Yirik gaz turbinasi sekundiga yuzlab kilogramm havo yutadi — shuning uchun kirish havo filtri juda katta yuzali bo'ladi.",
+    "en": "A large gas turbine ingests hundreds of kilograms of air per second — so its inlet air filter has a very large surface area.",
+    "cat": "Kompressor",
+    "ru": "Большая газовая турбина всасывает сотни килограммов воздуха в секунду — поэтому фильтр всасываемого воздуха имеет очень большую площадь поверхности."
   }
 ]
