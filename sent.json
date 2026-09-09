@@ -1697,5 +1697,17 @@
     "uz": "GT exhaust system (chiqindi tizimi) turbinadan chiqqan issiq gazni HRSG'ga yo'naltiradi. Combined cycle'da bu gaz behuda ketmay, bug' hosil qilishga ishlatiladi.",
     "en": "The GT exhaust system directs hot gas from the turbine to the HRSG. In combined cycle this gas isn't wasted but is used to raise steam.",
     "ru": "Выхлопная система ГТ направляет горячий газ от турбины к котлу-утилизатору. В комбинированном цикле этот газ не тратится впустую, а используется для выработки пара."
+  },
+  {
+    "cat": "Kondensator / Sovutish",
+    "type": "lesson",
+    "tags": [
+      "kondensator",
+      "tubecleaning",
+      "tozalash"
+    ],
+    "uz": "Kondensator quvurlari vaqt o'tishi bilan ichdan ifloslanadi (loyqa, chig'anoq, o'simlik). Iflos quvur issiqlikni yomon o'tkazadi, vakuum yomonlashadi. Ular davriy tozalanadi (masalan cho'tka yoki maxsus shar bilan).",
+    "en": "Condenser tubes foul internally over time (silt, shells, growth). A fouled tube transfers heat poorly, worsening vacuum. They're cleaned periodically (e.g. with brushes or special balls).",
+    "ru": "Трубы конденсатора со временем загрязняются изнутри (грязь, скорлупа, растительность). Грязная труба плохо проводит тепло, ухудшается вакуум. Их периодически чистят (например, щеткой или специальным шариком)."
   }
 ]
