@@ -1723,5 +1723,12 @@
     "uz": "'Yerga tutashuv himoyasi' bir faza yerga tegib qolganda ishlaydi. Bunday nosozlik ko'p uchraydi va uni tez topish muhim.",
     "en": "Earth-fault protection operates when one phase touches earth. Such faults are common, and detecting them quickly is important.",
     "ru": "«Защита от замыкания на землю» срабатывает, когда одна фаза касается земли. Этот тип неисправности встречается часто, и важно быстро его обнаружить."
+  },
+  {
+    "type": "lesson",
+    "uz": "Gaz turbinasida ikki xil podshipnik bor: 'journal bearing' valni yon tomondan ushlaydi (aylanishga), 'thrust bearing' esa uni o'q bo'ylab siljishdan ushlab turadi.",
+    "en": "A gas turbine has two bearing types: journal bearings support the shaft radially (for rotation), while the thrust bearing holds it against axial movement.",
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "В газовой турбине два типа подшипников: опорный (journal bearing) держит вал сбоку (для вращения), а упорный (thrust bearing) удерживает его от осевого смещения."
   }
 ]
