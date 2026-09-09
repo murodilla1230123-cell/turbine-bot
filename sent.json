@@ -1645,5 +1645,12 @@
     "uz": "Kondensatorda 'air in-leak' (havo sizishi) vakuumni yomonlashtiradi. Havo qayerdandir ichkariga kirsa, u issiqlik o'tkazishni pasaytiradi va bosimni oshiradi. Operator sizish joyini topib bekitadi.",
     "en": "An 'air in-leak' in a condenser worsens vacuum. If air enters from somewhere, it reduces heat transfer and raises pressure. The operator finds and seals the leak.",
     "ru": "«Утечка воздуха» в конденсаторе ухудшает вакуум. Когда откуда-то поступает воздух, он уменьшает теплоотдачу и увеличивает давление. Оператор находит утечку и останавливает ее."
+  },
+  {
+    "type": "fact",
+    "uz": "Moy juda sovuq bo'lsa quyuqlashadi va yaxshi oqmaydi, juda issiq bo'lsa yupqalashib himoya pardasini yo'qotadi. Shuning uchun moy harorati aniq oraliqda ushlanadi.",
+    "en": "If oil is too cold it thickens and flows poorly; too hot and it thins, losing its protective film. So oil temperature is kept within a precise range.",
+    "cat": "Moy / Podshipnik",
+    "ru": "Если масло слишком холодное, оно густеет и плохо течет, если слишком горячее, оно разжижается и теряет защитную пленку. Таким образом, температура масла поддерживается в точном диапазоне."
   }
 ]
