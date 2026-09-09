@@ -1763,5 +1763,31 @@
     "uz": "Liniya (elektr uzatish liniyasi) himoyasi eng muhim vazifalardan biri, chunki liniyalar uzun va ochiq havoda — chaqmoq, shamol, muz ularga tez-tez ta'sir qiladi.",
     "en": "Line (transmission line) protection is one of the most important tasks, because lines are long and out in the open — lightning, wind and ice frequently affect them.",
     "ru": "Защита линий (линий электропередачи) является одной из важнейших задач, поскольку линии длинные и открытые – на них часто воздействуют молнии, ветер, гололед."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "quiz",
+    "tags": [
+      "HRSG",
+      "deaerator",
+      "kislorod"
+    ],
+    "q": "Deaerator nima uchun kerak?",
+    "options": [
+      "Suvdan kislorodni chiqarib korroziyani oldini oladi",
+      "Suvni isitish",
+      "Suvni sovutish",
+      "Bug' hosil qilish"
+    ],
+    "correct": 0,
+    "explain": "Erigan kislorod metallni yemiradi, deaerator uni chiqaradi.",
+    "q_en": "Why is a deaerator needed?",
+    "options_en": [
+      "To strip oxygen from water and prevent corrosion",
+      "To heat water",
+      "To cool water",
+      "To make steam"
+    ],
+    "explain_en": "Dissolved oxygen corrodes metal; the deaerator removes it."
   }
 ]
