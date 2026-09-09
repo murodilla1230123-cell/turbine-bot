@@ -1744,5 +1744,17 @@
     "uz": "Elektr energiya deyarli saqlanmaydi — u ishlab chiqarilgan zahoti iste'mol qilinadi. Shuning uchun stansiyalar talabga qarab real vaqtda quvvatni moslaydi.",
     "en": "Electricity is barely storable — it is consumed the instant it's generated. So plants adjust output to demand in real time.",
     "ru": "Электрическая энергия практически не хранится – она потребляется сразу же после ее производства. Таким образом, станции корректируют мощность в режиме реального времени в зависимости от спроса."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "lesson",
+    "tags": [
+      "HRSG",
+      "blowdown",
+      "tuz"
+    ],
+    "uz": "Blowdown qozon suvidan bir qismini chiqarib tashlash. Bug'lanish natijasida to'plangan tuzlarni olib chiqib, quyqa hosil bo'lishini oldini oladi.",
+    "en": "Blowdown removes part of the boiler water. It carries out salts concentrated by evaporation, preventing scale buildup.",
+    "ru": "Продувка – это удаление части котловой воды. Удаляет накопившиеся соли в результате испарения и предотвращает образование тромбов."
   }
 ]
