@@ -1678,5 +1678,12 @@
       "To be hot"
     ],
     "explain_en": "A cheap soft layer protects the expensive shaft from damage."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Flow meter' (oqim o'lchagich) quvurdan o'tayotgan suyuqlik yoki gaz miqdorini o'lchaydi. Turli tiplari bor: differensial bosim, ultratovush, magnit.",
+    "en": "A flow meter measures the amount of liquid or gas passing through a pipe. Types include differential pressure, ultrasonic and magnetic.",
+    "cat": "Boshqaruv / Asboblar",
+    "ru": "Расходомер измеряет количество жидкости или газа, протекающего через трубу. Бывают разных типов: дифференциального давления, ультразвукового, магнитного."
   }
 ]
