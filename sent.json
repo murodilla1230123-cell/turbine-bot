@@ -1756,5 +1756,12 @@
     "uz": "Blowdown qozon suvidan bir qismini chiqarib tashlash. Bug'lanish natijasida to'plangan tuzlarni olib chiqib, quyqa hosil bo'lishini oldini oladi.",
     "en": "Blowdown removes part of the boiler water. It carries out salts concentrated by evaporation, preventing scale buildup.",
     "ru": "Продувка – это удаление части котловой воды. Удаляет накопившиеся соли в результате испарения и предотвращает образование тромбов."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "Liniya (elektr uzatish liniyasi) himoyasi eng muhim vazifalardan biri, chunki liniyalar uzun va ochiq havoda — chaqmoq, shamol, muz ularga tez-tez ta'sir qiladi.",
+    "en": "Line (transmission line) protection is one of the most important tasks, because lines are long and out in the open — lightning, wind and ice frequently affect them.",
+    "ru": "Защита линий (линий электропередачи) является одной из важнейших задач, поскольку линии длинные и открытые – на них часто воздействуют молнии, ветер, гололед."
   }
 ]
