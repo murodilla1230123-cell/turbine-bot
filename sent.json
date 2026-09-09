@@ -1652,5 +1652,31 @@
     "en": "If oil is too cold it thickens and flows poorly; too hot and it thins, losing its protective film. So oil temperature is kept within a precise range.",
     "cat": "Moy / Podshipnik",
     "ru": "Если масло слишком холодное, оно густеет и плохо течет, если слишком горячее, оно разжижается и теряет защитную пленку. Таким образом, температура масла поддерживается в точном диапазоне."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "tags": [
+      "moy",
+      "babbitt",
+      "podshipnik"
+    ],
+    "q": "Nega podshipnik yumshoq oq metall (babbitt) bilan qoplanadi?",
+    "options": [
+      "Zarracha tushsa valni emas, o'zini shikastlaydi",
+      "Chiroyli bo'lishi uchun",
+      "Og'ir bo'lishi uchun",
+      "Issiq bo'lishi uchun"
+    ],
+    "correct": 0,
+    "explain": "Arzon yumshoq qatlam qimmatli valni shikastdan saqlaydi.",
+    "q_en": "Why is a bearing lined with soft white metal (babbitt)?",
+    "options_en": [
+      "A particle damages itself, not the shaft",
+      "For looks",
+      "To be heavy",
+      "To be hot"
+    ],
+    "explain_en": "A cheap soft layer protects the expensive shaft from damage."
   }
 ]
