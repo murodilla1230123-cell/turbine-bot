@@ -1709,5 +1709,12 @@
     "uz": "Kondensator quvurlari vaqt o'tishi bilan ichdan ifloslanadi (loyqa, chig'anoq, o'simlik). Iflos quvur issiqlikni yomon o'tkazadi, vakuum yomonlashadi. Ular davriy tozalanadi (masalan cho'tka yoki maxsus shar bilan).",
     "en": "Condenser tubes foul internally over time (silt, shells, growth). A fouled tube transfers heat poorly, worsening vacuum. They're cleaned periodically (e.g. with brushes or special balls).",
     "ru": "Трубы конденсатора со временем загрязняются изнутри (грязь, скорлупа, растительность). Грязная труба плохо проводит тепло, ухудшается вакуум. Их периодически чистят (например, щеткой или специальным шариком)."
+  },
+  {
+    "cat": "Boshqaruv / Asboblar",
+    "type": "fact",
+    "uz": "DCS minglab nuqtani (harorat, bosim, klapan holati) real vaqtda ko'rsatadi va ko'p jarayonni avtomatik boshqaradi — operator faqat nazorat qiladi.",
+    "en": "A DCS displays thousands of points (temperature, pressure, valve position) in real time and automates many processes — the operator mainly supervises.",
+    "ru": "DCS отображает тысячи точек (температура, давление, положение клапана) в режиме реального времени и контролирует большинство процессов автоматически — контролирует только оператор."
   }
 ]
