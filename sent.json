@@ -1737,5 +1737,12 @@
     "en": "'Equivalent operating hours' is a measure used to track equipment life. One start counts as several running hours, because it wears parts more.",
     "cat": "Ishga tushirish / Rejim",
     "ru": "«Эквивалентные часы работы» — это показатель, используемый для расчета срока службы устройства. Один старт приравнивается к нескольким часам работы, поскольку он более утомителен."
+  },
+  {
+    "cat": "Energetika asoslari",
+    "type": "lesson",
+    "uz": "Elektr energiya deyarli saqlanmaydi — u ishlab chiqarilgan zahoti iste'mol qilinadi. Shuning uchun stansiyalar talabga qarab real vaqtda quvvatni moslaydi.",
+    "en": "Electricity is barely storable — it is consumed the instant it's generated. So plants adjust output to demand in real time.",
+    "ru": "Электрическая энергия практически не хранится – она потребляется сразу же после ее производства. Таким образом, станции корректируют мощность в режиме реального времени в зависимости от спроса."
   }
 ]
