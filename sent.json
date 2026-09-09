@@ -1730,5 +1730,12 @@
     "en": "A gas turbine has two bearing types: journal bearings support the shaft radially (for rotation), while the thrust bearing holds it against axial movement.",
     "cat": "Gaz turbinasi (GT)",
     "ru": "В газовой турбине два типа подшипников: опорный (journal bearing) держит вал сбоку (для вращения), а упорный (thrust bearing) удерживает его от осевого смещения."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Equivalent operating hours' — jihoz umrini hisoblashda ishlatiladigan o'lchov. Bir start bir necha soat ishlashga teng deb hisoblanadi, chunki u ko'proq charchatadi.",
+    "en": "'Equivalent operating hours' is a measure used to track equipment life. One start counts as several running hours, because it wears parts more.",
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "«Эквивалентные часы работы» — это показатель, используемый для расчета срока службы устройства. Один старт приравнивается к нескольким часам работы, поскольку он более утомителен."
   }
 ]
