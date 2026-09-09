@@ -1685,5 +1685,17 @@
     "en": "A flow meter measures the amount of liquid or gas passing through a pipe. Types include differential pressure, ultrasonic and magnetic.",
     "cat": "Boshqaruv / Asboblar",
     "ru": "Расходомер измеряет количество жидкости или газа, протекающего через трубу. Бывают разных типов: дифференциального давления, ультразвукового, магнитного."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "lesson",
+    "tags": [
+      "yordamchitizim",
+      "exhaust",
+      "HRSG"
+    ],
+    "uz": "GT exhaust system (chiqindi tizimi) turbinadan chiqqan issiq gazni HRSG'ga yo'naltiradi. Combined cycle'da bu gaz behuda ketmay, bug' hosil qilishga ishlatiladi.",
+    "en": "The GT exhaust system directs hot gas from the turbine to the HRSG. In combined cycle this gas isn't wasted but is used to raise steam.",
+    "ru": "Выхлопная система ГТ направляет горячий газ от турбины к котлу-утилизатору. В комбинированном цикле этот газ не тратится впустую, а используется для выработки пара."
   }
 ]
