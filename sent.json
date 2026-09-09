@@ -1716,5 +1716,12 @@
     "uz": "DCS minglab nuqtani (harorat, bosim, klapan holati) real vaqtda ko'rsatadi va ko'p jarayonni avtomatik boshqaradi — operator faqat nazorat qiladi.",
     "en": "A DCS displays thousands of points (temperature, pressure, valve position) in real time and automates many processes — the operator mainly supervises.",
     "ru": "DCS отображает тысячи точек (температура, давление, положение клапана) в режиме реального времени и контролирует большинство процессов автоматически — контролирует только оператор."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Yerga tutashuv himoyasi' bir faza yerga tegib qolganda ishlaydi. Bunday nosozlik ko'p uchraydi va uni tez topish muhim.",
+    "en": "Earth-fault protection operates when one phase touches earth. Such faults are common, and detecting them quickly is important.",
+    "ru": "«Защита от замыкания на землю» срабатывает, когда одна фаза касается земли. Этот тип неисправности встречается часто, и важно быстро его обнаружить."
   }
 ]
