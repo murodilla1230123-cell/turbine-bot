@@ -1841,5 +1841,12 @@
       "Pretty"
     ],
     "explain_en": "The pivoting pads adapt to the shaft for stability at high speed."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Surge' — kompressorda havo oqimi teskari yo'nalishga urilib ketadigan xavfli hodisa. IGV/VV va boshqaruv tizimi buni oldini oladi.",
+    "en": "'Surge' is a dangerous event where airflow reverses in the compressor. The IGV/VV and control system work to prevent it.",
+    "cat": "Kompressor",
+    "ru": "Помпаж (surge) — опасное явление, при котором поток воздуха в компрессоре устремляется в обратную сторону. IGV/VV и система управления предотвращают его."
   }
 ]
