@@ -1860,5 +1860,12 @@
     "uz": "Capacity factor stansiya haqiqatda qancha ishlab chiqarganini maksimal mumkinga nisbatan ko'rsatadi. Yuqori bo'lsa, stansiya samarali ishlatilayotgan.",
     "en": "Capacity factor shows how much a plant actually produced versus the maximum possible. High means the plant is used efficiently.",
     "ru": "Коэффициент мощности показывает, сколько реально произвел завод по сравнению с максимально возможным. Если оно высокое, станция используется эффективно."
+  },
+  {
+    "cat": "Nasos / Klapan",
+    "type": "fact",
+    "uz": "Feed pump ishlamay qolsa, HRSG suvsiz qolib quvurlari kuyishi mumkin — shuning uchun ko'pincha zaxira feed pump bo'ladi.",
+    "en": "If the feed pump fails, the HRSG could run dry and its tubes overheat — so a backup feed pump is usually provided.",
+    "ru": "Если подающий насос выйдет из строя, котел-утилизатор может выгореть из трубок формы без воды, поэтому часто имеется резервный подающий насос."
   }
 ]
