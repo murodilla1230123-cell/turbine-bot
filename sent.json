@@ -1905,5 +1905,12 @@
     "uz": "LOTO (Lockout-Tagout) ta'mir paytida jihozni tasodifan yoqilishdan saqlaydigan xavfsizlik tartibi. Energiya manbai qulflanadi va belgi osiladi.",
     "en": "LOTO (Lockout-Tagout) is a safety procedure preventing equipment from being switched on accidentally during repair. The energy source is locked and a tag is hung.",
     "ru": "LOTO (Lockout-Tagout) — процедура безопасности, предотвращающая случайное включение устройства во время ремонта. Источник питания заблокирован и табличка висит."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "uz": "'Gaz himoyasi' (Buxgolts relesi) moyli transformatorda ichki nosozlikda hosil bo'ladigan gazni sezadi. Yengil nosozlikda signal, kuchli nosozlikda uzish beradi.",
+    "en": "Gas protection (Buchholz relay) senses gas formed by an internal fault in an oil-filled transformer. It signals for minor faults and trips for severe ones.",
+    "ru": "«Газовая защита» (реле Бухгольца) обнаруживает газ, образующийся при внутренней неисправности масляного трансформатора. Он подает сигнал тревоги при легкой неисправности и отключение при серьезной неисправности."
   }
 ]
