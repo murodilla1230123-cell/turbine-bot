@@ -1893,5 +1893,17 @@
       "Without adjusting"
     ],
     "explain_en": "Too low and tubes overheat, too high and water carries to the turbine."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "tags": [
+      "tamir",
+      "LOTO",
+      "xavfsizlik"
+    ],
+    "uz": "LOTO (Lockout-Tagout) ta'mir paytida jihozni tasodifan yoqilishdan saqlaydigan xavfsizlik tartibi. Energiya manbai qulflanadi va belgi osiladi.",
+    "en": "LOTO (Lockout-Tagout) is a safety procedure preventing equipment from being switched on accidentally during repair. The energy source is locked and a tag is hung.",
+    "ru": "LOTO (Lockout-Tagout) — процедура безопасности, предотвращающая случайное включение устройства во время ремонта. Источник питания заблокирован и табличка висит."
   }
 ]
