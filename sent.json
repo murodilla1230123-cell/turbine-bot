@@ -1867,5 +1867,31 @@
     "uz": "Feed pump ishlamay qolsa, HRSG suvsiz qolib quvurlari kuyishi mumkin — shuning uchun ko'pincha zaxira feed pump bo'ladi.",
     "en": "If the feed pump fails, the HRSG could run dry and its tubes overheat — so a backup feed pump is usually provided.",
     "ru": "Если подающий насос выйдет из строя, котел-утилизатор может выгореть из трубок формы без воды, поэтому часто имеется резервный подающий насос."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "quiz",
+    "tags": [
+      "HRSG",
+      "operator",
+      "suvsath"
+    ],
+    "q": "HRSG baraban suv sathini operator qanday ushlaydi?",
+    "options": [
+      "Tor oraliqda, feedwater klapanini rostlab",
+      "Juda yuqori",
+      "Juda past",
+      "Rostlmasdan"
+    ],
+    "correct": 0,
+    "explain": "Past bo'lsa quvurlar kuyadi, yuqori bo'lsa suv turbinaga o'tadi.",
+    "q_en": "How does the operator keep the HRSG drum water level?",
+    "options_en": [
+      "In a narrow band, adjusting the feedwater valve",
+      "Very high",
+      "Very low",
+      "Without adjusting"
+    ],
+    "explain_en": "Too low and tubes overheat, too high and water carries to the turbine."
   }
 ]
