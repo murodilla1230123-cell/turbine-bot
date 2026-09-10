@@ -1789,5 +1789,31 @@
       "To make steam"
     ],
     "explain_en": "Dissolved oxygen corrodes metal; the deaerator removes it."
+  },
+  {
+    "cat": "HRSG / Bug' sikli",
+    "type": "quiz",
+    "tags": [
+      "HRSG",
+      "economizer",
+      "samaradorlik"
+    ],
+    "q": "HRSG'ning qaysi qismi suvni oldindan isitadi?",
+    "options": [
+      "Economizer (eng sovuq gaz qismi)",
+      "Superheater",
+      "Evaporator",
+      "Drum"
+    ],
+    "correct": 0,
+    "explain": "Economizer qolgan issiqlik bilan suvni oldindan isitib samaradorlikni oshiradi.",
+    "q_en": "Which HRSG section preheats the water?",
+    "options_en": [
+      "The economizer (coolest gas section)",
+      "Superheater",
+      "Evaporator",
+      "Drum"
+    ],
+    "explain_en": "The economizer preheats water with leftover heat, raising efficiency."
   }
 ]
