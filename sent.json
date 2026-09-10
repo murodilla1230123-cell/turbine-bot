@@ -1912,5 +1912,12 @@
     "uz": "'Gaz himoyasi' (Buxgolts relesi) moyli transformatorda ichki nosozlikda hosil bo'ladigan gazni sezadi. Yengil nosozlikda signal, kuchli nosozlikda uzish beradi.",
     "en": "Gas protection (Buchholz relay) senses gas formed by an internal fault in an oil-filled transformer. It signals for minor faults and trips for severe ones.",
     "ru": "«Газовая защита» (реле Бухгольца) обнаруживает газ, образующийся при внутренней неисправности масляного трансформатора. Он подает сигнал тревоги при легкой неисправности и отключение при серьезной неисправности."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Barring/turning gear' rotorni juda sekin (daqiqada bir necha marta) aylantiradi. To'xtagandan keyin soatlab shunday aylantiriladi.",
+    "en": "A barring/turning gear rotates the rotor very slowly (a few times per minute). After shutdown it keeps turning for hours.",
+    "cat": "Ishga tushirish / Rejim",
+    "ru": "«Запирающий/поворотный механизм» вращает ротор очень медленно (несколько раз в минуту). После остановки его так вращают в течение нескольких часов."
   }
 ]
