@@ -1848,5 +1848,17 @@
     "en": "'Surge' is a dangerous event where airflow reverses in the compressor. The IGV/VV and control system work to prevent it.",
     "cat": "Kompressor",
     "ru": "Помпаж (surge) — опасное явление, при котором поток воздуха в компрессоре устремляется в обратную сторону. IGV/VV и система управления предотвращают его."
+  },
+  {
+    "cat": "Combined Cycle / Samaradorlik",
+    "type": "lesson",
+    "tags": [
+      "combinedcycle",
+      "capacityfactor",
+      "ishlatilish"
+    ],
+    "uz": "Capacity factor stansiya haqiqatda qancha ishlab chiqarganini maksimal mumkinga nisbatan ko'rsatadi. Yuqori bo'lsa, stansiya samarali ishlatilayotgan.",
+    "en": "Capacity factor shows how much a plant actually produced versus the maximum possible. High means the plant is used efficiently.",
+    "ru": "Коэффициент мощности показывает, сколько реально произвел завод по сравнению с максимально возможным. Если оно высокое, станция используется эффективно."
   }
 ]
