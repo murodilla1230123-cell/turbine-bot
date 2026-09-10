@@ -1815,5 +1815,31 @@
       "Drum"
     ],
     "explain_en": "The economizer preheats water with leftover heat, raising efficiency."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "quiz",
+    "tags": [
+      "moy",
+      "tiltingpad",
+      "vibratsiya"
+    ],
+    "q": "Tilting-pad podshipnik nima afzallik beradi?",
+    "options": [
+      "Yuqori tezlikda barqaror va vibratsiyaga chidamli",
+      "Arzon",
+      "Yengil",
+      "Chiroyli"
+    ],
+    "correct": 0,
+    "explain": "Egiluvchi tagliklar valga moslashib yuqori tezlikda barqarorlik beradi.",
+    "q_en": "What advantage does a tilting-pad bearing give?",
+    "options_en": [
+      "Stable at high speed and resistant to vibration",
+      "Cheap",
+      "Light",
+      "Pretty"
+    ],
+    "explain_en": "The pivoting pads adapt to the shaft for stability at high speed."
   }
 ]
