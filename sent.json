@@ -2016,5 +2016,31 @@
     "uz": "LP hood spray past bosim qismidagi haroratni nazorat qiluvchi suv purkash tizimi. Yuk kam bo'lganda LP qismi qizib ketishi mumkin, spray uni sovutadi.",
     "en": "An LP hood spray is a water spray system that controls temperature in the low-pressure section. At low load the LP section can overheat, and the spray cools it.",
     "ru": "Спрей для капота LP — это система распыления воды, которая контролирует температуру в секции низкого давления. При небольшой нагрузке деталь НД может нагреваться, струя ее охлаждает."
+  },
+  {
+    "cat": "Yordamchi tizimlar",
+    "type": "quiz",
+    "tags": [
+      "yordamchitizim",
+      "inletair",
+      "filter"
+    ],
+    "q": "Kirish havo filtri nega muhim?",
+    "options": [
+      "Changni to'sib kompressor pichoqlarini saqlaydi",
+      "Havoni isitadi",
+      "Havoni siqadi",
+      "Shovqin kamaytiradi"
+    ],
+    "correct": 0,
+    "explain": "Iflos havo pichoqlarni yeyadi va FIK'ni tushiradi, filtr ularni himoya qiladi.",
+    "q_en": "Why is the inlet air filter important?",
+    "options_en": [
+      "It blocks dust and protects compressor blades",
+      "Heats the air",
+      "Compresses the air",
+      "Reduces noise"
+    ],
+    "explain_en": "Dirty air erodes blades and lowers efficiency; the filter protects them."
   }
 ]
