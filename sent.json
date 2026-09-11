@@ -1919,5 +1919,31 @@
     "en": "A barring/turning gear rotates the rotor very slowly (a few times per minute). After shutdown it keeps turning for hours.",
     "cat": "Ishga tushirish / Rejim",
     "ru": "«Запирающий/поворотный механизм» вращает ротор очень медленно (несколько раз в минуту). После остановки его так вращают в течение нескольких часов."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "quiz",
+    "tags": [
+      "tamir",
+      "balancing",
+      "vibratsiya"
+    ],
+    "q": "Rotor balansi (balancing) nima uchun kerak?",
+    "options": [
+      "Aylanganda tebranmasligi uchun (og'irlik teng taqsimlanadi)",
+      "Chiroyli bo'lishi",
+      "Arzon bo'lishi",
+      "Yengil bo'lishi"
+    ],
+    "correct": 0,
+    "explain": "Notekis og'irlik markazdan qochma kuch bilan vibratsiya beradi, balans og'irliklari to'g'irlaydi.",
+    "q_en": "Why is rotor balancing needed?",
+    "options_en": [
+      "So it doesn't vibrate when spinning (weight evenly distributed)",
+      "To be pretty",
+      "To be cheap",
+      "To be light"
+    ],
+    "explain_en": "Uneven weight causes vibration from centrifugal force; balance weights correct it."
   }
 ]
