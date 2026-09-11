@@ -2042,5 +2042,17 @@
       "Reduces noise"
     ],
     "explain_en": "Dirty air erodes blades and lowers efficiency; the filter protects them."
+  },
+  {
+    "cat": "Moy / Podshipnik",
+    "type": "lesson",
+    "tags": [
+      "moy",
+      "accumulator",
+      "zaxira"
+    ],
+    "uz": "Lube oil accumulator (moy akkumulyatori) bosim ostida moyni zaxira sifatida saqlaydi. Nasoslar orasidagi qisqa uzilishda ham moy uzatishni ta'minlaydi.",
+    "en": "A lube oil accumulator stores pressurized oil as a reserve. It maintains oil supply even during a brief gap between pumps.",
+    "ru": "Аккумулятор смазочного масла хранит масло под давлением в качестве резерва. Обеспечивает перекачку масла даже во время коротких перерывов между насосами."
   }
 ]
