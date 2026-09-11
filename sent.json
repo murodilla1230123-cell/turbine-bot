@@ -1952,5 +1952,26 @@
     "en": "'Island mode' is when a plant separates from the main grid and supplies only local load. It's a demanding mode, as it must hold frequency alone.",
     "cat": "Combined Cycle / Samaradorlik",
     "ru": "«Островной режим» означает, что станция отделена от основной сети и работает только с обеспечением местной нагрузки. Это сложный режим, потому что ему приходится самому ловить частоту."
+  },
+  {
+    "type": "quiz",
+    "cat": "Elektr / Himoya",
+    "q": "'Differential protection' qanday ishlaydi?",
+    "options": [
+      "Kirish va chiqish tokini solishtiradi",
+      "Haroratni o'lchaydi",
+      "Tezlikni kuzatadi",
+      "Vibratsiyani sezadi"
+    ],
+    "correct": 0,
+    "explain": "Farq bo'lsa ichkarida nosozlik bor deb darhol uzadi.",
+    "q_en": "How does differential protection work?",
+    "options_en": [
+      "It compares incoming and outgoing current",
+      "Measures temperature",
+      "Watches speed",
+      "Senses vibration"
+    ],
+    "explain_en": "A difference means an internal fault, so it trips immediately."
   }
 ]
