@@ -1945,5 +1945,12 @@
       "To be light"
     ],
     "explain_en": "Uneven weight causes vibration from centrifugal force; balance weights correct it."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Island mode' — stansiya asosiy to'rdan ajralib, faqat mahalliy yukni ta'minlab ishlashi. Bu qiyin rejim, chunki chastotani o'zi ushlashi kerak.",
+    "en": "'Island mode' is when a plant separates from the main grid and supplies only local load. It's a demanding mode, as it must hold frequency alone.",
+    "cat": "Combined Cycle / Samaradorlik",
+    "ru": "«Островной режим» означает, что станция отделена от основной сети и работает только с обеспечением местной нагрузки. Это сложный режим, потому что ему приходится самому ловить частоту."
   }
 ]
