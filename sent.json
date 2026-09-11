@@ -1997,5 +1997,12 @@
     "uz": "Operativ zanjir (boshqaruv zanjiri) relelar, uzgichlar va signal qurilmalarini bog'laydi. U odatda o'zgarmas tok (batareya) bilan ishlaydi.",
     "en": "The control circuit links relays, breakers and signaling devices. It usually runs on DC (battery) power.",
     "ru": "Рабочая цепь (цепь управления) соединяет реле, переключатели и устройства сигнализации. Обычно он работает от постоянного тока (батарея)."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Actuator' — boshqaruv signalini fizik harakatga aylantiradigan qurilma. U klapanni ochadi/yopadi yoki pichoqni buradi. Elektr, pnevmatik yoki gidravlik bo'ladi.",
+    "en": "An 'actuator' converts a control signal into physical motion. It opens/closes a valve or turns a vane. It can be electric, pneumatic or hydraulic.",
+    "cat": "Nasos / Klapan",
+    "ru": "«Актуатор» — это устройство, которое преобразует управляющий сигнал в физическое движение. Он открывает/закрывает клапан или поворачивает лопасть. Может быть электрическим, пневматическим или гидравлическим."
   }
 ]
