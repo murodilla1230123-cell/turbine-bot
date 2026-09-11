@@ -1973,5 +1973,17 @@
       "Senses vibration"
     ],
     "explain_en": "A difference means an internal fault, so it trips immediately."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "lesson",
+    "tags": [
+      "tamir",
+      "balancing",
+      "rotor"
+    ],
+    "uz": "Rotor balansi (balancing) — uni shunday sozlashkiaylanganda tebranmasin. Rotorda og'irlik notekis taqsimlangan bo'lsa, aylanganda markazdan qochma kuch vibratsiya beradi. Balans og'irliklari qo'shib to'g'irlanadi.",
+    "en": "Rotor balancing means adjusting it so it doesn't vibrate when spinning. If weight is unevenly distributed, centrifugal force causes vibration when rotating. It's corrected by adding balance weights.",
+    "ru": "Балансировка (балансировка) ротора – отрегулируйте его так, чтобы он не вибрировал при регулировке. Если вес распределен на роторе неравномерно, центробежная сила вызывает вибрацию при его вращении. Баланс корректируется добавлением гирь."
   }
 ]
