@@ -1985,5 +1985,17 @@
     "uz": "Rotor balansi (balancing) — uni shunday sozlashkiaylanganda tebranmasin. Rotorda og'irlik notekis taqsimlangan bo'lsa, aylanganda markazdan qochma kuch vibratsiya beradi. Balans og'irliklari qo'shib to'g'irlanadi.",
     "en": "Rotor balancing means adjusting it so it doesn't vibrate when spinning. If weight is unevenly distributed, centrifugal force causes vibration when rotating. It's corrected by adding balance weights.",
     "ru": "Балансировка (балансировка) ротора – отрегулируйте его так, чтобы он не вибрировал при регулировке. Если вес распределен на роторе неравномерно, центробежная сила вызывает вибрацию при его вращении. Баланс корректируется добавлением гирь."
+  },
+  {
+    "cat": "Releli himoya",
+    "type": "lesson",
+    "tags": [
+      "relehimoya",
+      "operativzanjir",
+      "DC"
+    ],
+    "uz": "Operativ zanjir (boshqaruv zanjiri) relelar, uzgichlar va signal qurilmalarini bog'laydi. U odatda o'zgarmas tok (batareya) bilan ishlaydi.",
+    "en": "The control circuit links relays, breakers and signaling devices. It usually runs on DC (battery) power.",
+    "ru": "Рабочая цепь (цепь управления) соединяет реле, переключатели и устройства сигнализации. Обычно он работает от постоянного тока (батарея)."
   }
 ]
