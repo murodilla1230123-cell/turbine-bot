@@ -2004,5 +2004,17 @@
     "en": "An 'actuator' converts a control signal into physical motion. It opens/closes a valve or turns a vane. It can be electric, pneumatic or hydraulic.",
     "cat": "Nasos / Klapan",
     "ru": "«Актуатор» — это устройство, которое преобразует управляющий сигнал в физическое движение. Он открывает/закрывает клапан или поворачивает лопасть. Может быть электрическим, пневматическим или гидравлическим."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "tags": [
+      "bugturbinasi",
+      "LPhood",
+      "sovutish"
+    ],
+    "uz": "LP hood spray past bosim qismidagi haroratni nazorat qiluvchi suv purkash tizimi. Yuk kam bo'lganda LP qismi qizib ketishi mumkin, spray uni sovutadi.",
+    "en": "An LP hood spray is a water spray system that controls temperature in the low-pressure section. At low load the LP section can overheat, and the spray cools it.",
+    "ru": "Спрей для капота LP — это система распыления воды, которая контролирует температуру в секции низкого давления. При небольшой нагрузке деталь НД может нагреваться, струя ее охлаждает."
   }
 ]
