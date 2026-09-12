@@ -2120,5 +2120,12 @@
     "uz": "EHC (Electro-Hydraulic Control) bug' turbinasining elektr-gidravlik boshqaruv tizimi. U elektr signalni gidravlik kuchga aylantirib, klapanlarni aniq va tez harakatga keltiradi. Zamonaviy turbinalarda mexanik boshqaruv o'rnini bosgan.",
     "en": "EHC (Electro-Hydraulic Control) is a steam turbine's electro-hydraulic control system. It converts electrical signals into hydraulic force to move valves precisely and quickly. In modern turbines it has replaced mechanical control.",
     "ru": "EHC (Electro-Hydraulic Control) электрогидравлическая система управления паровой турбиной. Он преобразует электрический сигнал в гидравлическую силу, перемещая клапаны точно и быстро. Механическое управление заменило современные турбины."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Steam quality' — bug'da suyuq tomchi qancha kamligini ko'rsatadi. Yuqori sifatli (quruq) bug' turbina pichoqlarini yeyilishdan saqlaydi.",
+    "en": "'Steam quality' shows how few liquid droplets are in the steam. High-quality (dry) steam protects turbine blades from erosion.",
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "«Качество пара» показывает, насколько мало капель жидкости в паре. Качественный (сухой) пар защищает лопатки турбин от коррозии."
   }
 ]
