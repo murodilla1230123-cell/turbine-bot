@@ -2075,5 +2075,31 @@
       "By chance"
     ],
     "explain_en": "The HRSG needs hot gas from the gas turbine to make steam."
+  },
+  {
+    "cat": "Ta'mir / Xavfsizlik",
+    "type": "quiz",
+    "tags": [
+      "tamir",
+      "NDT",
+      "yoriq"
+    ],
+    "q": "NDT (non-destructive testing) afzalligi nima?",
+    "options": [
+      "Jihozni sindirmasdan ichki nuqsonni topadi",
+      "Tezroq ishlaydi",
+      "Arzon",
+      "Chiroyli"
+    ],
+    "correct": 0,
+    "explain": "Ultratovush, radiografiya yashirin yoriqlarni jihozni buzmasdan topadi.",
+    "q_en": "What is the advantage of NDT (non-destructive testing)?",
+    "options_en": [
+      "Finds internal defects without breaking the equipment",
+      "Works faster",
+      "Cheap",
+      "Pretty"
+    ],
+    "explain_en": "Ultrasound and radiography find hidden cracks without damaging the equipment."
   }
 ]
