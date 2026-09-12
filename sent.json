@@ -2108,5 +2108,17 @@
     "en": "'Creep' is the slow stretching of metal under high temperature and load. Turbine blades slowly elongate over years, so their life is limited.",
     "cat": "Gaz turbinasi (GT)",
     "ru": "«Ползучесть» — это медленное удлинение металла под действием высокой температуры и нагрузки. Лопатки турбин с годами растягиваются медленно, поэтому срок их службы ограничен."
+  },
+  {
+    "cat": "Bug' turbinasi (ST)",
+    "type": "lesson",
+    "tags": [
+      "bugturbinasi",
+      "EHC",
+      "boshqaruv"
+    ],
+    "uz": "EHC (Electro-Hydraulic Control) bug' turbinasining elektr-gidravlik boshqaruv tizimi. U elektr signalni gidravlik kuchga aylantirib, klapanlarni aniq va tez harakatga keltiradi. Zamonaviy turbinalarda mexanik boshqaruv o'rnini bosgan.",
+    "en": "EHC (Electro-Hydraulic Control) is a steam turbine's electro-hydraulic control system. It converts electrical signals into hydraulic force to move valves precisely and quickly. In modern turbines it has replaced mechanical control.",
+    "ru": "EHC (Electro-Hydraulic Control) электрогидравлическая система управления паровой турбиной. Он преобразует электрический сигнал в гидравлическую силу, перемещая клапаны точно и быстро. Механическое управление заменило современные турбины."
   }
 ]
