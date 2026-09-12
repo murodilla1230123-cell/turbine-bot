@@ -222,15 +222,27 @@ def send_post(token, chat_id, post, langs, dry) -> bool:
 # ---------------------------------------------------------------- asosiy
 
 def main() -> int:
-    token = os.environ.get("BOT_TOKEN", "").strip()
-    chat_id = os.environ.get("CHANNEL_ID", "").strip()
+    # Bir nechta secret nomini qabul qiladi — qaysi biri bo'lsa ham ishlaydi
+    token = (os.environ.get("BOT_TOKEN")
+             or os.environ.get("TELEGRAM_TOKEN")
+             or os.environ.get("TOKEN") or "").strip()
+    chat_id = (os.environ.get("CHANNEL_ID")
+               or os.environ.get("CHAT_ID")
+               or os.environ.get("CHANNEL") or "").strip()
     dry = os.environ.get("DRY_RUN", "").strip() == "1"
     force = os.environ.get("FORCE", "").strip() == "1"
     langs = [l.strip() for l in
              os.environ.get("LANGS", "uz,ru,en").split(",") if l.strip()]
 
     if not dry and (not token or not chat_id):
-        print("BOT_TOKEN yoki CHANNEL_ID yo'q", file=sys.stderr)
+        miss = []
+        if not token:
+            miss.append("BOT_TOKEN (yoki TELEGRAM_TOKEN)")
+        if not chat_id:
+            miss.append("CHANNEL_ID (yoki CHAT_ID)")
+        print("Secrets topilmadi: " + ", ".join(miss), file=sys.stderr)
+        print("GitHub -> Settings -> Secrets and variables -> Actions "
+              "da shu nomlarni qo'shing.", file=sys.stderr)
         return 1
 
     posts = json.loads(POSTS_FILE.read_text(encoding="utf-8"))

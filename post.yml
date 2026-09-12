@@ -34,8 +34,11 @@ jobs:
 
       - name: Post
         env:
+          # Ikkala nomdan biri qo'yilgan bo'lsa ishlaydi
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
           POSTS_PER_DAY: "2"
           WINDOW: "0-23"
           MIN_GAP_HOURS: "4"
