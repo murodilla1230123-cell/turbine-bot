@@ -1,341 +1,306 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Turbine / Energy facts bot — tasodifiy kunlik posting.
-- Har kuni 3-5 ta post (tasodifiy tanlanadi)
-- Butun kun bo'yi tasodifiy vaqtlarda tarqaladi
-- GitHub Actions har soatda ishga tushiradi; bot o'zi post qilishni hal qiladi
+@enersok_edu — ST kontent boti (tasodifiy vaqtli)
+
+Workflow har soat ishga tushadi. Bot har kuni sutkaning tasodifiy
+vaqtlarini tanlaydi va faqat o'sha vaqt kelganda post yuboradi.
+
+Muhit o'zgaruvchilari:
+    BOT_TOKEN      — BotFather tokeni                     (majburiy)
+    CHANNEL_ID     — @enersok_edu yoki -100...             (majburiy)
+    POSTS_PER_DAY  — kuniga nechta post                    (default 2)
+    WINDOW         — ruxsat etilgan soatlar                (default 0-23)
+    MIN_GAP_HOURS  — postlar orasidagi eng kam farq        (default 4)
+    TZ_OFFSET      — mahalliy vaqt siljishi                (default 5)
+    LANGS          — tillar, vergul bilan                  (default uz,ru,en)
+    DRY_RUN        — 1 bo'lsa yubormaydi
+    FORCE          — 1 bo'lsa jadvalga qaramay yuboradi
 """
 
-import os
-import json
-import random
 import html
-from datetime import datetime, timezone, timedelta
-import requests
+import json
+import os
+import random
+import re
+import sys
+import time
+import urllib.error
+import urllib.request
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
-CHAT_ID        = os.environ.get("CHAT_ID", "").strip()
+ROOT = Path(__file__).parent
+POSTS_FILE = ROOT / "posts.json"
+STATE_FILE = ROOT / "state.json"
 
-BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-FACTS_FILE = os.path.join(BASE_DIR, "facts.json")
-SENT_FILE  = os.path.join(BASE_DIR, "sent.json")
-STATE_FILE = os.path.join(BASE_DIR, "state.json")
-
-TASHKENT = timezone(timedelta(hours=5))
-DAY_START = 0
-DAY_END   = 23
-
-
-def translate_to_ru(text):
-    """O'zbekcha matnni rus tiliga tarjima qiladi (bepul, kalitsiz).
-    Xato bo'lsa bo'sh string qaytaradi — bot baribir ishlayveradi."""
-    if not text:
-        return ""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/120.0.0.0 Safari/537.36"
-    }
-    # 1-usul: translate.googleapis.com
-    try:
-        url = "https://translate.googleapis.com/translate_a/single"
-        params = {"client": "gtx", "sl": "uz", "tl": "ru", "dt": "t", "q": text}
-        r = requests.get(url, params=params, headers=headers, timeout=15)
-        r.raise_for_status()
-        data = r.json()
-        return "".join(part[0] for part in data[0] if part[0])
-    except Exception as e:
-        print(f"Tarjima 1-usul xatosi: {e}")
-
-    # 2-usul (zaxira): clients5.google.com
-    try:
-        url = "https://clients5.google.com/translate_a/t"
-        params = {"client": "dict-chrome-ex", "sl": "uz", "tl": "ru", "q": text}
-        r = requests.get(url, params=params, headers=headers, timeout=15)
-        r.raise_for_status()
-        data = r.json()
-        # javob format: [["tarjima", "manba"], ...] yoki {"sentences":[...]}
-        if isinstance(data, list):
-            if data and isinstance(data[0], list):
-                return "".join(seg[0] for seg in data if seg and seg[0])
-            if data and isinstance(data[0], str):
-                return data[0]
-        return ""
-    except Exception as e:
-        print(f"Tarjima 2-usul xatosi: {e}")
-
-    # 3-usul (zaxira): MyMemory API
-    try:
-        url = "https://api.mymemory.translated.net/get"
-        params = {"q": text, "langpair": "uz|ru"}
-        r = requests.get(url, params=params, headers=headers, timeout=15)
-        r.raise_for_status()
-        data = r.json()
-        return data.get("responseData", {}).get("translatedText", "") or ""
-    except Exception as e:
-        print(f"Tarjima 3-usul xatosi (o'tkazib yuborildi): {e}")
-        return ""
+API = "https://api.telegram.org/bot{token}/sendMessage"
+TG_LIMIT = 4096
+FLAG = {"uz": "🇺🇿", "ru": "🇷🇺", "en": "🇬🇧"}
 
 
-def ensure_ru(fact):
-    """Post uchun rus tarjimasini ta'minlaydi (faqat fakt/dars uchun).
-    Quizlar faqat ingliz tilida bo'ladi, ularга tegmaydi."""
-    if fact.get("type") == "quiz":
-        return fact  # quiz ingliz tilida, tarjima kerak emas
-    if not fact.get("ru"):
-        fact["ru"] = translate_to_ru(fact.get("uz", ""))
-    return fact
+# ---------------------------------------------------------------- vaqt
+
+def now_local() -> datetime:
+    off = int(os.environ.get("TZ_OFFSET", "5"))
+    return datetime.now(timezone.utc) + timedelta(hours=off)
 
 
-def load_json(path, default):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default
+def parse_window() -> tuple:
+    """WINDOW='0-23' yoki '7-22' ni (boshlanish, tugash) ga o'giradi."""
+    raw = os.environ.get("WINDOW", "0-23").strip()
+    m = re.fullmatch(r"(\d{1,2})\s*-\s*(\d{1,2})", raw)
+    if not m:
+        return 0, 23
+    a, b = int(m.group(1)), int(m.group(2))
+    a, b = max(0, min(23, a)), max(0, min(23, b))
+    return (a, b) if a <= b else (b, a)
 
 
-def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+def make_schedule(day: str) -> dict:
+    """Kun uchun tasodifiy vaqtlar tanlaydi."""
+    n = max(1, int(os.environ.get("POSTS_PER_DAY", "2")))
+    lo, hi = parse_window()
+    gap = int(os.environ.get("MIN_GAP_HOURS", "4"))
+
+    span = hi - lo + 1
+    n = min(n, span)
+
+    # oyna tor bo'lsa gap ni kamaytiramiz
+    while gap > 0 and lo + gap * (n - 1) > hi:
+        gap -= 1
+
+    # urug' kunga bog'langan — bir kunda qayta hisoblansa ham bir xil chiqadi
+    rnd = random.Random(f"{day}:{n}:{lo}:{hi}")
+
+    hours = None
+    for _ in range(300):
+        pick = sorted(rnd.sample(range(lo, hi + 1), n))
+        if all(pick[i + 1] - pick[i] >= gap for i in range(n - 1)):
+            hours = pick
+            break
+    if hours is None:
+        step = max(1, span // n)
+        hours = [min(hi, lo + i * step) for i in range(n)]
+
+    slots = [{"h": h, "m": rnd.randint(0, 59), "done": False} for h in hours]
+    return {"date": day, "slots": slots}
 
 
-def fact_key(f):
-    """Takrorlanmaslik uchun noyob kalit (fakt uchun 'uz', quiz uchun 'q')."""
-    return f.get("uz") or f.get("q") or ""
+def due_slots(schedule: dict, now: datetime) -> list:
+    """Vaqti kelgan va hali bajarilmagan slot indekslari."""
+    out = []
+    for i, s in enumerate(schedule["slots"]):
+        if s["done"]:
+            continue
+        if (now.hour, now.minute) >= (s["h"], s["m"]):
+            out.append(i)
+    return out
 
 
-def pick_fact(sent_texts):
-    facts = load_json(FACTS_FILE, [])
-    fresh = [f for f in facts if fact_key(f) not in sent_texts]
-    if not fresh:
-        fresh = facts
-    return random.choice(fresh) if fresh else None
+# ---------------------------------------------------------------- formatlash
+
+def to_html(text: str) -> str:
+    text = html.escape(text, quote=False)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text, flags=re.S)
+    text = re.sub(r"(?<!\w)\*(.+?)\*(?!\w)", r"<i>\1</i>", text, flags=re.S)
+    text = re.sub(r"`(.+?)`", r"<code>\1</code>", text, flags=re.S)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
 
-CAT_EMOJI = {
-    "Gaz turbinasi (GT)": "\U0001f525",       # 🔥
-    "Kompressor": "\U0001f4a8",                # 💨
-    "Yonish / Combustor": "\U0001f9ef",        # 🧯
-    "Bug' turbinasi (ST)": "\U0001f4a6",       # 💦
-    "HRSG / Bug' sikli": "\u267b\ufe0f",       # ♻️
-    "Kondensator / Sovutish": "\u2744\ufe0f",  # ❄️
-    "Generator": "\u26a1",                     # ⚡
-    "Elektr / Himoya": "\U0001f50c",           # 🔌
-    "Moy / Podshipnik": "\U0001f6e2\ufe0f",    # 🛢️
-    "Yordamchi tizimlar": "\u2699\ufe0f",      # ⚙️
-    "Nasos / Klapan": "\U0001f6b0",            # 🚰
-    "Boshqaruv / Asboblar": "\U0001f5a5\ufe0f",# 🖥️
-    "Ishga tushirish / Rejim": "\U0001f7e2",   # 🟢
-    "Ta'mir / Xavfsizlik": "\U0001f6e1\ufe0f", # 🛡️
-    "Combined Cycle / Samaradorlik": "\U0001f4c8", # 📈
-    "Energetika asoslari": "\U0001f4a1",       # 💡
-}
-
-KIND_LABEL = {
-    "fact":   "Fakt / Факт / Fact",
-    "lesson": "Mini dars / Мини урок / Mini lesson",
-    "quiz":   "Savol / Вопрос / Quiz",
-}
-
-# Har toifa uchun mavzuga mos hashtaglar
-CAT_TAGS = {
-    "Gaz turbinasi (GT)": ["gazturbinasi", "GT", "turbina"],
-    "Kompressor": ["kompressor", "havo", "turbina"],
-    "Yonish / Combustor": ["yonish", "combustor", "yoqilgi"],
-    "Bug' turbinasi (ST)": ["bugturbinasi", "ST", "bug"],
-    "HRSG / Bug' sikli": ["HRSG", "bugsikli", "issiqlik"],
-    "Kondensator / Sovutish": ["kondensator", "sovutish", "vakuum"],
-    "Generator": ["generator", "elektr", "kuchlanish"],
-    "Elektr / Himoya": ["elektr", "himoya", "kuchlanish"],
-    "Moy / Podshipnik": ["moy", "podshipnik", "moylash"],
-    "Yordamchi tizimlar": ["yordamchitizim", "auxiliary", "tizim"],
-    "Nasos / Klapan": ["nasos", "klapan", "suyuqlik"],
-    "Boshqaruv / Asboblar": ["boshqaruv", "asbob", "avtomatika"],
-    "Ishga tushirish / Rejim": ["ishgatushirish", "rejim", "start"],
-    "Ta'mir / Xavfsizlik": ["tamir", "xavfsizlik", "profilaktika"],
-    "Combined Cycle / Samaradorlik": ["combinedcycle", "samaradorlik", "FIK"],
-    "Energetika asoslari": ["energetika", "asoslar", "elektr"],
-    "Releli himoya": ["relehimoya", "himoya", "rele"],
-}
+def build_message(post: dict, lang: str) -> str:
+    block = post[lang]
+    head = f"{FLAG[lang]} <b>{html.escape(block['title'])}</b>"
+    body = to_html(block["text"])
+    tags = " ".join("#" + t for t in post.get("tags", [])[:6])
+    parts = [head, body]
+    if tags:
+        parts.append(tags)
+    return "\n\n".join(parts)
 
 
-def build_hashtags(fact):
-    cat = fact.get("cat", "")
-    tags = list(fact.get("tags") or CAT_TAGS.get(cat, ["energetika", "power", "engineering"]))
-    if "energetika" not in tags:
-        tags.append("energetika")
-    return " ".join("#" + t for t in tags)
+def split_message(text: str, limit: int = TG_LIMIT) -> list:
+    if len(text) <= limit:
+        return [text]
+    chunks, buf = [], ""
+    for para in text.split("\n\n"):
+        candidate = para if not buf else buf + "\n\n" + para
+        if len(candidate) <= limit:
+            buf = candidate
+            continue
+        if buf:
+            chunks.append(buf)
+        while len(para) > limit:
+            cut = para.rfind("\n", 0, limit)
+            if cut <= 0:
+                cut = limit
+            chunks.append(para[:cut])
+            para = para[cut:].lstrip("\n")
+        buf = para
+    if buf:
+        chunks.append(buf)
+    return chunks
 
 
-def build_message(fact):
-    uz = html.escape(fact["uz"])
-    ru = html.escape(fact.get("ru", ""))
-    en = html.escape(fact["en"])
-    kind = fact.get("type", "fact")
-    cat = fact.get("cat", "")
+# ---------------------------------------------------------------- Telegram
 
-    klabel = KIND_LABEL.get(kind, KIND_LABEL["fact"])
+def send(token: str, chat_id: str, text: str, dry: bool = False) -> bool:
+    if dry:
+        print("-" * 60)
+        print(text[:700])
+        print(f"[DRY RUN — {len(text)} belgi]")
+        return True
 
-    # Minimal: bitta bo'lim sarlavhasi, toifa nomi (emojisiz)
-    header = f"<b>{klabel}</b>"
-    if cat:
-        header += f"\n<b>{html.escape(cat)}</b>"
+    payload = json.dumps({
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }).encode("utf-8")
 
-    body = f"\U0001f1fa\U0001f1ff {uz}\n\n"
-    if ru:
-        body += f"\U0001f1f7\U0001f1fa {ru}\n\n"
-    body += f"\U0001f1ec\U0001f1e7 {en}\n\n"
+    req = urllib.request.Request(
+        API.format(token=token),
+        data=payload,
+        headers={"Content-Type": "application/json"},
+    )
 
-    return (
-        f"{header}\n"
-        f"\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n"
-        f"{body}"
-        f"{build_hashtags(fact)}"
+    for attempt in range(1, 4):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                result = json.loads(resp.read())
+            if result.get("ok"):
+                return True
+            print(f"  Telegram xatosi: {result}", file=sys.stderr)
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode("utf-8", "replace")
+            print(f"  HTTP {e.code}: {detail}", file=sys.stderr)
+            if e.code == 429:
+                wait = 20 * attempt
+                print(f"  rate limit — {wait}s kutilmoqda", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            if 400 <= e.code < 500:
+                return False
+        except Exception as e:
+            print(f"  Tarmoq xatosi: {e}", file=sys.stderr)
+        time.sleep(5 * attempt)
+    return False
+
+
+# ---------------------------------------------------------------- holat
+
+def load_state() -> dict:
+    if STATE_FILE.exists():
+        try:
+            return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            print("state.json buzilgan — noldan boshlanadi", file=sys.stderr)
+    return {"sent": [], "cursor": 0}
+
+
+def save_state(state: dict) -> None:
+    STATE_FILE.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
 
-def send_to_telegram(message):
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    r = requests.post(
-        url,
-        data={
-            "chat_id": CHAT_ID,
-            "text": message,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": "true",
-        },
-        timeout=30,
-    )
-    r.raise_for_status()
-    return r.json()
+def send_post(token, chat_id, post, langs, dry) -> bool:
+    print(f"\n[{post['id']}] {post['title']}")
+    for lang in langs:
+        if lang not in post:
+            continue
+        for i, chunk in enumerate(split_message(build_message(post, lang)), 1):
+            if not send(token, chat_id, chunk, dry):
+                print(f"  {lang} qism {i} — YUBORILMADI", file=sys.stderr)
+                return False
+            print(f"  {lang} qism {i} — ok ({len(chunk)} belgi)")
+            time.sleep(3)
+    return True
 
 
-def send_quiz_poll(fact):
-    """Telegram interaktiv quiz (poll) yuboradi — faqat ingliz tilida."""
-    cat = fact.get("cat", "")
+# ---------------------------------------------------------------- asosiy
 
-    # Ingliz tilidagi savol (agar yo'q bo'lsa, o'zbekchaga qaytadi)
-    q_en = fact.get("q_en") or fact.get("q", "")
-    question = f"{cat}\n{q_en}" if cat else q_en
-    question = question[:295]
+def main() -> int:
+    token = os.environ.get("BOT_TOKEN", "").strip()
+    chat_id = os.environ.get("CHANNEL_ID", "").strip()
+    dry = os.environ.get("DRY_RUN", "").strip() == "1"
+    force = os.environ.get("FORCE", "").strip() == "1"
+    langs = [l.strip() for l in
+             os.environ.get("LANGS", "uz,ru,en").split(",") if l.strip()]
 
-    # Ingliz variantlari (agar yo'q bo'lsa, o'zbekcha)
-    opts = fact.get("options_en") or fact.get("options", [])
-    options = [o[:100] for o in opts]
+    if not dry and (not token or not chat_id):
+        print("BOT_TOKEN yoki CHANNEL_ID yo'q", file=sys.stderr)
+        return 1
 
-    # Ingliz izohi (agar yo'q bo'lsa, o'zbekcha)
-    explanation = (fact.get("explain_en") or fact.get("explain", ""))[:200]
+    posts = json.loads(POSTS_FILE.read_text(encoding="utf-8"))
+    state = load_state()
+    sent = set(state.get("sent", []))
+    queue = [p for p in posts if p["id"] not in sent]
 
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPoll"
-    data = {
-        "chat_id": CHAT_ID,
-        "question": question,
-        "options": json.dumps(options, ensure_ascii=False),
-        "type": "quiz",
-        "correct_option_id": fact["correct"],
-        "is_anonymous": "true",
-    }
-    if explanation:
-        data["explanation"] = explanation
-    r = requests.post(url, data=data, timeout=30)
-    r.raise_for_status()
-    return r.json()
-
-
-def get_today_state():
-    now = datetime.now(TASHKENT)
+    now = now_local()
     today = now.strftime("%Y-%m-%d")
-    state = load_json(STATE_FILE, {})
-    if state.get("date") != today:
-        state = {"date": today, "target": random.randint(10, 12), "posted": 0}
-        save_json(STATE_FILE, state)
-    return state, now
 
+    # kunlik jadval
+    sched = state.get("schedule")
+    if not sched or sched.get("date") != today:
+        sched = make_schedule(today)
+        state["schedule"] = sched
+        times = ", ".join(f"{s['h']:02d}:{s['m']:02d}" for s in sched["slots"])
+        print(f"{today} uchun yangi jadval: {times}")
+    else:
+        times = ", ".join(
+            f"{s['h']:02d}:{s['m']:02d}{' ok' if s['done'] else ''}"
+            for s in sched["slots"]
+        )
+        print(f"{today} jadvali: {times}")
 
-def posts_to_send_now(state, now):
-    """Hozir nechta post yuborishni hal qiladi (soatiga 1 marta ishga tushishga moslangan)."""
-    target = state["target"]
-    posted = state["posted"]
-    remaining = target - posted
-    if remaining <= 0:
+    print(f"Hozir: {now.strftime('%H:%M')} | navbatda {len(queue)} ta post")
+
+    if not queue:
+        print(f"Barcha {len(posts)} ta post yuborilgan. Yangi kontent kerak.")
+        if not dry:
+            save_state(state)
         return 0
 
-    # Kun oxirigacha qolgan soatlar (imkoniyatlar)
-    hours_left = max(1, DAY_END - now.hour + 1)
+    ready = list(range(len(sched["slots"]))) if force else due_slots(sched, now)
+    if not ready:
+        nxt = [s for s in sched["slots"] if not s["done"]]
+        if nxt:
+            print(f"Hali vaqt emas. Keyingisi: "
+                  f"{nxt[0]['h']:02d}:{nxt[0]['m']:02d}")
+        else:
+            print("Bugungi postlar yuborilgan.")
+        if not dry:
+            save_state(state)
+        return 0
 
-    # Agar qolgan postlar soatlardan ko'p bo'lsa — yetkazish uchun bir nechta yuboramiz
-    if remaining >= hours_left:
-        # Har soatga teng taqsimlab, ortiqchasini ham qo'shamiz
-        base = remaining // hours_left
-        extra = 1 if (remaining % hours_left) > 0 else 0
-        return max(1, base + extra)
-
-    # Aks holda — tasodifiy: o'rtacha remaining/hours_left ehtimol bilan 1 ta
-    probability = remaining / hours_left
-    return 1 if random.random() < probability else 0
-
-
-def main():
-    if not TELEGRAM_TOKEN or not CHAT_ID:
-        raise SystemExit("XATO: TELEGRAM_TOKEN va CHAT_ID Secrets qilib qo'ying.")
-
-    state, now = get_today_state()
-
-    # Qo'lda ishga tushirilganda (Run workflow) majburan 1 ta post qiladi
-    force = os.environ.get("FORCE_POST", "").strip() == "1"
-
-    if force:
-        n_posts = 1
-    else:
-        if now.hour < DAY_START or now.hour > DAY_END:
-            print("Post oynasidan tashqarida.")
-            return
-        n_posts = posts_to_send_now(state, now)
-        if n_posts <= 0:
-            print(f"Hozir post yo'q. Bugun: {state['posted']}/{state['target']}, soat {now.hour}")
-            return
-
-    sent = load_json(SENT_FILE, [])
-    sent_texts = {fact_key(s) for s in sent}
-
-    yuborilgan = 0
-    for _ in range(n_posts):
-        # Kunlik chegaradan oshmaymiz
-        if not force and state["posted"] >= state["target"]:
+    posted = 0
+    for idx in ready:
+        if not queue:
             break
-
-        fact = pick_fact(sent_texts)
-        if not fact:
-            print("Yangi fakt qolmadi.")
+        post = queue.pop(0)
+        if not send_post(token, chat_id, post, langs, dry):
+            print(f"  {post['id']} to'liq yuborilmadi — to'xtatildi",
+                  file=sys.stderr)
             break
+        sent.add(post["id"])
+        sched["slots"][idx]["done"] = True
+        posted += 1
+        if posted < len(ready):
+            time.sleep(5)
 
-        # Rus tarjimasini ta'minlash (faqat fakt/dars uchun)
-        fact = ensure_ru(fact)
+    state["sent"] = sorted(sent)
+    state["cursor"] = len(sent)
+    state["total"] = len(posts)
+    state["remaining"] = len(posts) - len(sent)
+    if not dry:
+        save_state(state)
 
-        # Quiz -> interaktiv poll (ingliz); boshqalari -> 3 tilli xabar
-        try:
-            if fact.get("type") == "quiz" and fact.get("options") and "correct" in fact:
-                send_quiz_poll(fact)
-                print("Quiz yuborildi:", fact.get("q", "")[:60])
-            else:
-                send_to_telegram(build_message(fact))
-                print("Yuborildi:", fact["uz"][:60])
-        except Exception as e:
-            print(f"Yuborishda xato: {e}")
-            break
-
-        sent.append(fact)
-        sent_texts.add(fact_key(fact))
-        state["posted"] += 1
-        yuborilgan += 1
-
-    # Saqlash
-    sent = sent[-1000:]
-    save_json(SENT_FILE, sent)
-    save_json(STATE_FILE, state)
-    print(f"Bu safar yuborildi: {yuborilgan} | Bugun jami: {state['posted']}/{state['target']}")
+    print(f"\nYuborildi: {posted} | Jami: {len(sent)}/{len(posts)} | "
+          f"Qoldi: {len(posts) - len(sent)}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

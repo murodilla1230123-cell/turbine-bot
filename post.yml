@@ -1,0 +1,60 @@
+name: Tasodifiy post
+
+on:
+  schedule:
+    # Har soat ishga tushadi. Bot ichida kunlik tasodifiy vaqt tanlanadi.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "1 = jadvalga qaramay darhol yubor"
+        required: false
+        default: "0"
+      dry_run:
+        description: "1 = sinov, yubormaydi"
+        required: false
+        default: "0"
+
+concurrency:
+  group: enersok-posting
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Post
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          POSTS_PER_DAY: "2"
+          WINDOW: "0-23"
+          MIN_GAP_HOURS: "4"
+          TZ_OFFSET: "5"
+          LANGS: "uz,ru,en"
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          FORCE: ${{ github.event.inputs.force || '0' }}
+        run: python bot.py
+
+      - name: Holatni saqlash
+        if: success()
+        run: |
+          if git diff --quiet state.json 2>/dev/null; then
+            echo "state.json o'zgarmadi"
+            exit 0
+          fi
+          git config user.name "enersok-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state.json
+          git commit -m "state: $(python -c "import json;s=json.load(open('state.json'));print(f\"{s.get('cursor',0)}/{s.get('total',0)}\")")"
+          git pull --rebase --autostash
+          git push
