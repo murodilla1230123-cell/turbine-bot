@@ -1,10 +1,11 @@
 {
   "sent": [
-    "st-001"
+    "st-001",
+    "st-002"
   ],
-  "cursor": 1,
+  "cursor": 2,
   "total": 105,
-  "remaining": 104,
+  "remaining": 103,
   "schedule": {
     "date": "2026-09-12",
     "slots": [
@@ -16,7 +17,7 @@
       {
         "h": 22,
         "m": 17,
-        "done": false
+        "done": true
       }
     ]
   }
