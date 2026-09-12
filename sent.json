@@ -2101,5 +2101,12 @@
       "Pretty"
     ],
     "explain_en": "Ultrasound and radiography find hidden cracks without damaging the equipment."
+  },
+  {
+    "type": "lesson",
+    "uz": "'Creep' — metallning yuqori harorat va yukdan asta cho'zilishi. Turbina pichoqlari yillar davomida sekin cho'ziladi, shuning uchun umri cheklangan.",
+    "en": "'Creep' is the slow stretching of metal under high temperature and load. Turbine blades slowly elongate over years, so their life is limited.",
+    "cat": "Gaz turbinasi (GT)",
+    "ru": "«Ползучесть» — это медленное удлинение металла под действием высокой температуры и нагрузки. Лопатки турбин с годами растягиваются медленно, поэтому срок их службы ограничен."
   }
 ]
