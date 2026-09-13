@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: "1 = jadvalga qaramay darhol yubor"
+        description: "1 = jadvalga qaramay darhol yubor (qo'lda ishga tushirishda default 1)"
         required: false
-        default: "0"
+        default: "1"
       dry_run:
         description: "1 = sinov, yubormaydi"
         required: false
