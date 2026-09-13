@@ -1,11 +1,13 @@
 {
   "sent": [
     "st-001",
-    "st-002"
+    "st-002",
+    "st-003",
+    "st-004"
   ],
-  "cursor": 2,
+  "cursor": 4,
   "total": 105,
-  "remaining": 103,
+  "remaining": 101,
   "schedule": {
     "date": "2026-09-13",
     "slots": [
