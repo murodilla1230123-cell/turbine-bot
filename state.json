@@ -5,18 +5,19 @@
     "st-003",
     "st-004",
     "st-005",
-    "st-006"
+    "st-006",
+    "st-007"
   ],
-  "cursor": 6,
+  "cursor": 7,
   "total": 105,
-  "remaining": 99,
+  "remaining": 98,
   "schedule": {
     "date": "2026-09-15",
     "slots": [
       {
         "h": 5,
         "m": 23,
-        "done": false
+        "done": true
       },
       {
         "h": 20,
