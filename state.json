@@ -15,17 +15,17 @@
   "total": 105,
   "remaining": 95,
   "schedule": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "slots": [
       {
-        "h": 2,
-        "m": 43,
-        "done": true
+        "h": 10,
+        "m": 35,
+        "done": false
       },
       {
-        "h": 10,
-        "m": 4,
-        "done": true
+        "h": 16,
+        "m": 56,
+        "done": false
       }
     ]
   }
