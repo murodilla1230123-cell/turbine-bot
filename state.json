@@ -35,11 +35,12 @@
     "st-033",
     "st-034",
     "st-035",
-    "st-036"
+    "st-036",
+    "st-037"
   ],
-  "cursor": 36,
+  "cursor": 37,
   "total": 105,
-  "remaining": 69,
+  "remaining": 68,
   "schedule": {
     "date": "2026-09-30",
     "slots": [
@@ -51,7 +52,7 @@
       {
         "h": 16,
         "m": 59,
-        "done": false
+        "done": true
       }
     ]
   }
