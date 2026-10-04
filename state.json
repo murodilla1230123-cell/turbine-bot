@@ -42,18 +42,19 @@
     "st-040",
     "st-041",
     "st-042",
-    "st-043"
+    "st-043",
+    "st-044"
   ],
-  "cursor": 43,
+  "cursor": 44,
   "total": 105,
-  "remaining": 62,
+  "remaining": 61,
   "schedule": {
     "date": "2026-10-04",
     "slots": [
       {
         "h": 9,
         "m": 7,
-        "done": false
+        "done": true
       },
       {
         "h": 14,
