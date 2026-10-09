@@ -50,18 +50,19 @@
     "st-048",
     "st-049",
     "st-050",
-    "st-051"
+    "st-051",
+    "st-052"
   ],
-  "cursor": 51,
+  "cursor": 52,
   "total": 105,
-  "remaining": 54,
+  "remaining": 53,
   "schedule": {
     "date": "2026-10-09",
     "slots": [
       {
         "h": 3,
         "m": 15,
-        "done": false
+        "done": true
       },
       {
         "h": 13,
