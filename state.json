@@ -60,18 +60,19 @@
     "st-058",
     "st-059",
     "st-060",
-    "st-061"
+    "st-061",
+    "st-062"
   ],
-  "cursor": 61,
+  "cursor": 62,
   "total": 105,
-  "remaining": 44,
+  "remaining": 43,
   "schedule": {
     "date": "2026-10-14",
     "slots": [
       {
         "h": 5,
         "m": 16,
-        "done": false
+        "done": true
       },
       {
         "h": 11,
