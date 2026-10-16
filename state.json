@@ -65,23 +65,24 @@
     "st-063",
     "st-064",
     "st-065",
-    "st-066"
+    "st-066",
+    "st-067"
   ],
-  "cursor": 66,
+  "cursor": 67,
   "total": 105,
-  "remaining": 39,
+  "remaining": 38,
   "schedule": {
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "slots": [
       {
-        "h": 4,
-        "m": 59,
+        "h": 1,
+        "m": 20,
         "done": true
       },
       {
-        "h": 8,
-        "m": 38,
-        "done": true
+        "h": 11,
+        "m": 0,
+        "done": false
       }
     ]
   }
