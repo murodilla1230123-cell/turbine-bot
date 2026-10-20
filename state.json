@@ -70,18 +70,19 @@
     "st-068",
     "st-069",
     "st-070",
-    "st-071"
+    "st-071",
+    "st-072"
   ],
-  "cursor": 71,
+  "cursor": 72,
   "total": 105,
-  "remaining": 34,
+  "remaining": 33,
   "schedule": {
     "date": "2026-10-20",
     "slots": [
       {
         "h": 13,
         "m": 5,
-        "done": false
+        "done": true
       },
       {
         "h": 20,
