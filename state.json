@@ -77,11 +77,12 @@
     "st-075",
     "st-076",
     "st-077",
-    "st-078"
+    "st-078",
+    "st-079"
   ],
-  "cursor": 78,
+  "cursor": 79,
   "total": 105,
-  "remaining": 27,
+  "remaining": 26,
   "schedule": {
     "date": "2026-10-24",
     "slots": [
@@ -93,7 +94,7 @@
       {
         "h": 21,
         "m": 20,
-        "done": false
+        "done": true
       }
     ]
   }
