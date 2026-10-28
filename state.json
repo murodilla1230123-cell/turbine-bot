@@ -85,23 +85,24 @@
     "st-083",
     "st-084",
     "st-085",
-    "st-086"
+    "st-086",
+    "st-087"
   ],
-  "cursor": 86,
+  "cursor": 87,
   "total": 105,
-  "remaining": 19,
+  "remaining": 18,
   "schedule": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "slots": [
       {
-        "h": 2,
-        "m": 13,
+        "h": 0,
+        "m": 45,
         "done": true
       },
       {
-        "h": 21,
-        "m": 28,
-        "done": true
+        "h": 22,
+        "m": 35,
+        "done": false
       }
     ]
   }
