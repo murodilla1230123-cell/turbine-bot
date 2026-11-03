@@ -95,23 +95,24 @@
     "st-093",
     "st-094",
     "st-095",
-    "st-096"
+    "st-096",
+    "st-097"
   ],
-  "cursor": 96,
+  "cursor": 97,
   "total": 105,
-  "remaining": 9,
+  "remaining": 8,
   "schedule": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "slots": [
       {
-        "h": 1,
-        "m": 12,
+        "h": 0,
+        "m": 58,
         "done": true
       },
       {
-        "h": 8,
-        "m": 13,
-        "done": true
+        "h": 15,
+        "m": 6,
+        "done": false
       }
     ]
   }
