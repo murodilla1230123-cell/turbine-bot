@@ -110,16 +110,16 @@
   "total": 105,
   "remaining": 0,
   "schedule": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "slots": [
       {
         "h": 4,
-        "m": 11,
+        "m": 53,
         "done": false
       },
       {
-        "h": 17,
-        "m": 36,
+        "h": 16,
+        "m": 14,
         "done": false
       }
     ]
